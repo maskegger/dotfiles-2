@@ -2,10 +2,8 @@
     <b>Linux Dotfiles</b>
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
+    <a><img src="Rice.svg" width="800px" height="800px"></a>
 </p>
-
-<a><img src="Rice.svg" width="800px" height="800px"></a>
-
 ## Software
 
 - OS: [Arch Linux](https://archlinux.org/)
