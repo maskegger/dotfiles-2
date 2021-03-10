@@ -1,5 +1,5 @@
-<p align="center" style="font-size: 20px;">
-    <b>Linux Dotfiles</b>
+<p align="center">
+    <title>Linux Dotfiles</title>
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
 </p>
