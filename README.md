@@ -1,8 +1,8 @@
 <p align="center">
-    Linux Dotfiles
+    <h1>Linux Dotfiles</h1>
+    <i>My regularly updated dotfiles for Linux</i>
 </p>
 
-My regularly updated dotfiles for Linux
 
 ## Software
 
