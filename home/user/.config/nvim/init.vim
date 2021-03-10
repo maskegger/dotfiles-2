@@ -99,7 +99,7 @@ map <M-k> <C-u>
 map <M-j> <C-d>
 
 " Sources Vim config file
-nmap <silent> <C-A-r> :source ~/.vimrc <CR>
+nmap <silent> <C-A-r> :source ~/.config/nvim/init.vim <CR>
 
 " Goto definition coc.nvim
 nmap <silent> gd <Plug>(coc-definition)
@@ -136,7 +136,6 @@ map <silent> <C-M>f :let _save_pos=getpos(".") <Bar>
 autocmd BufWinEnter *.py nmap <silent> <C-M>r :w<CR>:FloatermNew python3 '%:p'<CR>
 autocmd BufWinEnter *.sh nmap <silent> <C-M>r :w<CR>:FloatermNew sh '%:p'<CR>
 autocmd BufWinEnter *.cpp nmap <silent> <C-M>r :w<CR>:!g++ '%:p'<CR>:FloatermNew ./a.out<CR>
-autocmd BufWinEnter *.md nmap <silent> <C-M>r :w<CR>:MarkdownPreview<CR>
 autocmd BufWinEnter *.tex nmap <silent> <C-M>r :w<CR>:VimtexCompile<CR>
 
 " Debug (Control+Enter D)
