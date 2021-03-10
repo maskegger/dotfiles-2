@@ -1,11 +1,13 @@
 <p align="center">
-    </b>Linux Dotfiles</b>
+    <b>Linux Dotfiles</b>
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
 </p>
 
 
-## Software
+<p align="center">
+     <b>Software</b>
+</p>
 
 - OS: [Arch Linux](https://archlinux.org/)
 - WM: [bspwm](https://github.com/baskerville/bspwm)
@@ -20,7 +22,9 @@
 - Notifications: [dunst](https://github.com/dunst-project/dunst)
 - Widgets: [eww](https://github.com/elkowar/eww)
 
-## State of configuration
+<p align="center">
+     <b>State of configuration</b>
+</p>
 
 ### Working
 
