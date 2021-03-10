@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Quiet-dark-compact
+Comment=A Material Design theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Quiet-dark-compact
+MetacityTheme=Quiet-dark-compact
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

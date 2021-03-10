@@ -1,0 +1,1 @@
+pulsemixer --change-volume +5 && pulsemixer --get-volume | awk '{print $1}' >> /tmp/xobpipe

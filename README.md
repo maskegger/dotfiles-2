@@ -1,2 +1,3 @@
-# linux-dotfiles
-My dotfiles for Linux
+# Linux Dotfiles
+
+My regularly updated dotfiles for Linux

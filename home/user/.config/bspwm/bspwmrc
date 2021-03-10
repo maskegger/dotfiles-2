@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+
+# Workspaces
+bspc monitor -d 0 1 2 3 4 5 6 7 8 9
+
+# Border 
+bspc config border_width 0
+bspc config active_border_color "#4287F5"
+bspc config normal_border_color "#000000"
+bspc config focused_border_color "#4287F5"
+
+# Window gap and padding
+bspc config window_gap 20
+
+bspc config split_ratio 0.5
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+
+bspc config top_padding 50
+bspc config left_padding -10
+bspc config right_padding -10
+bspc config bottom_padding -10
+
+# Window rules
+bspc rule -a Gimp state=floating
+bspc rule -a tint2 layer=below
+
+bspc config pointer_modifier mod4
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_corner
+
+# If running VM
+vmware-user
+
+# Keyboard repeat rate
+xset r rate 200 25
+
+# Resolution
+xrandr --newmode "2560x1440"  241.500   2560 2608 2640 2720  1440 1443 1448 1481 +hsync -vsync
+xrandr --addmode Virtual1 "2560x1440"
+xrandr --output Virtual1 --mode 2560x1440
+
+# Set mouse cursor
+xsetroot -cursor_name arrow
+
+# QT theme
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# Kill running processes
+killall sxhkd
+killall polybar
+killall picom
+killall dunst
+killall xdotool
+
+# Key binding daemon
+sxhkd &
+
+# Polybar
+polybar -c ~/.config/polybar/bottom bar &
+
+# Wallpaper
+nitrogen --restore &
+
+# Compositor
+picom &
+
+# Authentication
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# Notifications
+dunst &
+
+# Music
+mpd &
+
+# Change window gaps
+xdotool behave_screen_edge --quiesc 1 --delay 0 top-left exec ~/.bin/gaps
+xdotool behave_screen_edge --quiesc 1 --delay 0 top-right exec ~/.bin/notifhist
+
+# Widgets
+~/.bin/widgets &

@@ -1,0 +1,13 @@
+res=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Screenshot')
+ 
+if [ $res = "Screen" ]; then
+    sleep 0.5
+    maim ~/Pictures/Screenshots/$(date +%d:%H:%M:%S).png
+    dunstify "Screenshot taken" -i /usr/share/icons/Papirus/64x64/apps/screengrab.svg
+fi
+if [ $res = "Selection" ]; then
+    sleep 0.5
+    maim -s ~/Pictures/Screenshots/$(date +%d:%H:%M:%S).png
+    dunstify "Screenshot taken" -i /usr/share/icons/Papirus/64x64/apps/screengrab.svg
+fi
+exit 0

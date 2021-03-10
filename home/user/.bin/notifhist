@@ -1,0 +1,7 @@
+end=$((SECONDS+1))
+while [ $SECONDS -lt $end ]; do
+ dunstctl history-pop
+ :
+done
+sleep 2
+dunstctl close-all

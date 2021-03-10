@@ -1,0 +1,16 @@
+Development,        ^checkout(development),                                                        terminal
+Utilities,          ^checkout(utilities),                                                          applications-utilities
+
+^tag(development)
+Terminal, kitty,         terminal
+Editor,   kitty -e nvim, nvim
+Docs,     zeal,          zeal
+
+^tag(utilities)
+Launcher,           rofi -show drun -display-drun 'App launcher',                                  system-search
+Change gaps,        ~/.bin/gaps,                                                                   desktop
+Notifications,      ~/.bin/notifhist,                                                              preferences-system-notifications
+Power Options,      ~/.bin/rofi-power,                                                             system-shutdown-panel
+Wallpaper,          ~/.bin/rofi-wallpaper,                                                         preferences-wallpaper
+Record mode on,     simplescreenrecorder --start-hidden --start-recording,                         simplescreenrecorder
+Record mode off,    killall simplescreenrec,                                                       simplescreenrecorder

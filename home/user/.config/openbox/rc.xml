@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <focus>
+    <focusNew>yes</focusNew>
+    <!-- Focus new window -->
+    <followMouse>yes</followMouse>
+    <!-- Have window focus follow mouse -->
+    <focusLast>yes</focusLast>
+    <!-- When switching desktops, focus last used window -->
+    <underMouse>no</underMouse>
+    <!-- Move focus under mouse, even when the mouse isn't moving -->
+    <focusDelay>1</focusDelay>
+    <!-- Delay before widnwo is focused -->
+    <raiseOnFocus>no</raiseOnFocus>
+    <!-- Raise window when focused -->
+  </focus>
+  <placement>
+    <policy>Smart</policy>
+    <!-- Where to place new windows: 'Smart' or 'UnderMouse' -->
+    <center>yes</center>
+    <!-- Place windows in center of free area or top left corner -->
+    <monitor>Mouse</monitor>
+    <!-- Place new windows in monitor 'Mouse', 'Active' or 'Primary' -->
+    <primaryMonitor/>
+  </placement>
+  <theme>
+    <keepBorder>yes</keepBorder>
+    <animateIconify>yes</animateIconify>
+    <titleLayout>NLIMC</titleLayout>
+    <font place="ActiveWindow">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
+    </font>
+    <font place="InactiveWindow">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
+    </font>
+    <font place="MenuHeader">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
+    </font>
+    <font place="MenuItem">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
+    </font>
+    <font place="ActiveOnScreenDisplay">
+      <name/>
+    </font>
+    <font place="InactiveOnScreenDisplay">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
+    </font>
+    <name>Quiet</name>
+  </theme>
+  <resize>
+    <drawContents>yes</drawContents>
+    <popupShow>NonPixel</popupShow>
+    <popupPosition>Center</popupPosition>
+    <popupFixedPosition>
+      <x>0</x>
+      <y>0</y>
+    </popupFixedPosition>
+  </resize>
+  <resistance>
+    <strength>10</strength>
+    <screen_edge_strength>20</screen_edge_strength>
+  </resistance>
+  <mouse>
+    <dragThreshold>8</dragThreshold>
+    <screenEdgeWarpTime>400</screenEdgeWarpTime>
+    <doubleClickTime>200</doubleClickTime>
+    <context name="Titlebar">
+      <mousebind button="Left" action="DoubleClick"/>
+    </context>
+  </mouse>
+  <desktops>
+    <number>4</number>
+    <names/>
+    <popupTime>875</popupTime>
+  </desktops>
+  <margins>
+    <left>0</left>
+    <right>0</right>
+    <top>0</top>
+    <bottom>0</bottom>
+  </margins>
+  <dock>
+    <position>TopLeft</position>
+    <floatingX>0</floatingX>
+    <floatingY>0</floatingY>
+    <stacking>Above</stacking>
+    <direction>Vertical</direction>
+    <noStrut>no</noStrut>
+    <autoHide>no</autoHide>
+    <hideDelay>300</hideDelay>
+    <showDelay>300</showDelay>
+  </dock>
+</openbox_config>

@@ -1,0 +1,30 @@
+icon="/usr/share/icons/Papirus-Dark/16x16"
+res=$(echo -en " Reload\0icon\x1f$icon/actions/reload.svg| Lock\0icon\x1f$icon/emblems/emblem-locked.svg| Logout\0icon\x1f$icon/apps/system-log-out.svg| Shutdown\0icon\x1f$icon/apps/system-shutdown.svg| Reboot\0icon\x1f$icon/apps/system-reboot.svg" | rofi -sep "|" -dmenu -i -p 'Power Options' -font "FontAwesome 20")
+ 
+if [ $res = "Reload" ]; then
+    dunstify 'Reloading config' -a Notification -i /usr/share/icons/Papirus-Dark/16x16/actions/reload.svg
+    sleep 1
+    pkill -USR1 -x sxhkd
+	sh ~/.config/bspwm/bspwmrc
+fi
+if [ $res = "Lock" ]; then
+    dunstify 'Locking screen' -a Notification -i /usr/share/icons/Papirus-Dark/16x16/apps/system-lock-screen.svg
+    sleep 1
+    ~/.bin/lock
+fi
+if [ $res = "Logout" ]; then
+    dunstify 'Logging out' -a Notification -i /usr/share/icons/Papirus-Dark/16x16/apps/system-log-out.svg
+    sleep 1
+    killall Xorg
+fi
+if [ $res = "Shutdown" ]; then
+    dunstify 'Shutting down' -a Notification -i /usr/share/icons/Papirus-Dark/16x16/apps/system-shutdown.svg
+    sleep 1
+    /sbin/systemctl poweroff
+fi
+if [ $res = "Reboot" ]; then
+    dunstify 'Rebooting' -a Notification -i /usr/share/icons/Papirus-Dark/16x16/apps/system-reboot.svg
+    sleep 1
+    /sbin/systemctl reboot
+fi
+exit 0

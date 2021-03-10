@@ -1,0 +1,17 @@
+res=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Image to text')
+
+if [ $res = "Screen" ]; then
+    maim ~/Pictures/Screenshots/imgtext.png;
+    tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext;
+    xclip -sel c < ~/imgtext.txt;
+    rm ~/imgtext.txt ~/Pictures/Screenshots/imgtext.png
+    dunstify "Saved text to clipboard" -i /usr/share/icons/Paprius/16x16/apps/xclipboard.svg
+fi
+if [ $res = "Selection" ]; then
+    maim -s ~/Pictures/Screenshots/imgtext.png;
+    tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext;
+    xclip -sel c < ~/imgtext.txt;
+    rm ~/imgtext.txt ~/Pictures/Screenshots/imgtext.png
+    dunstify "Saved text to clipboard" -i /usr/share/icons/Papirus/16x16/apps/xclipboard.svg
+fi
+exit 0

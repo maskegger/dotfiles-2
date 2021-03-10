@@ -1,0 +1,16 @@
+gap=$(bspc config window_gap)
+if [ $gap = 0 ]
+then
+    bspc config window_gap 20
+    dunstify "Gaps changed to 20" -i /usr/share/icons/Papirus/16x16/places/desktop.svg
+fi
+if [ $gap = 20 ]
+then
+    bspc config window_gap 100
+    dunstify "Gaps changed to 100" -i /usr/share/icons/Papirus/16x16/places/desktop.svg
+fi
+if [ $gap = 100 ]
+then
+    bspc config window_gap 0
+    dunstify "Gaps changed to 0" -i /usr/share/icons/Papirus/16x16/places/desktop.svg
+fi
