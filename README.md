@@ -1,13 +1,12 @@
 <p align="center">
-    <title>Linux Dotfiles</title>
+    <b>Linux Dotfiles</b>
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
 </p>
 
+<a><img width="150px" style="padding: 0 10px;" src="screenshots/Rice.svg"></a>
 
-<p align="center">
-     <b>Software</b>
-</p>
+## Software
 
 - OS: [Arch Linux](https://archlinux.org/)
 - WM: [bspwm](https://github.com/baskerville/bspwm)
@@ -19,12 +18,11 @@
 - Launcher: [Rofi](https://github.com/davatorium/rofi)
 - File Manager: [Thunar](https://docs.xfce.org/xfce/thunar/start)
 - Music player: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
+- Menu: [jgmenu](https://github.com/johanmalm/jgmenu)
 - Notifications: [dunst](https://github.com/dunst-project/dunst)
 - Widgets: [eww](https://github.com/elkowar/eww)
 
-<p align="center">
-     <b>State of configuration</b>
-</p>
+## State of configuration
 
 ### Working
 

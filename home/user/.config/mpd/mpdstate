@@ -1,8 +1,9 @@
 sw_volume: 66
 audio_device_state:1:Pulseaudio output
 audio_device_state:1:my_fifo
-state: stop
-current: 12
+state: pause
+current: 14
+time: 129.037000
 random: 1
 repeat: 1
 single: 0
@@ -52,45 +53,4 @@ playlist_begin
 38:Lazarus Moment/Together Forever/Wasteland.mp3
 39:Lazarus Moment/Together Forever/World of Wonders.mp3
 40:Lazarus Moment/Together Forever/You Sprout My Flowers.mp3
-41:Lazarus Moment/A Moment For Eternity/A Moment For Eternity.mp3
-42:Lazarus Moment/A Moment For Eternity/Anima Mea.mp3
-43:Lazarus Moment/A Moment For Eternity/As We Went Further Lost At Sea.mp3
-44:Lazarus Moment/A Moment For Eternity/Aura.mp3
-45:Lazarus Moment/A Moment For Eternity/Children Of The Sun.mp3
-46:Lazarus Moment/A Moment For Eternity/Distant Memories From A Future Brighter Than The Sun.mp3
-47:Lazarus Moment/A Moment For Eternity/Forest Sceptre.mp3
-48:Lazarus Moment/A Moment For Eternity/Hiding Inside.mp3
-49:Lazarus Moment/A Moment For Eternity/Moonlit Skies.mp3
-50:Lazarus Moment/A Moment For Eternity/Returning Home.mp3
-51:Lazarus Moment/A Moment For Eternity/Whispers Around The Lake Shore.mp3
-52:Lazarus Moment/A Moment For Eternity/Wooden Lands.mp3
-53:Lazarus Moment/A Moment For Eternity/Words That We Said.mp3
-54:Lazarus Moment/Phelian/Evocation.mp3
-55:Lazarus Moment/Phelian/Sentient Duality.mp3
-56:Lazarus Moment/Phelian/Sidereal Conflux.mp3
-57:Lazarus Moment/Phelian/Still Surface.mp3
-58:Lazarus Moment/Phelian/Traversing the Chthonian.mp3
-59:Lazarus Moment/Phelian/Vivarium.mp3
-60:Lazarus Moment/Tales From The Edge Of The Forest/Afterlife For All The Flowers.mp3
-61:Lazarus Moment/Tales From The Edge Of The Forest/Childhood.mp3
-62:Lazarus Moment/Tales From The Edge Of The Forest/Forgotten Myths.mp3
-63:Lazarus Moment/Tales From The Edge Of The Forest/From Now On, Until Always.mp3
-64:Lazarus Moment/Tales From The Edge Of The Forest/Her Face.mp3
-65:Lazarus Moment/Tales From The Edge Of The Forest/I Already Had The Wings, But You Taught Me How To Fly.mp3
-66:Lazarus Moment/Tales From The Edge Of The Forest/Magentism.mp3
-67:Lazarus Moment/Tales From The Edge Of The Forest/Sentient Dream.mp3
-68:Lazarus Moment/Tales From The Edge Of The Forest/The Place Where We Grew Up.mp3
-69:Lazarus Moment/Tales From The Edge Of The Forest/The Snow.mp3
-70:Lazarus Moment/Together Forever/Ancient.mp3
-71:Lazarus Moment/Together Forever/Lost Among The Clouds.mp3
-72:Lazarus Moment/Together Forever/Musk.mp3
-73:Lazarus Moment/Together Forever/On A Vineyard Hill.mp3
-74:Lazarus Moment/Together Forever/Once In A Lifetime.mp3
-75:Lazarus Moment/Together Forever/Peace Of Mind.mp3
-76:Lazarus Moment/Together Forever/She Is.mp3
-77:Lazarus Moment/Together Forever/Stasis.mp3
-78:Lazarus Moment/Together Forever/Together Forever.mp3
-79:Lazarus Moment/Together Forever/Wasteland.mp3
-80:Lazarus Moment/Together Forever/World of Wonders.mp3
-81:Lazarus Moment/Together Forever/You Sprout My Flowers.mp3
 playlist_end
