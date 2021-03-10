@@ -1,5 +1,10 @@
+title {
+    font-size: 24px;
+}
+
 <p align="center">
-    <b>Linux Dotfiles</b>
+    <title>Linux Dotfiles</title>
+    <br/>
     <i>My regularly updated dotfiles for Linux</i>
 </p>
 
