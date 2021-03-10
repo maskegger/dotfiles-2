@@ -7,7 +7,7 @@ super + Escape
 	~/.bin/rofi-power
 
 # Reload config
-super + shift + Escape
+super + control + Escape
 	pkill -USR1 -x sxhkd
 	sh ~/.config/bspwm/bspwmrc
 
@@ -43,20 +43,24 @@ super + {0-9}
     bspc desktop -f {0-9}
 
 # Move window to previous workspace
-super + control + Left
+super + shift + Left
 	id=$(bspc query --nodes --node); bspc node --to-desktop {prev}; bspc desktop --focus next; bspc node --focus ${id}
 
 # Move window to next workspace
-super + control + Right
+super + shift + Right
 	id=$(bspc query --nodes --node); bspc node --to-desktop {next}; bspc desktop --focus next; bspc node --focus ${id}
 
 # Move window to workspace by number
-super + control + {0-9}
+super + shift + {0-9}
     	id=$(bspc query --nodes --node); bspc node --to-desktop {0-9}; bspc desktop --focus next; bspc node --focus ${id}
 
 # Make window tiled
 super + shift + t
 	bspc node -t tiled
+
+# Make window sticky
+super + shift + s
+	bspc node -g sticky
 
 # Make window floating
 super + shift + space
@@ -74,10 +78,6 @@ super + space
 super + Tab
 	/usr/bin/rofi -show window -display-window 'Window switcher'
 
-# Show keybindings
-super + k
-	/usr/bin/rofi -show keys -display-keys 'Keybindings'
-
 # Calculator
 super + c
 	/usr/bin/rofi -show calc -modi calc -no-show-match -no-sort -display-calc 'Calculator'
@@ -91,7 +91,7 @@ super + s
     ~/.bin/rofi-screenshot
 
 # Image to text
-super + shift + s
+super + control + s
     ~/.bin/rofi-imgtext
 
 # Set wallpaper
@@ -127,9 +127,9 @@ super + shift + i
     for i in $(bspc query -N -n .leaf.\!window.local); do bspc node $i -k; done
     
 # Rotate tree
-super + control + {d,a}
+super + shift + {d,a}
     bspc node @/ -C {forward,backward}
 
 # Rotate pane
-super + control + r
+super + shift + r
     bspc node @parent -R 90

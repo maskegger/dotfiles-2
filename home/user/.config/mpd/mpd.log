@@ -5323,3 +5323,18 @@ Mar 08 16:34 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 08 16:35 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 08 16:36 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 08 16:37 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 10 14:08 : exception: Failed to decode /mnt/PiNAS/Media/Music/Queen/We Will Rock You.mp3; Failed to open '/mnt/PiNAS/Media/Music/Queen/We Will Rock You.mp3': No such file or directory
+Mar 10 14:08 : player: played "Queen/We Will Rock You.mp3"
+Mar 10 14:08 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 10 14:17 : player: played "Queen/We Will Rock You.mp3"
+Mar 10 14:26 : exception: Failed to pause "Pulseaudio output" (pulse): failed to connect the stream: Entity killed
+Mar 10 14:27 : exception: Failed to pause "Pulseaudio output" (pulse): failed to connect the stream: Timeout
+Mar 10 14:27 : player: played "Queen/Bohemian Rhapsody.mp3"
+Mar 10 14:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Queen/Bohemian Rhapsody.mp3; Failed to open '/mnt/PiNAS/Media/Music/Queen/Bohemian Rhapsody.mp3': No such file or directory
+Mar 10 14:35 : player: played "Queen/Bohemian Rhapsody.mp3"
+Mar 10 14:35 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 10 14:46 : exception: Failed to pause "Pulseaudio output" (pulse): failed to connect the stream: Timeout
+Mar 10 14:46 : exception: Failed to play on "Pulseaudio output" (pulse): failed to connect the stream: Timeout
+Mar 10 14:48 : player: played "Queen/Bohemian Rhapsody.mp3"
+Mar 10 14:48 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 10 14:48 : player: played "Queen/Bohemian Rhapsody.mp3"

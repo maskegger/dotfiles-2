@@ -1,0 +1,2 @@
+rm -rf /usr/share/applications
+cp -R /home/matei/Applications /usr/share/applications

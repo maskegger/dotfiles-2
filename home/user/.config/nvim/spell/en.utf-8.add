@@ -23,3 +23,11 @@ dunst
 AwesomeWM
 Openbox
 Zsh
+config
+daemon
+keybinding
+sxhkd
+app
+Screenshot
+Unhide
+dev
