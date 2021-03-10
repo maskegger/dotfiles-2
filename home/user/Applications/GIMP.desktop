@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GIMP
+GenericName=Image Editor
+Comment=GNU Image Manuipulation Program
+Categories=Graphics
+Icon=gimp
+Exec=gimp
+Terminal=false
+Type=Application

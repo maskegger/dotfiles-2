@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ClamTK
+GenericName=Antivirus
+Comment=Scan for viruses
+Categories=System
+Exec=clamtk
+Icon=clamtk
+Terminal=false
+Type=Application

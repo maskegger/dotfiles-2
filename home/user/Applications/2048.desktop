@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=2048
+GenericName=2048
+Comment=Obtain the 2048 file
+Categories=Game
+TryExec=gnome-2048
+Exec=gnome-2048
+Icon=gnome-2048
+Terminal=false
+Type=Application

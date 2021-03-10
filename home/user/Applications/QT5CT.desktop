@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=QT5CT
+GenericName=QT Theme Switcher
+Comment=Switch between QT Themes
+Categories=Settings
+Icon=desktop
+Exec=qt5ct
+Terminal=false
+Type=Application

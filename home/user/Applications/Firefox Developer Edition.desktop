@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Firefox Developer Edition
+GenericName=Web Browser
+Comment=Developer Edition of Firefox
+Categories=Office
+Icon=firefox-developer-edition
+Exec=firefox-developer-edition
+Terminal=false
+Type=Application

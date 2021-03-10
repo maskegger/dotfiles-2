@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=0 A.D.
+GenericName=Strategy Video Game
+Comment=Build Up Your Empire
+Categories=Game
+Exec=0ad
+Icon=0ad
+Terminal=false
+Type=Application

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Disks
+GenericName=Disk Utility
+Comment=Manage Disks
+Categories=Utility
+Icon=disk-utility
+Exec=gnome-disks
+Terminal=false
+Type=Application

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Microsoft Teams
+GenericName=Collaboration App
+Comment=Office 365 chat-centered workspace
+Categories=Office
+Icon=teams
+Exec=teams
+Terminal=false
+Type=Application

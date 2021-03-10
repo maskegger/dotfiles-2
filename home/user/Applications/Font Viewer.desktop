@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Font Viewer
+GenericName=Fonts
+Comment=View installed fonts
+Categories=Utility
+Icon=fonts
+Exec=gnome-font-viewer
+Terminal=false
+Type=Application

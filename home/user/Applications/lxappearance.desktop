@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=lxappearance
+GenericName=Theme Switcher
+Comment=LXDE Theme Switcher
+Categories=Utility
+Icon=desktop
+Exec=lxappearance
+Terminal=false
+Type=Application

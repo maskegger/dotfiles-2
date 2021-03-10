@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Network Configuration
+GenericName=Network Configuration
+Comment=Configure WiFI and Ethernet
+Categories=System
+Icon=preferences-system-network
+Exec=nm-connection-editor
+Terminal=false
+Type=Application

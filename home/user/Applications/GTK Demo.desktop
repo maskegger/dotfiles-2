@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GTK Demo
+GenericName=GTK Code Examples
+Comment=GTK Code Examples
+Categories=Development
+Icon=gtk3-demo
+Exec=gtk3-demo
+Terminal=false
+Type=Application

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Calculator
+GenericName=Calculator
+Comment=Perfrom calculations
+Categories=Utility
+Icon=gnome-calculator
+Exec=gnome-calculator
+Terminal=false
+Type=Application

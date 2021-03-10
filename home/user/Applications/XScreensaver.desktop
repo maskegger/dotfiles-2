@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=XScreensaver
+GenericName=Screensaver
+Comment=Set screensavers
+Categories=Utility
+Icon=xscreensaver
+Exec=xscreensaver-demo
+Terminal=false
+Type=Application

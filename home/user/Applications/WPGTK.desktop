@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WPGTK
+GenericName=Wallpaper
+Comment=Create colorschemes and set wallpaper
+Categories=System
+Icon=wpgtk
+Exec=wpg
+Terminal=false
+Type=Application

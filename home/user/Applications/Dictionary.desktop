@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Dictionary
+GenericName=Dictionary
+Comment=Look up word definitions
+Categories=Office
+Icon=dictionary
+Exec=gnome-dictionary
+Terminal=false
+Type=Application

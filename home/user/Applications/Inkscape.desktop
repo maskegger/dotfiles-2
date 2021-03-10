@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Inkscape
+GenericName=Image Editor
+Comment=Inkscape Image Editor
+Categories=Graphics
+Icon=inkscape
+Exec=inkscape
+Terminal=false
+Type=Application

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Chess
+Comment=Chess
+Categories=Game
+Icon=chess
+Exec=gnome-chess
+Terminal=false
+Type=Application

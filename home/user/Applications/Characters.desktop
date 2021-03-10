@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Characters
+GenericName=Characters
+Comment=Find and insert special characters
+Categories=Utility
+Icon=gnome-characters
+Exec=gnome-characters
+Terminal=false
+Type=Application

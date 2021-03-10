@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Widget Factory
+GenericName=GTK Widgets
+Comment=View GTK Widgets
+Categories=Graphics
+Icon=gtk3-widget-factory
+Exec=gtk3-widget-factory
+Terminal=false
+Type=Application

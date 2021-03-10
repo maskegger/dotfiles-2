@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Kitty
+GenericName=Terminal
+Comment=GPU Accelerated terminal emulator
+Categories=Development
+Icon=terminal
+Exec=kitty
+Terminal=false
+Type=Application

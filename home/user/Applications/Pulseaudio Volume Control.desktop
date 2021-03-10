@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Pulseaudio Volume Control
+GenericName=Volume control
+Comment=Control Pulseaudio volume
+Categories=Audio
+Icon=multimedia-volume-control
+Exec=pavucontrol
+Terminal=false
+Type=Application

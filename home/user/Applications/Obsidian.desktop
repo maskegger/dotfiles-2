@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Obsidian
+GenericName=Note taker
+Comment=Application for note taking
+Categories=Office
+Icon=obsidian
+Exec=obsidian
+Terminal=false
+Type=Application

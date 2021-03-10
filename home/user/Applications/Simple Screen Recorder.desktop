@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Simple Screen Recorder
+GenericName=Screen Recorder
+Comment=Record your screen
+Categories=Video
+Icon=simplescreenrecorder
+Exec=simplescreenrecorder
+Terminal=false
+Type=Application

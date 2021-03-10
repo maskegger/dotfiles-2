@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Discord
+GenericName=Chat app
+Comment=Voice and text chat
+Categories=Game
+Icon=discord
+Exec=discord
+Terminal=false
+Type=Application

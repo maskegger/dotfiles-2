@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=htop
+GenericName=System Monitor
+Comment=System Resource Monitor
+Categories=Utility
+Icon=gnome-system-monitor
+Exec=kitty -e htop
+Terminal=false
+Type=Application
