@@ -2,6 +2,7 @@
     <b>Linux Dotfiles</b>
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
+    <br/>
     <a><img src="Rice.svg"></a>
 </p>
 
