@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center" style="font-size: 20px;">
     <b>Linux Dotfiles</b>
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
