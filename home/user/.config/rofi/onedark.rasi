@@ -45,7 +45,7 @@ prompt {
 
 textbox-prompt-colon {
   expand: false;
-  str: " -";
+  str: " |";
   text-color: @text-alt;
 }
 
@@ -60,10 +60,10 @@ listview {
 }
 
 element {
-  padding: 5px;
+  padding: 10px;
   text-color: @text-alt;
   highlight: bold #95ee8f; /* green */
-  border-radius: 3px;
+  border-radius: 15px;
 }
 
 element-icon { 
