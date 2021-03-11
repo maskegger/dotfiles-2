@@ -16,26 +16,17 @@ module-margin = 1
 
 background = ${colors.background}
 foreground = ${colors.foreground}
+tray-position = right
+tray-padding = 5
+tray-background = ${colors.alt.background}
 
 line-size = 1
 
 padding = 3
 font-0 = "Iosevka Nerd Font:size=11;3"
-modules-left = music pulseaudio mpd
+modules-left = time pulseaudio mpd
 modules-center = desktops
-modules-right = wallpaper launcher power
-
-[module/music]
-type = custom/text
-content = 
-click-left = "kitty -e ncmpcpp"
-offset-x = 50%
-
-[module/launcher]
-type = custom/text
-content = 
-click-left = rofi -show drun -display-drun 'App Launcher'
-offset-x = 100%
+modules-right =
 
 [module/desktops]
 type = internal/bspwm
@@ -43,16 +34,13 @@ format-foreground = #ffffff
 label-focused-foreground = #61AFEF
 offset-x = 50%
 
-[module/power]
-type = custom/text
-content = 
-click-left = ~/.bin/rofi-power
-offset-x = 50%
-
-[module/wallpaper]
-type = custom/text
-content = 
-click-left = ~/.bin/rofi-wallpaper
+[module/time]
+type = internal/date
+interval = 0.5
+date = %d/%m/%Y
+time = %H:%M:%S
+label = %date% %time%
+format =  <label>
 offset-x = 50%
 
 [module/pulseaudio]

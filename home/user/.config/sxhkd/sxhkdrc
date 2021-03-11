@@ -100,11 +100,11 @@ super + b
 
 # Volume down
 super + F11
-    sh ~/.bin/voldown
+    ~/.bin/voldown
 
 # Volume up
 super + F12
-    sh ~/.bin/volup
+    ~/.bin/volup
 
 # Hide window
 super + h

@@ -1,3 +1,4 @@
-eww daemon
-eww reload
-eww open-many clock weather pfp uptime memory cpu disk song
+killall eww
+eww daemon # Open daemon
+eww reload # Reload config
+eww open-many clock weather pfp uptime memory cpu disk song # Open widgets

@@ -1,3 +1,3 @@
-maim /tmp/screen.png
-convert /tmp/screen.png -scale 10% -scale 1000% --enable-openmp --enable-opencl /tmp/screen.png
-i3lock -u -i /tmp/screen.png
+maim /tmp/screen.png # Take screenshot of full screen
+convert /tmp/screen.png -scale 10% -scale 1000% --enable-openmp --enable-opencl /tmp/screen.png # Pixelise image
+i3lock -u -i /tmp/screen.png # Lock screen with pixelised iage as background

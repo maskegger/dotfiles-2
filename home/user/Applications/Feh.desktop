@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Feh
+GenericName=Image Viewer
+Comment=View images
+Categories=Image
+Exec=feh $f
+Icon=feh
+Terminal=false
+Type=Application

@@ -1,2 +1,3 @@
-rm -rf /usr/share/applications
-cp -R /home/matei/Applications /usr/share/applications
+sudo rm -rf /usr/share/applications # Delete old applications folder
+sudo cp -R /home/$USER/Applications /usr/share/applications # Copy applications from home to /usr/share/
+dunstify "Replaced Application folder" -a Notification -i /usr/share/icons/Papirus/16x16/apps/xfce-system-info.svg # Send notification

@@ -13,7 +13,7 @@ set nowrap                                                " Does not wrap text
 set laststatus=2                                          " Always display status line
 set hlsearch                                              " Highlights matching search patterns
 set nolist                                                " Hides special characters
-set so=999                                                " Sets 999 lines to the cursor
+set so=15                                                 " Sets 15 lines to the cursor
 set ignorecase                                            " Ignores case when searching
 set smartcase                                             " Case insensitive only if all letters are lowercase
 set foldcolumn=1                                          " Adds a little margin

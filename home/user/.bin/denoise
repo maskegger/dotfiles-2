@@ -1,4 +1,6 @@
-convert "$1" -endian LSB "$1"-temp-denoise.pfm
-oidnDenois -ldr "$1"-temp-denoise.pfm -srgb -o "$1"-temp-denoise-output.pfm
-convert "$1"-temp-denoise-output.pfm "$1"-denoised.png
-rm -rf "$1"-temp-denoise.pfm "$1"-temp-denoise-output.pfme
+convert "$1" -endian LSB "$1"-temp-denoise.pfm # Convert image to pfm
+oidnDenoise -ldr "$1"-temp-denoise.pfm -srgb -o "$1"-temp-denoise-output.pfm # Denoise pfm
+convert "$1"-temp-denoise-output.pfm "$1"-denoised.png # Convert pfm to png
+rm -rf "$1"-temp-denoise.pfm "$1"-temp-denoise-output.pfm # Remove old files
+
+dunstify "Finished denoising" -a "Open Image Denoiser" -i /usr/share/icons/Papirus/16x16/mimetypes/image.svg # Show notification

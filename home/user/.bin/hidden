@@ -1,2 +1,3 @@
-nodes=( $(bspc query -N -n .hidden) ) && s=$(xtitle ${nodes[@]} | rofi -dmenu -format i)
-[[ -n "$s" ]] && bspc node "${nodes[$s]}" -n focused -g hidden=off -f
+nodes=( $(bspc query -N -n .hidden) ) && s=$(xtitle ${nodes[@]} | rofi -dmenu -format i) # Get hidden nodes
+
+[[ -n "$s" ]] && bspc node "${nodes[$s]}" -n focused -g hidden=off -f # Show selected node
