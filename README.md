@@ -2,6 +2,7 @@
     <b>Linux Dotfiles</b>
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
+    <br/>
     <i>Unstable branch</i>
     <br/>
     <br/>
