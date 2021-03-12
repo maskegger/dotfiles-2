@@ -3,8 +3,6 @@
     <br/>
     <i>My regularly updated dotfiles for Linux</i>
     <br/>
-    <i>Unstable branch</i>
-    <br/>
     <br/>
     <a><img src="Rice.svg"></a>
 </p>
