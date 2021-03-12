@@ -30,8 +30,12 @@ modules-right =
 
 [module/desktops]
 type = internal/bspwm
-format-foreground = #ffffff
+format-foreground = #D5D5D5
+label-occupied-foreground = #97D59B
 label-focused-foreground = #61AFEF
+label-empty = ◆⠀
+label-occupied = ◆⠀
+label-focused = ◆⠀
 offset-x = 50%
 
 [module/time]

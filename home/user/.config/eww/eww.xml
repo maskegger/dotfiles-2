@@ -28,7 +28,7 @@
             <box>  {{disk}}</box>
         </def>
         <def name="song">
-            <box>  {{song}}</box>
+            <box vexpand="false" hexpand="false">  {{song}}</box>
         </def>
     </definitions>
     <variables>
@@ -47,16 +47,16 @@
         <script-var name="weather" interval="5m">ansiweather -w false -h false -s false -d false -a false -l dubai -p false -i false | cut -c 20- | sed 's/.$//'</script-var>
     </variables>
     <windows>
-        <window name="bg" stacking="bg" focusable="false">
-            <geometry anchor="center" x="0px" y="0px" width="5120px" heigt="2880px"/>
-            <widget>
-                <bg />
-            </widget>
-        </window>
         <window name="uptime" stacking="fg" focusable="false">
             <geometry anchor="center" x="50px" y="118px" width="350px" height="50px" />
             <widget>
                 <uptime />
+            </widget>
+        </window>
+        <window name="song" stacking="fg" focusable="false">
+            <geometry anchor="center" x="-60px" y="190px" width="575px" height="50px" />
+            <widget>
+                <song />
             </widget>
         </window>
         <window name="pfp" stacking="fg" focusable="false">

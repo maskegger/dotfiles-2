@@ -13,7 +13,7 @@
   spacing: 0;
   background-color: #1F252A;
 
-  font: "Source Code Pro 16";
+  font: "Iosevka Nerd Font 20";
   text-color: @text;
 }
 

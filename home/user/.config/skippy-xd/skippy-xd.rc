@@ -1,0 +1,28 @@
+[general]
+distance = 40
+useNetWMFullscreen = true
+ignoreSkipTaskbar = true
+updateFreq = 10.0
+lazyTrans = false
+
+[xinerama]
+showAll = false
+
+[normal]
+tint = black
+tintOpacity = 0
+opacity = 50
+
+[highlight]
+tint = #101020
+tintOpacity = 0
+opacity = 255
+
+[tooltip]
+show = false
+border = #e0e0e0
+background = #404040
+opacity = 255
+text = #e0e0e0
+textShadow = black
+font = fixed-11:weight=bold

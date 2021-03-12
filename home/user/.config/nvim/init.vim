@@ -269,5 +269,3 @@ augroup remember_folds
   autocmd BufWinLeave ?* silent! mkview
   autocmd BufWinEnter ?* silent! loadview
 augroup END
-
-" command CocInstallAll :CocInstall coc-snippets coc-calc coc-python coc-sh coc-vimtex coc-clangd coc-markdownlint coc-json coc-html coc-css coc-tex <CR>

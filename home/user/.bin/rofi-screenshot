@@ -5,6 +5,7 @@ if [[ $sel = "Screen" ]]; then # If selection is screen
     sleep 0.5 # Wait
     maim ~/Pictures/Screenshots/TEMP.png # Take picture
     xclip -selection clipboard -t image/png -i ~/Pictures/Screenshots/TEMP.png # Copy to clipboard
+    feh ~/Pictures/Screenshots/TEMP.png # Show image
     mv ~/Pictures/Screenshots/TEMP.png ~/Pictures/Screenshots/$(date +%d:%H:%M:%S).png # Move to new file
     dunstify "Screenshot taken" -a Screenshot -i /usr/share/icons/Papirus/16x16/devices/camera.svg # Send notification
     
@@ -15,6 +16,7 @@ if [[ $sel = "Selection" ]]; then # If selection is selection
     sleep 0.5 # Wait
     maim -s ~/Pictures/Screenshots/TEMP.png # Take picture
     xclip -selection clipboard -t image/png -i ~/Pictures/Screenshots/TEMP.png # Copy to clipboard
+    feh ~/Pictures/Screenshots/TEMP.png # Show image
     mv ~/Pictures/Screenshots/TEMP.png ~/Pictures/Screenshots/$(date +%d:%H:%M:%S).png # Move to new file
     dunstify "Screenshot taken" -a Screenshot -i /usr/share/icons/Papirus/16x16/devices/camera.svg # Send notification
 

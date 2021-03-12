@@ -4,7 +4,7 @@ if [ $gap = 0 ] # If gap is 0
 then
 
     bspc config window_gap 20 # Set gap to 20
-    dunstify "Gaps changed to 20" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
+    dunstify "Changed to normal gaps mode" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
 
 fi
 
@@ -12,14 +12,30 @@ if [ $gap = 20 ] # If gap is 20
 then
 
     bspc config window_gap 100 # Set gap to 100
-    dunstify "Gaps changed to 100" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
+    dunstify "Changed to large gaps mode" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
 
 fi
 
-if [ $gap = 100 ] # If gap is 100
+if [ $gap = 100 ] # If gap is 20
+then
+
+    bspc config window_gap 5 # Set gap to 100
+    bspc config left_padding 100
+    bspc config right_padding 100
+    bspc config bottom_padding 150
+    bspc config top_padding 150
+    dunstify "Change to display mode" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
+
+fi
+
+if [ $gap = 5 ] # If gap is 100
 then
 
     bspc config window_gap 0 # Set gap to 0
-    dunstify "Gaps changed to 0" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
+    bspc config top_padding 60
+    bspc config left_padding -10
+    bspc config right_padding -10
+    bspc config bottom_padding -10
+    dunstify "Changed to gapless mode" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
 
 fi
