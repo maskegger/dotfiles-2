@@ -90,6 +90,10 @@ super + f
 super + s
     ~/.bin/rofi-screenshot
 
+# Open random man page
+super + m
+    ~/.bin/man
+
 # Image to text
 super + control + s
     ~/.bin/rofi-imgtext
@@ -133,3 +137,7 @@ super + shift + {d,a}
 # Rotate pane
 super + shift + r
     bspc node @parent -R 90
+
+# Control widgets
+super + grave
+    ~/.bin/widgets

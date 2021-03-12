@@ -1,6 +1,6 @@
 sel=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Screenshot') # Select options
  
-if [ $sel = "Screen" ]; then # If selection is screen
+if [[ $sel = "Screen" ]]; then # If selection is screen
 
     sleep 0.5 # Wait
     maim ~/Pictures/Screenshots/TEMP.png # Take picture
@@ -10,7 +10,7 @@ if [ $sel = "Screen" ]; then # If selection is screen
     
 fi
 
-if [ $sel = "Selection" ]; then # If selection is selection
+if [[ $sel = "Selection" ]]; then # If selection is selection
 
     sleep 0.5 # Wait
     maim -s ~/Pictures/Screenshots/TEMP.png # Take picture

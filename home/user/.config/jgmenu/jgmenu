@@ -1,4 +1,5 @@
 Scripts,       ^checkout(scripts),     application-x-shellscript
+Settings,      ^checkout(settings),    gnome-settings
 
 ^tag(scripts)
 Change gaps,   ~/.bin/gaps,            desktop
@@ -8,3 +9,12 @@ Image to text, ~/.bin/rofi-imgtext,    image-png
 Power Options, ~/.bin/rofi-power,      system-shutdown-panel
 Screenshot,    ~/.bin/rofi-screenshot, camera
 Wallpaper,     ~/.bin/rofi-wallpaper,  preferences-wallpaper
+
+^tag(settings)
+Window Manager, kitty -e nvim ~/.config/bspwm/bspwmrc,    gnome-window-manager
+Keybindings,    kitty -e nvim ~/.config/sxhkd/sxhkdrc,    keyboard
+Compositor,     kitty -e nvim ~/.config/picom/picom.conf, picom
+Notifications,  kitty -e nvim ~/.config/dunst/dunstrc,    cs-notifications
+Widgets,        kitty -e nvim ~/.config/eww/eww.xml,      xfdashboard
+Menu,           kitty -e nvim ~/.config/jgmenu/jgmenu,    menu-editor
+Bar,            kitty -e nvim ~/.config/polybar/bar,      filename-moodbar

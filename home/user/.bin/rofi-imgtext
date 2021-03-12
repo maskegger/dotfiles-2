@@ -1,6 +1,6 @@
 sel=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Image to text') # Select option
 
-if [ $sel = "Screen" ]; then # If selection is screen
+if [[ $sel = "Screen" ]]; then # If selection is screen
 
     maim ~/Pictures/Screenshots/imgtext.png; # Take screenshot
     tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext; # Convert to text
@@ -10,7 +10,7 @@ if [ $sel = "Screen" ]; then # If selection is screen
 
 fi # Finish if function
 
-if [ $sel = "Selection" ]; then # If selection is selection
+if [[ $sel = "Selection" ]]; then # If selection is selection
 
     maim -s ~/Pictures/Screenshots/imgtext.png; # Take screenshot of selection
     tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext; # Convert to text

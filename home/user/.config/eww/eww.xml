@@ -47,59 +47,58 @@
         <script-var name="weather" interval="5m">ansiweather -w false -h false -s false -d false -a false -l dubai -p false -i false | cut -c 20- | sed 's/.$//'</script-var>
     </variables>
     <windows>
-        <window name="uptime" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-850px" y="-180px" width="350px" height="50px" />
+        <window name="bg" stacking="bg" focusable="false">
+            <geometry anchor="center" x="0px" y="0px" width="5120px" heigt="2880px"/>
+            <widget>
+                <bg />
+            </widget>
+        </window>
+        <window name="uptime" stacking="fg" focusable="false">
+            <geometry anchor="center" x="50px" y="118px" width="350px" height="50px" />
             <widget>
                 <uptime />
             </widget>
         </window>
-        <window name="pfp" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-850px" y="-398px"
+        <window name="pfp" stacking="fg" focusable="false">
+            <geometry anchor="center" x="50px" y="-100px"
             width="350px" height="320px"/>
             <widget>
                 <pfp />
             </widget>
         </window>
-        <window name="clock" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-1150px" y="-540px"
+        <window name="clock" stacking="fg" focusable="false">
+            <geometry anchor="center" x="-250px" y="-242px"
             width="200px" height="70px" />
             <widget>
                 <clock />
             </widget>
         </window>
-        <window name="weather" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-1150px" y="-450px"
+        <window name="weather" stacking="fg" focusable="false">
+            <geometry anchor="center" x="-250px" y="-152px"
             width="200px" height="70px" />
             <widget>
                 <weather />
             </widget>
         </window>
-        <window name="cpu" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-1150px" y="-360px"
+        <window name="cpu" stacking="fg" focusable="false">
+            <geometry anchor="center" x="-250px" y="-62px"
             width="200px" height="70px" />
             <widget>
                 <cpu />
             </widget>
         </window>
-        <window name="memory" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-1150px" y="-275px"
+        <window name="memory" stacking="fg" focusable="false">
+            <geometry anchor="center" x="-250px" y="23px"
             width="200px" height="70px" />
             <widget>
                 <memory />
             </widget>
         </window>
-        <window name="disk" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-1150px" y="-190px"
+        <window name="disk" stacking="fg" focusable="false">
+            <geometry anchor="center" x="-250px" y="108px"
             width="200px" height="70px" />
             <widget>
                 <disk />
-            </widget>
-        </window>
-        <window name="song" stacking="bg" focusable="false">
-            <geometry anchor="center" x="-965px" y="-100px"
-            width="575px" height="70px" />
-            <widget>
-                <song />
             </widget>
         </window>
     </windows>

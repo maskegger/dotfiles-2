@@ -1,4 +1,14 @@
-killall eww
-eww daemon # Open daemon
-eww reload # Reload config
-eww open-many clock weather pfp uptime memory cpu disk song # Open widgets
+eww windows | grep \*
+
+if [ $? = 1 ]; then
+
+    eww reload
+    eww open-many clock weather pfp uptime memory cpu disk song
+    sleep infinity
+
+fi
+if [ $? = 0 ]; then
+
+    eww close-all
+
+fi
