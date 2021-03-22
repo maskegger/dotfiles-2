@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Pulse Effects
+GenericName=Audio Equalizer
+Comment=Pulseaudio Legacy Pulse Effects
+Categories=Audio
+Exec=pulseeffects
+Icon=pulseeffects
+Terminal=false
+Type=Application

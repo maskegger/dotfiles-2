@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Qutebrowser
+GenericName=Web Browser
+Comment=Python Web Browser
+Categories=Office
+Icon=qutebrowser
+Exec=qutebrowser
+Terminal=false
+Type=Application

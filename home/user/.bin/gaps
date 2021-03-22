@@ -1,14 +1,15 @@
 gap=$(bspc config window_gap) # Get gap of windows
 
-if [ $gap = 0 ] # If gap is 0
+if [ $gap = 1 ] # If mode is gapless mode
 then
 
     bspc config window_gap 20 # Set gap to 20
+    polybar-msg cmd show #
     dunstify "Changed to normal gaps mode" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
 
 fi
 
-if [ $gap = 20 ] # If gap is 20
+if [ $gap = 20 ] # If mode is normal mode
 then
 
     bspc config window_gap 100 # Set gap to 100
@@ -16,7 +17,7 @@ then
 
 fi
 
-if [ $gap = 100 ] # If gap is 20
+if [ $gap = 100 ] # If mode is large mode
 then
 
     bspc config window_gap 5 # Set gap to 100
@@ -28,14 +29,15 @@ then
 
 fi
 
-if [ $gap = 5 ] # If gap is 100
+if [ $gap = 5 ] # If mode is display mode
 then
 
-    bspc config window_gap 0 # Set gap to 0
-    bspc config top_padding 60
-    bspc config left_padding -10
-    bspc config right_padding -10
-    bspc config bottom_padding -10
+    bspc config window_gap 1 # Set gap to 5
+    bspc config top_padding -4
+    bspc config left_padding -5
+    bspc config right_padding -5
+    bspc config bottom_padding -5
+    polybar-msg cmd hide
     dunstify "Changed to gapless mode" -i /usr/share/icons/Papirus/16x16/places/desktop.svg # Show notification
 
 fi

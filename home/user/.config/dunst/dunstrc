@@ -97,7 +97,7 @@
     # Dunst verbosity
     verbosity = mesg
     # Corner radius of dunst
-    corner_radius = 15
+    corner_radius = 20
     # Ignore dbus closeNotification message
     ignore_dbusclose = false
 

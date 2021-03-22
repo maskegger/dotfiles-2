@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Krita
+GenericName=Image Editor
+Comment=Krita Image Editor
+Categories=Graphics
+Icon=krita
+Exec=krita
+Terminal=false
+Type=Application

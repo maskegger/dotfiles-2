@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Atom
+GenericName=Electron code editor
+Comment=Edit code
+Categories=Development
+Exec=atom
+Icon=atom
+Terminal=false
+Type=Application

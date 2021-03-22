@@ -6128,3 +6128,26 @@ Mar 12 15:10 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 12 15:47 : player: played "Lazarus Moment/A Moment For Eternity/A Moment For Eternity.mp3"
 Mar 12 15:52 : player: played "Lazarus Moment/Phelian/Sentient Duality.mp3"
 Mar 12 15:58 : player: played "Lazarus Moment/Tales From The Edge Of The Forest/I Already Had The Wings, But You Taught Me How To Fly.mp3"
+Mar 13 08:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Lazarus Moment/Phelian/Sentient Duality.mp3; Failed to open '/mnt/PiNAS/Media/Music/Lazarus Moment/Phelian/Sentient Duality.mp3': No such file or directory
+Mar 13 08:35 : player: played "Lazarus Moment/Phelian/Sentient Duality.mp3"
+Mar 13 08:35 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 13 08:38 : exception: Failed to decode /mnt/PiNAS/Media/Music/Lazarus Moment/Phelian/Sentient Duality.mp3; Failed to open '/mnt/PiNAS/Media/Music/Lazarus Moment/Phelian/Sentient Duality.mp3': No such file or directory
+Mar 13 08:38 : player: played "Lazarus Moment/Phelian/Sentient Duality.mp3"
+Mar 13 08:38 : exception: Failed to decode /mnt/PiNAS/Media/Music/Lazarus Moment/A Moment For Eternity/Hiding Inside.mp3; Failed to open '/mnt/PiNAS/Media/Music/Lazarus Moment/A Moment For Eternity/Hiding Inside.mp3': No such file or directory
+Mar 13 08:38 : player: played "Lazarus Moment/A Moment For Eternity/Hiding Inside.mp3"
+Mar 13 08:38 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 13 13:56 : player: played "Lazarus Moment/Phelian/Sentient Duality.mp3"
+Mar 13 16:45 : player: played "Other/Bright Lights.mp3"
+Mar 15 10:10 : player: played "Queen/A Kind of Magic.mp3"
+Mar 15 10:53 : exception: Failed to decode /mnt/PiNAS/Media/Music/Queen/A Kind of Magic.mp3; Failed to open '/mnt/PiNAS/Media/Music/Queen/A Kind of Magic.mp3': No such file or directory
+Mar 15 10:53 : player: played "Queen/A Kind of Magic.mp3"
+Mar 15 10:53 : exception: Failed to decode /mnt/PiNAS/Media/Music/Queen/Bohemian Rhapsody.mp3; Failed to open '/mnt/PiNAS/Media/Music/Queen/Bohemian Rhapsody.mp3': No such file or directory
+Mar 15 10:53 : player: played "Queen/Bohemian Rhapsody.mp3"
+Mar 15 10:53 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 16 15:53 : exception: Failed to decode /mnt/PiNAS/Media/Music/Queen/A Kind of Magic.mp3; Failed to open '/mnt/PiNAS/Media/Music/Queen/A Kind of Magic.mp3': No such file or directory
+Mar 16 15:53 : player: played "Queen/A Kind of Magic.mp3"
+Mar 16 15:53 : exception: Failed to decode /mnt/PiNAS/Media/Music/Queen/Bohemian Rhapsody.mp3; Failed to open '/mnt/PiNAS/Media/Music/Queen/Bohemian Rhapsody.mp3': No such file or directory
+Mar 16 15:53 : player: played "Queen/Bohemian Rhapsody.mp3"
+Mar 16 15:53 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 21 18:55 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 22 13:14 : avahi: Service 'Music Player @ archy' successfully established.

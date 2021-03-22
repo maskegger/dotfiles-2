@@ -92,7 +92,7 @@ super + s
 
 # Open random man page
 super + m
-    ~/.bin/man
+    ~/.bin/randman
 
 # Image to text
 super + control + s
