@@ -111,6 +111,7 @@ theme.layout_cornerse = gfs.get_configuration_dir() .. "quiet/layouts/cornersew.
 -- Edge snap
 
 theme.snap_bg = "#1F252A"
+theme.snap_border_width = "0"
 
 -- Icon theme
 
@@ -121,7 +122,7 @@ theme.icon_theme = "Papirus"
 local gears = require("gears")
 
 local octagon = function(cr, width, height)
-    gears.shape.octogon(cr, width, height, 20)
+    gears.shape.octogon(cr, width, height, 30)
 end
 
 theme.hotkeys_font = "Iosevka"
@@ -139,7 +140,7 @@ theme.wibar_bg = "#1F252A"
 rnotification.connect_signal('request::rules', function()
     rnotification.append_rule {
         rule       = { urgency = 'critical' },
-        properties = { bg = '#ff0000', fg = '#ffffff' }
+        properties = { bg = '#ff8080', fg = '#ffffff' }
     }
 end)
 

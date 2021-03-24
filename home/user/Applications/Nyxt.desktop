@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Nyxt
+GenericName=Web browser
+Comment=Fast and efficient web browser
+Categories=Office
+Exec=nyxt
+Icon=nyxt
+Terminal=false
+Type=Application

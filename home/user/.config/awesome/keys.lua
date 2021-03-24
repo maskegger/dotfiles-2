@@ -26,10 +26,10 @@ globalkeys = gears.table.join(
     -- AwesomeWM --
 
          -- Toggle titlebar
-        awful.key({modkey}, "`", function(c) awful.titlebar.toggle(c, 'left') end, {
-            description = "Toggle titlebar",
-            group = "AwesomeWM"
-        }),
+         awful.key({modkey}, "`", function() local t = screen.primary.selected_tag for idx, c in ipairs(t:clients()) do awful.titlebar.toggle(c, 'left') end end, {
+             description = "Toggle titlebar",
+             group = "AwesomeWM"
+         }),
 
     -- Workspaces --
 
@@ -41,6 +41,12 @@ globalkeys = gears.table.join(
 
         -- Next workspace
         awful.key({modkey}, "Right", awful.tag.viewnext, {
+            description = "Next workspace",
+            group = "Workspaces"
+        }),
+
+        -- Workspace 1
+        awful.key({modkey}, "1", function() local screen = awful.screen.focused() local tag = screen.tags[1] if tag then tag:view_only() end end, {
             description = "Next workspace",
             group = "Workspaces"
         }),
@@ -60,13 +66,13 @@ globalkeys = gears.table.join(
         }),
 
         -- Toggle Fullscreen
-        awful.key({modkey, "Shift"}, "f", function(c) c.fullscreen = not c.fullscreen c:raise() end, {
+        awful.key({modkey, "Shift"}, "f", function() client.focus.fullscreen = not client.focus.fullscreen client.focus:raise() end, {
             description = "Toggle fullscreen mode",
             group = "Windows"
         }),
 
         -- Close window
-        awful.key({modkey, "Shift"}, "q", function(c) c:kill() end, {
+        awful.key({modkey, "Shift"}, "q", function() client.focus:kill() end, {
             description = "Close window",
             group = "Windows"
         }),
@@ -99,6 +105,16 @@ globalkeys = gears.table.join(
         awful.key({modkey}, "Tab", function() awful.client.focus.history.previous() if client.focus then client.focus:raise() end end, {
             description = "Focus previous in history",
             group = "Windows"
+        }),
+
+        -- Minimize windows
+        awful.key({modkey}, "m", function() client.focus.minimized = true end, {
+            description = "Minimize windows", group = "Windows"
+        }),
+
+        -- Un-minimize windows
+        awful.key({modkey, "Control"}, "m", function () local c = awful.client.restore() if c then c:activate { raise = true, context = "key.unminimize" } end end, {
+            description = "Un-minimize windows", group = "Windows"
         }),
 
     -- Applications and menus --

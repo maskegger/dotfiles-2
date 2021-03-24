@@ -132,7 +132,7 @@ awful.screen.connect_for_each_screen(function(s)
         position = "bottom",
         screen = s,
         height = 30,
-        visible = true,
+        visible = false,
         type = "desktop"
     })
 
@@ -154,19 +154,6 @@ awful.screen.connect_for_each_screen(function(s)
 end)
 
 -- Key bindings
--- awful.key({modkey, "Control"}, "n", function()
---     local c = awful.client.restore()
---     -- Focus restored client
---     if c then
---         c:emit_signal("request::activate", "key.unminimize", {raise = true})
---     end
--- end, {description = "restore minimized", group = "client"}), -- Prompt
--- clientkeys = gears.table.join(awful.key({modkey}, "n", function(c)
---     -- The client currently has the input focus, so it cannot be
---     -- minimized, since minimized clients can't have the focus.
---     c.minimized = true
--- end, {description = "minimize", group = "client"}),
---
 -- Bind all key numbers to tags.
 -- Be careful: we use keycodes to make it work on any keyboard layout.
 -- This should map on the top row of your keyboard, usually 1 to 9.

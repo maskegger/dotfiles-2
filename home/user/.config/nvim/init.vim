@@ -59,8 +59,7 @@ Plug 'sbdchd/neoformat'                                                      " A
 Plug 'honza/vim-snippets'                                                    " Extra snippets for Vim
 Plug 'lervag/vimtex', { 'for': 'tex' }                                       " LaTeX plugin for Vim
 Plug 'jiangmiao/auto-pairs'                                                  " Automatically pair brackets
-Plug 'dylanaraps/wal.vim'                                                    " Get colorscheme from XResources
-Plug 'jeffkreeftmeijer/vim-dim'
+Plug 'nekonako/xresources-nvim'
 
 call plug#end()                                                              " Plugin end
 
@@ -187,7 +186,7 @@ noremap <silent> <M-Right> :vertical resize -5 <CR>
 vmap <leader>y "+y
 
 " Colorscheme
-colorscheme wal
+colorscheme xresources
 
 set fillchars=vert:\
 hi! VertSplit guifg=None guibg=None

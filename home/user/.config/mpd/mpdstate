@@ -1,8 +1,9 @@
 sw_volume: 84
 audio_device_state:1:Pulseaudio output
 audio_device_state:1:my_fifo
-state: stop
-current: 1
+state: pause
+current: 54
+time: 79.765000
 random: 1
 repeat: 1
 single: 0
@@ -11,6 +12,112 @@ crossfade: 3
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Queen/A Kind of Magic.mp3
-1:Queen/Bohemian Rhapsody.mp3
+0:Video Games/Minecraft/Volume Alpha/Beginning.mp3
+1:Video Games/Minecraft/Volume Alpha/Cat.mp3
+2:Video Games/Minecraft/Volume Alpha/Chris.mp3
+3:Video Games/Minecraft/Volume Alpha/Clark.mp3
+4:Video Games/Minecraft/Volume Alpha/Danny.mp3
+5:Video Games/Minecraft/Volume Alpha/Death.mp3
+6:Video Games/Minecraft/Volume Alpha/Dog.mp3
+7:Video Games/Minecraft/Volume Alpha/Door.mp3
+8:Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3
+9:Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3
+10:Video Games/Minecraft/Volume Alpha/Dry Hands.mp3
+11:Video Games/Minecraft/Volume Alpha/Équinoxe.mp3
+12:Video Games/Minecraft/Volume Alpha/Excuse.mp3
+13:Video Games/Minecraft/Volume Alpha/Haggstrom.mp3
+14:Video Games/Minecraft/Volume Alpha/Key.mp3
+15:Video Games/Minecraft/Volume Alpha/Living Mice.mp3
+16:Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3
+17:Video Games/Minecraft/Volume Alpha/Minecraft.mp3
+18:Video Games/Minecraft/Volume Alpha/Moog City.mp3
+19:Video Games/Minecraft/Volume Alpha/Oxygène.mp3
+20:Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3
+21:Video Games/Minecraft/Volume Alpha/Sweden.mp3
+22:Video Games/Minecraft/Volume Alpha/Thirteen.mp3
+23:Video Games/Minecraft/Volume Alpha/Wet Hands.mp3
+24:Video Games/Minecraft/Volume Beta/Alpha.mp3
+25:Video Games/Minecraft/Volume Beta/Aria Math.mp3
+26:Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3
+27:Video Games/Minecraft/Volume Beta/Beginning 2.mp3
+28:Video Games/Minecraft/Volume Beta/Biome Fest.mp3
+29:Video Games/Minecraft/Volume Beta/Blind Spots.mp3
+30:Video Games/Minecraft/Volume Beta/Blocks.mp3
+31:Video Games/Minecraft/Volume Beta/Chirp.mp3
+32:Video Games/Minecraft/Volume Beta/Concrete Halls.mp3
+33:Video Games/Minecraft/Volume Beta/Dead Voxel.mp3
+34:Video Games/Minecraft/Volume Beta/Dreiton.mp3
+35:Video Games/Minecraft/Volume Beta/Eleven.mp3
+36:Video Games/Minecraft/Volume Beta/Far.mp3
+37:Video Games/Minecraft/Volume Beta/Flake.mp3
+38:Video Games/Minecraft/Volume Beta/Floating Trees.mp3
+39:Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3
+40:Video Games/Minecraft/Volume Beta/Intro.mp3
+41:Video Games/Minecraft/Volume Beta/Ki.mp3
+42:Video Games/Minecraft/Volume Beta/Kyoto.mp3
+43:Video Games/Minecraft/Volume Beta/Mall.mp3
+44:Video Games/Minecraft/Volume Beta/Mellohi.mp3
+45:Video Games/Minecraft/Volume Beta/Moog City 2.mp3
+46:Video Games/Minecraft/Volume Beta/Mutation.mp3
+47:Video Games/Minecraft/Volume Beta/Stal.mp3
+48:Video Games/Minecraft/Volume Beta/Strad.mp3
+49:Video Games/Minecraft/Volume Beta/Taswell.mp3
+50:Video Games/Minecraft/Volume Beta/The End.mp3
+51:Video Games/Minecraft/Volume Beta/Wait.mp3
+52:Video Games/Minecraft/Volume Beta/Ward.mp3
+53:Video Games/Minecraft/Volume Beta/Warmth.mp3
+54:Video Games/Minecraft/Volume Alpha/Beginning.mp3
+55:Video Games/Minecraft/Volume Alpha/Cat.mp3
+56:Video Games/Minecraft/Volume Alpha/Chris.mp3
+57:Video Games/Minecraft/Volume Alpha/Clark.mp3
+58:Video Games/Minecraft/Volume Alpha/Danny.mp3
+59:Video Games/Minecraft/Volume Alpha/Death.mp3
+60:Video Games/Minecraft/Volume Alpha/Dog.mp3
+61:Video Games/Minecraft/Volume Alpha/Door.mp3
+62:Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3
+63:Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3
+64:Video Games/Minecraft/Volume Alpha/Dry Hands.mp3
+65:Video Games/Minecraft/Volume Alpha/Équinoxe.mp3
+66:Video Games/Minecraft/Volume Alpha/Excuse.mp3
+67:Video Games/Minecraft/Volume Alpha/Haggstrom.mp3
+68:Video Games/Minecraft/Volume Alpha/Key.mp3
+69:Video Games/Minecraft/Volume Alpha/Living Mice.mp3
+70:Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3
+71:Video Games/Minecraft/Volume Alpha/Minecraft.mp3
+72:Video Games/Minecraft/Volume Alpha/Moog City.mp3
+73:Video Games/Minecraft/Volume Alpha/Oxygène.mp3
+74:Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3
+75:Video Games/Minecraft/Volume Alpha/Sweden.mp3
+76:Video Games/Minecraft/Volume Alpha/Thirteen.mp3
+77:Video Games/Minecraft/Volume Alpha/Wet Hands.mp3
+78:Video Games/Minecraft/Volume Beta/Alpha.mp3
+79:Video Games/Minecraft/Volume Beta/Aria Math.mp3
+80:Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3
+81:Video Games/Minecraft/Volume Beta/Beginning 2.mp3
+82:Video Games/Minecraft/Volume Beta/Biome Fest.mp3
+83:Video Games/Minecraft/Volume Beta/Blind Spots.mp3
+84:Video Games/Minecraft/Volume Beta/Blocks.mp3
+85:Video Games/Minecraft/Volume Beta/Chirp.mp3
+86:Video Games/Minecraft/Volume Beta/Concrete Halls.mp3
+87:Video Games/Minecraft/Volume Beta/Dead Voxel.mp3
+88:Video Games/Minecraft/Volume Beta/Dreiton.mp3
+89:Video Games/Minecraft/Volume Beta/Eleven.mp3
+90:Video Games/Minecraft/Volume Beta/Far.mp3
+91:Video Games/Minecraft/Volume Beta/Flake.mp3
+92:Video Games/Minecraft/Volume Beta/Floating Trees.mp3
+93:Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3
+94:Video Games/Minecraft/Volume Beta/Intro.mp3
+95:Video Games/Minecraft/Volume Beta/Ki.mp3
+96:Video Games/Minecraft/Volume Beta/Kyoto.mp3
+97:Video Games/Minecraft/Volume Beta/Mall.mp3
+98:Video Games/Minecraft/Volume Beta/Mellohi.mp3
+99:Video Games/Minecraft/Volume Beta/Moog City 2.mp3
+100:Video Games/Minecraft/Volume Beta/Mutation.mp3
+101:Video Games/Minecraft/Volume Beta/Stal.mp3
+102:Video Games/Minecraft/Volume Beta/Strad.mp3
+103:Video Games/Minecraft/Volume Beta/Taswell.mp3
+104:Video Games/Minecraft/Volume Beta/The End.mp3
+105:Video Games/Minecraft/Volume Beta/Wait.mp3
+106:Video Games/Minecraft/Volume Beta/Ward.mp3
+107:Video Games/Minecraft/Volume Beta/Warmth.mp3
 playlist_end

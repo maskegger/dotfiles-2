@@ -6151,3 +6151,1244 @@ Mar 16 15:53 : player: played "Queen/Bohemian Rhapsody.mp3"
 Mar 16 15:53 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 21 18:55 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 22 13:14 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 22 16:19 : exception: Failed to pause "Pulseaudio output" (pulse): failed to connect the stream: Connection terminated
+Mar 22 16:19 : exception: Failed to open "Pulseaudio output" (pulse); pa_context_connect() has failed: Connection refused
+Mar 22 16:20 : player: played "Video Games/Minecraft/Volume Alpha/Beginning.mp3"
+Mar 22 16:20 : exception: Failed to enable output "Pulseaudio output" (pulse); pa_context_connect() has failed: Connection refused
+Mar 22 16:20 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 22 16:20 : exception: Failed to enable output "Pulseaudio output" (pulse); pa_context_connect() has failed: Connection refused
+Mar 22 16:20 : player: played "Video Games/Minecraft/Volume Alpha/Beginning.mp3"
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Note: Illegal Audio-MPEG-Header 0x00000000 at offset 4092.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+Mar 22 16:20 : mpg123: mpg123_getformat() failed: Message: I am done with this track.
+Mar 22 16:20 : ffmpeg/mp3: Format mp3 detected only with low score of 1, misdetection possible!
+Mar 22 16:20 : ffmpeg/mp3: Failed to read frame size: Could not seek to 5119.
+Mar 22 16:20 : exception: Failed to enable output "Pulseaudio output" (pulse); pa_context_connect() has failed: Connection refused
+Mar 22 18:00 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3': No such file or directory
+Mar 22 18:00 : player: played "Video Games/Minecraft/Volume Alpha/Beginning.mp3"
+Mar 22 18:00 : avahi: Service 'Music Player @ archy' successfully established.
