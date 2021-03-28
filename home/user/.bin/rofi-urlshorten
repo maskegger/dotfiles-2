@@ -1,0 +1,8 @@
+url=$(rofi -dmenu -i -p 'Shorten URL' -theme-str 'entry { placeholder: "example.com"; placeholder-color: grey;} window { height: 5.5%; width: 25%;}')
+ 
+url="https://"$url
+short=$(curl -F"shorten=$url" https://0x0.st)
+echo $short | xclip -sel clip
+dunstify "URL copied to clipboard" "$short" -a Screenshot -i /usr/share/icons/Papirus/16x16/devices/camera.svg # Send notification
+    
+exit 0 # Return exit code 0

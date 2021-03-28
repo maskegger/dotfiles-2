@@ -14,6 +14,7 @@ require("awful.autofocus")
 
 -- Hotkeys library
 local hotkeys_popup = require("awful.hotkeys_popup")
+local machi = require("layout-machi")
 
 -- Begin keybindings --
 
@@ -45,11 +46,6 @@ globalkeys = gears.table.join(
             group = "Workspaces"
         }),
 
-        -- Workspace 1
-        awful.key({modkey}, "1", function() local screen = awful.screen.focused() local tag = screen.tags[1] if tag then tag:view_only() end end, {
-            description = "Next workspace",
-            group = "Workspaces"
-        }),
 
     -- Window management --
 
@@ -101,12 +97,6 @@ globalkeys = gears.table.join(
             group = "Windows"
         }),
 
-        -- Focus previous in history
-        awful.key({modkey}, "Tab", function() awful.client.focus.history.previous() if client.focus then client.focus:raise() end end, {
-            description = "Focus previous in history",
-            group = "Windows"
-        }),
-
         -- Minimize windows
         awful.key({modkey}, "m", function() client.focus.minimized = true end, {
             description = "Minimize windows", group = "Windows"
@@ -131,6 +121,42 @@ globalkeys = gears.table.join(
             group = "Applications and menus"
         }),
 
+        -- Switch windows
+        awful.key({modkey}, "Tab", function() awful.spawn.with_shell("rofi -show window -display-window 'App Launcher'") end, {
+            description = "Switch windows",
+            group = "Applications and menus"
+        }),
+
+        -- Calculator
+        awful.key({modkey}, "c", function() awful.spawn.with_shell("rofi -show calc -modi calc -no-shwo-match -no-sort -display-calc 'Calculator'") end, {
+            description = "Calculator",
+            group = "Applications and menus"
+        }),
+
+        -- Wallpaper switcher
+        awful.key({modkey}, "b", function() awful.spawn.with_shell("~/.bin/rofi-wallpaper") end, {
+            description = "Wallpaper switcher",
+            group = "Applications and menus"
+        }),
+
+        -- Screenshot
+        awful.key({modkey}, "s", function() awful.spawn.with_shell("~/.bin/rofi-screenshot") end, {
+            description = "Screenshot",
+            group = "Applications and menus"
+        }),
+
+        -- Image to text
+        awful.key({modkey, "Shift"}, "s", function() awful.spawn.with_shell("~/.bin/rofi-imgtext") end, {
+            description = "Image to text",
+            group = "Applications and menus"
+        }),
+
+        -- Shorten url
+        awful.key({modkey}, "u", function() awful.spawn.with_shell("~/.bin/rofi-urlshorten") end, {
+            description = "Shorten URL",
+            group = "Applications and menus"
+        }),
+
         -- Applications menu
         awful.key({"Mod1"}, "space", function() awful.spawn.with_shell("cat ~/.config/jgmenu/jgmenu | jgmenu --simple") end, {
             description = "Applications menu",
@@ -147,6 +173,35 @@ globalkeys = gears.table.join(
         awful.key({modkey}, "/", hotkeys_popup.show_help, {
             description = "Hotkey menu",
             group = "Applications and menus"
+        }),
+
+        -- Machi --
+        awful.keyboard.append_global_keybindings(
+    {
+        awful.key({modkey}, ".",
+                  function() machi.default_editor.start_interactive() end, {
+            description = "edit the current layout if it is a machi layout",
+            group = "layout"
+        }),
+        awful.key({modkey}, ",",
+                  function() machi.switcher.start(client.focus) end, {
+            description = "switch between windows for a machi layout",
+            group = "layout"
         })
+    })
 
 )
+
+for i = 1, 9 do
+    globalkeys = gears.table.join(globalkeys, 
+
+    awful.key({modkey}, "#" .. i + 9, function() local screen = awful.screen.focused() local tag = screen.tags[i] if tag then tag:view_only() end end, {
+        description = "View workspace #" .. i,
+        group = "Workspaces"
+    }),
+
+    awful.key({modkey, "Shift"}, "#" .. i + 9, function() if client.focus then local tag = client.focus.screen.tags[i] if tag then client.focus:move_to_tag(tag) end end end, {
+        description = "Move focused client to workspace #" .. i,
+        group = "Workspaces"
+    }))
+end

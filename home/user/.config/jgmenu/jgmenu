@@ -1,20 +1,12 @@
 Scripts,       ^checkout(scripts),     application-x-shellscript
-Settings,      ^checkout(settings),    gnome-settings
+
+Power Options, ~/.bin/rofi-power,      system-shutdown-panel
 
 ^tag(scripts)
 Change gaps,   ~/.bin/gaps,            desktop
 Lock screen,   ~/.bin/lock,            system-lock-screen
 Notifications, ~/.bin/notifhist,       preferences-system-notifications
 Image to text, ~/.bin/rofi-imgtext,    image-png
-Power Options, ~/.bin/rofi-power,      system-shutdown-panel
 Screenshot,    ~/.bin/rofi-screenshot, camera
 Wallpaper,     ~/.bin/rofi-wallpaper,  preferences-wallpaper
-
-^tag(settings)
-Window Manager, kitty -e nvim ~/.config/bspwm/bspwmrc,    gnome-window-manager
-Keybindings,    kitty -e nvim ~/.config/sxhkd/sxhkdrc,    keyboard
-Compositor,     kitty -e nvim ~/.config/picom/picom.conf, picom
-Notifications,  kitty -e nvim ~/.config/dunst/dunstrc,    cs-notifications
-Widgets,        kitty -e nvim ~/.config/eww/eww.xml,      xfdashboard
-Menu,           kitty -e nvim ~/.config/jgmenu/jgmenu,    menu-editor
-Bar,            kitty -e nvim ~/.config/polybar/bar,      filename-moodbar
+URL shortener, ~/.bin/rofi-urlshorten, /usr/share/icons/Papirus-Light/16x16/emblems/emblem-link.svg

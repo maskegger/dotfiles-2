@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Filezilla
+GenericName=FTP Client
+Comment=Filezilla FTP client
+Categories=Network
+Icon=filezilla
+Exec=filezilla
+Terminal=false
+Type=Application

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Onivim
+GenericName=Text Editor
+Comment=Neovim gui
+Categories=Development
+Icon=Onivim2
+Exec=Oni2
+Terminal=false
+Type=Application

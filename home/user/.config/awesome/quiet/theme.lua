@@ -9,6 +9,9 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = dofile(themes_path .. "default/theme.lua")
 
+local naughty = require("naughty")
+local nconf = naughty.config
+
 -- Fonts
 
 theme.font = "Iosevka 10"
@@ -121,19 +124,42 @@ theme.icon_theme = "Papirus"
 
 local gears = require("gears")
 
-local octagon = function(cr, width, height)
-    gears.shape.octogon(cr, width, height, 30)
+local rounded_rect = function(cr, width, height)
+    gears.shape.rounded_rect(cr, width, height, 75)
 end
 
-theme.hotkeys_font = "Iosevka"
+theme.hotkeys_font = "Iosevka 11"
+theme.hotkeys_description_font = "Iosevka 9"
 theme.hotkeys_modifiers_fg = "#80D1FF"
-theme.hotkeys_shape = octagon
+theme.hotkeys_shape = rounded_rect
 theme.hotkeys_border_width = 15
+theme.hotkeys_group_margin = 50
 theme.hotkeys_border_color = "#1F252A"
+
+-- Notifications
+
+theme.notification_font = "Iosevka 11"
+theme.notification_bg = "#1F252A"
+theme.notification_fg = "#D5D5D5"
+theme.notification_margin = "24"
+
+theme.notification_width = 300
+theme.notification_height = 50
+theme.notification_max_width = 400
+
+theme.notification_shape = function(cr, w, h)
+   gears.shape.rounded_rect(cr, w, h, 6)
+end
+
+nconf.padding = 15
 
 -- Wibar
 
 theme.wibar_bg = "#1F252A"
+theme.wibar_width = 300
+theme.wibar_stretch = false
+theme.wibar_shape = rounded_rect
+theme.tasklist_disable_icon = true
 
 -- Set different colors for urgent notifications.
 

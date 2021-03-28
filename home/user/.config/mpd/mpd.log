@@ -7392,3 +7392,8 @@ Mar 22 16:20 : exception: Failed to enable output "Pulseaudio output" (pulse); p
 Mar 22 18:00 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3': No such file or directory
 Mar 22 18:00 : player: played "Video Games/Minecraft/Volume Alpha/Beginning.mp3"
 Mar 22 18:00 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 24 20:25 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 25 07:50 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 25 10:36 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 25 13:31 : avahi: Service 'Music Player @ archy' successfully established.
+Mar 28 12:34 : avahi: Service 'Music Player @ archy' successfully established.
