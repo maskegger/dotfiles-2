@@ -37,9 +37,9 @@ vmware-user
 xset r rate 200 25
 
 # Resolution
-xrandr --newmode "2560x1440"  241.500   2560 2608 2640 2720  1440 1443 1448 1481 +hsync -vsync
-xrandr --addmode Virtual1 "2560x1440"
-xrandr --output Virtual1 --mode 2560x1440
+xrandr --newmode "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync
+xrandr --addmode Virtual-1 "2560x1440_60.00"
+xrandr --output Virtual-1 --mode 2560x1440_60.00
 
 # Set mouse cursor
 xsetroot -cursor_name arrow

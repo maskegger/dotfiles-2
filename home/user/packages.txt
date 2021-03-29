@@ -53,9 +53,9 @@ aria2
 axel
 cava
 cmatrix
-cd
 fish
 fkill
+fortune
 fzf
 hilbish-git
 htop
@@ -110,12 +110,14 @@ jq
 lite
 neovim-git
 prettier
+rbenv
 qemu
 vi
 vim
 ## Desktop ##
 awesome-git
 bspwm-git
+breeze-default-cursor-theme
 dunst
 eww-git
 herbstluftwm
@@ -131,6 +133,7 @@ rofi-git
 rofi-calc
 screenkey
 slop
+sxhkd
 themix-full-git
 thunar-git
 thunderbird
