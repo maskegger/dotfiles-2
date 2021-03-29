@@ -5,7 +5,6 @@ noto-fonts-emoji
 nerd-fonts-iosevka
 otf-san-francisco
 ttf-ubuntu-font-family
-
 ## Audio, Images, and Video ##
 alsa-utils
 cheese
@@ -34,7 +33,6 @@ pulsemixer
 pulseeffects-legacy
 simplescreenrecorder
 vlc
-
 ## Bluetooth, Network, and Web ##
 blueman
 chromium
@@ -49,7 +47,6 @@ lynx
 qutebrowser
 teams
 wget
-
 ## Terminal ##
 ansiweather
 aria2
@@ -78,7 +75,6 @@ tldr
 vimv-git
 wtfutil
 zsh
-
 ## System ##
 arch-install-scripts
 arch-wiki-lite
@@ -98,13 +94,11 @@ opendoas
 polkit
 polkit-gnome
 sudo
-
 ## Files ##
 bleachbit
 btrfs-progs
 findutils
 ncdu
-
 ## Development ##
 atom
 emacs
@@ -119,7 +113,6 @@ prettier
 qemu
 vi
 vim
-
 ## Desktop ##
 awesome-git
 bspwm-git
@@ -143,21 +136,22 @@ thunar-git
 thunderbird
 wmctrl
 wmutils-git
-
+xorg
+xorg-xinit
+xorg-twm
 ## Games ##
 gnome-2048
 gnome-chess
 nethack
 steam
-
 ## Utilities ##
 gnome-calculator
 gnome-characters
 gnome-clocks
 gnome-font-viewer
 gnome-maps
-obisidan-appimage
+obsidian-appimage
 texlive-bin
 texlive-core
 zathura
-zathura-pdf-popler
+zathura-pdf-poppler
