@@ -1,3 +1,31 @@
-maim /tmp/screen.png # Take screenshot of full screen
-convert /tmp/screen.png -scale 10% -scale 1000% --enable-openmp --enable-opencl /tmp/screen.png # Pixelise image
-i3lock -u -i /tmp/screen.png # Lock screen with pixelised iage as background
+cp $(cat .config/nitrogen/bg-saved.cfg | grep file= | sed 's/file=//g') /tmp/screen
+convert -scale 2560x1440 /tmp/screen /tmp/screen
+convert -filter Gaussian -resize 20% -define "filter:sigma=1.5" -resize 500.5% /tmp/screen /tmp/screen
+convert -scale 180x180 ~/Pictures/pfp_rounded.png /tmp/pfp
+composite -gravity center /tmp/pfp /tmp/screen /tmp/screen
+i3lock \
+    -i /tmp/screen \
+    -p default \
+    -f \
+    --indicator \
+    -k \
+    --pass-media-keys \
+    --pass-volume-keys \
+    --pass-screen-keys \
+    --insidevercolor=#00000000 \
+    --insidecolor=#00000000 \
+    --insidewrongcolor=#00000000 \
+    --ringvercolor=#80D1FF \
+    --ringcolor=#1F252A \
+    --ringwrongcolor=#FF8080 \
+    --separatorcolor=#00000000 \
+    --linecolor=#00000000 \
+    --keyhlcolor=#97D59B \
+    --bshlcolor=#FF8080 \
+    --verifcolor=#00000000 \
+    --wrongcolor=#00000000 \
+    --timecolor=#FFFFFF \
+    --timepos=1280:1000 \
+    --datecolor=#00000000 \
+    --time-font='Iosevka Nerd Font' \
+    --timesize=72

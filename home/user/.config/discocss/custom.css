@@ -31,12 +31,13 @@
 div {
   font-family: "Ubuntu";
   letter-spacing: -0.5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 code {
   font-family: "Iosevka";
   font-size: 10px;
+  font-style: italic;
 }
 
 div[class^="scrollableContainer"] {
@@ -75,128 +76,3 @@ div[class*="root"] > form > div[class*="content"] > div[class*="input"] > div[cl
 div[class*="flex"][class*="horizontalReverse"][class*="directionRowReverse"] {
     background-color: var(--background-floating);
 }
-
-:root {
-    --background-message-hover: transparent;
-}
-.messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm,
-.message-2qnXI6 .imageWrapper-2p5ogY,
-.repliedMessage-VokQwo {
-    background-color: var(--background-secondary);
-    font-weight: 500;
-    margin-left: 0 !important;
-    margin-top: 4px !important;
-    padding-left: 0 !important;
-    padding: 8px 12px !important;
-    border-radius: 16px;
-    border-top-left-radius: 0 !important;
-    width: max-content;
-    max-width: 80%;
-    box-shadow: var(--elevation-low);
-    overflow: visible !important;
-    box-sizing: border-box;
-}
-.message-2qnXI6 .imageWrapper-2p5ogY {
-    padding: 0 !important;
-    max-width: 100% !important;
-    overflow: hidden !important;
-}
-.message-2qnXI6:hover .messageContent-2qWWxC, .message-2qnXI6:hover .embedFull-2tM8--, .message-2qnXI6:hover .wrapper-35wsBm,
-.message-2qnXI6:hover .imageWrapper-2p5ogY {
-    box-shadow: var(--elevation-medium) !important;
-}
-.systemMessage-1I9LCe .messageContent-2qWWxC {
-    border-top-left-radius: 16px !important;
-}
-.blockquoteContainer-U5TVEi blockquote {
-    box-sizing: content-box !important;
-}
-.message-2qnXI6 .wrapper-35wsBm { /* Invited to Server box */
-    padding: 14px 12px !important;
-    width: 432px !important;
-    background-color: var(--background-secondary);
-}
-.theme-dark .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
-    background-color: var(--background-secondary);
-    font-weight: 400;
-}
-
-.message-2qnXI6 {
-    background: none !important;
-}
-.message-2qnXI6::before {
-    content: unset !important;
-}
-.message-2qnXI6.selected-2P5D_Z .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
-.message-2qnXI6.selected-2P5D_Z .embedFull-2tM8-- {
-    background-color: var(--background-tertiary) !important;
-}
-.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) {
-    background-color: var(--background-mentioned) !important;
-    border-left: 2px solid #faa61a;
-}
-
-.theme-dark .message-2qnXI6.selected-2P5D_Z .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
-.theme-dark .message-2qnXI6.selected-2P5D_Z .embedFull-2tM8-- {
-    background-color: var(--background-secondary-alt) !important;
-}
-.embedFull-2tM8-- {
-    max-width: 520px;
-    width: auto !important;
-}
-.embedFull-2tM8-- .grid-1nZz7S {
-    padding: 0 4px;
-    padding-bottom: 8px;
-}
-.messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre {
-    max-width: 100%;
-}
-.messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) pre code {
-    background-color: var(--background-tertiary);
-    border-radius: 0;
-    border-radius: 16px;
-    border-top-left-radius: 0 !important;
-}
-
-/* Replies */
-.repliedMessage-VokQwo {
-    border-bottom-left-radius: 0 !important;
-    margin-bottom: -4px !important;
-    background-color: var(--background-secondary);
-}
-.repliedMessage-VokQwo::before {
-    content: unset !important;
-}
-.repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type {
-    border-top-right-radius: 0;
-}
-.repliedMessage-VokQwo, .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type {
-    width: 60% !important;
-    width: clamp(500px, 100%, 600px) !important;
-}
-/* Cover reply border radius */
-.repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type::before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    right: 0;
-    width: 16px;
-    height: 16px;
-    background-color: var(--background-secondary);
-    border-top-left-radius: 100%;
-}
-/* .message-2qnXI6, .message-2DieIs { */
-.cozy-3raOZG.wrapper-2a6GCs {
-    display: flex;
-    flex-direction: column;
-}
-.contents-2mQqc9 {
-    display: contents;
-}
-.contents-2mQqc9 .header-23xsNx {
-    order: -1;
-}
-.contents-2mQqc9 > span {
-    order: -1;
-}  
-
