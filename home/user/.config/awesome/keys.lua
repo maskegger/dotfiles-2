@@ -14,7 +14,7 @@ require("awful.autofocus")
 
 -- Hotkeys library
 local hotkeys_popup = require("awful.hotkeys_popup")
-local machi = require("layout-machi")
+-- local machi = require("layout-machi")
 
 -- Begin keybindings --
 
@@ -173,22 +173,7 @@ globalkeys = gears.table.join(
         awful.key({modkey}, "/", hotkeys_popup.show_help, {
             description = "Hotkey menu",
             group = "Applications and menus"
-        }),
-
-        -- Machi --
-        awful.keyboard.append_global_keybindings(
-    {
-        awful.key({modkey}, ".",
-                  function() machi.default_editor.start_interactive() end, {
-            description = "edit the current layout if it is a machi layout",
-            group = "layout"
-        }),
-        awful.key({modkey}, ",",
-                  function() machi.switcher.start(client.focus) end, {
-            description = "switch between windows for a machi layout",
-            group = "layout"
         })
-    })
 
 )
 
@@ -205,3 +190,18 @@ for i = 1, 9 do
         group = "Workspaces"
     }))
 end
+--         -- Machi --
+--         awful.keyboard.append_global_keybindings(
+--     {
+--         awful.key({modkey}, ".",
+--                   function() machi.default_editor.start_interactive() end, {
+--             description = "edit the current layout if it is a machi layout",
+--             group = "layout"
+--         }),
+--         awful.key({modkey}, ",",
+--                   function() machi.switcher.start(client.focus) end, {
+--             description = "switch between windows for a machi layout",
+--             group = "layout"
+--         })
+--     })
+-- 

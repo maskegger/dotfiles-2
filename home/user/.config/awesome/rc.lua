@@ -26,8 +26,8 @@ require("keys")
 require("bar")
 
 -- Layouts
-local machi = require("layout-machi")
-local editor = machi.editor.create()
+-- local machi = require("layout-machi")
+-- local editor = machi.editor.create()
 
 -- Error handling
 -- Check if awesome encountered an error during startup

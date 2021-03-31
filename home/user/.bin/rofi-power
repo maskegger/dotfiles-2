@@ -15,6 +15,10 @@ if [ $res = "Reload" ]; then # If selection is reload
 
         echo 'awesome.restart()' | awesome-client
 
+    elif [ $wm = "Openbox" ]; then
+
+        openbox --reconfigure
+
     fi
 
 elif [ $res = "Lock" ]; then # If selection is lock
