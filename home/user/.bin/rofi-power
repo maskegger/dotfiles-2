@@ -1,5 +1,5 @@
 icon="/usr/share/icons/Papirus-Dark/16x16" # Set icon path
-res=$(echo -en " Reload\0icon\x1f$icon/actions/reload.svg| Lock\0icon\x1f$icon/apps/system-lock-screen.svg| Logout\0icon\x1f$icon/apps/system-log-out.svg| Shutdown\0icon\x1f$icon/apps/system-shutdown.svg| Reboot\0icon\x1f$icon/apps/system-reboot.svg" | rofi -sep "|" -dmenu -i -p 'Power Options' -font "FontAwesome 20") # Make selection prompt
+res=$(echo -en " Reload\0icon\x1f$icon/actions/reload.svg| Lock\0icon\x1f$icon/apps/system-lock-screen.svg| Logout\0icon\x1f$icon/apps/system-log-out.svg| Shutdown\0icon\x1f$icon/apps/system-shutdown.svg| Reboot\0icon\x1f$icon/apps/system-reboot.svg" | rofi -sep "|" -dmenu -i -p 'Power Options' -font "FontAwesome 20" -dpi 196) # Make selection prompt
 wm=$(wmctrl -m | grep Name | cut -d: -f2)
 
 if [ $res = "Reload" ]; then # If selection is reload

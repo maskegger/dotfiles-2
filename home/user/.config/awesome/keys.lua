@@ -116,19 +116,19 @@ globalkeys = gears.table.join(
         }),
 
         -- Open launcher
-        awful.key({modkey}, "space", function() awful.spawn.with_shell("rofi -show drun -display-drun 'App Launcher'") end, {
+        awful.key({modkey}, "space", function() awful.spawn.with_shell("rofi -show drun -display-drun 'App Launcher' -dpi 196") end, {
             description = "Open terminal",
             group = "Applications and menus"
         }),
 
         -- Switch windows
-        awful.key({modkey}, "Tab", function() awful.spawn.with_shell("rofi -show window -display-window 'App Launcher'") end, {
+        awful.key({modkey}, "Tab", function() awful.spawn.with_shell("rofi -show window -display-window 'Switch windows' -dpi 196") end, {
             description = "Switch windows",
             group = "Applications and menus"
         }),
 
         -- Calculator
-        awful.key({modkey}, "c", function() awful.spawn.with_shell("rofi -show calc -modi calc -no-shwo-match -no-sort -display-calc 'Calculator'") end, {
+        awful.key({modkey}, "c", function() awful.spawn.with_shell("rofi -show calc -modi calc -no-shwo-match -no-sort -display-calc 'Calculator' -dpi 196") end, {
             description = "Calculator",
             group = "Applications and menus"
         }),

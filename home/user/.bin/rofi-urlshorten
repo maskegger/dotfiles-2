@@ -1,4 +1,4 @@
-url=$(rofi -dmenu -i -p 'Shorten URL' -theme-str 'entry { placeholder: "example.com"; placeholder-color: grey;} window { height: 5.5%; width: 25%;}')
+url=$(rofi -dmenu -i -p 'Shorten URL' -theme-str 'entry { placeholder: "example.com"; placeholder-color: grey;} window { height: 5.5%; width: 25%;}' -dpi 196)
  
 url="https://"$url
 short=$(curl -F"shorten=$url" https://0x0.st)

@@ -1,4 +1,4 @@
-des=$(echo -en "Awesome|bspwm|Openbox" | rofi -sep "|" -dmenu -i -p 'Xephyr' -font "FontAwesome 20") # Make selection prompt
+des=$(echo -en "Awesome|bspwm|Openbox" | rofi -sep "|" -dmenu -i -p 'Xephyr' -font "FontAwesome 20" -dpi 196) # Make selection prompt
 
 if [ $des = "Awesome" ]; then # If selection is reload
 

@@ -21,7 +21,7 @@ window {
   transparency: "none";
   fullscreen: false;
   border: 2px;
-  padding: 10px;
+  padding: 0.5em;
   border-radius: 15px;
   border-color: @blue;
   height: 50%;
@@ -58,7 +58,7 @@ listview {
 }
 
 element {
-  padding: 10px;
+  padding: 0.3em;
   text-color: @text-alt;
   highlight: bold #95ee8f; /* green */
   border-radius: 15px;
@@ -82,11 +82,11 @@ element active, element selected active {
 }
 
 message {
-  padding: 5px;
+  padding: 0.2em;
   border-radius: 3px;
-  background-color: @emphasis;
-  border: 1px;
-  border-color: @cyan;
+  background-color: @background;
+  border: 3px;
+  border-color: @blue;
 }
 
 button selected {

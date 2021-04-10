@@ -57,9 +57,9 @@ theme.tasklist_disable_icon = true
 
 -- Titlebar
 
-theme.titlebar_size = 40
-theme.titlebar_height = 40
-theme.titlebar_bg_focus = "#1F252A"
+theme.titlebar_size = 80
+theme.titlebar_height = 80
+theme.titlebar_bg_focus = "#384149"
 theme.titlebar_bg_normal = "#1F252A"
 
 theme.titlebar_close_button_normal = gfs.get_configuration_dir() .. "quiet/titlebar/inactive.png"

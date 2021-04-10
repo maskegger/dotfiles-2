@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Firefox
+GenericName=Web Browser
+Comment=Firefox Web Browser
+Categories=Office
+Icon=firefox
+Exec=firefox
+Terminal=false
+Type=Application

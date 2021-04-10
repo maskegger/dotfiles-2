@@ -36,6 +36,13 @@
 *color13: magenta1
 *color14: cyan1
 *color15: white1
+Xft.dpi:    196
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 
 !! URxvt Settings
 URxvt.font: xft:Iosevka:size=11

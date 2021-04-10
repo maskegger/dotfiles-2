@@ -134,13 +134,13 @@ client.connect_signal("request::titlebars", function(c)
         c:emit_signal("request::activate", "titlebar", {raise = true})
         awful.mouse.client.resize(c)
     end))
-    awful.titlebar(c, {position = 'left', size = '40'}):setup{
+    awful.titlebar(c, {position = 'top'}):setup{
         {
             {
                 awful.titlebar.widget.closebutton(c),
                 awful.titlebar.widget.minimizebutton(c),
                 awful.titlebar.widget.maximizedbutton(c),
-                layout = wibox.layout.fixed.vertical,
+                layout = wibox.layout.fixed.horizontal,
                 widget
             },
             {
@@ -149,7 +149,7 @@ client.connect_signal("request::titlebars", function(c)
                     widget = awful.titlebar.widget.iconwidget('none')
                 },
                 buttons = buttons,
-                layout = wibox.layout.flex.vertical
+                layout = wibox.layout.flex.horizontal
             },
             {
 
@@ -157,11 +157,11 @@ client.connect_signal("request::titlebars", function(c)
                 awful.titlebar.widget.stickybutton(c),
                 awful.titlebar.widget.ontopbutton(c),
                 spacing = -1,
-                layout = wibox.layout.fixed.vertical,
+                layout = wibox.layout.fixed.horizontal,
                 widget
 
             },
-            layout = wibox.layout.align.vertical
+            layout = wibox.layout.align.horizontal
         },
         widget = wibox.container.margin,
         left = 10,

@@ -1,4 +1,4 @@
-sel=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Image to text') # Select option
+sel=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Image to text' -dpi 196) # Select option
 
 if [[ $sel = "Screen" ]]; then # If selection is screen
 
