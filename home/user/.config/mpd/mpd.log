@@ -7397,3 +7397,1076 @@ Mar 25 07:50 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 25 10:36 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 25 13:31 : avahi: Service 'Music Player @ archy' successfully established.
 Mar 28 12:34 : avahi: Service 'Music Player @ archy' successfully established.
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Moog City.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Living Mice.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Blocks.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Aria Math.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Moog City 2.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Mall.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Far.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Beginning 2.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Équinoxe.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Concrete Halls.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Death.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Chris.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Ki.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Dry Hands.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Excuse.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Moog City.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Warmth.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Warmth.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Warmth.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Danny.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Stal.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Cat.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Wait.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Wait.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Wait.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Beginning 2.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Flake.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Kyoto.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Kyoto.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Kyoto.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Death.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Living Mice.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Taswell.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Ki.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Far.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/The End.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/The End.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/The End.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dead Voxel.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dead Voxel.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Dead Voxel.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Beginning.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Moog City.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Dry Hands.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Danny.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mellohi.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mellohi.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Mellohi.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Strad.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Kyoto.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Kyoto.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Kyoto.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Excuse.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Chirp.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Minecraft.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Dog.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Minecraft.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Flake.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Warmth.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Warmth.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Warmth.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Beginning 2.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Mutation.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Wait.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Wait.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Wait.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Living Mice.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Alpha.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Alpha.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Alpha.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dead Voxel.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dead Voxel.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Dead Voxel.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Équinoxe.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Cat.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Wet Hands.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Oxygène.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Oxygène.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Oxygène.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Blind Spots.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Oxygène.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Oxygène.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Oxygène.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Chris.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Wet Hands.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Blind Spots.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ward.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ward.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Ward.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Strad.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Eleven.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Clark.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Clark.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Clark.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Mall.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Concrete Halls.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Intro.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Thirteen.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Moog City 2.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Door.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Door.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Door.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Key.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Key.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Key.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Mall.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Dreiton.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Key.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Key.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Key.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Blocks.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Taswell.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Floating Trees.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Floating Trees.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Floating Trees.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ward.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ward.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Ward.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Mutation.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Eleven.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Stal.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Haggstrom.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Blocks.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Moog City 2.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Chirp.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Far.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Thirteen.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Intro.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Minecraft.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Oxygène.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Oxygène.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Oxygène.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Concrete Halls.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Alpha/Haggstrom.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Far.mp3"
+Apr 02 12:35 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3': No such file or directory
+Apr 02 12:35 : player: played "Video Games/Minecraft/Volume Beta/Eleven.mp3"
+Apr 02 12:36 : exception: Failed to access /mnt/PiNAS/Media/Music: No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Ki.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Eleven.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Eleven.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Eleven.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Far.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Strad.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Cat.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Kyoto.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Kyoto.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Kyoto.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Wet Hands.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Haggstrom.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Death.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Ki.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Taswell.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Mall.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Concrete Halls.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Concrete Halls.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Stal.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Floating Trees.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Floating Trees.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Floating Trees.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Moog City 2.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Aria Math.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Chirp.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Strad.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Strad.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Moog City 2.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Moog City 2.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Équinoxe.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Blocks.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Haunt Muskie.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Thirteen.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Death.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Living Mice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Danny.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Blind Spots.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Flake.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Flake.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Chris.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Dog.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Haggstrom.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Minecraft.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Intro.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Taswell.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Taswell.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Intro.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Cat.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Équinoxe.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Équinoxe.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mellohi.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mellohi.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Mellohi.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Living Mice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Beginning 2.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Moog City.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Danny.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Dreiton.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Floating Trees.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Floating Trees.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Floating Trees.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Door.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Door.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Door.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Chris.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Chris.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Stal.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Wait.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Wait.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Wait.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Mutation.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Blocks.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Mutation.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Excuse.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Warmth.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Warmth.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Warmth.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Excuse.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Excuse.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Biome Fest.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Biome Fest.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Biome Fest.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Danny.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Danny.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Mice On Venus.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Living Mice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Living Mice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Alpha.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Alpha.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Alpha.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Aria Math.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Aria Math.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Stal.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Far.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Far.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Subwoofer Lullaby.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Wet Hands.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Wet Hands.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Clark.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Clark.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Clark.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mutation.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Mutation.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dead Voxel.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dead Voxel.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Dead Voxel.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Beginning 2.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Flake.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Flake.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Beginning.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Beginning.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Beginning.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Moog City.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Moog City.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Dreiton.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Death.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Intro.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Droopy likes your Face.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blocks.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Blocks.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Mall.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Mall.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Dreiton.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Dreiton.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Stal.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Stal.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Minecraft.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Minecraft.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Beginning 2.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Beginning 2.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Intro.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Intro.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Haggstrom.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Haggstrom.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Chirp.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Droopy Likes Ricochet.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Cat.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Sweden.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Sweden.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Sweden.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Thirteen.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Thirteen.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Ballad of the Cats.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Cat.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Cat.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Blind Spots.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Blind Spots.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Chirp.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Chirp.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Beta/Ki.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Beta/Ki.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dry Hands.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Dry Hands.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Death.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Death.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Key.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Key.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Key.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Minecraft/Volume Alpha/Dog.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Minecraft/Volume Alpha/Dog.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 048 - Alphys.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 023 - Shop.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 023 - Shop.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 023 - Shop.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 073 - The Choice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 042 - Thundersnail.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 042 - Thundersnail.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 042 - Thundersnail.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 089 - SAVE the World.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 089 - SAVE the World.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 089 - SAVE the World.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 078 - You Idiot.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 078 - You Idiot.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 078 - You Idiot.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 071 - Undertale.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 071 - Undertale.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 071 - Undertale.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 058 - Death Report.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 058 - Death Report.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 058 - Death Report.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 034 - Memory.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 091 - Final Power.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 091 - Final Power.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 091 - Final Power.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 047 - Ooo.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 047 - Ooo.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 047 - Ooo.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 041 - Chill.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 041 - Chill.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 041 - Chill.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 080 - Finale.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 080 - Finale.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 080 - Finale.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 005 - Ruins.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 005 - Ruins.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 005 - Ruins.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 065 - CORE.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 065 - CORE.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 065 - CORE.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 032 - Run!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 096 - Last Goodbye.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 096 - Last Goodbye.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 096 - Last Goodbye.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 014 - Heartache.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 092 - Reunited.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 092 - Reunited.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 092 - Reunited.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 081 - An Ending.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 081 - An Ending.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 081 - An Ending.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 051 - Another Medium.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 051 - Another Medium.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 051 - Another Medium.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 054 - Hotel.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 054 - Hotel.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 054 - Hotel.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 066 - Last Episode!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 066 - Last Episode!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 066 - Last Episode!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 011 - Determination.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 011 - Determination.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 011 - Determination.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 027 - Dating Fight!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 027 - Dating Fight!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 027 - Dating Fight!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 021 - Dogsong.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 021 - Dogsong.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 021 - Dogsong.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 075 - Barrier.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 075 - Barrier.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 075 - Barrier.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 015 - sans..mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 015 - sans..mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 015 - sans..mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 101 - Good Night.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 101 - Good Night.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 101 - Good Night.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 012 - Home.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 012 - Home.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 012 - Home.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 090 - His Theme.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 090 - His Theme.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 090 - His Theme.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 030 - Undyne.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 030 - Undyne.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 030 - Undyne.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 069 - For the Fans.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 069 - For the Fans.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 069 - For the Fans.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 067 - Oh My....mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 067 - Oh My....mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 067 - Oh My....mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 057 - Live Report.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 057 - Live Report.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 057 - Live Report.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 017 - Snowy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 094 - Respite.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 094 - Respite.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 094 - Respite.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 056 - Confession.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 074 - Small Shock.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 074 - Small Shock.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 074 - Small Shock.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 028 - Premonition.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 028 - Premonition.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 028 - Premonition.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 005 - Ruins.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 005 - Ruins.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 005 - Ruins.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 028 - Premonition.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 028 - Premonition.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 028 - Premonition.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 017 - Snowy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 066 - Last Episode!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 066 - Last Episode!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 066 - Last Episode!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 056 - Confession.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 071 - Undertale.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 071 - Undertale.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 071 - Undertale.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 012 - Home.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 012 - Home.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 012 - Home.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 041 - Chill.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 041 - Chill.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 041 - Chill.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 049 - It's Showtime!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 101 - Good Night.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 101 - Good Night.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 101 - Good Night.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 090 - His Theme.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 090 - His Theme.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 090 - His Theme.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 094 - Respite.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 094 - Respite.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 094 - Respite.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 054 - Hotel.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 054 - Hotel.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 054 - Hotel.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 014 - Heartache.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 001 - Once Upon A Time.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 076 - Bergentrückung.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 092 - Reunited.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 092 - Reunited.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 092 - Reunited.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 026 - Dating Tense!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 051 - Another Medium.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 051 - Another Medium.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 051 - Another Medium.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 064 - CORE Approach.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 078 - You Idiot.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 078 - You Idiot.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 078 - You Idiot.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 068 - Death by Glamour.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 011 - Determination.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 011 - Determination.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 011 - Determination.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 048 - Alphys.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 015 - sans..mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 015 - sans..mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 015 - sans..mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 030 - Undyne.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 030 - Undyne.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 030 - Undyne.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 017 - Snowy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 013 - Home (Music Box).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 032 - Run!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 075 - Barrier.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 075 - Barrier.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 075 - Barrier.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 034 - Memory.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 034 - Memory.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 047 - Ooo.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 047 - Ooo.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 047 - Ooo.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 042 - Thundersnail.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 042 - Thundersnail.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 042 - Thundersnail.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 096 - Last Goodbye.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 096 - Last Goodbye.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 096 - Last Goodbye.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 073 - The Choice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 058 - Death Report.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 058 - Death Report.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 058 - Death Report.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 057 - Live Report.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 057 - Live Report.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 057 - Live Report.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 035 - Bird That Carries You Over A Disproportionately Small Gap.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 048 - Alphys.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 056 - Confession.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 080 - Finale.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 080 - Finale.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 080 - Finale.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 055 - Can You Really Call This A Hotel I Didn't Receive A Mint On My Pillow.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 089 - SAVE the World.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 089 - SAVE the World.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 089 - SAVE the World.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 023 - Shop.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 023 - Shop.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 023 - Shop.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 014 - Heartache.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 074 - Small Shock.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 074 - Small Shock.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 074 - Small Shock.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 044 - Tem Shop.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 006 - Uwa!! So Temperate♫.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 017 - Snowy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 091 - Final Power.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 091 - Final Power.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 091 - Final Power.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 083 - Here We Are.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 039 - Spookwave.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 021 - Dogsong.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 021 - Dogsong.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 021 - Dogsong.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 073 - The Choice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 079 - Your Best Nightmare.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 045 - NGAHHH!!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 003 - Your Best Friend.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 032 - Run!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 095 - Bring It In, Guys!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 019 - Dogbass.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 004 - Fallen Down.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 030 - Undyne.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 030 - Undyne.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 030 - Undyne.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 067 - Oh My....mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 067 - Oh My....mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 067 - Oh My....mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 018 - Uwa!! So Holiday♫.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 073 - The Choice.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 073 - The Choice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 070 - Long Elevator.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 007 - Anticipation.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 038 - Spooktune.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 012 - Home.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 012 - Home.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 012 - Home.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 023 - Shop.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 023 - Shop.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 023 - Shop.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 057 - Live Report.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 057 - Live Report.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 057 - Live Report.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 046 - Spear of Justice.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 061 - Oh! One True Love.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 086 - Don't Give Up.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 098 - Battle Against a True Hero.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 025 - Dating Start!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 081 - An Ending.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 081 - An Ending.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 020 - Mysterious Place.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 081 - An Ending.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 081 - An Ending.mp3': No such file or directory
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 081 - An Ending.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 008 - Unnecessary Tension.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 062 - Oh! Dungeon.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 053 - Stronger Monsters.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 056 - Confession.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 056 - Confession.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 002 - Start Menu.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 080 - Finale.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 080 - Finale.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 080 - Finale.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 093 - Menu (Full).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 041 - Chill.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 041 - Chill.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 041 - Chill.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 040 - Ghouliday.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 015 - sans..mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 015 - sans..mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 015 - sans..mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 088 - Burn in Despair!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 014 - Heartache.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 014 - Heartache.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 072 - Song That Might Play When You Fight Sans.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 032 - Run!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 032 - Run!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 052 - Uwa!! So HEATS!!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 085 - Fallen Down (Reprise).mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 010 - Ghost Fight.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 077 - ASGORE.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 017 - Snowy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 017 - Snowy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 075 - Barrier.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 075 - Barrier.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 075 - Barrier.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 024 - Bonetrousle.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 101 - Good Night.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 101 - Good Night.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 101 - Good Night.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 029 - Danger Mystery.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 054 - Hotel.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 054 - Hotel.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 054 - Hotel.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 037 - Pathetic House.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 071 - Undertale.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 071 - Undertale.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 071 - Undertale.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 100 - Megalovania.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 090 - His Theme.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 090 - His Theme.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 090 - His Theme.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 063 - It's Raining Somewhere Else.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 087 - Hopes and Dreams.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 060 - Wrong Enemy.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 031 - Waterfall.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 082 - She's Playing Piano.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 084 - Amalgam.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 048 - Alphys.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 048 - Alphys.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 016 - Nyeh Heh Heh!.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 047 - Ooo.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 047 - Ooo.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 047 - Ooo.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 059 - Spider Dance.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 099 - Power of -NEO-.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 033 - Quiet Water.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 050 - Metal Crusher.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 094 - Respite.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 094 - Respite.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 094 - Respite.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 022 - Snowdin Town.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 043 - Temmie Village.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 009 - Enemy Approaching.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale Ost - 097 - But the Earth Refused to Die.mp3"
+Apr 02 12:36 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 091 - Final Power.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Undertale/Undertale OST - 091 - Final Power.mp3': No such file or directory
+Apr 02 12:36 : player: played "Video Games/Undertale/Undertale OST - 091 - Final Power.mp3"
+Apr 02 12:36 : exception: Failed to access /mnt/PiNAS/Media/Music: No such file or directory
+Apr 02 12:36 : exception: Failed to access /mnt/PiNAS/Media/Music: No such file or directory
+Apr 02 12:36 : exception: Failed to access /mnt/PiNAS/Media/Music: No such file or directory
+Apr 02 12:41 : player: played "Video Games/Undertale/Undertale OST - 036 - Dummy!.mp3"
+Apr 02 15:38 : player: played "Video Games/Terraria/Space Day.mp3"
+Apr 09 07:57 : exception: Failed to decode /mnt/PiNAS/Media/Music/Video Games/Terraria/Space Day.mp3; Failed to open '/mnt/PiNAS/Media/Music/Video Games/Terraria/Space Day.mp3': No such file or directory
+Apr 09 07:57 : player: played "Video Games/Terraria/Space Day.mp3"

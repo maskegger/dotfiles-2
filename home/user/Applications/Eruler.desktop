@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ERuler
+GenericName=Ruler
+Comment=Coorindates of your screen
+Categories=Development
+Exec=eruler
+Icon=eruler
+Terminal=false
+Type=Application

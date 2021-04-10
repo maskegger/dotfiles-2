@@ -3,7 +3,7 @@ eww windows | grep \*
 if [ $? = 1 ]; then
 
     eww reload
-    eww open-many clock weather pfp uptime memory cpu disk song bg
+    eww open-many play next prev pfp stats info song
     sleep infinity
 
 fi

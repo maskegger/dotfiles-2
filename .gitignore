@@ -1,6 +1,5 @@
 # Files
-mpdstate
-mpd.pid
 
 # Directories
-nvim/spell
+spell
+undo

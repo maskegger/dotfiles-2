@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Nitrogen
-GenericName=Wallpaper
-Comment=Set your wallpaper
-Categories=Utility
-Exec=nitrogen
-Icon=nitrogen
-Terminal=false
-Type=Application

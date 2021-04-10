@@ -1,0 +1,247 @@
+(setq gc-cons-threshold 100000000)
+(setq read-process-output-max (* 1024 1024))
+
+(require 'package)
+
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("melpa" . "http://melpa.org/packages/")))
+
+(package-initialize)
+(unless package-archive-contents
+  (package-refresh-contents))
+
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+(require 'use-package)
+
+(setq use-package-always-ensure t)
+
+(use-package auto-package-update
+  :config
+  (setq auto-package-update-delete-old-versions t)
+  (setq auto-package-update-hide-results t)
+  (auto-package-update-maybe))
+
+(use-package which-key
+  :config (which-key-mode)
+  (which-key-setup-side-window-bottom)
+  (setq which-key-idle-delay 0.05))
+
+(use-package magit
+  :config (global-set-key (kbd "C-x g") 'magit-status))
+
+(use-package lsp-jedi)
+
+(use-package lsp-mode
+  :init
+  ;; (setq lsp-keymap-prefix "C-c l")
+  :hook (
+         (python-mode . lsp)
+         (lsp-mode . lsp-enable-which-key-integration))
+  :commands lsp)
+
+(use-package lsp-ui :commands lsp-ui-mode)
+(setq lsp-enable-symbol-highlighting nil)
+(custom-set-faces '(nobreak-space ((t nil))))
+
+(use-package helm-lsp :commands helm-lsp-workspace-symbol)
+
+(use-package dap-mode)
+
+(use-package company
+  :hook
+  (after-init . global-company-mode)
+  :bind (:map company-active-map
+              ("<tab>" . company-select-next-or-abort)))
+(setq company-idle-delay 0.0
+      company-minimum-prefix-length 1
+      company-selection-wrap-around t
+      company-require-match 'never
+      company-dabbrev-downcase nil
+      company-dabbrev-ignore-case t
+      company-dabbrev-other-buffers nil)
+
+(use-package company-box
+  :hook (company-mode . company-box-mode))
+
+(use-package smartparens
+    :config (smartparens-global-mode))
+    
+(use-package evil
+  :config (evil-mode))
+
+(use-package org-bullets
+  :hook (org-mode . org-bullets-mode))
+
+(when (equal ""
+	         (shell-command-to-string "git config user.name"))
+  (shell-command "git config --global user.name \"MCotocel\"")
+  (shell-command "git config --global user.email \"mcotocel@outlook.com\""))
+
+(menu-bar-mode -1)
+(toggle-scroll-bar -1)
+(tool-bar-mode -1)
+
+(use-package helm
+  :diminish
+  :config
+  (helm-mode t))
+
+(use-package helm-flx
+  :config
+  (helm-flx-mode t))
+
+(setq helm-mini-default-sources '(helm-source-buffers-list
+                                  helm-source-recentf
+                                  helm-source-bookmarks
+                                  helm-source-bookmark-set
+                                  helm-source-buffer-not-found))
+
+(setq helm-ff-ido-style-backspace 'always
+      helm-ff-auto-update-initial-value t
+      helm-ff--auto-update-state t)
+
+(use-package dashboard
+  :config
+  (dashboard-setup-startup-hook)
+  (setq dashboard-startup-banner "~/Pictures/pfp_rounded_small.png")
+  (setq dashboard-show-shortcuts nil)
+  (setq dashboard-center-content t)
+  (setq dashboard-set-heading-icons t)
+  (setq dashboard-set-file-icons t)
+  (setq dashboard-set-navigator t))
+
+(use-package atom-one-dark-theme
+  :config
+  (load-theme 'atom-one-dark t))
+
+(use-package all-the-icons)
+
+(use-package ranger
+  :config
+  (ranger-override-dired-mode t))
+
+(use-package evil-leader
+  :config
+  (global-evil-leader-mode)
+  (evil-leader/set-leader "<SPC>")
+  (evil-leader/set-key
+    "<SPC>" 'helm-M-x
+    "g" 'magit))
+
+(use-package doom-modeline
+  :init (doom-modeline-mode 1)
+  :config
+  (setq doom-modeline-height 30)
+  (setq doom-modeline-bar-width 1))
+
+(use-package centaur-tabs
+  :demand
+  :config
+  (centaur-tabs-mode t)
+  (centaur-tabs-headline-match)
+  (setq centaur-tabs-style "bar")
+  (setq centaur-tabs-height 32)
+  (setq centaur-tabs-set-icons t)
+  (setq centaur-tabs-set-bar 'left)
+  (setq centaur-tabs-set-modified-marker t)
+  (centaur-tabs-change-fonts "Iosevka Nerd Font" 100)
+  :bind
+  ("C-<prior>" . centaur-tabs-backward)
+  ("C-<next>" . centaur-tabs-forward))
+
+(use-package format-all
+  :config
+  (format-all-mode 1)
+  (add-hook 'prog-mode-hook 'format-all-mode))
+
+(use-package undo-tree
+  :config
+  (global-undo-tree-mode))
+
+(use-package rainbow-delimiters
+  :config
+  (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
+
+(setq backup-directory-alist '(("." . "~/.config/emacs/backups")))
+(setq delete-old-versions t)
+(setq kept-old-versions 15)
+(setq vc-make-backup-files t)
+(setq version-control t)
+
+(set-frame-font "Iosevka Nerd Font-11" nil t)
+
+(define-key evil-normal-state-map (kbd "M-s") 'save-buffer)
+(define-key evil-normal-state-map (kbd "M-q") 'kill-current-buffer)
+(define-key evil-normal-state-map (kbd "M-x") 'helm-M-x)
+(define-key evil-normal-state-map (kbd "M-/") 'helm-find-files)
+(define-key evil-normal-state-map (kbd "<C-tab>") 'helm-mini)
+(define-key evil-normal-state-map (kbd "M-u") 'helm-show-kill-ring)
+(define-key evil-normal-state-map (kbd "<C-return>") 'shell-pop)
+(define-key evil-normal-state-map (kbd "C-H") 'evil-window-left)
+(define-key evil-normal-state-map (kbd "C-J") 'evil-window-down)
+(define-key evil-normal-state-map (kbd "C-K") 'evil-window-up)
+(define-key evil-normal-state-map (kbd "C-L") 'evil-window-right)
+(define-key key-translation-map (kbd "ESC") (kbd "C-g"))
+(define-key evil-normal-state-map "u" 'undo-tree-undo)
+(define-key evil-normal-state-map (kbd "C-r") 'undo-tree-redo)
+
+(setq inhibit-splash-screen t
+      inhibit-startup-echo-area-message t
+      inhibit-startup-message t)
+
+(visual-line-mode 1)
+
+(setq require-final-newline t)
+
+(set-default 'evil-normal-state-cursor 'hbar)
+(set-default 'evil-insert-state-cursor 'bar)
+(set-default 'evil-visual-state-cursor 'hbar)
+(set-default 'evil-motion-state-cursor 'box)
+(set-default 'evil-replace-state-cursor 'box)
+(set-default 'evil-operator-state-cursor 'hbar)
+(set-cursor-color "#80D1FF")
+
+(setq evil-cross-lines t
+      evil-move-beyond-eol t
+      evil-want-fine-undo t
+      evil-symbol-word-search t)
+
+(setq evil-want-Y-yank-to-eol t)
+
+(global-display-line-numbers-mode)
+(setq display-line-numbers-type 'relative)
+
+(set-frame-parameter nil 'internal-border-width 20)
+
+(fset 'yes-or-no-p 'y-or-n-p)
+
+(setq custom-file "~/.config/emacs/etc/custom.el")
+
+(setq scroll-conservatively 10
+      scroll-preserve-screen-position t)
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
+
+(setq disabled-command-function nil)
+
+(setq recentf-save-file "~/.config/emacs/etc/recentf"
+      recentf-max-saved-items 50)
+
+(setq savehist-file "~/.config/emacs/etc/savehist"
+      history-length 150)
+
+(setq save-place-file "~/.config/emacs/etc/saveplace")
+
+(setq bookmark-default-file "~/.config/emacs/etc/bookmarks")
+
+(setq org-directory "~/org/"
+      org-default-notes-file "~/org/notes.org")
+
+(setq org-export-backends '(latex md))
+
+(setq sh-shell-file "/usr/bin/bash")
+(add-to-list 'auto-mode-alist '("PKGBUILD\\'" . shell-script-mode))

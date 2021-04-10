@@ -76,6 +76,7 @@ export BAT_THEME="TwoDark"  # Set bat theme
 export TERM=xterm-256color  # Set term variable
 export FPATH="/usr/local/share/zsh/functions:$FPATH"
 export QT_QPA_PLATFORMTHEME=qt5ct
+export XDG_CONFIG_HOME=~/.config
 
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
@@ -93,11 +94,6 @@ export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
 
 eval $(thefuck --alias) # Command correction
 eval "$(rbenv init -)"  # Ruby environment
-
-# Automatically start or connect to tmux session
-if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-    tmux attach -t General || tmux new -s General
-fi
 
 ########## Prompt ##########
 
