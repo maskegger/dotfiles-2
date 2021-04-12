@@ -5,11 +5,11 @@ foreground = ${#FFFFFF}
 
 [bar/bar]
 enable-ipc = true
-height = 40
+height = 80
 width = 99%
 offset-x = 0.5%
 offset-y = 1%
-radius = 0
+radius = 20
 border-size = 0
 border-color = #4287f5
 module-margin = 1
@@ -23,7 +23,7 @@ tray-background = ${colors.alt.background}
 line-size = 1
 
 padding = 3
-font-0 = "Iosevka Nerd Font:size=11;3"
+font-0 = "Iosevka Nerd Font:size=24;3"
 modules-left = time pulseaudio mpd
 modules-center = desktops
 modules-right =

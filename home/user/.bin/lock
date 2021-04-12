@@ -2,11 +2,11 @@
 user=$(echo $USER)
 user="${user^}"
 cp "$(cat .config/nitrogen/bg-saved.cfg | grep file= | sed 's/file=//g')" /tmp/screen
-convert -scale 2560x1440 /tmp/screen /tmp/screen
+convert -scale 5120x2880 /tmp/screen /tmp/screen
 convert -filter Gaussian -resize 20% -define "filter:sigma=1.5" -resize 500.5% /tmp/screen /tmp/screen
-convert -scale 180x180 ~/Pictures/pfp_rounded.png /tmp/pfp
+convert -scale 360x360 ~/Pictures/pfp_rounded.png /tmp/pfp
 composite -gravity center -geometry +0-200 /tmp/pfp /tmp/screen /tmp/screen
-convert /tmp/screen -gravity Center -family "Iosevka" -style normal -pointsize 72 -fill White -draw "translate -0,-800 text +0,+850 \"Welcome, $user\"" /tmp/screen
+convert /tmp/screen -gravity Center -family "Iosevka" -style normal -pointsize 144 -fill White -draw "translate -0,-800 text +0,+870 \"Welcome, $user\"" /tmp/screen
 i3lock \
     -c 00000000 \
     -i /tmp/screen \
@@ -31,8 +31,8 @@ i3lock \
     --verifcolor=#00000000 \
     --wrongcolor=#00000000 \
     --timecolor=#FFFFFF \
-    --timepos=1280:700 \
-    --indpos=1280:520 \
+    --timepos=1250:860 \
+    --indpos=1255:610 \
     --datecolor=#00000000 \
     --time-font='Iosevka Nerd Font' \
     --timesize=72

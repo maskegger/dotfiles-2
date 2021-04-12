@@ -43,6 +43,9 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+*renderFont: true
+*faceName: Iosevka Nerd Font
+*faceSize: 11
 
 !! URxvt Settings
 URxvt.font: xft:Iosevka:size=11
