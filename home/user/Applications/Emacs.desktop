@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Emacs
-GenericName=Emacs Text Editor
-Comment=Text Editor
 Categories=Development
 Icon=emacs
 Exec=emacs

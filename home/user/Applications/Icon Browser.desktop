@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Icon Browser
-GenericName=Icon Browser
-Comment=App to show icons
 Categories=Utility
 Icon=gtk3-icon-browser
 Exec=gtk3-icon-browser

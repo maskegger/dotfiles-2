@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Software Center
-GenericName=Install software
-Comment=Install software with pamac
 Categories=System
 Exec=pamac-manager
 Icon=softwarecenter

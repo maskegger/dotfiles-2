@@ -10,7 +10,6 @@
   text:       #D5D5D5;
   text-alt:   #D5D5D5;
 
-  spacing: 0;
   background-color: #1F252A;
 
   font: "Iosevka Nerd Font 20";
@@ -18,22 +17,20 @@
 }
 
 window {
-  transparency: "none";
   fullscreen: false;
-  border: 2px;
-  padding: 0.5em;
-  border-radius: 15px;
-  border-color: @blue;
-  height: 50%;
-  width: 50%;
+  width: 75%;
+  height: 65%;
 }
 
 mainbox {
-  padding: 0% 0%;
+  padding: 1em;
+  border: 5px;
+  border-radius: 15px;
+  border-color: @blue;
 }
 
 inputbar {
-  margin: 10px 10px 20px 10px;
+  margin: 10px 10px 50px 10px;
   children: [prompt, textbox-prompt-colon, entry, case-indicator];
 }
 
@@ -43,7 +40,7 @@ prompt {
 
 textbox-prompt-colon {
   expand: false;
-  str: " |";
+  str: " / ";
   text-color: @text-alt;
 }
 
@@ -55,12 +52,12 @@ listview {
   spacing: 5px;
   dynamic: true;
   scrollbar: false;
+  columns: 4;
 }
 
 element {
   padding: 0.3em;
   text-color: @text-alt;
-  highlight: bold #95ee8f; /* green */
   border-radius: 15px;
 }
 

@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Lite
-GenericName=A Lightweight code editor written in Lua
-Comment=Edit code
 Categories=Development
 Exec=lite
 Icon=lite

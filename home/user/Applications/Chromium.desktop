@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Chromium
-GenericName=Web Browser
-Comment=Chromium Web Browser
 Categories=Office
 Icon=chromium
 Exec=chromium

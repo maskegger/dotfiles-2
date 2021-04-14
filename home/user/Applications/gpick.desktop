@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=gpick
-GenericName=Color Picker
-Comment=Color picker
 Categories=Graphics
 Icon=gpick
 Exec=gpick

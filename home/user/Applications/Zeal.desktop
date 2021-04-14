@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Zeal
-GenericName=Documentation
-Comment=Browse documentation
 Categories=Development
 Icon=zeal
 Exec=zeal

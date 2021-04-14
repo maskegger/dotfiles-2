@@ -1,7 +1,4 @@
-#!/usr/bin/xdg-open
 [Desktop Entry]
-Name=Neovim
-GenericName=Text Editor
 Comment=Vim, but better
 Categories=Development
 Icon=nvim

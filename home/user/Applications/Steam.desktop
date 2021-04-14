@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Steam
-GenericName=Gaming Platform
-Comment=Digital Game Store
 Categories=Games
 Icon=steam
 Exec=steam

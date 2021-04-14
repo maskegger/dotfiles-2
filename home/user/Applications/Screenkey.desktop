@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Screenkey
-GenericName=Screenkey
-Comment=Show pressed keys
 Categories=Utility
 Icon=keyboard
 Exec=screenkey

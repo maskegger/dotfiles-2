@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Ranger
-GenericName=File Manager
-Comment=A CLI File Manager
 Categories=Utility
 Icon=system-file-manager
 Exec=kitty -e ranger
