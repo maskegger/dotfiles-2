@@ -3,9 +3,12 @@ pcall(require, "luarocks.loader")
 
 -- Standard awesome library
 local gears = require("gears")
+local gfs = require("gears.filesystem")
 local awful = require("awful")
 require("awful.autofocus")
 local helpers = {}
+local xresources = require("beautiful.xresources")
+local dpi = xresources.apply_dpi
 
 -- Widget and layout library
 local wibox = require("wibox")
@@ -20,6 +23,31 @@ local naughty = require("naughty")
 local menubar = require("menubar")
 
 -- Wibar
+
+-- Panel --
+
+local icon_awesome = wibox.widget {
+    widget = wibox.widget.imagebox,
+    image = gfs.get_configuration_dir() .. "icons/awesome.png",
+    resize = true
+}
+
+local awesome_icon = wibox.widget {
+    {
+        icon_awesome,
+        top = dpi(5),
+        bottom = dpi(5),
+        left = dpi(10),
+        right = dpi(5),
+        widget = wibox.container.margin
+    },
+    bg = beautiful.bg_normal,
+    widget = wibox.container.background
+}
+
+awesome_icon:buttons(gears.table.join(awful.button({}, 1, function()
+    awesome.emit_signal("widgets::start::toggle", mouse.screen)
+end)))
 
 -- Click to change to workspace
 local taglist_buttons = gears.table.join(awful.button({}, 1, function(t) t:view_only() end))
@@ -64,24 +92,30 @@ awful.screen.connect_for_each_screen(function(s)
         position = "bottom",
         screen = s,
         height = 60,
-        visible = false,
+        visible = true,
         type = "desktop",
         bg = "#1f252a"
     })
 
     -- Add widgets to the wibox
     s.mywibox:setup{
-        layout = wibox.layout.align.horizontal,
-        { -- Left widgets
-            layout = wibox.layout.fixed.horizontal,
-            s.mytaglist
+        {
+           layout = wibox.layout.fixed.horizontal,
+           awesome_icon,
+           s.mytaglist,
+           spacing = 15,
+             spacing_widget = {
+               color = beautiful.fg_focus,
+               shape = gears.shape.powerline,
+               widget = wibox.widget.separator
+             },
         },
+        layout = wibox.layout.fixed.horizontal,
         s.mytasklist, -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-            wibox.widget.systray(),
-            mytextclock,
             s.mylayoutbox
         }
     }
 end)
+

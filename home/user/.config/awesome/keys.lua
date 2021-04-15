@@ -27,7 +27,7 @@ globalkeys = gears.table.join(
     -- AwesomeWM --
 
          -- Toggle titlebar
-         awful.key({modkey}, "`", function() local t = screen.primary.selected_tag for idx, c in ipairs(t:clients()) do awful.titlebar.toggle(c, 'left') end end, {
+         awful.key({modkey}, "`", function() local t = screen.primary.selected_tag for idx, c in ipairs(t:clients()) do awful.titlebar.toggle(c, 'top') end end, {
              description = "Toggle titlebar",
              group = "AwesomeWM"
          }),
