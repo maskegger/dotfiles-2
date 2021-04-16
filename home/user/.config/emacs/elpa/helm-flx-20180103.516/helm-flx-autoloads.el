@@ -6,8 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "helm-flx" "helm-flx.el" (0 0 0 0))
-;;; Generated autoloads from helm-flx.el
+;;;### (autoloads nil "helm-flx" "../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el"
+;;;;;;  "abaae05570605aaa409452ca170c7a22")
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el
 
 (defvar helm-flx-mode nil "\
 Non-nil if Helm-Flx mode is enabled.
@@ -28,8 +29,20 @@ also enable the mode if ARG is omitted or nil, and toggle it if
 ARG is `toggle'; disable the mode otherwise.
 
 \(fn &optional ARG)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "helm-flx" "../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-flx" '("helm-flx-")))
+
+;;;***
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

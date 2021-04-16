@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "rainbow-delimiters" "rainbow-delimiters.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from rainbow-delimiters.el
+;;;### (autoloads nil "rainbow-delimiters" "../../../../../../../.config/emacs/elpa/rainbow-delimiters-20200827.321/rainbow-delimiters.el"
+;;;;;;  "39fe9241247257b0f8c3f19a8f732592")
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/rainbow-delimiters-20200827.321/rainbow-delimiters.el
 
 (autoload 'rainbow-delimiters-mode "rainbow-delimiters" "\
 Highlight nested parentheses, brackets, and braces according to their depth.
@@ -25,8 +25,21 @@ Enable `rainbow-delimiters-mode'." nil nil)
 
 (autoload 'rainbow-delimiters-mode-disable "rainbow-delimiters" "\
 Disable `rainbow-delimiters-mode'." nil nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "rainbow-delimiters"
+;;;;;;  "../../../../../../../.config/emacs/elpa/rainbow-delimiters-20200827.321/rainbow-delimiters.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/rainbow-delimiters-20200827.321/rainbow-delimiters.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "rainbow-delimiters" '("rainbow-delimiters-")))
+
+;;;***
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/rainbow-delimiters-20200827.321/rainbow-delimiters-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/rainbow-delimiters-20200827.321/rainbow-delimiters.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

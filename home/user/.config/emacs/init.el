@@ -30,6 +30,10 @@
   (which-key-setup-side-window-bottom)
   (setq which-key-idle-delay 0.05))
 
+(use-package treemacs)
+
+(use-package treemacs-evil)
+
 (use-package magit
   :config (global-set-key (kbd "C-x g") 'magit-status))
 
@@ -39,13 +43,11 @@
 
 (use-package lsp-mode
   :init
-  ;; (setq lsp-keymap-prefix "C-c l")
   :hook (
          (python-mode . lsp)
          (lua-mode . lsp)
          (sh-mode . lsp)
          (lisp-mode . lsp)
-         (emacs-lisp-mode . lsp)
          (lsp-mode . lsp-enable-which-key-integration))
   :commands lsp)
 
@@ -223,7 +225,7 @@
 (global-display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
 
-(set-frame-parameter nil 'internal-border-width 20)
+(set-frame-parameter nil 'internal-border-width 40)
 
 (fset 'yes-or-no-p 'y-or-n-p)
 

@@ -6,7 +6,6 @@ local gears = require("gears")
 local gfs = require("gears.filesystem")
 local awful = require("awful")
 require("awful.autofocus")
-local helpers = {}
 local xresources = require("beautiful.xresources")
 local dpi = xresources.apply_dpi
 
@@ -25,6 +24,11 @@ local menubar = require("menubar")
 -- Wibar
 
 -- Panel --
+-- awesome_menu = {
+--    { "Hotkeys", function() awful.hotkeys_popup.show_help(nil, awful.screen.focused()) end },
+--    { "Edit config", editor_cmd .. " " .. awful.awesome.conffile },
+--    { "Restart", awful.awesome.restart },
+-- }
 
 local icon_awesome = wibox.widget {
     widget = wibox.widget.imagebox,
@@ -46,7 +50,7 @@ local awesome_icon = wibox.widget {
 }
 
 awesome_icon:buttons(gears.table.join(awful.button({}, 1, function()
-    awesome.emit_signal("widgets::start::toggle", mouse.screen)
+    awesome.emit_signal("widgets::start::toggle", awful.screen.focused)
 end)))
 
 -- Click to change to workspace

@@ -6,9 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "page-break-lines" "page-break-lines.el" (0
-;;;;;;  0 0 0))
-;;; Generated autoloads from page-break-lines.el
+;;;### (autoloads nil "page-break-lines" "../../../../../../../.config/emacs/elpa/page-break-lines-20210104.2224/page-break-lines.el"
+;;;;;;  "1d79ac10d25ab05daf664336b55d73cd")
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/page-break-lines-20210104.2224/page-break-lines.el
 
 (autoload 'page-break-lines-mode "page-break-lines" "\
 Toggle Page Break Lines mode.
@@ -51,8 +51,21 @@ Page-Break-Lines mode is enabled in all buffers where
 See `page-break-lines-mode' for more information on Page-Break-Lines mode.
 
 \(fn &optional ARG)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "page-break-lines"
+;;;;;;  "../../../../../../../.config/emacs/elpa/page-break-lines-20210104.2224/page-break-lines.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/page-break-lines-20210104.2224/page-break-lines.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "page-break-lines" '("page-break-lines-")))
+
+;;;***
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/page-break-lines-20210104.2224/page-break-lines-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/page-break-lines-20210104.2224/page-break-lines.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

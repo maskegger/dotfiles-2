@@ -6,10 +6,18 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "shrink-path" "shrink-path.el" (0 0 0 0))
-;;; Generated autoloads from shrink-path.el
+;;;### (autoloads "actual autoloads are elsewhere" "shrink-path"
+;;;;;;  "../../../../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "shrink-path" '("shrink-path-")))
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/shrink-path-20190208.1335/shrink-path.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

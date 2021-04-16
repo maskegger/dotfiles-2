@@ -6,15 +6,18 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "init-tryout" "init-tryout.el" (0 0 0 0))
-;;; Generated autoloads from init-tryout.el
+;;;### (autoloads "actual autoloads are elsewhere" "init-tryout"
+;;;;;;  "../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/init-tryout.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/init-tryout.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "init-tryout" '("add-trace-for")))
 
 ;;;***
 
-;;;### (autoloads nil "lua-mode" "lua-mode.el" (0 0 0 0))
-;;; Generated autoloads from lua-mode.el
+;;;### (autoloads nil "lua-mode" "../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/lua-mode.el"
+;;;;;;  "0b0960103831cbc3061597abc55c49c9")
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/lua-mode.el
 
 (autoload 'lua-mode "lua-mode" "\
 Major mode for editing Lua code.
@@ -33,12 +36,22 @@ PROGRAM defaults to NAME, which defaults to `lua-default-application'.
 When called interactively, switch to the process buffer.
 
 \(fn &optional NAME PROGRAM STARTFILE &rest SWITCHES)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "lua-mode" "../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/lua-mode.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/lua-mode.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "lua-mode" '("lua-")))
 
 ;;;***
+
+;;;***
 
-;;;### (autoloads nil nil ("lua-mode-pkg.el") (0 0 0 0))
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/init-tryout.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/lua-mode-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/lua-mode-pkg.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/lua-mode-20201110.1250/lua-mode.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

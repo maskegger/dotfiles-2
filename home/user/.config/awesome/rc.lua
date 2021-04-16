@@ -179,7 +179,7 @@ beautiful.init("/home/matei/.config/awesome/quiet/theme.lua")
 
 -- Corners
 client.connect_signal("manage", function(c)
-    c.shape = function(cr, w, h) gears.shape.rounded_rect(cr, w, h, 20) end
+    c.shape = function(cr, w, h) gears.shape.rounded_rect(cr, w, h, 0) end
 end)
 
 -- Autostart apps
@@ -204,25 +204,3 @@ helpers.resize_gaps = function(amt)
 end
 
 helpers.resize_gaps(-10)
-
-local function is_maximized(c)
-    local function _fills_screen()
-        local wa = c.screen.workarea
-        local cg = c:geometry()
-        return wa.x == cg.x and wa.y == cg.y and wa.width == cg.width and wa.height == cg.height
-    end
-    return c.maximized or (not c.floating and _fills_screen())
-end
-
-
-client.connect_signal("property::geometry", function(c)
-    if is_maximized(c) then
-        c.shape = function(cr,w,h)
-            gears.shape.rounded_rect(cr,w,h,20)
-        end
-    else
-        c.shape = function(cr,w,h)
-           gears.shape.rounded_rect(cr,w,h, beautiful.border_radius or 0)
-        end
-    end
-end)

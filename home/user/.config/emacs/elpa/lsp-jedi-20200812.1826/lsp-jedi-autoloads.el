@@ -6,10 +6,17 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "lsp-jedi" "lsp-jedi.el" (0 0 0 0))
-;;; Generated autoloads from lsp-jedi.el
+;;;### (autoloads "actual autoloads are elsewhere" "lsp-jedi" "../../../../../../../.config/emacs/elpa/lsp-jedi-20200812.1826/lsp-jedi.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/lsp-jedi-20200812.1826/lsp-jedi.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "lsp-jedi" '("lsp-jedi-")))
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/lsp-jedi-20200812.1826/lsp-jedi-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/lsp-jedi-20200812.1826/lsp-jedi.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

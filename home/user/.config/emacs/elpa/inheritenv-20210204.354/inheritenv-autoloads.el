@@ -6,8 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "inheritenv" "inheritenv.el" (0 0 0 0))
-;;; Generated autoloads from inheritenv.el
+;;;### (autoloads nil "inheritenv" "../../../../../../../.config/emacs/elpa/inheritenv-20210204.354/inheritenv.el"
+;;;;;;  "8b03fa0f1fe3945a13adabe9b341e323")
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/inheritenv-20210204.354/inheritenv.el
 
 (autoload 'inheritenv-apply "inheritenv" "\
 Apply FUNC such that the environment it sees will match the current value.
@@ -20,8 +21,20 @@ This function is designed for convenient use as an \"around\" advice.
 ARGS is as for ORIG.
 
 \(fn FUNC &rest ARGS)" nil nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "inheritenv" "../../../../../../../.config/emacs/elpa/inheritenv-20210204.354/inheritenv.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/inheritenv-20210204.354/inheritenv.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "inheritenv" '("inheritenv")))
+
+;;;***
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/inheritenv-20210204.354/inheritenv-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/inheritenv-20210204.354/inheritenv.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

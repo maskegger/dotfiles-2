@@ -6,8 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "markdown-mode" "markdown-mode.el" (0 0 0 0))
-;;; Generated autoloads from markdown-mode.el
+;;;### (autoloads nil "markdown-mode" "../../../../../../../.config/emacs/elpa/markdown-mode-20210405.1349/markdown-mode.el"
+;;;;;;  "62a0aef1976bf734f11971aea228d9f9")
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/markdown-mode-20210405.1349/markdown-mode.el
 
 (autoload 'markdown-mode "markdown-mode" "\
 Major mode for editing Markdown files.
@@ -40,8 +41,21 @@ called from Lisp, also enable the mode if ARG is omitted or nil,
 and toggle it if ARG is `toggle'; disable the mode otherwise.
 
 \(fn &optional ARG)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "markdown-mode"
+;;;;;;  "../../../../../../../.config/emacs/elpa/markdown-mode-20210405.1349/markdown-mode.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/markdown-mode-20210405.1349/markdown-mode.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "markdown-mode" '("defun-markdown-" "gfm-" "markdown")))
+
+;;;***
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/markdown-mode-20210405.1349/markdown-mode-autoloads.el"
+;;;;;;  "../../../../../../../.config/emacs/elpa/markdown-mode-20210405.1349/markdown-mode.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 
