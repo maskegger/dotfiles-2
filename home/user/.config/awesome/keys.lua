@@ -14,7 +14,94 @@ require("awful.autofocus")
 
 -- Hotkeys library
 local hotkeys_popup = require("awful.hotkeys_popup")
--- local machi = require("layout-machi")
+
+-- Bling bling
+local bling = require("bling")
+
+-- Sweet animations
+local awestore = require("awestore")
+
+-- Layout editor
+local machi = require("layout-machi")
+
+-- Discord
+local discord_anim_y = awestore.tweened(5120, {
+    duration = 500,
+    easing = awestore.easing.cubic_in_out
+})
+
+local discord_anim_x = awestore.tweened(1440, {
+    duration = 500,
+    easing = awestore.easing.cubic_in_out
+})
+
+local discord_scratch = bling.module.scratchpad:new {
+    command = "discocss",
+    rule = { instance = "discord" },
+    sticky = true,
+    autoclose = true,
+    floating = true,
+    geometry = {x=1440, y=400, height=2000, width=2400},
+    reapply = true,
+    dont_focus_before_close  = false,
+    awestore = {x = discord_anim_x, y = discord_anim_y}
+}
+
+-- Terminal
+local terminal_anim_y = awestore.tweened(-1000, {
+    duration = 500,
+    easing = awestore.easing.cubic_in_out
+})
+
+local terminal_anim_x = awestore.tweened(0, {
+    duration = 500,
+    easing = awestore.easing.cubic_in_out
+})
+
+local terminal_scratch = bling.module.scratchpad:new {
+    command = "kitty --class kitty_scratch",
+    rule = { instance = "kitty_scratch" },
+    sticky = true,
+    autoclose = true,
+    floating = true,
+    geometry = {x=0, y=0, height=1000, width=5120},
+    reapply = true,
+    dont_focus_before_close  = false,
+    awestore = {x = terminal_anim_x, y = terminal_anim_y}
+}
+
+-- Spotify
+local spotify_anim_y = awestore.tweened(2880, {
+    duration = 500,
+    easing = awestore.easing.cubic_in_out
+})
+
+local spotify_anim_x = awestore.tweened(5120, {
+    duration = 500,
+    easing = awestore.easing.cubic_in_out
+})
+
+local spotify_scratch = bling.module.scratchpad:new {
+    command = "spotify --no-zygote",
+    rule = { instance = "spotify" },
+    sticky = true,
+    autoclose = true,
+    floating = true,
+    geometry = {x=700, y=700, height=2000, width=3000},
+    reapply = true,
+    dont_focus_before_close  = false,
+    awestore = {x = spotify_anim_x, y = spotify_anim_y}
+}
+
+-- Tag preview
+bling.widget.tag_preview.enable {
+    show_client_content = true,
+    x = 2880,
+    y = 100,
+    scale = 0.25,
+    honor_padding = false,
+    honor_workarea = false
+}
 
 -- Begin keybindings --
 
@@ -27,10 +114,51 @@ globalkeys = gears.table.join(
     -- AwesomeWM --
 
          -- Toggle titlebar
-         awful.key({modkey}, "`", function() local t = screen.primary.selected_tag for idx, c in ipairs(t:clients()) do awful.titlebar.toggle(c, 'top') end end, {
-             description = "Toggle titlebar",
-             group = "AwesomeWM"
+         awful.key({modkey}, '`', function() awful.titlebar.toggle(client.focus) end, {
+             description = "Toggle title bar", group = "AwesomeWM"
          }),
+
+         -- Toggle swallowing
+         awful.key({modkey}, 's', function() bling.module.window_swallowing.toggle() end, {
+            description = 'Toggle swallowing', group = "AwesomeWM"
+         }),
+
+    -- Scratchpad --
+
+         -- Discord
+         awful.key({modkey, "Control"}, 'd', function() discord_scratch:toggle() end, {
+             description = "Toggle Discord scratchpad", group = "Scratchpad"
+         }),
+
+         -- Terminal
+         awful.key({modkey, "Control"}, 't', function() terminal_scratch:toggle() end, {
+             description = "Toggle terminal scratchpad", group = "Scratchpad"
+         }),
+
+         -- Spotify
+         awful.key({modkey, "Control"}, 's', function() spotify_scratch:toggle() end, {
+             description = "Toggle spotify scratchpad", group = "Scratchpad"
+         }),
+
+    -- Machi --
+
+        -- Edit the current layout
+        awful.key({modkey}, "'", function() machi.default_editor.start_interactive() end, {
+            description = "Edit the current layout",
+            group = "Machi"
+        }),
+
+        -- Switch windows in Machi layout
+        awful.key({modkey}, ".", function() machi.switcher.start(client.focus) end, {
+            description = "Switch windows in Machi layout",
+            group = "Machi"
+        }),
+
+        -- Switch layout to Machi
+        awful.key({modkey}, ",", function() awful.layout.set(machi.default_layout) end, {
+            description = "Switch layout to Machi",
+            group = "Machi"
+        }),
 
     -- Workspaces --
 
@@ -139,24 +267,6 @@ globalkeys = gears.table.join(
             group = "Applications and menus"
         }),
 
-        -- Screenshot
-        awful.key({modkey}, "s", function() awful.spawn.with_shell("~/.bin/rofi-screenshot") end, {
-            description = "Screenshot",
-            group = "Applications and menus"
-        }),
-
-        -- Image to text
-        awful.key({modkey, "Shift"}, "s", function() awful.spawn.with_shell("~/.bin/rofi-imgtext") end, {
-            description = "Image to text",
-            group = "Applications and menus"
-        }),
-
-        -- Shorten url
-        awful.key({modkey}, "u", function() awful.spawn.with_shell("~/.bin/rofi-urlshorten") end, {
-            description = "Shorten URL",
-            group = "Applications and menus"
-        }),
-
         -- Applications menu
         awful.key({"Mod1"}, "space", function() awful.spawn.with_shell("cat ~/.config/jgmenu/jgmenu | jgmenu --simple") end, {
             description = "Applications menu",
@@ -178,7 +288,7 @@ globalkeys = gears.table.join(
 )
 
 for i = 1, 9 do
-    globalkeys = gears.table.join(globalkeys, 
+    globalkeys = gears.table.join(globalkeys,
 
     awful.key({modkey}, "#" .. i + 9, function() local screen = awful.screen.focused() local tag = screen.tags[i] if tag then tag:view_only() end end, {
         description = "View workspace #" .. i,
@@ -190,17 +300,3 @@ for i = 1, 9 do
         group = "Workspaces"
     }))
 end
---         -- Machi --
---         awful.keyboard.append_global_keybindings(
---     {
---         awful.key({modkey}, ".",
---                   function() machi.default_editor.start_interactive() end, {
---             description = "edit the current layout if it is a machi layout",
---             group = "layout"
---         }),
---         awful.key({modkey}, ",",
---                   function() machi.switcher.start(client.focus) end, {
---             description = "switch between windows for a machi layout",
---             group = "layout"
---         })
---     })

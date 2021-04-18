@@ -2,7 +2,7 @@ sw_volume: 84
 audio_device_state:1:Pulseaudio output
 audio_device_state:1:my_fifo
 state: stop
-current: 13
+current: 12
 random: 1
 repeat: 1
 single: 0

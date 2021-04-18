@@ -198,7 +198,6 @@
 (define-key key-translation-map (kbd "ESC") (kbd "C-g"))
 (define-key evil-normal-state-map "u" 'undo-tree-undo)
 (define-key evil-normal-state-map (kbd "C-r") 'undo-tree-redo)
-(define-key evil-normal-state-map (kbd "M-t") 'treemacs)
 
 (setq inhibit-splash-screen t
       inhibit-startup-echo-area-message t

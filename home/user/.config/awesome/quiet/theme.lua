@@ -12,6 +12,8 @@ local theme = dofile(themes_path .. "default/theme.lua")
 local naughty = require("naughty")
 local nconf = naughty.config
 
+local ruled = require("ruled")
+
 -- Fonts
 
 theme.font = "Iosevka 10"
@@ -34,6 +36,7 @@ theme.fg_minimize = "#C780FF"
 -- Gap and borders
 
 theme.useless_gap = 20
+theme.gap_single_client = true
 theme.border_width = 0
 theme.border_color_normal = "#1F252A"
 theme.border_color_active = "#80D1FF"
@@ -118,6 +121,18 @@ theme.snap_border_width = "0"
 
 theme.icon_theme = "Papirus"
 
+-- Bling
+theme.tabbed_spawn_in_tab = true
+theme.tabbar_style = "modern"
+theme.tabbar_position = "top"
+theme.mstab_bar_padding = 0
+theme.tabbar_size = 80
+theme.tabbar_bg_normal = "#1F252A"
+theme.tabbar_bg_focus = "#384149"
+
+theme.flash_focus_start_opacity = 0.7
+theme.flash_focus_step = 0.01
+
 -- Hotkey popup
 
 local gears = require("gears")
@@ -139,17 +154,26 @@ theme.hotkeys_border_color = "#1F252A"
 theme.notification_font = "Iosevka 11"
 theme.notification_bg = "#1F252A"
 theme.notification_fg = "#D5D5D5"
-theme.notification_margin = "24"
+theme.notification_margin = 40
+naughty.config.defaults.margin = theme.notification_margin
+naughty.config.defaults.padding = 40
+naughty.config.defaults.position = "top_right"
+theme.notification_border_width = 5
+theme.notification_border_color = "#80D1FF"
+theme.notification_width = 700
+theme.notification_height = 120
+theme.notification_max_width = 4000
 
-theme.notification_width = 300
-theme.notification_height = 50
-theme.notification_max_width = 400
+ruled.notification.append_rule {
+    rule = {},
+    properties = { icon_size = 100 }
+}
 
-theme.notification_shape = function(cr, w, h)
-   gears.shape.rounded_rect(cr, w, h, 6)
-end
-
-nconf.padding = 15
+ruled.notification.connect_signal('request::rules', function()
+    theme.notification_shape = function(cr, w, h, r)
+       gears.shape.octogon(cr, w, h, 20)
+    end
+end)
 
 -- Wibar
 
@@ -161,11 +185,11 @@ theme.tasklist_disable_icon = true
 
 -- Set different colors for urgent notifications.
 
-rnotification.connect_signal('request::rules', function()
-    rnotification.append_rule {
-        rule       = { urgency = 'critical' },
-        properties = { bg = '#ff8080', fg = '#ffffff' }
-    }
-end)
+-- rnotification.connect_signal('request::rules', function()
+--     rnotification.append_rule {
+--         rule       = { urgency = 'critical' },
+--         properties = { bg = '#ff8080', fg = '#ffffff' }
+--     }
+-- end)
 
 return theme

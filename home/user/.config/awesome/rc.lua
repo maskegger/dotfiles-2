@@ -12,6 +12,7 @@ local wibox = require("wibox")
 
 -- Theme handling library
 local beautiful = require("beautiful")
+beautiful.init("/home/matei/.config/awesome/quiet/theme.lua")
 
 -- Notification library
 local naughty = require("naughty")
@@ -25,9 +26,11 @@ require("keys")
 -- Menu bar
 require("bar")
 
+-- Bling bling
+local bling = require("bling")
+
 -- Layouts
--- local machi = require("layout-machi")
--- local editor = machi.editor.create()
+local machi = require("layout-machi")
 
 -- Error handling
 -- Check if awesome encountered an error during startup
@@ -171,12 +174,6 @@ client.connect_signal("request::titlebars", function(c)
     }
 end)
 
-beautiful.useless_gap = 20
-beautiful.gap_single_client = true
-
--- Theme
-beautiful.init("/home/matei/.config/awesome/quiet/theme.lua")
-
 -- Corners
 client.connect_signal("manage", function(c)
     c.shape = function(cr, w, h) gears.shape.rounded_rect(cr, w, h, 0) end
@@ -192,15 +189,8 @@ awful.layout.layouts = {
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.top,
     awful.layout.suit.tile.bottom,
+    bling.layout.centered,
+    machi.default_layout,
+    bling.layout.mstab,
     awful.layout.suit.floating,
-}
-
--- Helpers
-
-helpers.resize_gaps = function(amt)
-    local t = awful.screen.focused().selected_tag
-    t.gap = t.gap + tonumber(amt)
-    awful.layout.arrange(awful.screen.focused())
-end
-
-helpers.resize_gaps(-10)
+} 
