@@ -49,8 +49,7 @@
 - jgmenu
 - Polybar
 - Emacs
-
-### Not working
-
 - Openbox
 - AwesomeWM
+
+### Not working

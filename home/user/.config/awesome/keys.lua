@@ -123,6 +123,11 @@ globalkeys = gears.table.join(
             description = 'Toggle swallowing', group = "AwesomeWM"
          }),
 
+         -- Show tag preview
+         awful.key({modkey, 'Control'}, '1', awesome.emit_signal("bling::tag_preview::visibility", 1, true), {
+            description = 'Show tag preview', group = "AwesomeWM"
+         }),
+
     -- Scratchpad --
 
          -- Discord
@@ -137,7 +142,7 @@ globalkeys = gears.table.join(
 
          -- Spotify
          awful.key({modkey, "Control"}, 's', function() spotify_scratch:toggle() end, {
-             description = "Toggle spotify scratchpad", group = "Scratchpad"
+             description = "Toggle Spoyify scratchpad", group = "Scratchpad"
          }),
 
     -- Machi --
