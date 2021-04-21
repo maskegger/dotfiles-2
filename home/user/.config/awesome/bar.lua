@@ -23,36 +23,6 @@ local menubar = require("menubar")
 
 -- Wibar
 
--- Panel --
--- awesome_menu = {
---    { "Hotkeys", function() awful.hotkeys_popup.show_help(nil, awful.screen.focused()) end },
---    { "Edit config", editor_cmd .. " " .. awful.awesome.conffile },
---    { "Restart", awful.awesome.restart },
--- }
-
-local icon_awesome = wibox.widget {
-    widget = wibox.widget.imagebox,
-    image = gfs.get_configuration_dir() .. "icons/awesome.png",
-    resize = true
-}
-
-local awesome_icon = wibox.widget {
-    {
-        icon_awesome,
-        top = dpi(5),
-        bottom = dpi(5),
-        left = dpi(10),
-        right = dpi(5),
-        widget = wibox.container.margin
-    },
-    bg = beautiful.bg_normal,
-    widget = wibox.container.background
-}
-
-awesome_icon:buttons(gears.table.join(awful.button({}, 1, function()
-    awesome.emit_signal("widgets::start::toggle", awful.screen.focused)
-end)))
-
 -- Click to change to workspace
 local taglist_buttons = gears.table.join(awful.button({}, 1, function(t) t:view_only() end))
 
@@ -105,7 +75,6 @@ awful.screen.connect_for_each_screen(function(s)
     s.mywibox:setup{
         {
            layout = wibox.layout.fixed.horizontal,
-           awesome_icon,
            s.mytaglist,
            spacing = 15,
              spacing_widget = {

@@ -1,3 +1,8 @@
+(setq ring-bell-function 'ignore)
+
+(setq gc-cons-threshold 100000000)
+(setq read-process-output-max (* 1024 1024))
+
 (require 'package)
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
@@ -25,9 +30,54 @@
   (which-key-setup-side-window-bottom)
   (setq which-key-idle-delay 0.05))
 
+(use-package treemacs)
+
+(use-package treemacs-evil)
+
 (use-package magit
   :config (global-set-key (kbd "C-x g") 'magit-status))
 
+(use-package lsp-jedi)
+
+(use-package lua-mode)
+
+(use-package lsp-mode
+  :init
+  :hook (
+         (python-mode . lsp)
+         (lua-mode . lsp)
+         (sh-mode . lsp)
+         (lisp-mode . lsp)
+         (lsp-mode . lsp-enable-which-key-integration))
+  :commands lsp)
+
+(use-package lsp-ui :commands lsp-ui-mode)
+(setq lsp-enable-symbol-highlighting nil)
+(custom-set-faces '(nobreak-space ((t nil))))
+
+(use-package helm-lsp :commands helm-lsp-workspace-symbol)
+
+(use-package dap-mode)
+
+(use-package company
+  :hook
+  (after-init . global-company-mode)
+  :bind (:map company-active-map
+              ("<tab>" . company-select-next-or-abort)))
+(setq company-idle-delay 0.1
+      company-minimum-prefix-length 1
+      company-selection-wrap-around t
+      company-require-match 'never
+      company-dabbrev-downcase nil
+      company-dabbrev-ignore-case t
+      company-dabbrev-other-buffers nil)
+
+(use-package company-box
+  :hook (company-mode . company-box-mode))
+
+(use-package smartparens
+    :config (smartparens-global-mode))
+    
 (use-package evil
   :config (evil-mode))
 
@@ -57,6 +107,11 @@
                                   helm-source-bookmarks
                                   helm-source-bookmark-set
                                   helm-source-buffer-not-found))
+
+(setq helm-ff-ido-style-backspace 'always
+      helm-ff-auto-update-initial-value t
+      helm-ff--auto-update-state t)
+
 (use-package dashboard
   :config
   (dashboard-setup-startup-hook)
@@ -111,14 +166,13 @@
   (format-all-mode 1)
   (add-hook 'prog-mode-hook 'format-all-mode))
 
-(use-package undo-tree)
+(use-package undo-tree
+  :config
+  (global-undo-tree-mode))
 
-(undo-tree-auto-save-history)
-(undo-tree-mode 1)
-
-(use-package rainbow-delimiters)
-
-(rainbow-delimiter-mode 1))
+(use-package rainbow-delimiters
+  :config
+  (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
 
 (setq backup-directory-alist '(("." . "~/.config/emacs/backups")))
 (setq delete-old-versions t)
@@ -135,13 +189,16 @@
 (define-key evil-normal-state-map (kbd "<C-tab>") 'helm-mini)
 (define-key evil-normal-state-map (kbd "M-u") 'helm-show-kill-ring)
 (define-key evil-normal-state-map (kbd "<C-return>") 'shell-pop)
-(define-key evil-normal-state-map (kbd "C-H") 'evil-window-left)
-(define-key evil-normal-state-map (kbd "C-J") 'evil-window-down)
-(define-key evil-normal-state-map (kbd "C-K") 'evil-window-up)
-(define-key evil-normal-state-map (kbd "C-L") 'evil-window-right)
+(define-key evil-normal-state-map (kbd "C-h") 'evil-window-left)
+(define-key evil-normal-state-map (kbd "C-j") 'evil-window-down)
+(define-key evil-normal-state-map (kbd "C-k") 'evil-window-up)
+(define-key evil-normal-state-map (kbd "C-l") 'evil-window-right)
+(define-key evil-normal-state-map (kbd "M-j") 'evil-scroll-down)
+(define-key evil-normal-state-map (kbd "M-k") 'evil-scroll-up)
 (define-key key-translation-map (kbd "ESC") (kbd "C-g"))
 (define-key evil-normal-state-map "u" 'undo-tree-undo)
 (define-key evil-normal-state-map (kbd "C-r") 'undo-tree-redo)
+(define-key evil-normal-state-map (kbd "M-t") 'treemacs)
 
 (setq inhibit-splash-screen t
       inhibit-startup-echo-area-message t
@@ -159,10 +216,17 @@
 (set-default 'evil-operator-state-cursor 'hbar)
 (set-cursor-color "#80D1FF")
 
+(setq evil-cross-lines t
+      evil-move-beyond-eol t
+      evil-want-fine-undo t
+      evil-symbol-word-search t)
+
+(setq evil-want-Y-yank-to-eol t)
+
 (global-display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
 
-(set-frame-parameter nil 'internal-border-width 20)
+(set-frame-parameter nil 'internal-border-width 40)
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
@@ -176,3 +240,21 @@
 (setq indent-line-function 'insert-tab)
 
 (setq disabled-command-function nil)
+
+(setq recentf-save-file "~/.config/emacs/etc/recentf"
+      recentf-max-saved-items 50)
+
+(setq savehist-file "~/.config/emacs/etc/savehist"
+      history-length 150)
+
+(setq save-place-file "~/.config/emacs/etc/saveplace")
+
+(setq bookmark-default-file "~/.config/emacs/etc/bookmarks")
+
+(setq org-directory "~/org/"
+      org-default-notes-file "~/org/notes.org")
+
+(setq org-export-backends '(latex md))
+
+(setq sh-shell-file "/usr/bin/bash")
+(add-to-list 'auto-mode-alist '("PKGBUILD\\'" . shell-script-mode))

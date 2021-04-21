@@ -96,7 +96,7 @@ local spotify_scratch = bling.module.scratchpad:new {
 -- Tag preview
 bling.widget.tag_preview.enable {
     show_client_content = true,
-    x = 2880,
+    x = 100,
     y = 100,
     scale = 0.25,
     honor_padding = false,
@@ -124,9 +124,19 @@ globalkeys = gears.table.join(
          }),
 
          -- Show tag preview
-         awful.key({modkey, 'Control'}, '1', awesome.emit_signal("bling::tag_preview::visibility", 1, true), {
+         awful.key({modkey, 'Control'}, '1', function()
+            awesome.emit_signal("bling::tag_preview::update", mouse.screen.selected_tag)
+            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, true)   
+        end, {
             description = 'Show tag preview', group = "AwesomeWM"
-         }),
+        }),
+
+         -- Hide tag preview
+         awful.key({modkey, 'Control'}, '2', function()
+            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, false)   
+        end, {
+            description = 'Show tag preview', group = "AwesomeWM"
+        }),
 
     -- Scratchpad --
 

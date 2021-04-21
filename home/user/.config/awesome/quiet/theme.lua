@@ -133,6 +133,15 @@ theme.tabbar_bg_focus = "#384149"
 theme.flash_focus_start_opacity = 0.7
 theme.flash_focus_step = 0.01
 
+theme.tag_preview_widget_border_radius = 15
+theme.tag_preview_client_border_radius = 15
+theme.tag_preview_client_border_width = 0
+theme.tag_preview_widget_border_width = 0
+theme.tag_preview_client_opacity = 1
+theme.tag_preview_widget_margin = 0
+theme.tag_preview_client_bg = "#1F252A"
+theme.tag_preview_widget_bg = "#1F252A"
+
 -- Hotkey popup
 
 local gears = require("gears")
@@ -182,14 +191,5 @@ theme.wibar_width = 300
 theme.wibar_stretch = false
 theme.wibar_shape = rounded_rect
 theme.tasklist_disable_icon = true
-
--- Set different colors for urgent notifications.
-
--- rnotification.connect_signal('request::rules', function()
---     rnotification.append_rule {
---         rule       = { urgency = 'critical' },
---         properties = { bg = '#ff8080', fg = '#ffffff' }
---     }
--- end)
 
 return theme
