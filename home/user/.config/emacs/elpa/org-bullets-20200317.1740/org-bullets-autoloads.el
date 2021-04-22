@@ -1,4 +1,4 @@
-;;; org-bullets-autoloads.el --- automatically extracted autoloads
+;;; org-bullets-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,34 +6,26 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "org-bullets" "../../../../../../../.config/emacs/elpa/org-bullets-20200317.1740/org-bullets.el"
-;;;;;;  "afc6147efb878777b368f8732ddd8538")
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/org-bullets-20200317.1740/org-bullets.el
+;;;### (autoloads nil "org-bullets" "org-bullets.el" (0 0 0 0))
+;;; Generated autoloads from org-bullets.el
 
 (autoload 'org-bullets-mode "org-bullets" "\
 Use UTF8 bullets in Org mode headings.
 
-If called interactively, enable Org-Bullets mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+If called interactively, toggle `Org-Bullets mode'.  If the
+prefix argument is positive, enable the mode, and if it is zero
+or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-bullets"
-;;;;;;  "../../../../../../../.config/emacs/elpa/org-bullets-20200317.1740/org-bullets.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/org-bullets-20200317.1740/org-bullets.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-bullets" '("org-bullets-")))
-
-;;;***
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/org-bullets-20200317.1740/org-bullets-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/org-bullets-20200317.1740/org-bullets.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "org-bullets" '("org-bullets-"))
 
 ;;;***
 

@@ -1,4 +1,4 @@
-;;; bui-autoloads.el --- automatically extracted autoloads
+;;; bui-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,82 +6,63 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads "actual autoloads are elsewhere" "bui" "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui.el
+;;;### (autoloads nil "bui" "bui.el" (0 0 0 0))
+;;; Generated autoloads from bui.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui" '("bui-define-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "bui-button" "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-button.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-button.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui-button" '("bui")))
+(register-definition-prefixes "bui" '("bui-define-"))
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "bui-core" "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-core.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-core.el
+;;;### (autoloads nil "bui-button" "bui-button.el" (0 0 0 0))
+;;; Generated autoloads from bui-button.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui-core" '("bui-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "bui-entry" "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-entry.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-entry.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui-entry" '("bui-")))
+(register-definition-prefixes "bui-button" '("bui"))
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "bui-history"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-history.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-history.el
+;;;### (autoloads nil "bui-core" "bui-core.el" (0 0 0 0))
+;;; Generated autoloads from bui-core.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui-history" '("bui-history")))
+(register-definition-prefixes "bui-core" '("bui-"))
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "bui-info" "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-info.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-info.el
+;;;### (autoloads nil "bui-entry" "bui-entry.el" (0 0 0 0))
+;;; Generated autoloads from bui-entry.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui-info" '("bui-info-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "bui-list" "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-list.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-list.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui-list" '("bui-list-")))
+(register-definition-prefixes "bui-entry" '("bui-"))
 
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "bui-utils" "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-utils.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-utils.el
+;;;### (autoloads nil "bui-history" "bui-history.el" (0 0 0 0))
+;;; Generated autoloads from bui-history.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bui-utils" '("bui-")))
+(register-definition-prefixes "bui-history" '("bui-history"))
 
 ;;;***
 
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-button.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-core.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-entry.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-history.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-info.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-list.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-pkg.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui-utils.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/bui-20210108.1141/bui.el")
-;;;;;;  (0 0 0 0))
+;;;### (autoloads nil "bui-info" "bui-info.el" (0 0 0 0))
+;;; Generated autoloads from bui-info.el
+
+(register-definition-prefixes "bui-info" '("bui-info-"))
+
+;;;***
+
+;;;### (autoloads nil "bui-list" "bui-list.el" (0 0 0 0))
+;;; Generated autoloads from bui-list.el
+
+(register-definition-prefixes "bui-list" '("bui-list-"))
+
+;;;***
+
+;;;### (autoloads nil "bui-utils" "bui-utils.el" (0 0 0 0))
+;;; Generated autoloads from bui-utils.el
+
+(register-definition-prefixes "bui-utils" '("bui-"))
+
+;;;***
+
+;;;### (autoloads nil nil ("bui-pkg.el") (0 0 0 0))
 
 ;;;***
 

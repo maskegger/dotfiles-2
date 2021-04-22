@@ -1,4 +1,4 @@
-;;; helm-flx-autoloads.el --- automatically extracted autoloads
+;;; helm-flx-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,9 +6,8 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "helm-flx" "../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el"
-;;;;;;  "abaae05570605aaa409452ca170c7a22")
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el
+;;;### (autoloads nil "helm-flx" "helm-flx.el" (0 0 0 0))
+;;; Generated autoloads from helm-flx.el
 
 (defvar helm-flx-mode nil "\
 Non-nil if Helm-Flx mode is enabled.
@@ -23,26 +22,20 @@ or call the function `helm-flx-mode'.")
 (autoload 'helm-flx-mode "helm-flx" "\
 helm-flx minor mode
 
-If called interactively, enable Helm-Flx mode if ARG is positive,
-and disable it if ARG is zero or negative.  If called from Lisp,
-also enable the mode if ARG is omitted or nil, and toggle it if
-ARG is `toggle'; disable the mode otherwise.
+If called interactively, toggle `Helm-Flx mode'.  If the prefix
+argument is positive, enable the mode, and if it is zero or
+negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
-
-;;;### (autoloads "actual autoloads are elsewhere" "helm-flx" "../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-flx" '("helm-flx-")))
-
-;;;***
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/helm-flx-20180103.516/helm-flx.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "helm-flx" '("helm-flx-"))
 
 ;;;***
 

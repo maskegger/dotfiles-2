@@ -1,4 +1,4 @@
-;;; avy-autoloads.el --- automatically extracted autoloads
+;;; avy-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,9 +6,8 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "avy" "../../../../../../../.config/emacs/elpa/avy-20201226.1734/avy.el"
-;;;;;;  "6d8581ccee9bd8dbc364ec72b7775859")
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/avy-20201226.1734/avy.el
+;;;### (autoloads nil "avy" "avy.el" (0 0 0 0))
+;;; Generated autoloads from avy.el
 
 (autoload 'avy-process "avy" "\
 Select one of CANDIDATES using `avy-read'.
@@ -262,20 +261,8 @@ The window scope is determined by `avy-all-windows' (ARG negates it).
 
 (autoload 'avy-transpose-lines-in-region "avy" "\
 Transpose lines in the active region." t nil)
-
-;;;### (autoloads "actual autoloads are elsewhere" "avy" "../../../../../../../.config/emacs/elpa/avy-20201226.1734/avy.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/avy-20201226.1734/avy.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "avy" '("avy-")))
-
-;;;***
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/avy-20201226.1734/avy-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/avy-20201226.1734/avy.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "avy" '("avy-"))
 
 ;;;***
 

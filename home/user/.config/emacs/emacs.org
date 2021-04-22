@@ -1,4 +1,5 @@
 #+TITLE: Emacs config
+#+DESCRIPTION: A literate Emacs config written in Org
 #+AUTHOR: Matei Cotocel
 
 * Packages
@@ -67,13 +68,6 @@
 #+BEGIN_SRC emacs-lisp
   (use-package evil
     :config (evil-mode))
-#+END_SRC
-
-** Nicer Org mode bullets
-
-#+BEGIN_SRC emacs-lisp
-  (use-package org-bullets
-    :hook (org-mode . org-bullets-mode))
 #+END_SRC
 
 ** Helm, a framework for completion
@@ -147,20 +141,20 @@
 ** Sleek tabs for Emacs
 
 #+BEGIN_SRC emacs-lisp
-  (use-package centaur-tabs
-    :demand
-    :config
-    (centaur-tabs-mode t)
-    (centaur-tabs-headline-match)
-    (setq centaur-tabs-style "bar")
-    (setq centaur-tabs-height 32)
-    (setq centaur-tabs-set-icons t)
-    (setq centaur-tabs-set-bar 'left)
-    (setq centaur-tabs-set-modified-marker t)
-    (centaur-tabs-change-fonts "Iosevka Nerd Font" 100)
-    :bind
-    ("C-<prior>" . centaur-tabs-backward)
-    ("C-<next>" . centaur-tabs-forward))
+ (use-package centaur-tabs
+   :demand
+   :config
+   (centaur-tabs-mode t)
+   (centaur-tabs-headline-match)
+   (setq centaur-tabs-style "bar")
+   (setq centaur-tabs-height 32)
+   (setq centaur-tabs-set-icons t)
+   (setq centaur-tabs-set-bar 'left)
+   (setq centaur-tabs-set-modified-marker t)
+   (centaur-tabs-change-fonts "Iosevka Nerd Font" 100)
+   :bind
+   ("C-<prior>" . centaur-tabs-backward)
+   ("C-<next>" . centaur-tabs-forward))
 #+END_SRC
 
 ** Format code in buffer
@@ -206,8 +200,7 @@
 #+BEGIN_SRC emacs-lisp
   (use-package lsp-mode
     :init
-    :hook (
-           (python-mode . lsp)
+    :hook ((python-mode . lsp)
            (lua-mode . lsp)
            (sh-mode . lsp)
            (lisp-mode . lsp)
@@ -270,6 +263,18 @@
   (setq inhibit-splash-screen t
         inhibit-startup-echo-area-message t
         inhibit-startup-message t)
+#+END_SRC
+
+** Hide line numbers for certain modes
+
+#+BEGIN_SRC emacs-lisp
+  (dolist (mode '(org-mode-hook
+                  term-mode-hook
+                  vterm-mode-hook
+                  eshell-mode-hook
+                  treemacs-mode-hook
+                  neotree-mode-hook))
+  (add-hook mode (lambda () (display-line-numbers-mode 0))))
 #+END_SRC
 
 ** Disable bell
@@ -453,6 +458,23 @@
   (setq bookmark-default-file "~/.config/emacs/etc/bookmarks")
 #+END_SRC
 
+** Set default shell
+
+#+BEGIN_SRC emacs-lisp
+  (setq sh-shell-file "/usr/bin/bash")
+#+END_SRC
+
+** Make PKGBUILD files register as shell script
+
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'auto-mode-alist '("PKGBUILD\\'" . shell-script-mode))
+#+END_SRC
+
+** Emoji font
+#+BEGIN_SRC emacs-lisp
+  (set-fontset-font t 'symbol (font-spec :family "Twemoji") nil 'prepend)
+#+END_SRC
+* Org mode
 ** Set Org files location
 
 #+BEGIN_SRC emacs-lisp
@@ -466,14 +488,43 @@
   (setq org-export-backends '(latex md))
 #+END_SRC
 
-** Set default shell
+** Center Org buffers
 
 #+BEGIN_SRC emacs-lisp
-  (setq sh-shell-file "/usr/bin/bash")
+(use-package centered-window
+  :hook (org-mode . centered-window-mode))
 #+END_SRC
 
-** Make PKGBUILD files register as shell script
+** Nicer Org mode bullets
 
 #+BEGIN_SRC emacs-lisp
-  (add-to-list 'auto-mode-alist '("PKGBUILD\\'" . shell-script-mode))
+ (use-package org-bullets
+   :hook (org-mode . org-bullets-mode))
+#+END_SRC
+
+** Hide emphasis markup
+
+#+BEGIN_SRC emacs-lisp
+  (setq org-hide-emphasis-markers t)
+#+END_SRC
+
+** Todo keywords
+
+#+BEGIN_SRC emacs-lisp
+(setq org-todo-keywords
+     '((sequence "📝 TODO" "⏱️ WAITING" "⏸️ PAUSED" "➡️ ALMOST" "✅ DONE" "↔️ OPTIONAL" "🔔 IMPORTANT")))
+#+END_SRC
+
+** Todo colors
+
+#+BEGIN_SRC emacs-lisp
+(setq org-todo-keyword-faces
+'(
+("📝 TODO"      . (:foreground "#FF8080" :weight bold))
+("⏱️ WAITING"   . (:foreground "#FFFE80" :weight bold))
+("⏸️ PAUSED"    . (:foreground "#D5D5D5" :weight bold))
+("➡️ ALMOST"    . (:foreground "#80D1FF" :weight bold))
+("✅ DONE"      . (:foreground "#97D59B" :weight bold))
+("↔️ OPTIONAL"  . (:foreground "#C780FF" :weight bold))
+("🔔 IMPORTANT" . (:foreground "#80FFE4" :weight bold))))
 #+END_SRC

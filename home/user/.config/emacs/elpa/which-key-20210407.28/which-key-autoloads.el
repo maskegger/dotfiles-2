@@ -1,4 +1,4 @@
-;;; which-key-autoloads.el --- automatically extracted autoloads
+;;; which-key-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,9 +6,8 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "which-key" "../../../../../../../.config/emacs/elpa/which-key-20210407.28/which-key.el"
-;;;;;;  "bc7bd0c41924b115118707d286b429c8")
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/which-key-20210407.28/which-key.el
+;;;### (autoloads nil "which-key" "which-key.el" (0 0 0 0))
+;;; Generated autoloads from which-key.el
 
 (defvar which-key-mode nil "\
 Non-nil if Which-Key mode is enabled.
@@ -23,10 +22,16 @@ or call the function `which-key-mode'.")
 (autoload 'which-key-mode "which-key" "\
 Toggle which-key-mode.
 
-If called interactively, enable Which-Key mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+If called interactively, toggle `Which-Key mode'.  If the prefix
+argument is positive, enable the mode, and if it is zero or
+negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
@@ -201,20 +206,8 @@ is selected interactively by mode in `minor-mode-map-alist'.
 (autoload 'which-key-show-full-minor-mode-keymap "which-key" "\
 Show all bindings in KEYMAP using which-key. KEYMAP
 is selected interactively by mode in `minor-mode-map-alist'." t nil)
-
-;;;### (autoloads "actual autoloads are elsewhere" "which-key" "../../../../../../../.config/emacs/elpa/which-key-20210407.28/which-key.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/which-key-20210407.28/which-key.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "which-key" '("which-key-")))
-
-;;;***
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/which-key-20210407.28/which-key-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/which-key-20210407.28/which-key.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "which-key" '("which-key-"))
 
 ;;;***
 

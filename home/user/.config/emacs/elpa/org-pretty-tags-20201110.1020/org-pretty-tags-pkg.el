@@ -1,0 +1,2 @@
+;;; Generated package description from org-pretty-tags.el  -*- no-byte-compile: t -*-
+(define-package "org-pretty-tags" "20201110.1020" "Surrogates for tags" '((emacs "25")) :commit "5c7521651b35ae9a7d3add4a66ae8cc176ae1c76" :authors '(("Marco Wahl" . "marcowahlsoft@gmail.com")) :maintainer '("Marco Wahl" . "marcowahlsoft@gmail.com") :keywords '("reading" "outlines") :url "https://gitlab.com/marcowahl/org-pretty-tags")

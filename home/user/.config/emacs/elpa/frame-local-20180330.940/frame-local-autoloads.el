@@ -1,4 +1,4 @@
-;;; frame-local-autoloads.el --- automatically extracted autoloads
+;;; frame-local-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,18 +6,10 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads "actual autoloads are elsewhere" "frame-local"
-;;;;;;  "../../../../../../../.config/emacs/elpa/frame-local-20180330.940/frame-local.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/frame-local-20180330.940/frame-local.el
+;;;### (autoloads nil "frame-local" "frame-local.el" (0 0 0 0))
+;;; Generated autoloads from frame-local.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "frame-local" '("frame-local-")))
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/frame-local-20180330.940/frame-local-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/frame-local-20180330.940/frame-local.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "frame-local" '("frame-local-"))
 
 ;;;***
 

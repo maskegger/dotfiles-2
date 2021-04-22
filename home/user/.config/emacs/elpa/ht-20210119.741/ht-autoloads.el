@@ -1,4 +1,4 @@
-;;; ht-autoloads.el --- automatically extracted autoloads
+;;; ht-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,17 +6,10 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads "actual autoloads are elsewhere" "ht" "../../../../../../../.config/emacs/elpa/ht-20210119.741/ht.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/ht-20210119.741/ht.el
+;;;### (autoloads nil "ht" "ht.el" (0 0 0 0))
+;;; Generated autoloads from ht.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ht" 'nil))
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/ht-20210119.741/ht-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/ht-20210119.741/ht.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "ht" 'nil)
 
 ;;;***
 

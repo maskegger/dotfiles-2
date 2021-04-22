@@ -1,4 +1,4 @@
-;;; evil-leader-autoloads.el --- automatically extracted autoloads
+;;; evil-leader-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,27 +6,38 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "evil-leader" "../../../../../../../.config/emacs/elpa/evil-leader-20140606.1243/evil-leader.el"
-;;;;;;  "2c93f5f53b135bcef1a8ba74a0169038")
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/evil-leader-20140606.1243/evil-leader.el
+;;;### (autoloads nil "evil-leader" "evil-leader.el" (0 0 0 0))
+;;; Generated autoloads from evil-leader.el
 
 (autoload 'global-evil-leader-mode "evil-leader" "\
 Global minor mode for <leader> support.
 
-If called interactively, enable Global Evil-Leader mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+If called interactively, toggle `Global Evil-Leader mode'.  If
+the prefix argument is positive, enable the mode, and if it is
+zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
 (autoload 'evil-leader-mode "evil-leader" "\
 Minor mode to enable <leader> support.
 
-If called interactively, enable Evil-Leader mode if ARG is
-positive, and disable it if ARG is zero or negative.  If called
-from Lisp, also enable the mode if ARG is omitted or nil, and
-toggle it if ARG is `toggle'; disable the mode otherwise.
+If called interactively, toggle `Evil-Leader mode'.  If the
+prefix argument is positive, enable the mode, and if it is zero
+or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
 
 \(fn &optional ARG)" t nil)
 
@@ -44,21 +55,8 @@ Create keybindings for major-mode `mode' with `key' bound to command `def'.
 See `evil-leader/set-key'.
 
 \(fn MODE KEY DEF &rest BINDINGS)" t nil)
-
-;;;### (autoloads "actual autoloads are elsewhere" "evil-leader"
-;;;;;;  "../../../../../../../.config/emacs/elpa/evil-leader-20140606.1243/evil-leader.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/evil-leader-20140606.1243/evil-leader.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "evil-leader" '("evil-leader")))
-
-;;;***
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/evil-leader-20140606.1243/evil-leader-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/evil-leader-20140606.1243/evil-leader.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "evil-leader" '("evil-leader"))
 
 ;;;***
 

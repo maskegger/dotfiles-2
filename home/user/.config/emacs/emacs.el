@@ -33,9 +33,6 @@
 (use-package evil
   :config (evil-mode))
 
-(use-package org-bullets
-  :hook (org-mode . org-bullets-mode))
-
 (use-package helm
   :diminish
   :config
@@ -110,8 +107,7 @@
 
 (use-package lsp-mode
   :init
-  :hook (
-         (python-mode . lsp)
+  :hook ((python-mode . lsp)
          (lua-mode . lsp)
          (sh-mode . lsp)
          (lisp-mode . lsp)
@@ -153,6 +149,14 @@
 (setq inhibit-splash-screen t
       inhibit-startup-echo-area-message t
       inhibit-startup-message t)
+
+(dolist (mode '(org-mode-hook
+                term-mode-hook
+                vterm-mode-hook
+                eshell-mode-hook
+                treemacs-mode-hook
+                neotree-mode-hook))
+(add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 (setq ring-bell-function 'ignore)
 
@@ -243,11 +247,34 @@
 
 (setq bookmark-default-file "~/.config/emacs/etc/bookmarks")
 
+(setq sh-shell-file "/usr/bin/bash")
+
+(add-to-list 'auto-mode-alist '("PKGBUILD\\'" . shell-script-mode))
+
+(set-fontset-font t 'symbol (font-spec :family "Twemoji") nil 'prepend)
+
 (setq org-directory "~/org/"
       org-default-notes-file "~/org/notes.org")
 
 (setq org-export-backends '(latex md))
 
-(setq sh-shell-file "/usr/bin/bash")
+(use-package centered-window
+  :hook (org-mode . centered-window-mode))
 
-(add-to-list 'auto-mode-alist '("PKGBUILD\\'" . shell-script-mode))
+(use-package org-bullets
+  :hook (org-mode . org-bullets-mode))
+
+(setq org-hide-emphasis-markers t)
+
+(setq org-todo-keywords
+     '((sequence "📝 TODO" "⏱️ WAITING" "⏸️ PAUSED" "➡️ ALMOST" "✅ DONE" "↔️ OPTIONAL" "🔔 IMPORTANT")))
+
+(setq org-todo-keyword-faces
+'(
+("📝 TODO"      . (:foreground "#FF8080" :weight bold))
+("⏱️ WAITING"   . (:foreground "#FFFE80" :weight bold))
+("⏸️ PAUSED"    . (:foreground "#D5D5D5" :weight bold))
+("➡️ ALMOST"    . (:foreground "#80D1FF" :weight bold))
+("✅ DONE"      . (:foreground "#97D59B" :weight bold))
+("↔️ OPTIONAL"  . (:foreground "#C780FF" :weight bold))
+("🔔 IMPORTANT" . (:foreground "#80FFE4" :weight bold))))

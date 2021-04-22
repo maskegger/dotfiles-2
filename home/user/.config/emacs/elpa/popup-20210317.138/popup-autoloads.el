@@ -1,4 +1,4 @@
-;;; popup-autoloads.el --- automatically extracted autoloads
+;;; popup-autoloads.el --- automatically extracted autoloads  -*- lexical-binding: t -*-
 ;;
 ;;; Code:
 
@@ -6,17 +6,10 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads "actual autoloads are elsewhere" "popup" "../../../../../../../.config/emacs/elpa/popup-20210317.138/popup.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ../../../../../../../.config/emacs/elpa/popup-20210317.138/popup.el
+;;;### (autoloads nil "popup" "popup.el" (0 0 0 0))
+;;; Generated autoloads from popup.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "popup" '("popup-")))
-
-;;;***
-
-;;;### (autoloads nil nil ("../../../../../../../.config/emacs/elpa/popup-20210317.138/popup-autoloads.el"
-;;;;;;  "../../../../../../../.config/emacs/elpa/popup-20210317.138/popup.el")
-;;;;;;  (0 0 0 0))
+(register-definition-prefixes "popup" '("popup-"))
 
 ;;;***
 
