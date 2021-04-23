@@ -1,0 +1,1 @@
+fd . ~/linux-dotfiles -H -t f | rofi -dmenu -dpi 196 | xargs xdg-open

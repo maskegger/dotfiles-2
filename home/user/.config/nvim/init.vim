@@ -13,7 +13,7 @@ set nowrap                                                " Does not wrap text
 set laststatus=2                                          " Always display status line
 set hlsearch                                              " Highlights matching search patterns
 set nolist                                                " Hides special characters
-set so=999                                                " Sets 999 lines to the cursor
+set so=15                                                 " Sets 15 lines to the cursor
 set ignorecase                                            " Ignores case when searching
 set smartcase                                             " Case insensitive only if all letters are lowercase
 set foldcolumn=1                                          " Adds a little margin
@@ -25,6 +25,7 @@ set relativenumber                                        " Relative line number
 set numberwidth=3                                         " Line number column width
 set foldmethod=manual                                     " Manual folding
 set autochdir                                             " Set working directory to current file
+set signcolumn=number
 
 set guicursor+=n-v-r:hor25 guicursor+=c-i:ver25           " Sets cursor to underline when in normal mode
 set guicursor+=n-v-r-c-i:blinkwait10-blinkon20-blinkoff20 " Blink cursor
@@ -37,10 +38,6 @@ let g:tex_flavor = 'latex' " Latex
 let g:ale_disable_lsp = 1 " Ale with Coc.nvim
 
 autocmd CursorHold * silent call CocActionAsync('highlight') " Highlight symbol and references
-
-" Changes PLug to Plug
-cabbrev PLug Plug
-iabbrev PLug Plug
 
 " Clean LaTeX workspace on quit
 autocmd User VimtexEventQuit VimtexClean
@@ -57,13 +54,12 @@ call plug#begin('~/.vim/plugged')                                            " P
 
 Plug 'neoclide/coc.nvim'                                                     " Coc for code linting and completion
 Plug 'dense-analysis/ale'                                                    " Linting
-Plug 'joshdick/onedark.vim'                                                  " Onedark Vim theme
 Plug 'voldikss/vim-floaterm'                                                 " Floating terminal
 Plug 'sbdchd/neoformat'                                                      " A formatter for Vim
 Plug 'honza/vim-snippets'                                                    " Extra snippets for Vim
 Plug 'lervag/vimtex', { 'for': 'tex' }                                       " LaTeX plugin for Vim
 Plug 'jiangmiao/auto-pairs'                                                  " Automatically pair brackets
-Plug 'dylanaraps/wal.vim'
+Plug 'nekonako/xresources-nvim'
 
 call plug#end()                                                              " Plugin end
 
@@ -190,8 +186,7 @@ noremap <silent> <M-Right> :vertical resize -5 <CR>
 vmap <leader>y "+y
 
 " Colorscheme
-colorscheme wal
-set notermguicolors
+colorscheme xresources
 
 set fillchars=vert:\
 hi! VertSplit guifg=None guibg=None
@@ -269,5 +264,3 @@ augroup remember_folds
   autocmd BufWinLeave ?* silent! mkview
   autocmd BufWinEnter ?* silent! loadview
 augroup END
-
-" command CocInstallAll :CocInstall coc-snippets coc-calc coc-python coc-sh coc-vimtex coc-clangd coc-markdownlint coc-json coc-html coc-css coc-tex <CR>

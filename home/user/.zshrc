@@ -76,6 +76,7 @@ export BAT_THEME="TwoDark"  # Set bat theme
 export TERM=xterm-256color  # Set term variable
 export FPATH="/usr/local/share/zsh/functions:$FPATH"
 export QT_QPA_PLATFORMTHEME=qt5ct
+export XDG_CONFIG_HOME=~/.config
 
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
@@ -94,49 +95,23 @@ export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
 eval $(thefuck --alias) # Command correction
 eval "$(rbenv init -)"  # Ruby environment
 
-# Automatically start or connect to tmux session
-if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-    tmux attach -t General || tmux new -s General
-fi
-
 ########## Prompt ##########
 
-export PROMPT="
-%F{blue}┌──%f%F{green}(%n@%m)%f%F{blue}─ %~
-└%(?.%F{green}❯%f.%F{red}❯%f) " # Alternatives for prompt icon: ◯, •, ❯
-
-function prompt_env {
-    export RPROMPT="%BZsh:%b %F{green}`echo $ZSH_VERSION`%f%B | Python:%b %F{cyan}`pyenv version-name`%b%f%B | Ruby:%b %F{red}`rbenv version-name`%b%f"
-}
-
-periodic () {
-    prompt_env
-}
-
-precmd () {
-    prompt_env
-}
+export PS1="%F{blue}%~%f %(?.%F{green}❯%f.%F{red}❯%f) " # Alternatives for prompt icon: ◯, •, ❯
 
 ########## ZLE ##########
 
 autoload -U edit-command-line && zle -N edit-command-line # Load edit current command
 
-fzf-history () {
-    $(cat ~/.zsh_history | fzf --height=20% --prompt="❯ " --pointer=❯ --color=fg:4,bg:-1,bg+:-1,info:7,prompt:10,pointer:10 --preview="echo {}")
-}
-
 zle -N fzf-history
 
 bindkey '^@' edit-command-line  # Bind edit current command
-#bindkey '\t' fzf-completion     # Fuzzy completion
 bindkey "^[[1;3C" forward-word  # Bind forward one word
 bindkey "^[[1;3D" backward-word # Bind backward one word
 bindkey '^A' beginning-of-line  # Bind beginning of line
 bindkey '^E' end-of-line        # Bind end of line
 bindkey '^H' backward-kill-word # Bind delete word backwards
 bindkey '^L' clear-screen       # Bind clear screen
-bindkey '^R' fzf-history        # Bind fuzzy search history
-bindkey '^F' fzf-file-widget    # Bind fuzzy search file
 bindkey '^U' backward-kill-line # Bind delete line
 
 doas() {

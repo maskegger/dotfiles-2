@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=VLC
-GenericName=Video Player
-Comment=Play video and music
 Categories=AudioVideo
 Icon=vlc
 Exec=vlc

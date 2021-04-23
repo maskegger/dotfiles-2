@@ -1,3 +1,3 @@
-sel=$(ls ~/Pictures/Wallpaper | rofi -dmenu -i -p "Wallpaper")
-nitrogen --set-scaled --save "$HOME/Pictures/Wallpaper/$sel"
-dunstify "Changed wallpaper to $sel" -i /usr/share/icons/Papirus/16x16/apps/preferences-wallpaper.svg
+sel=$(ls ~/Pictures/Wallpaper | rofi -dmenu -i -p "Wallpaper" -dpi 196) # Set selection
+nitrogen --force-setter=xinerama --set-scaled --save "$HOME/Pictures/Wallpaper/$sel" # Set wallpaper from selection
+dunstify "Changed wallpaper to $sel" -i /usr/share/icons/Papirus/16x16/apps/preferences-wallpaper.svg # Show notification

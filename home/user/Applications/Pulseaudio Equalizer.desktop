@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Pulseaudio Equalizer
-GenericName=Equalizer
-Comment=Equalize sound
 Categories=Audio
 Icon=multimedia-volume-control
 Exec=qpaeq

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Dropbox
-GenericName=Cloud Sync
-Comment=Cloud Sync Service
-Categories=Utility
-Icon=dropbox
-Exec=dropbox
-Terminal=false
-Type=Application

@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=UXTerm
-GenericName=Terminal
-Comment=XTerm Unicode Wrapper
 Categories=Development
 Icon=xterm
 Exec=uxterm

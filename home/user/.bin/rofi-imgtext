@@ -1,17 +1,23 @@
-res=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Image to text')
+sel=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Image to text' -dpi 196) # Select option
 
-if [ $res = "Screen" ]; then
-    maim ~/Pictures/Screenshots/imgtext.png;
-    tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext;
-    xclip -sel c < ~/imgtext.txt;
-    rm ~/imgtext.txt ~/Pictures/Screenshots/imgtext.png
-    dunstify "Saved text to clipboard" -i /usr/share/icons/Paprius/16x16/apps/xclipboard.svg
-fi
-if [ $res = "Selection" ]; then
-    maim -s ~/Pictures/Screenshots/imgtext.png;
-    tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext;
-    xclip -sel c < ~/imgtext.txt;
-    rm ~/imgtext.txt ~/Pictures/Screenshots/imgtext.png
-    dunstify "Saved text to clipboard" -i /usr/share/icons/Papirus/16x16/apps/xclipboard.svg
-fi
-exit 0
+if [[ $sel = "Screen" ]]; then # If selection is screen
+
+    maim ~/Pictures/Screenshots/imgtext.png; # Take screenshot
+    tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext; # Convert to text
+    xclip -sel c < ~/imgtext.txt; # Copy text to clipboard
+    rm ~/imgtext.txt ~/Pictures/Screenshots/imgtext.png # Remove created files
+    dunstify "Saved text to clipboard" -a "Image to text" -i /usr/share/icons/Paprius/16x16/apps/xclipboard.svg # Show notification
+
+fi # Finish if function
+
+if [[ $sel = "Selection" ]]; then # If selection is selection
+
+    maim -s ~/Pictures/Screenshots/imgtext.png; # Take screenshot of selection
+    tesseract ~/Pictures/Screenshots/imgtext.png ~/imgtext; # Convert to text
+    xclip -sel c < ~/imgtext.txt; # Copy text to clipboard
+    rm ~/imgtext.txt ~/Pictures/Screenshots/imgtext.png # Remove created files
+    dunstify "Saved text to clipboard" -a "Image to text" -i /usr/share/icons/Papirus/16x16/apps/xclipboard.svg # Show notification
+
+fi # Done
+
+exit 0 # Return exit code 0

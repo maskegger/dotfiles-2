@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Geany
-GenericName=Code Editor
-Comment=Geany text and code editor
 Categories=Development
 Icon=geany
 Exec=geany

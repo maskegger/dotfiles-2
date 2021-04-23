@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Bluetooth Manager
-GenericName=Bluetooth
-Comment=Blueman Bluetooth Manager
 Categories=System
 Icon=blueman
 Exec=blueman-manager

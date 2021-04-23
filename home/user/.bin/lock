@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+user=$(echo $USER)
+user="${user^}"
+cp "$(cat .config/nitrogen/bg-saved.cfg | grep file= | sed 's/file=//g')" /tmp/screen
+convert -scale 5120x2880 /tmp/screen /tmp/screen
+convert -filter Gaussian -resize 20% -define "filter:sigma=1.5" -resize 500.5% /tmp/screen /tmp/screen
+convert -scale 360x360 ~/Pictures/pfp_rounded.png /tmp/pfp
+composite -gravity center -geometry +0-200 /tmp/pfp /tmp/screen /tmp/screen
+convert /tmp/screen -gravity Center -family "Iosevka" -style normal -pointsize 144 -fill White -draw "translate -0,-800 text +0,+870 \"Welcome, $user\"" /tmp/screen
+i3lock \
+    -c 00000000 \
+    -i /tmp/screen \
+    -p default \
+    -f \
+    --indicator \
+    -k \
+    --pass-media-keys \
+    --pass-volume-keys \
+    --pass-screen-keys \
+    --insidevercolor=#00000000 \
+    --insidecolor=#00000000 \
+    --insidewrongcolor=#00000000 \
+    --ringvercolor=#80D1FF \
+    --ringcolor=#1F252A \
+    --ringwrongcolor=#FF8080 \
+    --ring-width=15 \
+    --separatorcolor=#00000000 \
+    --linecolor=#00000000 \
+    --keyhlcolor=#97D59B \
+    --bshlcolor=#FF8080 \
+    --verifcolor=#00000000 \
+    --wrongcolor=#00000000 \
+    --timecolor=#FFFFFF \
+    --timepos=1250:860 \
+    --indpos=1255:610 \
+    --datecolor=#00000000 \
+    --time-font='Iosevka Nerd Font' \
+    --timesize=72

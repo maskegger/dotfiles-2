@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=ncmpcpp
-GenericName=Music Player
-Comment=Ncurses Music Player Plus Plus
 Categories=Audio
 Icon=mpd
 Exec=kitty -e ncmpcpp

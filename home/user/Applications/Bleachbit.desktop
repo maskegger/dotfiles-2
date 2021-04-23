@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Bleachbit
-GenericName=Drive Cleaner
-Comment=Clean cache files
 Categories=Utility
 Exec=bleachbit
 Icon=bleachbit

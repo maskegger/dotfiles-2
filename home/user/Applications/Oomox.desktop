@@ -1,9 +1,7 @@
 [Desktop Entry]
 Name=Oomox
-GenericName=Theme creater
-Comment=Create GTK themes
 Categories=Graphics
-Icon=color-profile
+Icon=color-management
 Exec=oomox-gui
 Terminal=false
 Type=Application

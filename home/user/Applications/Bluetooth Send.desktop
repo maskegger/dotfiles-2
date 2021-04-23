@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Bluetooth Send
-GenericName=Bluetooth Send
-Comment=Blueman Bluetooth Sender
-Categories=System
-Icon=bluetooth
-Exec=bluetooth-sendto
-Terminal=false
-Type=Application

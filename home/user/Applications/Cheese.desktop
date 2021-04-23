@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Cheese
-GenericName=Webcam Booth
-Comment=Take photos and videos with your webcam
 Categories=Graphics
 Icon=cheese
 Exec=cheese

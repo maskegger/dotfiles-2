@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Nethack
-GenericName=Dungeon Crawler
-Comment=Terminal dungeon crawler
 Categories=Game
 Icon=nethack
 Exec=kitty -e nethack

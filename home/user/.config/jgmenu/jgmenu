@@ -1,16 +1,12 @@
-Development,        ^checkout(development),                                                        terminal
-Utilities,          ^checkout(utilities),                                                          applications-utilities
+Scripts,       ^checkout(scripts),     application-x-shellscript
 
-^tag(development)
-Terminal, kitty,         terminal
-Editor,   kitty -e nvim, nvim
-Docs,     zeal,          zeal
+Power Options, ~/.bin/rofi-power,      system-shutdown-panel
 
-^tag(utilities)
-Launcher,           rofi -show drun -display-drun 'App launcher',                                  system-search
-Change gaps,        ~/.bin/gaps,                                                                   desktop
-Notifications,      ~/.bin/notifhist,                                                              preferences-system-notifications
-Power Options,      ~/.bin/rofi-power,                                                             system-shutdown-panel
-Wallpaper,          ~/.bin/rofi-wallpaper,                                                         preferences-wallpaper
-Record mode on,     simplescreenrecorder --start-hidden --start-recording,                         simplescreenrecorder
-Record mode off,    killall simplescreenrec,                                                       simplescreenrecorder
+^tag(scripts)
+Change gaps,   ~/.bin/gaps,            desktop
+Lock screen,   ~/.bin/lock,            system-lock-screen
+Notifications, ~/.bin/notifhist,       preferences-system-notifications
+Image to text, ~/.bin/rofi-imgtext,    image-png
+Screenshot,    ~/.bin/rofi-screenshot, camera
+Wallpaper,     ~/.bin/rofi-wallpaper,  preferences-wallpaper
+URL shortener, ~/.bin/rofi-urlshorten, /usr/share/icons/Papirus-Light/16x16/emblems/emblem-link.svg

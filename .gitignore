@@ -1,0 +1,17 @@
+# Files
+
+# Directories
+spell/
+undo/
+
+emacs/auto-save-list/
+emacs/backups/
+emacs/.cache/
+emacs/eln-cache/
+emacs/elpa/
+emacs/eshell/
+emacs/.python-environments/
+emacs/transient
+emacs/url
+
+# Files

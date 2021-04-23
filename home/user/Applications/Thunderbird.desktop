@@ -1,7 +1,5 @@
 [Desktop Entry]
 Name=Thunderbird
-GenericName=Mail
-Comment=Send mail
 Categories=Office
 Icon=thunderbird
 Exec=thunderbird

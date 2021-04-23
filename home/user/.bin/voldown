@@ -1,1 +1,3 @@
-pulsemixer --change-volume -5 && pulsemixer --get-volume | awk '{print $1}' >> /tmp/xobpipe
+pulsemixer --change-volume -5 # Volume down
+dunstctl close-all # Close all notifications
+dunstify "Volume Down" "`~/.bin/vol`" -a Volume -i /usr/share/icons/Papirus/16x16/actions/audio-volume-low.svg # Show notification

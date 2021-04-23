@@ -16,7 +16,7 @@ bspc config split_ratio 0.5
 bspc config borderless_monocle true
 bspc config gapless_monocle true
 
-bspc config top_padding 50
+bspc config top_padding 60
 bspc config left_padding -10
 bspc config right_padding -10
 bspc config bottom_padding -10
@@ -29,23 +29,6 @@ bspc config pointer_modifier mod4
 bspc config pointer_action1 move
 bspc config pointer_action2 resize_corner
 
-# If running VM
-vmware-user
-
-# Keyboard repeat rate
-xset r rate 200 25
-
-# Resolution
-xrandr --newmode "2560x1440"  241.500   2560 2608 2640 2720  1440 1443 1448 1481 +hsync -vsync
-xrandr --addmode Virtual1 "2560x1440"
-xrandr --output Virtual1 --mode 2560x1440
-
-# Set mouse cursor
-xsetroot -cursor_name arrow
-
-# QT theme
-export QT_QPA_PLATFORMTHEME=qt5ct
-
 # Kill running processes
 killall sxhkd
 killall polybar
@@ -57,10 +40,10 @@ killall xdotool
 sxhkd &
 
 # Polybar
-polybar -c ~/.config/polybar/bottom bar &
+polybar -c ~/.config/polybar/bar bar &
 
 # Wallpaper
-nitrogen --restore &
+nitrogen --restore --force-setter=xinerama &
 
 # Compositor
 picom &
@@ -79,4 +62,5 @@ xdotool behave_screen_edge --quiesc 1 --delay 0 top-left exec ~/.bin/gaps
 xdotool behave_screen_edge --quiesc 1 --delay 0 top-right exec ~/.bin/notifhist
 
 # Widgets
-~/.bin/widgets &
+eww daemon
+~/.bin/widgets
