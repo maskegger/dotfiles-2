@@ -126,13 +126,12 @@
 ** Leader for evil mode
 
 #+BEGIN_SRC emacs-lisp
-    (use-package evil-leader
-      :config
-      (global-evil-leader-mode)
-      (evil-leader/set-leader "<SPC>")
-      (evil-leader/set-key
-        "<SPC>" 'helm-M-x
-        "u" 'undo-tree-visualize))
+  (use-package evil-leader
+    :config
+    (global-evil-leader-mode)
+    (evil-leader/set-leader "<SPC>")
+    (evil-leader/set-key
+      "<SPC>" 'helm-M-x))
 #+END_SRC
 
 ** Doom-style modeline

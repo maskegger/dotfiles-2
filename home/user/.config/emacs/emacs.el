@@ -1,3 +1,6 @@
+(setq gc-cons-threshold (* 50 100 100))
+(setq read-process-output-max (* 2048 2048))
+
 (require 'package)
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
@@ -65,7 +68,7 @@
   (evil-leader/set-leader "<SPC>")
   (evil-leader/set-key
     "<SPC>" 'helm-M-x
-    "g" 'magit))
+    "u" 'helm-M-x))
 
 (use-package doom-modeline
   :init (doom-modeline-mode 1)
@@ -100,6 +103,8 @@
 (use-package rainbow-delimiters
   :config
   (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
+
+(use-package hydra)
 
 (use-package lsp-jedi)
 
@@ -160,9 +165,6 @@
 
 (setq ring-bell-function 'ignore)
 
-(setq gc-cons-threshold 100000000)
-(setq read-process-output-max (* 1024 1024))
-
 (setq helm-mini-default-sources '(helm-source-buffers-list
                                   helm-source-recentf
                                   helm-source-bookmarks
@@ -199,6 +201,14 @@
 (define-key evil-normal-state-map (kbd "M-t") 'neotree-toggle)
 (define-key evil-normal-state-map "u" 'undo-tree-undo)
 (define-key key-translation-map (kbd "ESC") (kbd "C-g"))
+
+(defhydra hydra-org (global-map "C-c o")
+  "Org bindings"
+  ("t" org-todo)
+  ("<left>" org-shiftleft)
+  ("<right>" org-shiftright)
+  ("<up>" org-shiftup)
+  ("<down>" org-shiftdown))
 
 (visual-line-mode 1)
 
