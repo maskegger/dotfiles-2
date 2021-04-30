@@ -4,7 +4,7 @@
     <i>My regularly updated dotfiles for Linux</i>
     <br/>
     <br/>
-    <a><img src="Rice.svg"></a>
+    <a><img src="./Rice.png"></a>
 </p>
 
 ## Software
