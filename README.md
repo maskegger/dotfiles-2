@@ -33,8 +33,10 @@
 - kitty
 - mpd
 - ncmpcpp
+- Emacs
 - Neovim
 - Picom
+- Qutebrowser
 - Rofi
 - Sxhkd
 - Zsh
@@ -48,7 +50,6 @@
 - i3
 - jgmenu
 - Polybar
-- Emacs
 - Openbox
 - AwesomeWM
 

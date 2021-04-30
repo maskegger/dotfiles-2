@@ -1,12 +1,12 @@
 #+TITLE: Emacs config
 #+DESCRIPTION: A literate Emacs config written in Org
 #+AUTHOR: Matei Cotocel
-
+    
 * Packages
 ** Performance improvements
    
 #+BEGIN_SRC emacs-lisp
-  (setq gc-cons-threshold (* 50 100 100))
+  (setq gc-cons-threshold 100000000)
   (setq read-process-output-max (* 2048 2048))
 #+END_SRC
 
@@ -52,8 +52,17 @@
 ** File tree in sidebar
 
 #+BEGIN_SRC emacs-lisp
-  (use-package neotree)
-  (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+(use-package neotree)
+(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+(add-hook 'neotree-mode-hook
+         (lambda ()
+           (define-key evil-normal-state-local-map (kbd "SPC") 'neotree-quick-look)
+           (define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)
+           (define-key evil-normal-state-local-map (kbd "g") 'neotree-refresh)
+           (define-key evil-normal-state-local-map (kbd "n") 'neotree-next-line)
+           (define-key evil-normal-state-local-map (kbd "p") 'neotree-previous-line)
+           (define-key evil-normal-state-local-map (kbd "A") 'neotree-stretch-toggle)
+           (define-key evil-normal-state-local-map (kbd "H") 'neotree-hidden-file-toggle)))
 #+END_SRC
 
 ** Git client for emacs
@@ -75,6 +84,18 @@
 #+BEGIN_SRC emacs-lisp
   (use-package evil
     :config (evil-mode))
+#+END_SRC
+
+** Leader for evil mode
+
+#+BEGIN_SRC emacs-lisp
+    (use-package evil-leader
+      :config
+      (global-evil-leader-mode)
+      (evil-leader/set-leader "<SPC>")
+      (evil-leader/set-key
+        "<SPC>" 'helm-M-x
+        "u" 'undo-tree-visualize))
 #+END_SRC
 
 ** Helm, a framework for completion
@@ -112,27 +133,16 @@
 ** Atom One Dark Theme
 
 #+BEGIN_SRC emacs-lisp
-  (use-package atom-one-dark-theme
-    :config
-    (load-theme 'atom-one-dark t))
+(use-package doom-themes
+  :config
+  (doom-themes-neotree-config))
+(load-theme 'quiet t)
 #+END_SRC
 
 ** Nice icons
 
 #+BEGIN_SRC emacs-lisp
   (use-package all-the-icons)
-#+END_SRC
-
-** Leader for evil mode
-
-#+BEGIN_SRC emacs-lisp
-    (use-package evil-leader
-      :config
-      (global-evil-leader-mode)
-      (evil-leader/set-leader "<SPC>")
-      (evil-leader/set-key
-        "<SPC>" 'helm-M-x
-        "u" 'undo-tree-visualize))
 #+END_SRC
 
 ** Doom-style modeline
@@ -195,6 +205,74 @@
 (use-package hydra)
 #+END_SRC
 
+** Mu4e for mail
+
+#+BEGIN_SRC emacs-lisp
+(require 'mu4e)
+(setq mu4e-maildir (expand-file-name "~/Mail/"))
+
+(setq mu4e-drafts-folder "/Drafts")
+(setq mu4e-sent-folder   "/Sent")
+(setq mu4e-trash-folder  "/Deleted")
+
+(setq mu4e-get-mail-command "offlineimap")
+
+(setq
+ user-mail-address "mcotocel@outlook.com"
+ user-full-name  "Matei Cotocel")
+
+(require 'org-mu4e)
+
+(setq message-send-mail-function 'smtpmail-send-it)
+(setq smtpmail-smtp-server "smtp-mail.outlook.com")
+(setq smtpmail-smtp-service 587 )
+(setq smtpmail-auth-credentials (expand-file-name "~/.authinfo"))
+#+END_SRC
+
+** ERC for IRC
+
+#+BEGIN_SRC emacs-lisp
+      (setq-default erc-enable-logging t)
+      (setq erc-save-buffer-on-part nil
+            erc-save-queries-on-quit nil
+            erc-log-write-after-send t
+            erc-log-write-after-insert t
+            erc-log-channels-directory (file-name-as-directory
+                                        (concat user-emacs-directory "erc"))
+            erc-server-auto-reconnect t
+            erc-prompt 'my-erc-prompt
+      )
+
+      (setq erc-track-exclude-types
+            '("JOIN" "KICK" "NICK" "PART" "QUIT" "MODE" "333" "353"))
+
+    (defun my-erc-prompt ()
+      (concat "[" (buffer-name) "]>"))
+
+  (setq erc-autojoin-channels-alist '(("freenode.net" "#archlinux" "#gentoo" "#emacs" "#org-mode")))
+
+  (use-package erc-hl-nicks
+    :after erc)
+
+  (use-package erc-image
+    :after erc)
+#+END_SRC
+
+** Newsticker for RSS
+
+#+BEGIN_SRC emacs-lisp
+  (setq newsticker-url-list
+        '(("Arch Linux News" "https://archlinux.org/feeds/news/")
+        ("r/Linux" "https://www.reddit.com/r/linux/.rss")))
+#+END_SRC
+
+** Smooth scrolling
+
+#+BEGIN_SRC emacs-lisp
+  (use-package good-scroll
+  :config (good-scroll-mode 1))
+#+END_SRC
+    
 * Programming
 ** lsp-jedi for Python
    
@@ -208,17 +286,30 @@
   (use-package lua-mode)
 #+END_SRC
 
+** JSON mode for JSON
+
+#+BEGIN_SRC emacs-lisp
+  (use-package json-mode)
+#+END_SRC
+
 ** Enable lsp for certain major modes
 
 #+BEGIN_SRC emacs-lisp
-  (use-package lsp-mode
-    :init
-    :hook ((python-mode . lsp)
-           (lua-mode . lsp)
-           (sh-mode . lsp)
-           (lisp-mode . lsp)
-           (lsp-mode . lsp-enable-which-key-integration))
-    :commands lsp)
+      (use-package lsp-mode
+        :init
+        :hook ((python-mode . lsp)
+               (lua-mode . lsp)
+               (sh-mode . lsp)
+               (lisp-mode . lsp)
+               (css-mode . lsp)
+               (html-mode . lsp)
+               (json-mode . lsp)
+               (markdown-mode . lsp)
+               (latex-mode . lsp)
+               (lsp-mode . lsp-enable-which-key-integration))
+        :commands lsp)
+    (setq lsp-log-io nil)
+  (setq lsp-enable-file-watchers nil)
 #+END_SRC
 
 ** lsp ui config
@@ -490,9 +581,11 @@
 #+END_SRC
 
 ** Emoji font
+
 #+BEGIN_SRC emacs-lisp
   (set-fontset-font t 'symbol (font-spec :family "Twemoji") nil 'prepend)
 #+END_SRC
+
 * Org mode
 ** Set Org files location
 
@@ -507,14 +600,7 @@
   (setq org-export-backends '(latex md))
 #+END_SRC
 
-** Center Org buffers
-
-#+BEGIN_SRC emacs-lisp
-(use-package centered-window
-  :hook (org-mode . centered-window-mode))
-#+END_SRC
-
-** Nicer Org mode bullets
+** Nicer Org bullets
 
 #+BEGIN_SRC emacs-lisp
  (use-package org-bullets
@@ -548,3 +634,37 @@
 ("🔔 IMPORTANT" . (:foreground "#80FFE4" :weight bold))))
 #+END_SRC
  
+** Make Org Roam-ier
+
+#+BEGIN_SRC emacs-lisp
+(use-package org-roam :hook
+      (after-init . org-roam-mode)
+      :custom
+      (org-roam-directory "~/org/"))
+
+(setq org-roam-graph-viewer "/usr/bin/eog")
+#+END_SRC
+
+** Org Roam server side graph
+
+#+BEGIN_SRC emacs-lisp
+(use-package org-roam-server
+  :config
+  (setq org-roam-server-host "127.0.0.1"
+        org-roam-server-port 8080
+        org-roam-server-authenticate nil
+        org-roam-server-export-inline-images t
+        org-roam-server-serve-files nil
+        org-roam-server-served-file-extensions '("pdf" "mp4" "ogv")
+        org-roam-server-network-poll t
+        org-roam-server-network-arrows nil
+        org-roam-server-network-label-truncate t
+        org-roam-server-network-label-truncate-length 60
+        org-roam-server-network-label-wrap-length 20))
+#+END_SRC
+
+** No distractions
+#+BEGIN_SRC emacs-lisp
+  (use-package writeroom-mode
+  :hook (org-mode . writeroom-mode))
+#+END_SRC

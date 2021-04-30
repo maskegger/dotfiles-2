@@ -32,6 +32,10 @@ local bling = require("bling")
 -- Layouts
 local machi = require("layout-machi")
 
+-- Expose-like thing
+local revelation = require("revelation")
+revelation.init()
+
 -- Error handling
 -- Check if awesome encountered an error during startup
 if awesome.startup_errors then

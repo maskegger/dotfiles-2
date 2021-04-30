@@ -22,10 +22,13 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 nitrogen --restore
  
 # Compositor
-picom
+picom --experimental-backends
 
 # Music
 mpd
 
 # Auth
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# QT scale
+export QT_SCALE_FACTOR=2

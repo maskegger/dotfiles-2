@@ -1,0 +1,17 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ 'nil)
+(setq url-cookie-secure-storage
+ '((".reddit.com"
+  [url-cookie "csv" "1" "Mon Apr 24 14:39:55 2023 GMT" "/" ".reddit.com" t])
+ ("reddit.com"
+  [url-cookie "session_tracker" "dswKd6ZgEiOoQViONi.0.1619275190901.Z0FBQUFBQmdoQzIzWHplcWNhREx1ZWhGV1ZuNHl6QTQ4RHhPWl96N0pBQURLQmlMbzRJQTUwa2NLVkIzTHBwMDlRVGxpWW94MnFBZnBzQTZOanpDU3U5V2FYa19uYzhrcnRMOWhwckpnOTBkbUJ5WW5IaTRxSm5WcWVfOWlaSm4zMzZjd2ZJZ1dfRHM" "Sat Apr 24 16:39:54 2021 GMT" "/" "reddit.com" t]
+  [url-cookie "edgebucket" "fAJ8zce9Agiw094x1T" "Mon Apr 24 14:39:54 2023 GMT" "/" "reddit.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

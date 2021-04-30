@@ -24,6 +24,10 @@ local awestore = require("awestore")
 -- Layout editor
 local machi = require("layout-machi")
 
+-- Expose-like thing
+local revelation = require("revelation")
+revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
+
 -- Discord
 local discord_anim_y = awestore.tweened(5120, {
     duration = 500,
@@ -136,6 +140,11 @@ globalkeys = gears.table.join(
             awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, false)   
         end, {
             description = 'Show tag preview', group = "AwesomeWM"
+        }),
+
+        -- Expose-like thing
+        awful.key({modkey}, "e", revelation, {
+            description = 'Expose-like thing', group = "AwesomeWM"
         }),
 
     -- Scratchpad --

@@ -1,0 +1,4 @@
+;;;; -*- mode: lisp-data -*-
+(
+ (:id "sha1:e0acbeee81b3221f64362597325b2aa4c4065761" :fingerprints ("sha1:c0:b2:bc:15:23:91:6a:26:9c:85:0b:ef:88:22:7e:13:00:99:2f:aa") :conditions nil)
+)
