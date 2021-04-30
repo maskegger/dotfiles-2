@@ -28,6 +28,9 @@ local machi = require("layout-machi")
 local revelation = require("revelation")
 revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
 
+-- AwesomeWM Alt-Tab switcher
+local switcher = require("awesome-switcher")
+
 -- Discord
 local discord_anim_y = awestore.tweened(5120, {
     duration = 500,
@@ -122,6 +125,28 @@ globalkeys = gears.table.join(
              description = "Toggle title bar", group = "AwesomeWM"
          }),
 
+        -- Expose for AwesomeWM
+        awful.key({modkey}, "e", revelation, {
+            description = 'Expose for AwesomeWM', group = "AwesomeWM"
+        }),
+
+    -- Bling --
+
+         -- Discord scratchpad
+         awful.key({modkey, "Control"}, 'd', function() discord_scratch:toggle() end, {
+             description = "Toggle Discord scratchpad", group = "Bling"
+         }),
+
+         -- Terminal scratchpad
+         awful.key({modkey, "Control"}, 't', function() terminal_scratch:toggle() end, {
+             description = "Toggle terminal scratchpad", group = "Bling"
+         }),
+
+         -- Spotify scratchpad
+         awful.key({modkey, "Control"}, 's', function() spotify_scratch:toggle() end, {
+             description = "Toggle Spoyify scratchpad", group = "Bling"
+         }),
+
          -- Toggle swallowing
          awful.key({modkey}, 's', function() bling.module.window_swallowing.toggle() end, {
             description = 'Toggle swallowing', group = "AwesomeWM"
@@ -142,26 +167,14 @@ globalkeys = gears.table.join(
             description = 'Show tag preview', group = "AwesomeWM"
         }),
 
-        -- Expose-like thing
-        awful.key({modkey}, "e", revelation, {
-            description = 'Expose-like thing', group = "AwesomeWM"
-        }),
-
-    -- Scratchpad --
-
-         -- Discord
-         awful.key({modkey, "Control"}, 'd', function() discord_scratch:toggle() end, {
-             description = "Toggle Discord scratchpad", group = "Scratchpad"
+         -- Add client to tabbed layout
+         awful.key({modkey}, 't', function() bling.module.tabbed.pick() end, {
+            description = 'Add client to tabbed layout', group = "AwesomeWM"
          }),
 
-         -- Terminal
-         awful.key({modkey, "Control"}, 't', function() terminal_scratch:toggle() end, {
-             description = "Toggle terminal scratchpad", group = "Scratchpad"
-         }),
-
-         -- Spotify
-         awful.key({modkey, "Control"}, 's', function() spotify_scratch:toggle() end, {
-             description = "Toggle Spoyify scratchpad", group = "Scratchpad"
+         -- Tab through clients in tabbed client
+         awful.key({modkey}, 'Tab', function() bling.module.tabbed.iter() end, {
+            description = 'Tab through clients in tabbed client', group = "AwesomeWM"
          }),
 
     -- Machi --
@@ -270,18 +283,6 @@ globalkeys = gears.table.join(
         -- Open launcher
         awful.key({modkey}, "space", function() awful.spawn.with_shell("rofi -show drun -display-drun 'App Launcher' -dpi 196") end, {
             description = "Open terminal",
-            group = "Applications and menus"
-        }),
-
-        -- Switch windows
-        awful.key({modkey}, "Tab", function() awful.spawn.with_shell("rofi -show window -display-window 'Switch windows' -dpi 196") end, {
-            description = "Switch windows",
-            group = "Applications and menus"
-        }),
-
-        -- Calculator
-        awful.key({modkey}, "c", function() awful.spawn.with_shell("rofi -show calc -modi calc -no-shwo-match -no-sort -display-calc 'Calculator' -dpi 196") end, {
-            description = "Calculator",
             group = "Applications and menus"
         }),
 

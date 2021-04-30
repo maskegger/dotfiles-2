@@ -151,28 +151,23 @@ client.connect_signal("request::titlebars", function(c)
             {
                 {
                     align = "center",
-                    widget = awful.titlebar.widget.iconwidget('none')
+                    widget = awful.titlebar.widget.titlewidget(c),
                 },
                 buttons = buttons,
                 layout = wibox.layout.flex.horizontal
             },
             {
-
-                awful.titlebar.widget.floatingbutton(c),
-                awful.titlebar.widget.stickybutton(c),
-                awful.titlebar.widget.ontopbutton(c),
-                spacing = -1,
+                awful.widget.clienticon(c),
                 layout = wibox.layout.fixed.horizontal,
                 widget
-
             },
             layout = wibox.layout.align.horizontal
         },
         widget = wibox.container.margin,
-        left = 10,
-        right = 10,
-        top = 10,
-        bottom = 10
+        left = 8,
+        right = 8,
+        top = 8,
+        bottom = 8
     }
 end)
 
@@ -180,9 +175,6 @@ end)
 client.connect_signal("manage", function(c)
     c.shape = function(cr, w, h) gears.shape.rounded_rect(cr, w, h, 0) end
 end)
-
--- Autostart apps
-awful.spawn.with_shell("~/.config/awesome/autorun.sh")
 
 -- Layouts
 awful.layout.layouts = {
@@ -195,4 +187,20 @@ awful.layout.layouts = {
     machi.default_layout,
     bling.layout.mstab,
     awful.layout.suit.floating,
-} 
+}
+
+awful.screen.connect_for_each_screen(function(s)
+    bling.module.tiled_wallpaper("", s, {
+        fg = "#384149",
+        bg = "#1f252a",
+        offset_y = 15,
+        offset_x = 15,
+        font = "Iosevka Nerd Font",
+        font_size = 15,
+        padding = 100,
+        zickzack = true
+    })
+end)
+
+-- Autostart apps
+awful.spawn.with_shell("~/.config/awesome/autorun.sh")

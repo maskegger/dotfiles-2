@@ -19,13 +19,10 @@ xsetroot -cursor_name arrow
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 # Wallpaper
-nitrogen --restore
+#nitrogen --restore
  
 # Compositor
 picom --experimental-backends
-
-# Music
-mpd
 
 # Auth
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

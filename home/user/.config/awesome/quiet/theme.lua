@@ -16,7 +16,7 @@ local ruled = require("ruled")
 
 -- Fonts
 
-theme.font = "Iosevka 10"
+theme.font = "Iosevka 11"
 
 -- Backgrounds
 
@@ -60,7 +60,7 @@ theme.tasklist_disable_icon = true
 
 -- Titlebar
 
-theme.titlebar_bg_focus = "#384149"
+theme.titlebar_bg_focus = "#1F252A"
 theme.titlebar_bg_normal = "#1F252A"
 
 theme.titlebar_close_button_normal = gfs.get_configuration_dir() .. "quiet/titlebar/inactive.png"
@@ -127,6 +127,7 @@ theme.tabbar_style = "modern"
 theme.tabbar_position = "top"
 theme.mstab_bar_padding = 0
 theme.tabbar_size = 80
+theme.tabbar_radius = 20
 theme.tabbar_bg_normal = "#1F252A"
 theme.tabbar_bg_focus = "#384149"
 
@@ -146,14 +147,9 @@ theme.tag_preview_widget_bg = "#1F252A"
 
 local gears = require("gears")
 
-local rounded_rect = function(cr, width, height)
-    gears.shape.rounded_rect(cr, width, height, 75)
-end
-
 theme.hotkeys_font = "Iosevka 11"
 theme.hotkeys_description_font = "Iosevka 9"
 theme.hotkeys_modifiers_fg = "#80D1FF"
-theme.hotkeys_shape = rounded_rect
 theme.hotkeys_border_width = 15
 theme.hotkeys_group_margin = 50
 theme.hotkeys_border_color = "#1F252A"
