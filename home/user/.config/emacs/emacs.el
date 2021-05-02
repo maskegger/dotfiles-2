@@ -334,6 +334,8 @@
 
 (set-fontset-font t 'symbol (font-spec :family "Twemoji") nil 'prepend)
 
+(delete-selection-mode t)
+
 (setq org-directory "~/org/"
       org-default-notes-file "~/org/notes.org")
 

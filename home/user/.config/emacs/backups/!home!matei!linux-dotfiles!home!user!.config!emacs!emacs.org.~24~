@@ -286,6 +286,12 @@
   (use-package lua-mode)
 #+END_SRC
 
+** JSON mode for JSON
+
+#+BEGIN_SRC emacs-lisp
+  (use-package json-mode)
+#+END_SRC
+
 ** Enable lsp for certain major modes
 
 #+BEGIN_SRC emacs-lisp
@@ -297,6 +303,9 @@
                (lisp-mode . lsp)
                (css-mode . lsp)
                (html-mode . lsp)
+               (json-mode . lsp)
+               (markdown-mode . lsp)
+               (latex-mode . lsp)
                (lsp-mode . lsp-enable-which-key-integration))
         :commands lsp)
     (setq lsp-log-io nil)

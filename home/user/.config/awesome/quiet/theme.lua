@@ -12,11 +12,20 @@ local theme = dofile(themes_path .. "default/theme.lua")
 local naughty = require("naughty")
 local nconf = naughty.config
 
+local lain  = require("lain")
 local ruled = require("ruled")
 
 -- Fonts
 
 theme.font = "Iosevka 11"
+
+-- Bar
+theme.wibar_border_width = 2
+theme.wibar_border_color = "#384149"
+theme.taglist_squares_sel = nil
+theme.taglist_squares_unsel = nil
+theme.taglist_squares_sel_empty = nil
+theme.taglist_squares_unsel_empty = nil
 
 -- Backgrounds
 
@@ -37,10 +46,10 @@ theme.fg_minimize = "#C780FF"
 
 theme.useless_gap = 20
 theme.gap_single_client = true
-theme.border_width = 0
-theme.border_color_normal = "#1F252A"
-theme.border_color_active = "#80D1FF"
-theme.border_color_marked = "#C780FF"
+theme.border_width = 3
+theme.border_color_normal = "#384149"
+theme.border_color_active = "#384149"
+theme.border_color_marked = "#384149"
 
 -- Taglist
 theme.taglist_bg = "#1F252A"
@@ -93,25 +102,6 @@ theme.titlebar_maximized_button_focus_active  = gfs.get_configuration_dir() .. "
 
 theme.wallpaper = "~/Pictures/Wallpaper/Cove.jpg"
 
--- Layout icons
-
-theme.layout_fairh = gfs.get_configuration_dir() .. "quiet/layouts/fairhw.png"
-theme.layout_fairv = gfs.get_configuration_dir() .. "quiet/layouts/fairvw.png"
-theme.layout_floating  = gfs.get_configuration_dir() .. "quiet/layouts/floatingw.png"
-theme.layout_magnifier = gfs.get_configuration_dir() .. "quiet/layouts/magnifierw.png"
-theme.layout_max = gfs.get_configuration_dir() .. "quiet/layouts/maxw.png"
-theme.layout_fullscreen = gfs.get_configuration_dir() .. "quiet/layouts/fullscreenw.png"
-theme.layout_tilebottom = gfs.get_configuration_dir() .. "quiet/layouts/tilebottomw.png"
-theme.layout_tileleft   = gfs.get_configuration_dir() .. "quiet/layouts/tileleftw.png"
-theme.layout_tile = gfs.get_configuration_dir() .. "quiet/layouts/tilew.png"
-theme.layout_tiletop = gfs.get_configuration_dir() .. "quiet/layouts/tiletopw.png"
-theme.layout_spiral  = gfs.get_configuration_dir() .. "quiet/layouts/spiralw.png"
-theme.layout_dwindle = gfs.get_configuration_dir() .. "quiet/layouts/dwindlew.png"
-theme.layout_cornernw = gfs.get_configuration_dir() .. "quiet/layouts/cornernww.png"
-theme.layout_cornerne = gfs.get_configuration_dir() .. "quiet/layouts/cornernew.png"
-theme.layout_cornersw = gfs.get_configuration_dir() .. "quiet/layouts/cornersww.png"
-theme.layout_cornerse = gfs.get_configuration_dir() .. "quiet/layouts/cornersew.png"
-
 -- Edge snap
 
 theme.snap_bg = "#1F252A"
@@ -128,19 +118,19 @@ theme.tabbar_position = "top"
 theme.mstab_bar_padding = 0
 theme.tabbar_size = 80
 theme.tabbar_radius = 20
-theme.tabbar_bg_normal = "#1F252A"
-theme.tabbar_bg_focus = "#384149"
+theme.tabbar_bg_normal = "#384149"
+theme.tabbar_bg_focus = "#1f252a"
 
 theme.flash_focus_start_opacity = 0.7
-theme.flash_focus_step = 0.01
+theme.flash_focus_step = 0.1
 
-theme.tag_preview_widget_border_radius = 15
-theme.tag_preview_client_border_radius = 15
+theme.tag_preview_widget_border_radius = 0
+theme.tag_preview_client_border_radius = 0
 theme.tag_preview_client_border_width = 0
 theme.tag_preview_widget_border_width = 0
 theme.tag_preview_client_opacity = 1
 theme.tag_preview_widget_margin = 0
-theme.tag_preview_client_bg = "#1F252A"
+theme.tag_preview_client_bg = "#384149"
 theme.tag_preview_widget_bg = "#1F252A"
 
 -- Hotkey popup
@@ -169,23 +159,15 @@ theme.notification_width = 700
 theme.notification_height = 120
 theme.notification_max_width = 4000
 
-ruled.notification.append_rule {
-    rule = {},
-    properties = { icon_size = 100 }
-}
-
 ruled.notification.connect_signal('request::rules', function()
     theme.notification_shape = function(cr, w, h, r)
        gears.shape.octogon(cr, w, h, 20)
     end
 end)
 
--- Wibar
-
-theme.wibar_bg = "#1F252A"
-theme.wibar_width = 300
-theme.wibar_stretch = false
-theme.wibar_shape = rounded_rect
-theme.tasklist_disable_icon = true
+ruled.notification.append_rule {
+    rule = {},
+    properties = { icon_size = 100 }
+}
 
 return theme

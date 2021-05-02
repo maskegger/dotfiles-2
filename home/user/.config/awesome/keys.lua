@@ -28,9 +28,6 @@ local machi = require("layout-machi")
 local revelation = require("revelation")
 revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
 
--- AwesomeWM Alt-Tab switcher
-local switcher = require("awesome-switcher")
-
 -- Discord
 local discord_anim_y = awestore.tweened(5120, {
     duration = 500,
@@ -102,10 +99,10 @@ local spotify_scratch = bling.module.scratchpad:new {
 
 -- Tag preview
 bling.widget.tag_preview.enable {
-    show_client_content = true,
-    x = 100,
-    y = 100,
-    scale = 0.25,
+    show_client_content = false,
+    x = 1280,
+    y = 720,
+    scale = 0.50,
     honor_padding = false,
     honor_workarea = false
 }
@@ -125,10 +122,26 @@ globalkeys = gears.table.join(
              description = "Toggle title bar", group = "AwesomeWM"
          }),
 
-        -- Expose for AwesomeWM
+        -- Expose
         awful.key({modkey}, "e", revelation, {
-            description = 'Expose for AwesomeWM', group = "AwesomeWM"
+            description = 'Expose', group = "AwesomeWM"
         }),
+
+        -- Execute Lua code
+        awful.key({modkey}, "r", function() awful.prompt.run {
+            prompt = "Run Lua code: ",
+            textbox = awful.screen.focused().promptbox.widget,
+            exe_callback = awful.util.eval,
+            history_path = awful.util.get_cache_dir() .. "/history_eval"
+        } end, {
+            description = 'Execute Lua Code', group = "AwesomeWM"
+        }),
+
+        -- Toggle Wibar
+        awful.key({modkey}, "b", function() for s in screen do s.wibar.visible = not s.wibar.visible end end, {
+            description = 'Toggle Wibar', group = "AwesomeWM"
+        }),
+
 
     -- Bling --
 
@@ -149,32 +162,32 @@ globalkeys = gears.table.join(
 
          -- Toggle swallowing
          awful.key({modkey}, 's', function() bling.module.window_swallowing.toggle() end, {
-            description = 'Toggle swallowing', group = "AwesomeWM"
+            description = 'Toggle swallowing', group = "Bling"
          }),
 
          -- Show tag preview
          awful.key({modkey, 'Control'}, '1', function()
             awesome.emit_signal("bling::tag_preview::update", mouse.screen.selected_tag)
-            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, true)   
+            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, true)
         end, {
-            description = 'Show tag preview', group = "AwesomeWM"
+            description = 'Show tag preview', group = "Bling"
         }),
 
          -- Hide tag preview
          awful.key({modkey, 'Control'}, '2', function()
-            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, false)   
+            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, false)
         end, {
-            description = 'Show tag preview', group = "AwesomeWM"
+            description = 'Show tag preview', group = "Bling"
         }),
 
          -- Add client to tabbed layout
          awful.key({modkey}, 't', function() bling.module.tabbed.pick() end, {
-            description = 'Add client to tabbed layout', group = "AwesomeWM"
+            description = 'Add client to tabbed layout', group = "Bling"
          }),
 
          -- Tab through clients in tabbed client
          awful.key({modkey}, 'Tab', function() bling.module.tabbed.iter() end, {
-            description = 'Tab through clients in tabbed client', group = "AwesomeWM"
+            description = 'Tab through clients in tabbed client', group = "Bling"
          }),
 
     -- Machi --
@@ -282,13 +295,7 @@ globalkeys = gears.table.join(
 
         -- Open launcher
         awful.key({modkey}, "space", function() awful.spawn.with_shell("rofi -show drun -display-drun 'App Launcher' -dpi 196") end, {
-            description = "Open terminal",
-            group = "Applications and menus"
-        }),
-
-        -- Wallpaper switcher
-        awful.key({modkey}, "b", function() awful.spawn.with_shell("~/.bin/rofi-wallpaper") end, {
-            description = "Wallpaper switcher",
+            description = "Open launcher",
             group = "Applications and menus"
         }),
 
@@ -304,7 +311,7 @@ globalkeys = gears.table.join(
             group = "Applications and menus"
         }),
 
-        -- Help menu
+        -- Hotkey menu
         awful.key({modkey}, "/", hotkeys_popup.show_help, {
             description = "Hotkey menu",
             group = "Applications and menus"

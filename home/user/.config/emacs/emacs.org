@@ -1,7 +1,7 @@
 #+TITLE: Emacs config
 #+DESCRIPTION: A literate Emacs config written in Org
 #+AUTHOR: Matei Cotocel
-    
+
 * Packages
 ** Performance improvements
    
@@ -426,7 +426,7 @@
    
 #+BEGIN_SRC emacs-lisp
   (define-key evil-normal-state-map (kbd "M-s") 'save-buffer)
-  (define-key evil-normal-state-map (kbd "M-q") 'kill-current-buffer)
+  (define-key evil-normal-state-map (kbd "M-q") 'delete-frame)
   (define-key evil-normal-state-map (kbd "M-w") 'delete-window)
   (define-key evil-normal-state-map (kbd "M-x") 'helm-M-x)
   (define-key evil-normal-state-map (kbd "M-/") 'helm-find-files)
@@ -584,6 +584,12 @@
 
 #+BEGIN_SRC emacs-lisp
   (set-fontset-font t 'symbol (font-spec :family "Twemoji") nil 'prepend)
+#+END_SRC
+
+** Overwrite selected text
+
+#+BEGIN_SRC emacs-lisp
+(delete-selection-mode t)
 #+END_SRC
 
 * Org mode
