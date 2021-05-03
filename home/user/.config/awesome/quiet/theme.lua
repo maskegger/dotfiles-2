@@ -2,17 +2,12 @@
 -- Default awesome theme --
 ---------------------------
 
-local rnotification = require("ruled.notification")
-
 local gfs = require("gears.filesystem")
 local themes_path = gfs.get_themes_dir()
-
 local theme = dofile(themes_path .. "default/theme.lua")
 
 local naughty = require("naughty")
-local nconf = naughty.config
 
-local lain  = require("lain")
 local ruled = require("ruled")
 
 -- Fonts
@@ -46,7 +41,7 @@ theme.fg_minimize = "#C780FF"
 
 theme.useless_gap = 20
 theme.gap_single_client = true
-theme.border_width = 3
+theme.border_width = 5
 theme.border_color_normal = "#384149"
 theme.border_color_active = "#384149"
 theme.border_color_marked = "#384149"
@@ -69,8 +64,8 @@ theme.tasklist_disable_icon = true
 
 -- Titlebar
 
-theme.titlebar_bg_focus = "#1F252A"
-theme.titlebar_bg_normal = "#1F252A"
+theme.titlebar_bg_focus = "#384149"
+theme.titlebar_bg_normal = "#384149"
 
 theme.titlebar_close_button_normal = gfs.get_configuration_dir() .. "quiet/titlebar/inactive.png"
 theme.titlebar_close_button_focus  = gfs.get_configuration_dir() .. "quiet/titlebar/close.png"
@@ -121,8 +116,8 @@ theme.tabbar_radius = 20
 theme.tabbar_bg_normal = "#384149"
 theme.tabbar_bg_focus = "#1f252a"
 
-theme.flash_focus_start_opacity = 0.7
-theme.flash_focus_step = 0.1
+theme.flash_focus_start_opacity = 0.6
+theme.flash_focus_step = 0.01
 
 theme.tag_preview_widget_border_radius = 0
 theme.tag_preview_client_border_radius = 0

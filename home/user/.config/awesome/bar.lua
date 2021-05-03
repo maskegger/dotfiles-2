@@ -1,27 +1,9 @@
--- Load Luarocks modules
-pcall(require, "luarocks.loader")
-
 -- Standard awesome library
 local gears = require("gears")
-local gfs = require("gears.filesystem")
 local awful = require("awful")
-require("awful.autofocus")
-local xresources = require("beautiful.xresources")
-local dpi = xresources.apply_dpi
 
 -- Widget and layout library
 local wibox = require("wibox")
-
--- Theme handling library
-local beautiful = require("beautiful")
-
--- Notification library
-local naughty = require("naughty")
-
--- Menubar library
-local menubar = require("menubar")
-
--- Wibar
 
 -- Click to change to workspace
 local taglist_buttons = gears.table.join(awful.button({}, 1, function(t) t:view_only() end))
@@ -55,8 +37,10 @@ awful.screen.connect_for_each_screen(function(s)
         buttons = taglist_buttons
     }
 
+    -- Prompt
     s.promptbox = awful.widget.prompt()
-    
+   
+    -- Clock
     clock = wibox.widget.textclock()
 
     -- Create the wibox
@@ -77,7 +61,7 @@ awful.screen.connect_for_each_screen(function(s)
     s.wibar.x = 1280
     s.wibar.y = 2800
 
-    -- Add widgets to the wibox
+    -- Add widgets
     s.wibar:setup {
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
@@ -93,7 +77,8 @@ awful.screen.connect_for_each_screen(function(s)
                 forced_width = 850,
                 opacity = 0
             },
-            s.promptbox,
+            -- s.promptbox,
+            clock,
         },
         {
             layout = wibox.layout.fixed.horizontal,
@@ -102,7 +87,6 @@ awful.screen.connect_for_each_screen(function(s)
             layout = wibox.layout.fixed.horizontal,
             spacing = 40,
             wibox.widget.systray(),
-            clock,
             s.layoutbox,
             wibox.widget {
                 widget = wibox.widget.separator,

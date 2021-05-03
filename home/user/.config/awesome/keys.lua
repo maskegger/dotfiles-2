@@ -1,16 +1,6 @@
---                             --
---- Keybindings for AwesomeWM ---
---                             --
-
--- Includes --
-
--- Load Luarocks modules
-pcall(require, "luarocks.loader")
-
 -- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
-require("awful.autofocus")
 
 -- Hotkeys library
 local hotkeys_popup = require("awful.hotkeys_popup")
@@ -21,10 +11,10 @@ local bling = require("bling")
 -- Sweet animations
 local awestore = require("awestore")
 
--- Layout editor
+-- Layout
 local machi = require("layout-machi")
 
--- Expose-like thing
+-- Exposefor AwesomeWM
 local revelation = require("revelation")
 revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
 
@@ -319,16 +309,31 @@ globalkeys = gears.table.join(
 
 )
 
+-- Move through workspaces
 for i = 1, 9 do
     globalkeys = gears.table.join(globalkeys,
 
+    -- View workspace
     awful.key({modkey}, "#" .. i + 9, function() local screen = awful.screen.focused() local tag = screen.tags[i] if tag then tag:view_only() end end, {
         description = "View workspace #" .. i,
         group = "Workspaces"
     }),
 
+    -- Move focused client to workspace
     awful.key({modkey, "Shift"}, "#" .. i + 9, function() if client.focus then local tag = client.focus.screen.tags[i] if tag then client.focus:move_to_tag(tag) end end end, {
         description = "Move focused client to workspace #" .. i,
         group = "Workspaces"
     }))
 end
+
+
+-- Mouse buttons
+clientbuttons = gears.table.join(awful.button({}, 1, function(c)
+    c:emit_signal("request::activate", "mouse_click", {raise = true})
+end), awful.button({modkey}, 1, function(c)
+    c:emit_signal("request::activate", "mouse_click", {raise = true})
+    awful.mouse.client.move(c)
+end), awful.button({modkey}, 3, function(c)
+    c:emit_signal("request::activate", "mouse_click", {raise = true})
+    awful.mouse.client.resize(c)
+end))

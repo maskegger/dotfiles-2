@@ -15,9 +15,6 @@ xrandr --output Virtual-1 --mode 5120x2880_60.00
 # Mouse cursor
 xsetroot -cursor_name arrow
 
-# QT theme
-export QT_QPA_PLATFORMTHEME=qt5ct
-
 # Wallpaper
 #nitrogen --restore
  
@@ -29,3 +26,9 @@ picom --experimental-backends
 
 # QT scale
 export QT_SCALE_FACTOR=2
+
+# QT theme
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.5
