@@ -187,6 +187,7 @@ vmap <leader>y "+y
 
 " Colorscheme
 colorscheme xresources
+colorscheme quiet
 
 set fillchars=vert:\
 hi! VertSplit guifg=None guibg=None

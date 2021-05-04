@@ -1,222 +1,216 @@
+" A colorscheme for the Quiet theme
+" Template from github.com/sonph/onehalf 
+
+set background=dark
+highlight clear
+syntax reset
+
+let g:colors_name="quiet"
+let colors_name="quiet"
 
 
-  
-  if &background == 'dark'
-    
-  let s:guishade0 = "#1f252a"
-  let s:guishade1 = "#384149"
-  let s:guishade2 = "#d5d5d5"
-  let s:guishade3 = "#384149"
-  let s:guishade4 = "#d5d5d5"
-  let s:guishade5 = "#d5d5d5"
-  let s:guishade6 = "#d5d5d5"
-  let s:guishade7 = "#d5d5d5"
-  let s:guiaccent0 = "#ff8080"
-  let s:guiaccent1 = "#97d59b"
-  let s:guiaccent2 = "#fffe80"
-  let s:guiaccent3 = "#97d59b"
-  let s:guiaccent4 = "#80ffe4"
-  let s:guiaccent5 = "#80d1ff"
-  let s:guiaccent6 = "#d5d5d5"
-  let s:guiaccent7 = "#c780ff"
-  let s:ctermshade0 = 235
-  let s:ctermshade1 = 238
-  let s:ctermshade2 = 252
-  let s:ctermshade3 = 238
-  let s:ctermshade4 = 252
-  let s:ctermshade5 = 252
-  let s:ctermshade6 = 252
-  let s:ctermshade7 = 252
-  let s:ctermaccent0 = 217
-  let s:ctermaccent1 = 151
-  let s:ctermaccent2 = 229
-  let s:ctermaccent3 = 151
-  let s:ctermaccent4 = 158
-  let s:ctermaccent5 = 153
-  let s:ctermaccent6 = 252
-  let s:ctermaccent7 = 183
-  
+let s:black       = { "gui": "#1f252a", "cterm": "236" }
+let s:red         = { "gui": "#ff8080", "cterm": "168" }
+let s:green       = { "gui": "#97d59b", "cterm": "114" }
+let s:yellow      = { "gui": "#fffe80", "cterm": "180" }
+let s:blue        = { "gui": "#80d1ff", "cterm": "75"  }
+let s:purple      = { "gui": "#c780ff", "cterm": "176" }
+let s:cyan        = { "gui": "#80ffe4", "cterm": "73"  }
+let s:white       = { "gui": "#d5d5d5", "cterm": "188" }
+
+let s:fg          = s:white
+let s:bg          = s:black
+
+let s:comment_fg  = { "gui": "#384149", "cterm": "241" }
+let s:gutter_bg   = { "gui": "#1f252a", "cterm": "236" }
+let s:gutter_fg   = { "gui": "#384149", "cterm": "247" }
+let s:non_text    = { "gui": "#384149", "cterm": "239" }
+
+let s:cursor_line = { "gui": "#384149", "cterm": "237" }
+let s:color_col   = { "gui": "#384149", "cterm": "237" }
+
+let s:selection   = { "gui": "#384149", "cterm": "239" }
+let s:vertsplit   = { "gui": "#384149", "cterm": "237" }
+
+
+function! s:h(group, fg, bg, attr)
+  if type(a:fg) == type({})
+    exec "hi " . a:group . " guifg=" . a:fg.gui . " ctermfg=" . a:fg.cterm
+  else
+    exec "hi " . a:group . " guifg=NONE cterm=NONE"
   endif
-  
+  if type(a:bg) == type({})
+    exec "hi " . a:group . " guibg=" . a:bg.gui . " ctermbg=" . a:bg.cterm
+  else
+    exec "hi " . a:group . " guibg=NONE ctermbg=NONE"
+  endif
+  if a:attr != ""
+    exec "hi " . a:group . " gui=" . a:attr . " cterm=" . a:attr
+  else
+    exec "hi " . a:group . " gui=NONE cterm=NONE"
+  endif
+endfun
 
-  
 
-  highlight clear
-  syntax reset
-  let g:colors_name = "ThemerVim"
+" User interface colors {
+call s:h("Normal", s:fg, s:bg, "")
 
-  """"""""""
-  " Normal "
-  """"""""""
+call s:h("Cursor", s:bg, s:blue, "")
+call s:h("CursorColumn", "", s:cursor_line, "")
+call s:h("CursorLine", "", s:cursor_line, "")
 
-  exec "hi Normal guifg=".s:guishade6." guibg=".s:guishade0
-  exec "hi Normal ctermfg=".s:ctermshade6." ctermbg=".s:ctermshade0
+call s:h("LineNr", s:gutter_fg, s:gutter_bg, "")
+call s:h("CursorLineNr", s:fg, "", "")
 
-  """""""""""""""""
-  " Syntax groups "
-  """""""""""""""""
+call s:h("DiffAdd", s:green, "", "")
+call s:h("DiffChange", s:yellow, "", "")
+call s:h("DiffDelete", s:red, "", "")
+call s:h("DiffText", s:blue, "", "")
 
-  " Default
+call s:h("IncSearch", s:bg, s:yellow, "")
+call s:h("Search", s:bg, s:yellow, "")
 
-  exec "hi Comment guifg=".s:guishade2
-  exec "hi Comment ctermfg=".s:ctermshade2
-  exec "hi Constant guifg=".s:guiaccent3
-  exec "hi Constant ctermfg=".s:ctermaccent3
-  exec "hi Character guifg=".s:guiaccent4
-  exec "hi Character ctermfg=".s:ctermaccent4
-  exec "hi Identifier guifg=".s:guiaccent2." gui=none"
-  exec "hi Identifier ctermfg=".s:ctermaccent2." cterm=none"
-  exec "hi Statement guifg=".s:guiaccent5
-  exec "hi Statement ctermfg=".s:ctermaccent5
-  exec "hi PreProc guifg=".s:guiaccent6
-  exec "hi PreProc ctermfg=".s:ctermaccent6
-  exec "hi Type guifg=".s:guiaccent7
-  exec "hi Type ctermfg=".s:ctermaccent7
-  exec "hi Special guifg=".s:guiaccent4
-  exec "hi Special ctermfg=".s:ctermaccent4
-  exec "hi Underlined guifg=".s:guiaccent5
-  exec "hi Underlined ctermfg=".s:ctermaccent5
-  exec "hi Error guifg=".s:guiaccent0." guibg=".s:guishade1
-  exec "hi Error ctermfg=".s:ctermaccent0." ctermbg=".s:ctermshade1
-  exec "hi Todo guifg=".s:guiaccent0." guibg=".s:guishade1
-  exec "hi Todo ctermfg=".s:ctermaccent0." ctermbg=".s:ctermshade1
-  exec "hi Function guifg=".s:guiaccent1
-  exec "hi Function ctermfg=".s:ctermaccent1
+call s:h("ErrorMsg", s:fg, "", "")
+call s:h("ModeMsg", s:fg, "", "")
+call s:h("MoreMsg", s:fg, "", "")
+call s:h("WarningMsg", s:red, "", "")
+call s:h("Question", s:purple, "", "")
 
-  " GitGutter
+call s:h("Pmenu", s:bg, s:fg, "")
+call s:h("PmenuSel", s:fg, s:blue, "")
+call s:h("PmenuSbar", "", s:selection, "")
+call s:h("PmenuThumb", "", s:fg, "")
 
-  exec "hi GitGutterAdd guifg=".s:guiaccent3
-  exec "hi GitGutterAdd ctermfg=".s:ctermaccent3
-  exec "hi GitGutterChange guifg=".s:guiaccent2
-  exec "hi GitGutterChange ctermfg=".s:ctermaccent2
-  exec "hi GitGutterChangeDelete guifg=".s:guiaccent2
-  exec "hi GitGutterChangeDelete ctermfg=".s:ctermaccent2
-  exec "hi GitGutterDelete guifg=".s:guiaccent0
-  exec "hi GitGutterDelete ctermfg=".s:ctermaccent0
+call s:h("SpellBad", s:red, "", "")
+call s:h("SpellCap", s:yellow, "", "")
+call s:h("SpellLocal", s:yellow, "", "")
+call s:h("SpellRare", s:yellow, "", "")
 
-  " fugitive
+call s:h("StatusLine", s:blue, s:bg, "")
+call s:h("StatusLineNC", s:comment_fg, s:cursor_line, "")
+call s:h("TabLine", s:comment_fg, s:cursor_line, "")
+call s:h("TabLineFill", s:comment_fg, s:cursor_line, "")
+call s:h("TabLineSel", s:fg, s:bg, "")
 
-  exec "hi gitcommitComment guifg=".s:guishade3
-  exec "hi gitcommitComment ctermfg=".s:ctermshade3
-  exec "hi gitcommitOnBranch guifg=".s:guishade3
-  exec "hi gitcommitOnBranch ctermfg=".s:ctermshade3
-  exec "hi gitcommitHeader guifg=".s:guishade5
-  exec "hi gitcommitHeader ctermfg=".s:ctermshade5
-  exec "hi gitcommitHead guifg=".s:guishade3
-  exec "hi gitcommitHead ctermfg=".s:ctermshade3
-  exec "hi gitcommitSelectedType guifg=".s:guiaccent3
-  exec "hi gitcommitSelectedType ctermfg=".s:ctermaccent3
-  exec "hi gitcommitSelectedFile guifg=".s:guiaccent3
-  exec "hi gitcommitSelectedFile ctermfg=".s:ctermaccent3
-  exec "hi gitcommitDiscardedType guifg=".s:guiaccent2
-  exec "hi gitcommitDiscardedType ctermfg=".s:ctermaccent2
-  exec "hi gitcommitDiscardedFile guifg=".s:guiaccent2
-  exec "hi gitcommitDiscardedFile ctermfg=".s:ctermaccent2
-  exec "hi gitcommitUntrackedFile guifg=".s:guiaccent0
-  exec "hi gitcommitUntrackedFile ctermfg=".s:ctermaccent0
+call s:h("Visual", "", s:selection, "")
+call s:h("VisualNOS", "", s:selection, "")
 
-  """""""""""""""""""""""
-  " Highlighting Groups "
-  """""""""""""""""""""""
+call s:h("ColorColumn", "", s:color_col, "")
+call s:h("Conceal", s:fg, "", "")
+call s:h("Directory", s:blue, "", "")
+call s:h("VertSplit", s:vertsplit, s:vertsplit, "")
+call s:h("Folded", s:fg, "", "")
+call s:h("FoldColumn", s:fg, "", "")
+call s:h("SignColumn", s:fg, "", "")
 
-  " Default
+call s:h("MatchParen", s:blue, "", "underline")
+call s:h("SpecialKey", s:fg, "", "")
+call s:h("Title", s:green, "", "")
+call s:h("WildMenu", s:fg, "", "")
+" }
 
-  exec "hi ColorColumn guibg=".s:guishade1
-  exec "hi ColorColumn ctermbg=".s:ctermshade1
-  exec "hi Conceal guifg=".s:guishade2
-  exec "hi Conceal ctermfg=".s:ctermshade2
-  exec "hi Cursor guifg=".s:guishade0
-  exec "hi Cursor ctermfg=".s:ctermshade0
-  exec "hi CursorColumn guibg=".s:guishade1
-  exec "hi CursorColumn ctermbg=".s:ctermshade1
-  exec "hi CursorLine guibg=".s:guishade1
-  exec "hi CursorLine ctermbg=".s:ctermshade1." cterm=none"
-  exec "hi Directory guifg=".s:guiaccent5
-  exec "hi Directory ctermfg=".s:ctermaccent5
-  exec "hi DiffAdd guifg=".s:guiaccent3." guibg=".s:guishade1
-  exec "hi DiffAdd ctermfg=".s:ctermaccent3." ctermbg=".s:ctermshade1
-  exec "hi DiffChange guifg=".s:guiaccent2." guibg=".s:guishade1
-  exec "hi DiffChange ctermfg=".s:ctermaccent2." ctermbg=".s:ctermshade1
-  exec "hi DiffDelete guifg=".s:guiaccent0." guibg=".s:guishade1
-  exec "hi DiffDelete ctermfg=".s:ctermaccent0." ctermbg=".s:ctermshade1
-  exec "hi DiffText guifg=".s:guiaccent2." guibg=".s:guishade2
-  exec "hi DiffText ctermfg=".s:ctermaccent2." ctermbg=".s:ctermshade2
-  exec "hi ErrorMsg guifg=".s:guishade7." guibg=".s:guiaccent0
-  exec "hi ErrorMsg ctermfg=".s:ctermshade7." ctermbg=".s:ctermaccent0
-  exec "hi VertSplit guifg=".s:guishade0." guibg=".s:guishade3
-  exec "hi VertSplit ctermfg=".s:ctermshade0." ctermbg=".s:ctermshade3
-  exec "hi Folded guifg=".s:guishade4." guibg=".s:guishade1
-  exec "hi Folded ctermfg=".s:ctermshade4." ctermbg=".s:ctermshade1
-  exec "hi FoldColumn guifg=".s:guishade4." guibg=".s:guishade1
-  exec "hi FoldColumn ctermfg=".s:ctermshade4." ctermbg=".s:ctermshade1
-  exec "hi SignColumn guibg=".s:guishade0
-  exec "hi SignColumn ctermbg=".s:ctermshade0
-  exec "hi IncSearch guifg=".s:guishade0." guibg=".s:guiaccent2
-  exec "hi IncSearch ctermfg=".s:ctermshade0." ctermbg=".s:ctermaccent2
-  exec "hi LineNr guifg=".s:guishade2." guibg=".s:guishade0
-  exec "hi LineNr ctermfg=".s:ctermshade2." ctermbg=".s:ctermshade0
-  exec "hi CursorLineNr guifg=".s:guishade3." guibg=".s:guishade1
-  exec "hi CursorLineNr ctermfg=".s:ctermshade3." ctermbg=".s:ctermshade1
-  exec "hi MatchParen guibg=".s:guishade2
-  exec "hi MatchParen ctermbg=".s:ctermshade2
-  exec "hi MoreMsg guifg=".s:guishade0." guibg=".s:guiaccent4
-  exec "hi MoreMsg ctermfg=".s:ctermshade0." ctermbg=".s:ctermaccent4
-  exec "hi NonText guifg=".s:guishade2." guibg=".s:guishade0
-  exec "hi NonText ctermfg=".s:ctermshade2." ctermbg=".s:ctermshade0
-  exec "hi Pmenu guifg=".s:guishade6." guibg=".s:guishade1
-  exec "hi Pmenu ctermfg=".s:ctermshade6." ctermbg=".s:ctermshade1
-  exec "hi PmenuSel guifg=".s:guiaccent4." guibg=".s:guishade1
-  exec "hi PmenuSel ctermfg=".s:ctermaccent4." ctermbg=".s:ctermshade1
-  exec "hi PmenuSbar guifg=".s:guiaccent3." guibg=".s:guishade1
-  exec "hi PmenuSbar ctermfg=".s:ctermaccent3." ctermbg=".s:ctermshade1
-  exec "hi PmenuThumb guifg=".s:guiaccent0." guibg=".s:guishade2
-  exec "hi PmenuThumb ctermfg=".s:ctermaccent0." ctermbg=".s:ctermshade2
-  exec "hi Question guifg=".s:guishade7." guibg=".s:guishade1
-  exec "hi Question ctermfg=".s:ctermshade7." ctermbg=".s:ctermshade1
-  exec "hi Search guifg=".s:guishade0." guibg=".s:guiaccent2
-  exec "hi Search ctermfg=".s:ctermshade0." ctermbg=".s:ctermaccent2
-  exec "hi SpecialKey guifg=".s:guiaccent7." guibg=".s:guishade0
-  exec "hi SpecialKey ctermfg=".s:ctermaccent7." ctermbg=".s:ctermshade0
-  exec "hi SpellBad guifg=".s:guiaccent0
-  exec "hi SpellBad ctermfg=".s:ctermaccent0." ctermbg=NONE cterm=undercurl"
-  exec "hi SpellCap guifg=".s:guiaccent2
-  exec "hi SpellCap ctermfg=".s:ctermaccent2." ctermbg=NONE cterm=undercurl"
-  exec "hi SpellLocal guifg=".s:guiaccent4
-  exec "hi SpellLocal ctermfg=".s:ctermaccent4
-  exec "hi SpellRare guifg=".s:guiaccent1
-  exec "hi SpellRare ctermfg=".s:ctermaccent1
-  exec "hi StatusLine guifg=".s:guishade4." guibg=".s:guishade1." gui=none"
-  exec "hi StatusLine ctermfg=".s:ctermshade4." ctermbg=".s:ctermshade1." cterm=none"
-  exec "hi TabLine guifg=".s:guishade5." guibg=".s:guishade1
-  exec "hi TabLine ctermfg=".s:ctermshade5." ctermbg=".s:ctermshade1
-  exec "hi TabLineFill guibg=".s:guishade1
-  exec "hi TabLineFill ctermbg=".s:ctermshade1
-  exec "hi TabLineSel guifg=".s:guishade6." guibg=".s:guishade0
-  exec "hi TabLineSel ctermfg=".s:ctermshade6." ctermbg=".s:ctermshade0
-  exec "hi Title guifg=".s:guiaccent5
-  exec "hi Title ctermfg=".s:ctermaccent5
-  exec "hi Visual guibg=".s:guishade1
-  exec "hi Visual ctermbg=".s:ctermshade1
-  exec "hi VisualNOS guifg=".s:guiaccent0." guibg=".s:guishade1
-  exec "hi VisualNOS ctermfg=".s:ctermaccent0." ctermbg=".s:ctermshade1
-  exec "hi WarningMsg guifg=".s:guiaccent0
-  exec "hi WarningMsg ctermfg=".s:ctermaccent0
-  exec "hi WildMenu guifg=".s:guiaccent4." guibg=".s:guishade1
-  exec "hi WildMenu ctermfg=".s:ctermaccent4." ctermbg=".s:ctermshade1
 
-  " NERDTree
+" Syntax colors {
+" Whitespace is defined in Neovim, not Vim.
+" See :help hl-Whitespace and :help hl-SpecialKey
+call s:h("Whitespae", s:non_text, "", "")
+call s:h("NonText", s:non_text, "", "")
+call s:h("Comment", s:comment_fg, "", "italic")
+call s:h("Constant", s:cyan, "", "")
+call s:h("String", s:green, "", "")
+call s:h("Character", s:green, "", "")
+call s:h("Number", s:yellow, "", "")
+call s:h("Boolean", s:yellow, "", "")
+call s:h("Float", s:yellow, "", "")
 
-  exec "hi NERDTreeExecFile guifg=".s:guiaccent4
-  exec "hi NERDTreeExecFile ctermfg=".s:ctermaccent4
-  exec "hi NERDTreeDirSlash guifg=".s:guiaccent5
-  exec "hi NERDTreeDirSlash ctermfg=".s:ctermaccent5
-  exec "hi NERDTreeCWD guifg=".s:guiaccent0
-  exec "hi NERDTreeCWD ctermfg=".s:ctermaccent0
+call s:h("Identifier", s:red, "", "")
+call s:h("Function", s:blue, "", "")
+call s:h("Statement", s:purple, "", "")
 
-  """"""""""""
-  " Clean up "
-  """"""""""""
+call s:h("Conditional", s:purple, "", "")
+call s:h("Repeat", s:purple, "", "")
+call s:h("Label", s:purple, "", "")
+call s:h("Operator", s:fg, "", "")
+call s:h("Keyword", s:red, "", "")
+call s:h("Exception", s:purple, "", "")
 
-  unlet s:guishade0 s:guishade1 s:guishade2 s:guishade3 s:guishade4 s:guishade5 s:guishade6 s:guishade7 s:guiaccent0 s:guiaccent1 s:guiaccent2 s:guiaccent3 s:guiaccent4 s:guiaccent5 s:guiaccent6 s:guiaccent7
-  unlet s:ctermshade0 s:ctermshade1 s:ctermshade2 s:ctermshade3 s:ctermshade4 s:ctermshade5 s:ctermshade6 s:ctermshade7 s:ctermaccent0 s:ctermaccent1 s:ctermaccent2 s:ctermaccent3 s:ctermaccent4 s:ctermaccent5 s:ctermaccent6 s:ctermaccent7
-  
+call s:h("PreProc", s:yellow, "", "")
+call s:h("Include", s:purple, "", "")
+call s:h("Define", s:purple, "", "")
+call s:h("Macro", s:purple, "", "")
+call s:h("PreCondit", s:yellow, "", "")
+
+call s:h("Type", s:yellow, "", "")
+call s:h("StorageClass", s:yellow, "", "")
+call s:h("Structure", s:yellow, "", "")
+call s:h("Typedef", s:yellow, "", "")
+
+call s:h("Special", s:blue, "", "")
+call s:h("SpecialChar", s:fg, "", "")
+call s:h("Tag", s:fg, "", "")
+call s:h("Delimiter", s:fg, "", "")
+call s:h("SpecialComment", s:fg, "", "")
+call s:h("Debug", s:fg, "", "")
+call s:h("Underlined", s:fg, "", "")
+call s:h("Ignore", s:fg, "", "")
+call s:h("Error", s:red, s:gutter_bg, "")
+call s:h("Todo", s:purple, "", "")
+" }
+
+
+" Plugins {
+" GitGutter
+call s:h("GitGutterAdd", s:green, s:gutter_bg, "")
+call s:h("GitGutterDelete", s:red, s:gutter_bg, "")
+call s:h("GitGutterChange", s:yellow, s:gutter_bg, "")
+call s:h("GitGutterChangeDelete", s:red, s:gutter_bg, "")
+" Fugitive
+call s:h("diffAdded", s:green, "", "")
+call s:h("diffRemoved", s:red, "", "")
+" }
+
+
+" Git {
+call s:h("gitcommitComment", s:comment_fg, "", "")
+call s:h("gitcommitUnmerged", s:red, "", "")
+call s:h("gitcommitOnBranch", s:fg, "", "")
+call s:h("gitcommitBranch", s:purple, "", "")
+call s:h("gitcommitDiscardedType", s:red, "", "")
+call s:h("gitcommitSelectedType", s:green, "", "")
+call s:h("gitcommitHeader", s:fg, "", "")
+call s:h("gitcommitUntrackedFile", s:cyan, "", "")
+call s:h("gitcommitDiscardedFile", s:red, "", "")
+call s:h("gitcommitSelectedFile", s:green, "", "")
+call s:h("gitcommitUnmergedFile", s:yellow, "", "")
+call s:h("gitcommitFile", s:fg, "", "")
+hi link gitcommitNoBranch gitcommitBranch
+hi link gitcommitUntracked gitcommitComment
+hi link gitcommitDiscarded gitcommitComment
+hi link gitcommitSelected gitcommitComment
+hi link gitcommitDiscardedArrow gitcommitDiscardedFile
+hi link gitcommitSelectedArrow gitcommitSelectedFile
+hi link gitcommitUnmergedArrow gitcommitUnmergedFile
+" }
+
+" Fix colors in neovim terminal buffers {
+  if has('nvim')
+    let g:terminal_color_0 = s:black.gui
+    let g:terminal_color_1 = s:red.gui
+    let g:terminal_color_2 = s:green.gui
+    let g:terminal_color_3 = s:yellow.gui
+    let g:terminal_color_4 = s:blue.gui
+    let g:terminal_color_5 = s:purple.gui
+    let g:terminal_color_6 = s:cyan.gui
+    let g:terminal_color_7 = s:white.gui
+    let g:terminal_color_8 = s:black.gui
+    let g:terminal_color_9 = s:red.gui
+    let g:terminal_color_10 = s:green.gui
+    let g:terminal_color_11 = s:yellow.gui
+    let g:terminal_color_12 = s:blue.gui
+    let g:terminal_color_13 = s:purple.gui
+    let g:terminal_color_14 = s:cyan.gui
+    let g:terminal_color_15 = s:white.gui
+    let g:terminal_color_background = s:bg.gui
+    let g:terminal_color_foreground = s:fg.gui
+  endif
+" }

@@ -18,6 +18,8 @@ require("ui")
 -- Extras
 require("extras")
 
+require("corners")
+
 -- Bling bling
 local bling = require("bling")
 
