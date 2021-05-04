@@ -29,7 +29,7 @@ modules-center = desktops
 modules-right =
 
 [module/desktops]
-type = internal/xworkspaces
+type = internal/bspwm
 format-foreground = #D5D5D5
 label-occupied-foreground = #97D59B
 label-focused-foreground = #61AFEF

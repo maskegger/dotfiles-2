@@ -1,4 +1,5 @@
-(setq gc-cons-threshold (* 50 100 100))
+(require 'etrace)
+(setq gc-cons-threshold 100000000)
 (setq read-process-output-max (* 2048 2048))
 
 (require 'package)
@@ -26,6 +27,15 @@
 
 (use-package neotree)
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+(add-hook 'neotree-mode-hook
+         (lambda ()
+           (define-key evil-normal-state-local-map (kbd "SPC") 'neotree-quick-look)
+           (define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)
+           (define-key evil-normal-state-local-map (kbd "g") 'neotree-refresh)
+           (define-key evil-normal-state-local-map (kbd "n") 'neotree-next-line)
+           (define-key evil-normal-state-local-map (kbd "p") 'neotree-previous-line)
+           (define-key evil-normal-state-local-map (kbd "A") 'neotree-stretch-toggle)
+           (define-key evil-normal-state-local-map (kbd "H") 'neotree-hidden-file-toggle)))
 
 (use-package magit
   :config (global-set-key (kbd "C-x g") 'magit-status))
@@ -35,6 +45,14 @@
 
 (use-package evil
   :config (evil-mode))
+
+(use-package evil-leader
+  :config
+  (global-evil-leader-mode)
+  (evil-leader/set-leader "<SPC>")
+  (evil-leader/set-key
+    "<SPC>" 'helm-M-x
+    "u" 'undo-tree-visualize))
 
 (use-package helm
   :diminish
@@ -56,19 +74,12 @@
   (setq dashboard-set-file-icons t)
   (setq dashboard-set-navigator t))
 
-(use-package atom-one-dark-theme
+(use-package doom-themes
   :config
-  (load-theme 'atom-one-dark t))
+  (doom-themes-neotree-config))
+(load-theme 'quiet t)
 
 (use-package all-the-icons)
-
-(use-package evil-leader
-  :config
-  (global-evil-leader-mode)
-  (evil-leader/set-leader "<SPC>")
-  (evil-leader/set-key
-    "<SPC>" 'helm-M-x
-    "u" 'helm-M-x))
 
 (use-package doom-modeline
   :init (doom-modeline-mode 1)
@@ -106,18 +117,79 @@
 
 (use-package hydra)
 
+(require 'mu4e)
+(setq mu4e-maildir (expand-file-name "~/Mail/"))
+
+(setq mu4e-drafts-folder "/Drafts")
+(setq mu4e-sent-folder   "/Sent")
+(setq mu4e-trash-folder  "/Deleted")
+
+(setq mu4e-get-mail-command "offlineimap")
+
+(setq
+ user-mail-address "mcotocel@outlook.com"
+ user-full-name  "Matei Cotocel")
+
+(require 'org-mu4e)
+
+(setq message-send-mail-function 'smtpmail-send-it)
+(setq smtpmail-smtp-server "smtp-mail.outlook.com")
+(setq smtpmail-smtp-service 587 )
+(setq smtpmail-auth-credentials (expand-file-name "~/.authinfo"))
+
+(setq-default erc-enable-logging t)
+    (setq erc-save-buffer-on-part nil
+          erc-save-queries-on-quit nil
+          erc-log-write-after-send t
+          erc-log-write-after-insert t
+          erc-log-channels-directory (file-name-as-directory
+                                      (concat user-emacs-directory "erc"))
+          erc-server-auto-reconnect t
+          erc-prompt 'my-erc-prompt
+    )
+
+    (setq erc-track-exclude-types
+          '("JOIN" "KICK" "NICK" "PART" "QUIT" "MODE" "333" "353"))
+
+  (defun my-erc-prompt ()
+    (concat "[" (buffer-name) "]>"))
+
+(setq erc-autojoin-channels-alist '(("freenode.net" "#archlinux" "#gentoo" "#emacs" "#org-mode")))
+
+(use-package erc-hl-nicks
+  :after erc)
+
+(use-package erc-image
+  :after erc)
+
+(setq newsticker-url-list
+      '(("Arch Linux News" "https://archlinux.org/feeds/news/")
+      ("r/Linux" "https://www.reddit.com/r/linux/.rss")))
+
+(use-package good-scroll
+:config (good-scroll-mode 1))
+
 (use-package lsp-jedi)
 
 (use-package lua-mode)
 
+(use-package json-mode)
+
 (use-package lsp-mode
-  :init
-  :hook ((python-mode . lsp)
-         (lua-mode . lsp)
-         (sh-mode . lsp)
-         (lisp-mode . lsp)
-         (lsp-mode . lsp-enable-which-key-integration))
-  :commands lsp)
+      :init
+      :hook ((python-mode . lsp)
+             (lua-mode . lsp)
+             (sh-mode . lsp)
+             (lisp-mode . lsp)
+             (css-mode . lsp)
+             (html-mode . lsp)
+             (json-mode . lsp)
+             (markdown-mode . lsp)
+             (latex-mode . lsp)
+             (lsp-mode . lsp-enable-which-key-integration))
+      :commands lsp)
+  (setq lsp-log-io nil)
+(setq lsp-enable-file-watchers nil)
 
 (use-package lsp-ui :commands lsp-ui-mode)
 
@@ -184,7 +256,7 @@
 (set-frame-font "Iosevka Nerd Font-11" nil t)
 
 (define-key evil-normal-state-map (kbd "M-s") 'save-buffer)
-(define-key evil-normal-state-map (kbd "M-q") 'kill-current-buffer)
+(define-key evil-normal-state-map (kbd "M-q") 'delete-frame)
 (define-key evil-normal-state-map (kbd "M-w") 'delete-window)
 (define-key evil-normal-state-map (kbd "M-x") 'helm-M-x)
 (define-key evil-normal-state-map (kbd "M-/") 'helm-find-files)
@@ -263,13 +335,12 @@
 
 (set-fontset-font t 'symbol (font-spec :family "Twemoji") nil 'prepend)
 
+(delete-selection-mode t)
+
 (setq org-directory "~/org/"
       org-default-notes-file "~/org/notes.org")
 
 (setq org-export-backends '(latex md))
-
-(use-package centered-window
-  :hook (org-mode . centered-window-mode))
 
 (use-package org-bullets
   :hook (org-mode . org-bullets-mode))
@@ -288,3 +359,27 @@
 ("✅ DONE"      . (:foreground "#97D59B" :weight bold))
 ("↔️ OPTIONAL"  . (:foreground "#C780FF" :weight bold))
 ("🔔 IMPORTANT" . (:foreground "#80FFE4" :weight bold))))
+
+(use-package org-roam :hook
+      (after-init . org-roam-mode)
+      :custom
+      (org-roam-directory "~/org/"))
+
+(setq org-roam-graph-viewer "/usr/bin/eog")
+
+(use-package org-roam-server
+  :config
+  (setq org-roam-server-host "127.0.0.1"
+        org-roam-server-port 8080
+        org-roam-server-authenticate nil
+        org-roam-server-export-inline-images t
+        org-roam-server-serve-files nil
+        org-roam-server-served-file-extensions '("pdf" "mp4" "ogv")
+        org-roam-server-network-poll t
+        org-roam-server-network-arrows nil
+        org-roam-server-network-label-truncate t
+        org-roam-server-network-label-truncate-length 60
+        org-roam-server-network-label-wrap-length 20))
+
+(use-package writeroom-mode
+:hook (org-mode . writeroom-mode))

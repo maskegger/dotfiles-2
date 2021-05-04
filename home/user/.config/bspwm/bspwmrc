@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+xrandr --newmode "5120x2880_60.00" 1276.50 5120 5560 6128 7136 2880 2883 2888 2982 -hsync +vsync
+xrandr --addmode Virtual-1 "5120x2880_60.00"
+xrandr --output Virtual-1 --mode 5120x2880_60.00
 
 # Workspaces
 bspc monitor -d 0 1 2 3 4 5 6 7 8 9

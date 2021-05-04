@@ -1,0 +1,67 @@
+
+#+TITLE: Why use Linux
+#+AUTHOR: Matei Cotocel
+[[file:20210423100326-linux_index.org][Linux Index]]
+
+* Intro
+
+Windows is good. macOS is good. Linux is good. BSD is good. There's a
+reason people use them. Each person uses the one best for them. But
+right now, I'm not. macOS is /not/ the best for me. Windows is /not/ the
+best for me. Linux is, but I'm not using it. A Raspberry Pi running
+Raspbian isn't enough. I need a /desktop/ system running Linux. And
+here's why.
+
+* Job opportunities
+
+First of all, Linux is good for job opportunities. So many of the
+servers providing content around the world run Linux or BSD. If you
+get to use Linux on a day-to-day basis, you'll learn better than using
+it on a Raspberry Pi sitting on your desk. You troubleshoot. You set
+up Xorg. Drivers. Configurations. Automation. Linux is a gateway to a
+world of programming, administration, automation, and even AI. You get
+to learn more about your computer, not locked in by Apple or
+Microsoft.
+
+* Customization
+
+Another /huge/ advantage of Linux is customization. On Windows, if I
+don't like windows are managed, I deal with it. On macOS, if I don't
+like the titlebar, I deal with it. On Linux, however, I can change
+/each and every part/ of the system, to fine tune it, to make it the
+best for me. I can make my own kernel extensions. My own window
+manager. I can compile the kernel to improve performance if I wanted
+to. And that's a big part of it. With Linux, you are free to do
+whatever you want, with no restrictions. Instead of working for your
+system, you make your system work for you. And this leads onto
+productivity.
+
+* Productivity
+
+Imagine this. You have 6 windows open. A browser, a code editor, a
+debugger, two terminals, and a music app. How do you manage them all?
+On Windows or macOS, you try to arrange them manually, fitting into
+parts of the screen. On Linux, you use a window manager to
+automatically arrange your windows, saving you a ton of time. Linux,
+therefore, is more productive.
+
+Another scenario. You have to install some apps, since you're moving
+computers. On Windows or macOS, you go from site to site, downloading
+EXEs, APPs, MSIs, and DMGs. On Linux, you run a simple command. =pacman
+-S chromium teams=. Easy. And fast. Saves you time. /Productive./
+
+* Repairability
+
+You update your system, and suddenly the display is buggy. Bad
+drivers. Windows and macOS users would download drivers from the
+official site, or rollback the update. Linux users can easily boot
+into the command line and reinstall drivers with one command. If
+something goes wrong on Linux, you always know how to fix it, unlike
+on Windows and macOS.
+
+* Conclusion
+
+Overall, I think that switching to Linux is the best choice for me,
+short term /and/ long term. I don't need Apple or Microsoft. Oh, and by
+the way, this was written in Emacs, with Org Mode, and exported to
+PDF, all with open source tools. Who needs Microsoft Word anyway?

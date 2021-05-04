@@ -1,16 +1,6 @@
---                             --
---- Keybindings for AwesomeWM ---
---                             --
-
--- Includes --
-
--- Load Luarocks modules
-pcall(require, "luarocks.loader")
-
 -- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
-require("awful.autofocus")
 
 -- Hotkeys library
 local hotkeys_popup = require("awful.hotkeys_popup")
@@ -21,8 +11,12 @@ local bling = require("bling")
 -- Sweet animations
 local awestore = require("awestore")
 
--- Layout editor
+-- Layout
 local machi = require("layout-machi")
+
+-- Exposefor AwesomeWM
+local revelation = require("awesome-revelation")
+revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
 
 -- Discord
 local discord_anim_y = awestore.tweened(5120, {
@@ -95,10 +89,10 @@ local spotify_scratch = bling.module.scratchpad:new {
 
 -- Tag preview
 bling.widget.tag_preview.enable {
-    show_client_content = true,
-    x = 100,
-    y = 100,
-    scale = 0.25,
+    show_client_content = false,
+    x = 1280,
+    y = 720,
+    scale = 0.50,
     honor_padding = false,
     honor_workarea = false
 }
@@ -118,41 +112,72 @@ globalkeys = gears.table.join(
              description = "Toggle title bar", group = "AwesomeWM"
          }),
 
+        -- Expose
+        awful.key({modkey}, "e", revelation, {
+            description = 'Expose', group = "AwesomeWM"
+        }),
+
+        -- Execute Lua code
+        awful.key({modkey}, "r", function() awful.prompt.run {
+            prompt = "Run Lua code: ",
+            textbox = awful.screen.focused().promptbox.widget,
+            exe_callback = awful.util.eval,
+            history_path = awful.util.get_cache_dir() .. "/history_eval"
+        } end, {
+            description = 'Execute Lua Code', group = "AwesomeWM"
+        }),
+
+        -- Toggle Wibar
+        awful.key({modkey}, "b", function() for s in screen do s.wibar.visible = not s.wibar.visible end end, {
+            description = 'Toggle Wibar', group = "AwesomeWM"
+        }),
+
+
+    -- Bling --
+
+         -- Discord scratchpad
+         awful.key({modkey, "Control"}, 'd', function() discord_scratch:toggle() end, {
+             description = "Toggle Discord scratchpad", group = "Bling"
+         }),
+
+         -- Terminal scratchpad
+         awful.key({modkey, "Control"}, 't', function() terminal_scratch:toggle() end, {
+             description = "Toggle terminal scratchpad", group = "Bling"
+         }),
+
+         -- Spotify scratchpad
+         awful.key({modkey, "Control"}, 's', function() spotify_scratch:toggle() end, {
+             description = "Toggle Spoyify scratchpad", group = "Bling"
+         }),
+
          -- Toggle swallowing
          awful.key({modkey}, 's', function() bling.module.window_swallowing.toggle() end, {
-            description = 'Toggle swallowing', group = "AwesomeWM"
+            description = 'Toggle swallowing', group = "Bling"
          }),
 
          -- Show tag preview
          awful.key({modkey, 'Control'}, '1', function()
             awesome.emit_signal("bling::tag_preview::update", mouse.screen.selected_tag)
-            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, true)   
+            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, true)
         end, {
-            description = 'Show tag preview', group = "AwesomeWM"
+            description = 'Show tag preview', group = "Bling"
         }),
 
          -- Hide tag preview
          awful.key({modkey, 'Control'}, '2', function()
-            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, false)   
+            awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, false)
         end, {
-            description = 'Show tag preview', group = "AwesomeWM"
+            description = 'Show tag preview', group = "Bling"
         }),
 
-    -- Scratchpad --
-
-         -- Discord
-         awful.key({modkey, "Control"}, 'd', function() discord_scratch:toggle() end, {
-             description = "Toggle Discord scratchpad", group = "Scratchpad"
+         -- Add client to tabbed layout
+         awful.key({modkey}, 't', function() bling.module.tabbed.pick() end, {
+            description = 'Add client to tabbed layout', group = "Bling"
          }),
 
-         -- Terminal
-         awful.key({modkey, "Control"}, 't', function() terminal_scratch:toggle() end, {
-             description = "Toggle terminal scratchpad", group = "Scratchpad"
-         }),
-
-         -- Spotify
-         awful.key({modkey, "Control"}, 's', function() spotify_scratch:toggle() end, {
-             description = "Toggle Spoyify scratchpad", group = "Scratchpad"
+         -- Tab through clients in tabbed client
+         awful.key({modkey}, 'Tab', function() bling.module.tabbed.iter() end, {
+            description = 'Tab through clients in tabbed client', group = "Bling"
          }),
 
     -- Machi --
@@ -260,25 +285,7 @@ globalkeys = gears.table.join(
 
         -- Open launcher
         awful.key({modkey}, "space", function() awful.spawn.with_shell("rofi -show drun -display-drun 'App Launcher' -dpi 196") end, {
-            description = "Open terminal",
-            group = "Applications and menus"
-        }),
-
-        -- Switch windows
-        awful.key({modkey}, "Tab", function() awful.spawn.with_shell("rofi -show window -display-window 'Switch windows' -dpi 196") end, {
-            description = "Switch windows",
-            group = "Applications and menus"
-        }),
-
-        -- Calculator
-        awful.key({modkey}, "c", function() awful.spawn.with_shell("rofi -show calc -modi calc -no-shwo-match -no-sort -display-calc 'Calculator' -dpi 196") end, {
-            description = "Calculator",
-            group = "Applications and menus"
-        }),
-
-        -- Wallpaper switcher
-        awful.key({modkey}, "b", function() awful.spawn.with_shell("~/.bin/rofi-wallpaper") end, {
-            description = "Wallpaper switcher",
+            description = "Open launcher",
             group = "Applications and menus"
         }),
 
@@ -294,7 +301,7 @@ globalkeys = gears.table.join(
             group = "Applications and menus"
         }),
 
-        -- Help menu
+        -- Hotkey menu
         awful.key({modkey}, "/", hotkeys_popup.show_help, {
             description = "Hotkey menu",
             group = "Applications and menus"
@@ -302,16 +309,31 @@ globalkeys = gears.table.join(
 
 )
 
+-- Move through workspaces
 for i = 1, 9 do
     globalkeys = gears.table.join(globalkeys,
 
+    -- View workspace
     awful.key({modkey}, "#" .. i + 9, function() local screen = awful.screen.focused() local tag = screen.tags[i] if tag then tag:view_only() end end, {
         description = "View workspace #" .. i,
         group = "Workspaces"
     }),
 
+    -- Move focused client to workspace
     awful.key({modkey, "Shift"}, "#" .. i + 9, function() if client.focus then local tag = client.focus.screen.tags[i] if tag then client.focus:move_to_tag(tag) end end end, {
         description = "Move focused client to workspace #" .. i,
         group = "Workspaces"
     }))
 end
+
+
+-- Mouse buttons
+clientbuttons = gears.table.join(awful.button({}, 1, function(c)
+    c:emit_signal("request::activate", "mouse_click", {raise = true})
+end), awful.button({modkey}, 1, function(c)
+    c:emit_signal("request::activate", "mouse_click", {raise = true})
+    awful.mouse.client.move(c)
+end), awful.button({modkey}, 3, function(c)
+    c:emit_signal("request::activate", "mouse_click", {raise = true})
+    awful.mouse.client.resize(c)
+end))

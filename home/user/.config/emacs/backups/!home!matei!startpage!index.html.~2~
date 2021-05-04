@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Start</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <p class="center">
+      <img
+        src="/home/matei/Pictures/pfp_rounded.png"
+        width="150"
+        height="150"
+      />
+    </p>
+    <form id="form" role="search">
+      <input
+        type="search"
+        id="query"
+        name="q"
+        placeholder="Search DuckDuckGo..."
+      />
+    </form>
+    <script>
+      const f = document.getElementById("form");
+      const q = document.getElementById("query");
+      const search = "https://duckduckgo.com/?t=ffab&q=";
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = search + q.value + "&ia=web";
+        window.open(url, "_self");
+      }
+
+      f.addEventListener("submit", submitted);
+    </script>
+    <h2>Sites</h2>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/">Github</a></li>
+        <li><a href="https://news.ycombinator.com/">Hacker News</a></li>
+        <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+      </ul>
+    </nav>
+    <h2>Self Hosted</h2>
+    <nav>
+      <ul>
+        <li><a href="http://192.168.0.192/admin">Pihole</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

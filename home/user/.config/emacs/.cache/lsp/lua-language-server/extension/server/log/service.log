@@ -1,13 +1,13 @@
-[07:03:58.888][info] [#0:main:51]: Lua Lsp startup, root: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
-[07:03:58.888][debug][#0:main:52]: ROOT:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
-[07:03:58.888][debug][#0:main:53]: LOGPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log
-[07:03:58.888][debug][#0:main:54]: METAPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta
-[07:03:58.955][info] [#0:script.service.telemetry:16]: Telemetry Token:	352FB15DA42347A6
-[07:03:59.119][info] [#0:script.pub.pub:48]: Create brave:	1
-[07:03:59.119][info] [#0:script.pub.pub:48]: Create brave:	2
-[07:03:59.119][info] [#0:script.pub.pub:48]: Create brave:	3
-[07:03:59.119][info] [#0:script.pub.pub:48]: Create brave:	4
-[07:03:59.119][debug][#0:script.service.service:136]: 
+[13:41:12.987][info] [#0:main:51]: Lua Lsp startup, root: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
+[13:41:12.987][debug][#0:main:52]: ROOT:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
+[13:41:12.987][debug][#0:main:53]: LOGPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log
+[13:41:12.987][debug][#0:main:54]: METAPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta
+[13:41:12.999][info] [#0:script.service.telemetry:16]: Telemetry Token:	352FB15DA42347A6
+[13:41:13.042][info] [#0:script.pub.pub:48]: Create brave:	1
+[13:41:13.042][info] [#0:script.pub.pub:48]: Create brave:	2
+[13:41:13.042][info] [#0:script.pub.pub:48]: Create brave:	3
+[13:41:13.043][info] [#0:script.pub.pub:48]: Create brave:	4
+[13:41:13.043][debug][#0:script.service.service:136]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 1.689 MB
@@ -29,7 +29,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[07:03:59.221][debug][#0:script.provider.client:32]: Client init	{
+[13:41:13.125][debug][#0:script.provider.client:32]: Client init	{
     capabilities = {
         textDocument = {
             callHierarchy = {
@@ -66,6 +66,7 @@
                         [1] = "markdown",
                         [2] = "plaintext",
                     },
+                    insertReplaceSupport = true,
                     resolveAdditionalTextEditsSupport = true,
                     resolveSupport = {
                         properties = {
@@ -176,9 +177,6 @@
         workspace = {
             applyEdit = true,
             configuration = true,
-            didChangeWatchedFiles = {
-                dynamicRegistration = true,
-            },
             executeCommand = {
                 dynamicRegistration = false,
             },
@@ -227,14 +225,14 @@
     },
     clientInfo = {
         name = "emacs",
-        version = "GNU Emacs 27.2 (build 1, x86_64-pc-linux-gnu, GTK+ Version 3.24.27, cairo version 1.17.4)\
- of 2021-03-26",
+        version = "GNU Emacs 28.0.50 (build 1, x86_64-pc-linux-gnu, GTK+ Version 3.24.29, cairo version 1.17.4)\
+ of 2021-05-01",
     },
     rootPath = "/home/matei",
     rootUri = "file:///home/matei",
     workDoneToken = "1",
 }
-[07:03:59.221][info] [#0:script.language:135]: VSC language: nil
-[07:03:59.221][info] [#0:script.language:136]: LS  language: en-us
-[07:03:59.244][info] [#0:script.workspace.workspace:31]: Workspace inited: 	file:///home/matei
-[07:03:59.244][info] [#0:script.workspace.workspace:38]: Log path: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log/file_home_matei.log
+[13:41:13.125][info] [#0:script.language:135]: VSC language: nil
+[13:41:13.125][info] [#0:script.language:136]: LS  language: en-us
+[13:41:13.143][info] [#0:script.workspace.workspace:31]: Workspace inited: 	file:///home/matei
+[13:41:13.143][info] [#0:script.workspace.workspace:38]: Log path: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log/file_home_matei.log

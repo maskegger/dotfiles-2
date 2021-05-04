@@ -4,7 +4,7 @@
     <i>My regularly updated dotfiles for Linux</i>
     <br/>
     <br/>
-    <a><img src="Rice.svg"></a>
+    <a><img src="./Rice.png"></a>
 </p>
 
 ## Software
@@ -33,8 +33,10 @@
 - kitty
 - mpd
 - ncmpcpp
+- Emacs
 - Neovim
 - Picom
+- Qutebrowser
 - Rofi
 - Sxhkd
 - Zsh
@@ -48,8 +50,15 @@
 - i3
 - jgmenu
 - Polybar
-- Emacs
 - Openbox
 - AwesomeWM
 
 ### Not working
+
+## Setup
+
+- Install dependencies
+- Clone the repo
+- Optinally, checkout the unstable branch
+- Run `git submodule init` and `git submodule update`
+- Symlink all the files and folders to their locations
