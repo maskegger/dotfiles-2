@@ -99,8 +99,8 @@ theme.wallpaper = "~/Pictures/Wallpaper/Cove.jpg"
 
 -- Edge snap
 
-theme.snap_bg = "#1F252A"
-theme.snap_border_width = "0"
+theme.snap_bg = "#384149"
+theme.snap_border_width = "5"
 
 -- Icon theme
 

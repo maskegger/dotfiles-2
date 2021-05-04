@@ -1,3 +1,4 @@
+(require 'etrace)
 (setq gc-cons-threshold 100000000)
 (setq read-process-output-max (* 2048 2048))
 
@@ -255,7 +256,7 @@
 (set-frame-font "Iosevka Nerd Font-11" nil t)
 
 (define-key evil-normal-state-map (kbd "M-s") 'save-buffer)
-(define-key evil-normal-state-map (kbd "M-q") 'kill-current-buffer)
+(define-key evil-normal-state-map (kbd "M-q") 'delete-frame)
 (define-key evil-normal-state-map (kbd "M-w") 'delete-window)
 (define-key evil-normal-state-map (kbd "M-x") 'helm-M-x)
 (define-key evil-normal-state-map (kbd "M-/") 'helm-find-files)
