@@ -54,3 +54,11 @@
 - AwesomeWM
 
 ### Not working
+
+## Setup
+
+- Install dependencies
+- Clone the repo
+- Optinally, checkout the unstable branch
+- Run `git submodule init` and `git submodule update`
+- Symlink all the files and folders to their locations
