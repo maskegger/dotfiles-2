@@ -15,7 +15,7 @@ local awestore = require("awestore")
 local machi = require("layout-machi")
 
 -- Exposefor AwesomeWM
-local revelation = require("revelation")
+local revelation = require("awesome-revelation")
 revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
 
 -- Discord

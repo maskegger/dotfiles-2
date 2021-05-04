@@ -25,7 +25,7 @@ local bling = require("bling")
 local machi = require("layout-machi")
 
 -- Expose for AwesomeWM
-local revelation = require("revelation")
+local revelation = require("awesome-revelation")
 revelation.init()
 
 -- Default terminal and editor
