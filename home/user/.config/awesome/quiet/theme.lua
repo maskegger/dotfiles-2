@@ -113,8 +113,8 @@ theme.tabbar_position = "top"
 theme.mstab_bar_padding = 0
 theme.tabbar_size = 80
 theme.tabbar_radius = 20
-theme.tabbar_bg_normal = "#384149"
-theme.tabbar_bg_focus = "#1f252a"
+theme.tabbar_bg_normal = "#1f252a"
+theme.tabbar_bg_focus = "#384149"
 
 theme.flash_focus_start_opacity = 0.6
 theme.flash_focus_step = 0.01

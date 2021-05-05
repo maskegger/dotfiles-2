@@ -50,15 +50,15 @@ awful.screen.connect_for_each_screen(function(s)
         y = 0,
         screen = s,
         height = 60,
-        width = 2500,
+        width = 3000,
         visible = true,
         type = "dock",
-        shape = function(cr, w, h, r) gears.shape.octogon(cr, w, h, 25) end,
+        shape = function(cr, w, h, r) gears.shape.octogon(cr, w, h, 0) end,
         stretch = false,
         bg = "#1f252a",
     })
 
-    s.wibar.x = 1280
+    s.wibar.x = 1150
     s.wibar.y = 2800
 
     -- Add widgets
@@ -74,7 +74,7 @@ awful.screen.connect_for_each_screen(function(s)
             s.taglist,
             wibox.widget {
                 widget = wibox.widget.separator,
-                forced_width = 850,
+                forced_width = 1000,
                 opacity = 0
             },
             -- s.promptbox,

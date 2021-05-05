@@ -97,8 +97,6 @@ bling.widget.tag_preview.enable {
     honor_workarea = false
 }
 
--- Begin keybindings --
-
 -- Set mod key
 
 modkey = "Mod4"
@@ -131,7 +129,6 @@ globalkeys = gears.table.join(
         awful.key({modkey}, "b", function() for s in screen do s.wibar.visible = not s.wibar.visible end end, {
             description = 'Toggle Wibar', group = "AwesomeWM"
         }),
-
 
     -- Bling --
 
@@ -242,13 +239,13 @@ globalkeys = gears.table.join(
         }),
 
         -- Focus next client
-        awful.key({modkey, "Shift"}, "j", function() awful.client.focus.byidx(1) end, {
+        awful.key({modkey}, "j", function() awful.client.focus.byidx(1) end, {
             description = "Focus next client",
             group = "Windows"
         }),
 
         -- Focus previous client
-        awful.key({modkey, "Shift"}, "k", function() awful.client.focus.byidx(-1) end, {
+        awful.key({modkey}, "k", function() awful.client.focus.byidx(-1) end, {
             description = "Focus previous client",
             group = "Windows"
         }),
@@ -262,6 +259,18 @@ globalkeys = gears.table.join(
         -- Swap with previous client
         awful.key({modkey, "Control"}, "k", function() awful.client.swap.byidx(-1) end, {
             description = "Swap with previous client",
+            group = "Windows"
+        }),
+
+        -- Resize to the right
+        awful.key({modkey, "Shift"}, "l", function() awful.tag.incmwfact(0.05) end, {
+            description = "Resize to the right",
+            group = "Windows"
+        }),
+
+        -- Resize to the left
+        awful.key({modkey, "Shift"}, "h", function() awful.tag.incmwfact(-0.05) end, {
+            description = "Resize to the left",
             group = "Windows"
         }),
 

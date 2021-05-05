@@ -44,8 +44,8 @@ client.connect_signal("request::titlebars", function(c)
             layout = wibox.layout.align.horizontal
         },
         widget = wibox.container.margin,
-        left = 8,
-        right = 8,
+        left = 5,
+        right = 5,
         top = 8,
         bottom = 8
     }
@@ -58,7 +58,7 @@ end)
 
 -- Corners
 client.connect_signal("manage", function(c)
-    c.shape = function(cr, w, h, r) gears.shape.octogon(cr, w, h, 30) end
+    c.shape = function(cr, w, h, r) gears.shape.octogon(cr, w, h, 0) end
 end)
 
 -- Rules

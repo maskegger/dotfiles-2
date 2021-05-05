@@ -35,4 +35,4 @@ awful.screen.connect_for_each_screen(function(s)
 end)
 
 -- Flash focus
-bling.module.flash_focus.enable()
+-- bling.module.flash_focus.enable()

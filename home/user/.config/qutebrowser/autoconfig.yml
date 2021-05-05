@@ -8,3 +8,15 @@ config_version: 2
 settings:
   content.notifications.enabled:
     https://www.reddit.com: false
+  fonts.default_size:
+    global: 5pt
+  fonts.statusbar:
+    global: default_size default_family
+  tabs.padding:
+    global:
+      bottom: 0
+      left: 5
+      right: 5
+      top: 0
+  tabs.width:
+    global: 5%
