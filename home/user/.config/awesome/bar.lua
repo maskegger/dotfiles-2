@@ -55,8 +55,10 @@ awful.screen.connect_for_each_screen(function(s)
 
     appmenu = {
      {"Terminal", function() awful.spawn.with_shell("kitty") end},
+     {"Editor", function() awful.spawn.with_shell("emacs") end},
      {"Browser", function() awful.spawn.with_shell("qutebrowser") end},
      {"Music", function() awful.spawn.with_shell("spotify") end},
+     {"File manager", function() awful.spawn.with_shell("thunar") end},
     }
 
     scriptmenu = {
