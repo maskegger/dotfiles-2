@@ -106,6 +106,17 @@ theme.snap_border_width = "5"
 
 theme.icon_theme = "Papirus"
 
+-- Menu
+theme.menu_height = "50"
+theme.menu_width = "400"
+theme.menu_submenu = ""
+theme.menu_submenu_icon = nil
+
+theme.ghost = "~/.config/awesome/icons/pfp_trans.png"
+theme.awesome_icon = "~/.config/awesome/icons/awesome.png"
+theme.tux = "~/.config/awesome/icons/tux.png"
+theme.terminal = "~/.config/awesome/icons/terminal.png"
+
 -- Bling
 theme.tabbed_spawn_in_tab = true
 theme.tabbar_style = "modern"

@@ -1,6 +1,9 @@
 -- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
+local beautiful = require("beautiful")
+local hotkeys_popup = require("awful.hotkeys_popup")
+require("awful.hotkeys_popup.keys")
 
 -- Widget and layout library
 local wibox = require("wibox")
@@ -43,6 +46,36 @@ awful.screen.connect_for_each_screen(function(s)
     -- Clock
     clock = wibox.widget.textclock()
 
+    -- Menu
+    awesomemenu = {
+     {"Hotkeys", function() hotkeys_popup.show_help(nil, awful.screen.focused()) end},
+     {"Reload", awesome.restart},
+     {"Quit", function() awesome.quit() end},
+    }
+
+    appmenu = {
+     {"Terminal", function() awful.spawn.with_shell("kitty") end},
+     {"Browser", function() awful.spawn.with_shell("qutebrowser") end},
+     {"Music", function() awful.spawn.with_shell("spotify") end},
+    }
+
+    scriptmenu = {
+     {"Replace app folder", function() awful.spawn.with_shell("~/.bin/apps") end},
+     {"Random man pager", function() awful.spawn.with_shell("~/.bin/randman") end},
+     {"Take screenshot", function() awful.spawn.with_shell("~/.bin/rofi-screenshot") end},
+     {"Image to text", function() awful.spawn.with_shell("~/.bin/rofi-imgtext") end},
+     {"Shorten url", function() awful.spawn.with_shell("~/.bin/rofi-urlshorten") end},
+     {"Change wallpaper", function() awful.spawn.with_shell("~/.bin/rofi-wallpaper") end},
+    }
+
+    mainmenu = awful.menu({items = { 
+        {"AwesomeWM", awesomemenu, beautiful.awesome_icon},
+        {"Scripts", scriptmenu, beautiful.terminal},
+        {"Apps", appmenu, beautiful.tux},
+    }})
+
+    launcher = awful.widget.launcher({image = beautiful.ghost, menu = mainmenu})
+
     -- Create the wibox
     s.wibar = awful.wibar({
         position = "bottom",
@@ -65,9 +98,10 @@ awful.screen.connect_for_each_screen(function(s)
     s.wibar:setup {
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
+            launcher,
             wibox.widget {
                 widget = wibox.widget.separator,
-                forced_width = 30,
+                forced_width = 15,
                 opacity = 0
             },
             layout = wibox.layout.fixed.horizontal,

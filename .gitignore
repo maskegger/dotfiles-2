@@ -3,6 +3,7 @@
 # Directories
 spell/
 undo/
+.cache/
 
 emacs/auto-save-list/
 emacs/backups/
