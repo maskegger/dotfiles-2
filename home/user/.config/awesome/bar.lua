@@ -73,7 +73,7 @@ awful.screen.connect_for_each_screen(function(s)
     mainmenu = awful.menu({items = { 
         {"AwesomeWM", awesomemenu, beautiful.awesome_icon},
         {"Scripts", scriptmenu, beautiful.terminal},
-        {"Apps", appmenu, beautiful.tux},
+        {"Apps", appmenu, beautiful.app},
     }})
 
     launcher = awful.widget.launcher({image = beautiful.ghost, menu = mainmenu})

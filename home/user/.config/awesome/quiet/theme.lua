@@ -114,7 +114,7 @@ theme.menu_submenu_icon = nil
 
 theme.ghost = "~/.config/awesome/icons/pfp_trans.png"
 theme.awesome_icon = "~/.config/awesome/icons/awesome.png"
-theme.tux = "~/.config/awesome/icons/tux.png"
+theme.app = "~/.config/awesome/icons/app.png"
 theme.terminal = "~/.config/awesome/icons/terminal.png"
 
 -- Bling
