@@ -346,3 +346,7 @@ end), awful.button({modkey}, 3, function(c)
     c:emit_signal("request::activate", "mouse_click", {raise = true})
     awful.mouse.client.resize(c)
 end))
+
+root.buttons(gears.table.join(
+    awful.button({ }, 3, function () mainmenu:toggle() end)
+))

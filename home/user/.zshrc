@@ -89,6 +89,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
+export PATH="/shade/etc/bin/:$PATH"   # Add binaries installed by shade into path
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Fuzzy finder
 

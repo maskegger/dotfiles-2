@@ -12,13 +12,19 @@ local wibox = require("wibox")
 local taglist_buttons = gears.table.join(awful.button({}, 1, function(t) t:view_only() end))
 
 local tasklist_buttons = gears.table.join(
-                             awful.button({}, 1, function(c)
-        if c == client.focus then
-            c.minimized = true
-        else
-            c:emit_signal("request::activate", "tasklist", {raise = true})
-        end
-    end))
+    awful.button({}, 1,
+        function(c)
+            if c == client.focus then
+                c.minimized = true
+            else
+                c:emit_signal("request::activate", "tasklist", {raise = true})
+            end
+        end),
+    awful.button({}, 3,
+        function()
+            awful.menu.client_list({theme = {width = 250}})
+        end)
+)
 
 awful.screen.connect_for_each_screen(function(s)
 
@@ -37,7 +43,39 @@ awful.screen.connect_for_each_screen(function(s)
     s.taglist = awful.widget.taglist {
         screen = s,
         filter = awful.widget.taglist.filter.all,
-        buttons = taglist_buttons
+        buttons = taglist_buttons,
+    }
+
+    -- Tasklist widget
+    s.tasklist =
+        awful.widget.tasklist {
+            screen = s,
+            filter = awful.widget.tasklist.filter.currenttags,
+            buttons = tasklist_buttons,
+            layout = {
+                spacing = 0,
+                spacing_widget = {
+                    widget = wibox.container.background
+                },
+                layout = wibox.layout.fixed.horizontal
+        },
+        widget_template = {
+            {
+                {
+                    nil,
+                    awful.widget.clienticon,
+                    nil,
+                    layout = wibox.layout.fixed.horizontal,
+                },
+                top = 5,
+                bottom = 5,
+                left = 10,
+                right = 10,
+                widget = wibox.container.margin
+            },
+            id = "background_role",
+            widget = wibox.container.background
+        }
     }
 
     -- Prompt
@@ -99,31 +137,33 @@ awful.screen.connect_for_each_screen(function(s)
     -- Add widgets
     s.wibar:setup {
         layout = wibox.layout.align.horizontal,
+        expand = "none",
         { -- Left widgets
-            launcher,
-            wibox.widget {
-                widget = wibox.widget.separator,
-                forced_width = 15,
-                opacity = 0
-            },
             layout = wibox.layout.fixed.horizontal,
+            launcher,
             s.taglist,
             wibox.widget {
                 widget = wibox.widget.separator,
-                forced_width = 1000,
+                forced_width = 25,
                 opacity = 0
             },
-            -- s.promptbox,
-            clock,
+            s.promptbox,
         },
         {
             layout = wibox.layout.fixed.horizontal,
+            {
+                s.tasklist,
+                shape =  function(cr, w, h, r) gears.shape.rounded_rect(cr, w, h, 20) end,
+                widget = wibox.container.background
+            }    
         },
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-            spacing = 40,
-            wibox.widget.systray(),
-            s.layoutbox,
+            spacing = 10,
+            clock,
+            --wibox.widget.systray(),
+            wibox.layout.margin(wibox.widget.systray(), 7, 7, 7, 7),
+            wibox.layout.margin(s.layoutbox, 7, 7, 7, 7),
             wibox.widget {
                 widget = wibox.widget.separator,
                 forced_width = 1,
