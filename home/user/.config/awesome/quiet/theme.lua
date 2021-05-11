@@ -39,9 +39,9 @@ theme.fg_minimize = "#C780FF"
 
 -- Gap and borders
 
-theme.useless_gap = 20
+theme.useless_gap = 10
 theme.gap_single_client = true
-theme.border_width = 5
+theme.border_width = 3
 theme.border_color_normal = "#384149"
 theme.border_color_active = "#384149"
 theme.border_color_marked = "#384149"
@@ -107,8 +107,8 @@ theme.snap_border_width = "5"
 theme.icon_theme = "Papirus"
 
 -- Menu
-theme.menu_height = "50"
-theme.menu_width = "400"
+theme.menu_height = "25"
+theme.menu_width = "200"
 theme.menu_submenu = ""
 theme.menu_submenu_icon = nil
 
@@ -122,8 +122,8 @@ theme.tabbed_spawn_in_tab = true
 theme.tabbar_style = "modern"
 theme.tabbar_position = "top"
 theme.mstab_bar_padding = 0
-theme.tabbar_size = 80
-theme.tabbar_radius = 20
+theme.tabbar_size = 40
+theme.tabbar_radius = 10
 theme.tabbar_bg_normal = "#1f252a"
 theme.tabbar_bg_focus = "#384149"
 
@@ -155,15 +155,15 @@ theme.hotkeys_border_color = "#1F252A"
 theme.notification_font = "Iosevka 11"
 theme.notification_bg = "#1F252A"
 theme.notification_fg = "#D5D5D5"
-theme.notification_margin = 40
+theme.notification_margin = 20
 naughty.config.defaults.margin = theme.notification_margin
-naughty.config.defaults.padding = 40
+naughty.config.defaults.padding = 20
 naughty.config.defaults.position = "top_right"
 theme.notification_border_width = 5
 theme.notification_border_color = "#80D1FF"
-theme.notification_width = 700
-theme.notification_height = 120
-theme.notification_max_width = 4000
+theme.notification_width = 300
+theme.notification_height = 60
+theme.notification_max_width = 300
 
 ruled.notification.connect_signal('request::rules', function()
     theme.notification_shape = function(cr, w, h, r)

@@ -14,17 +14,17 @@ local awestore = require("awestore")
 -- Layout
 local machi = require("layout-machi")
 
--- Exposefor AwesomeWM
+-- Expose for AwesomeWM
 local revelation = require("awesome-revelation")
 revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
 
 -- Discord
-local discord_anim_y = awestore.tweened(5120, {
+local discord_anim_y = awestore.tweened(1366, {
     duration = 500,
     easing = awestore.easing.cubic_in_out
 })
 
-local discord_anim_x = awestore.tweened(1440, {
+local discord_anim_x = awestore.tweened(200, {
     duration = 500,
     easing = awestore.easing.cubic_in_out
 })
@@ -35,7 +35,7 @@ local discord_scratch = bling.module.scratchpad:new {
     sticky = true,
     autoclose = true,
     floating = true,
-    geometry = {x=1440, y=400, height=2000, width=2400},
+    geometry = {x=200, y=70, height=600, width=700},
     reapply = true,
     dont_focus_before_close  = false,
     awestore = {x = discord_anim_x, y = discord_anim_y}
@@ -58,7 +58,7 @@ local terminal_scratch = bling.module.scratchpad:new {
     sticky = true,
     autoclose = true,
     floating = true,
-    geometry = {x=0, y=0, height=1000, width=5120},
+    geometry = {x=0, y=0, height=300, width=1366},
     reapply = true,
     dont_focus_before_close  = false,
     awestore = {x = terminal_anim_x, y = terminal_anim_y}

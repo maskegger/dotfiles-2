@@ -16,19 +16,19 @@ local tl_callback = function()
 end
 
 local tr_callback = function()
-    beautiful.useless_gap = 20
+    beautiful.useless_gap = 10
     for s in screen do s.wibar.visible = not s.wibar.visible end
     for s in screen do s.wibar.visible = not s.wibar.visible end
 end
 
 local bl_callback = function()
-    beautiful.useless_gap = 100
+    beautiful.useless_gap = 50
     for s in screen do s.wibar.visible = not s.wibar.visible end
     for s in screen do s.wibar.visible = not s.wibar.visible end
 end
 
 local br_callback = function()
-    beautiful.useless_gap = 200
+    beautiful.useless_gap = 70
     for s in screen do s.wibar.visible = not s.wibar.visible end
     for s in screen do s.wibar.visible = not s.wibar.visible end
 end

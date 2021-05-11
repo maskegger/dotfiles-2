@@ -12,7 +12,7 @@
 
   background-color: #1F252A;
 
-  font: "Iosevka Nerd Font 20";
+  font: "Iosevka Nerd Font 12";
   text-color: @text;
 }
 
@@ -24,13 +24,13 @@ window {
 
 mainbox {
   padding: 1em;
-  border: 5px;
+  border: 3px;
   border-radius: 0px;
   border-color: @blue;
 }
 
 inputbar {
-  margin: 10px 10px 50px 10px;
+  margin: 5px 5px 25px 5px;
   children: [prompt, textbox-prompt-colon, entry, case-indicator];
 }
 
@@ -52,17 +52,17 @@ listview {
   spacing: 5px;
   dynamic: true;
   scrollbar: false;
-  columns: 4;
+  columns: 2;
 }
 
 element {
-  padding: 0.3em;
+  padding: 0.1em;
   text-color: @text-alt;
   border-radius: 15px;
 }
 
 element-icon { 
-    size: 3ch; 
+    size: 2ch; 
 }
 
 element selected {

@@ -88,7 +88,7 @@ gnome-disk-utility
 gnome-system-monitor
 grub
 linux-lts
-linux-xanmod
+#linux-xanmod
 ly-git
 opendoas
 polkit

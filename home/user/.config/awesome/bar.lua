@@ -122,8 +122,8 @@ awful.screen.connect_for_each_screen(function(s)
         x = 0,
         y = 0,
         screen = s,
-        height = 60,
-        width = 3000,
+        height = 30,
+        width = 1200,
         visible = true,
         type = "dock",
         shape = function(cr, w, h, r) gears.shape.octogon(cr, w, h, 0) end,
@@ -131,8 +131,8 @@ awful.screen.connect_for_each_screen(function(s)
         bg = "#1f252a",
     })
 
-    s.wibar.x = 1150
-    s.wibar.y = 2800
+    s.wibar.x = 80
+    s.wibar.y = 720
 
     -- Add widgets
     s.wibar:setup {

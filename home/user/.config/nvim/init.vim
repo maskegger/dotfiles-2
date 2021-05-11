@@ -186,8 +186,9 @@ noremap <silent> <M-Right> :vertical resize -5 <CR>
 vmap <leader>y "+y
 
 " Colorscheme
-colorscheme xresources
+" colorscheme xresources
 colorscheme quiet
+set termguicolors
 
 set fillchars=vert:\
 hi! VertSplit guifg=None guibg=None

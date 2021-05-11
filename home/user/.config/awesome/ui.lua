@@ -19,7 +19,7 @@ client.connect_signal("request::titlebars", function(c)
         c:emit_signal("request::activate", "titlebar", {raise = true})
         awful.mouse.client.resize(c)
     end))
-    awful.titlebar(c, {position = 'top', size = '60'}):setup{
+    awful.titlebar(c, {position = 'top', size = '20'}):setup{
         {
             {
                 awful.titlebar.widget.closebutton(c),
@@ -44,10 +44,10 @@ client.connect_signal("request::titlebars", function(c)
             layout = wibox.layout.align.horizontal
         },
         widget = wibox.container.margin,
-        left = 5,
-        right = 5,
-        top = 8,
-        bottom = 8
+        left = 2,
+        right = 2,
+        top = 0,
+        bottom = 2
     }
 end)
 
