@@ -1,4 +1,0 @@
-/home/matei/.config/emacs/elpa/vterm-20210409.1558/build/CMakeFiles/rebuild_cache.dir
-/home/matei/.config/emacs/elpa/vterm-20210409.1558/build/CMakeFiles/edit_cache.dir
-/home/matei/.config/emacs/elpa/vterm-20210409.1558/build/CMakeFiles/run.dir
-/home/matei/.config/emacs/elpa/vterm-20210409.1558/build/CMakeFiles/vterm-module.dir

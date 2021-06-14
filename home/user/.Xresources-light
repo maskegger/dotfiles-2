@@ -1,25 +1,25 @@
 ! Color sceme
-#define black0    #181e23
-#define black1    #384149
-#define grey0     #6A6A6A
-#define grey1     #6A6A6A
-#define red0      #FF8080
-#define red1      #FFAEAE
-#define green0    #97D59B
-#define green1    #BEF8C1
-#define yellow0   #FFFE80
-#define yellow1   #FCFBA6
-#define blue0     #80D1FF
-#define blue1     #ACE1FF
-#define magenta0  #C780FF
-#define magenta1  #D8A8FF
-#define cyan0     #80FFE4
-#define cyan1     #A2FFEB
-#define white0    #D5D5D5
-#define white1    #FFFFFF
+#define black0    #151a1f
+#define black1    #2a343d
+#define grey0     #bbbbbb
+#define grey1     #bbbbbb
+#define red0      #c74e52
+#define red1      #e3595d
+#define green0    #3a783f
+#define green1    #4c9e53
+#define yellow0   #ada91f
+#define yellow1   #ccc625
+#define blue0     #3b53cc
+#define blue1     #4663F2
+#define magenta0  #9445cc
+#define magenta1  #b052f2
+#define cyan0     #2e757d
+#define cyan1     #3c99a3
+#define white0    #fbf8ef
+#define white1    #fffcf3
 
-*background: black0
-*foreground: white0
+*background: white0
+*foreground: black0
 *color0: black0
 *color1: red0
 *color2: green0
