@@ -10,7 +10,7 @@
 ## Software
 
 - OS: [Arch Linux](https://archlinux.org/)
-- WM: [bspwm](https://github.com/baskerville/bspwm)
+- WM: [awesome](https://github.com/awesomewm/awesome)
 - GTK Theme: [Quiet](https://github.com/MCotocel/linux-dotfiles/tree/main/home/user/.themes/Quiet)
 - Keybindings: [sxhkd](https://github.com/baskerville/sxhkd)
 - Terminal: [kitty](https://github.com/kovidgoyal/kitty)
