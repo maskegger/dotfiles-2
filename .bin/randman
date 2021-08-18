@@ -1,1 +1,0 @@
-man -k . | awk '{print $1}' | shuf -n 1 | xargs kitty man # Open random man page

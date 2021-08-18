@@ -1,0 +1,49 @@
+* Dotfiles
+
+Welcome to my virtual home. I wouldn't advise you to blindly copy large parts from these dotfiles, I may be doing some things wrong. However, looking through my configurations and copying some parts, or installing all of the dotfiles together should be fine.
+
+* Table of contents
+#+begin_quote
+- [[Information]]
+  - [[Programs]]
+  - [[Setup]]
+- [[Images]]
+  - [[Main]]
+  - [[Emacs]]
+  - [[Rofi]]
+  - [[Lockscreen]]
+#+end_quote
+
+** Information
+
+*** Programs
+
+| OS           | NixOS     |
+| WM           | AwesomeWM |
+| Editor       | Emacs     |
+| Terminal     | Alacritty |
+| Shell        | zsh       |
+| Launcher     | Rofi      |
+| Music player | ncmpcpp   |
+
+*** Setup
+
+For now, you have to manually install these dotfiles. Soon I'll migrate to [[https://github.com/shade-linux/soul][Soul]] for dotfile management and declarative package management, but till then, everything must be done manually.
+
+** Images
+
+*** Main
+
+ [[assets/main.png]]
+
+*** Emacs
+
+[[assets/emacs.png]]
+
+*** Rofi
+
+[[assets/rofi.png]]
+
+*** Lockscreen
+
+[[assets/lock.png]]

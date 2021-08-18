@@ -1,0 +1,1 @@
+(setq libera-password "LOOOOOOOLNOHAXORSHERE")

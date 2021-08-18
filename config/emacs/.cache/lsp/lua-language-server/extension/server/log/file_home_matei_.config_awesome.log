@@ -1,0 +1,1015 @@
+[15:41:45.638][info] [#0:main:51]: Lua Lsp startup, root: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
+[15:41:45.641][debug][#0:main:52]: ROOT:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
+[15:41:45.641][debug][#0:main:53]: LOGPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log
+[15:41:45.641][debug][#0:main:54]: METAPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta
+[15:41:45.677][info] [#0:script.service.telemetry:16]: Telemetry Token:	30A7CCEB4F077D8F
+[15:41:45.872][info] [#0:script.pub.pub:48]: Create brave:	1
+[15:41:45.872][info] [#0:script.pub.pub:48]: Create brave:	2
+[15:41:45.873][info] [#0:script.pub.pub:48]: Create brave:	3
+[15:41:45.873][info] [#0:script.pub.pub:48]: Create brave:	4
+[15:41:45.873][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.689 MB
+        # 00 : 1.689 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:41:45.906][debug][#0:script.provider.client:32]: Client init	{
+    capabilities = {
+        textDocument = {
+            callHierarchy = {
+                dynamicRegistration = false,
+            },
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [1] = "",
+                            [2] = "quickfix",
+                            [3] = "refactor",
+                            [4] = "refactor.extract",
+                            [5] = "refactor.inline",
+                            [6] = "refactor.rewrite",
+                            [7] = "source",
+                            [8] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                dynamicRegistration = true,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                        [2] = "command",
+                    },
+                },
+            },
+            completion = {
+                completionItem = {
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    resolveAdditionalTextEditsSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "details",
+                            [3] = "additionalTextEdits",
+                            [4] = "command",
+                        },
+                    },
+                    snippetSupport = true,
+                },
+                contextSupport = true,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentLink = {
+                dynamicRegistration = true,
+                tooltipSupport = true,
+            },
+            documentSymbol = {
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            foldingRange = {
+                dynamicRegistration = true,
+            },
+            formatting = {
+                dynamicRegistration = true,
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+                versionSupport = true,
+            },
+            rangeFormatting = {
+                dynamicRegistration = true,
+            },
+            rename = {
+                dynamicRegistration = true,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                signatureInformation = {
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                willSave = true,
+                willSaveWaitUntil = true,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            executeCommand = {
+                dynamicRegistration = false,
+            },
+            fileOperations = {
+                didCreate = false,
+                didDelete = false,
+                didRename = false,
+                willCreate = false,
+                willDelete = false,
+                willRename = false,
+            },
+            symbol = {
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                documentChanges = true,
+                resourceOperations = {
+                    [1] = "create",
+                    [2] = "rename",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "emacs",
+        version = "GNU Emacs 28.0.50 (build 1, x86_64-pc-linux-gnu, GTK+ Version 3.24.30, cairo version 1.17.4)\
+ of 2021-08-17",
+    },
+    rootPath = "/home/matei/.config/awesome",
+    rootUri = "file:///home/matei/.config/awesome",
+    workDoneToken = "1",
+}
+[15:41:45.907][info] [#0:script.language:135]: VSC language: nil
+[15:41:45.907][info] [#0:script.language:136]: LS  language: en-us
+[15:41:45.923][info] [#0:script.workspace.workspace:31]: Workspace inited: 	file:///home/matei/.config/awesome
+[15:41:45.923][info] [#0:script.workspace.workspace:38]: Log path: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log/file_home_matei_.config_awesome.log
+[15:41:46.320][debug][#0:script.provider.provider:246]: didOpen	file:///home/matei/.config/awesome/rc.lua
+[15:41:46.419][debug][#0:script.config:231]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        callSnippet = "Disable",
+        displayContext = 6,
+        enable = true,
+        keywordSnippet = "Replace",
+        workspaceWord = true,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+        },
+        neededFileStatus = {
+            ["ambiguity-1"] = "Any",
+            ["circle-doc-class"] = "Any",
+            ["close-non-object"] = "Any",
+            ["code-after-break"] = "Opened",
+            ["count-down-loop"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["lowercase-global"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-field"] = "Opened",
+            ["undefined-global"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-label"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+        },
+        severity = {
+            ["ambiguity-1"] = "Warning",
+            ["circle-doc-class"] = "Warning",
+            ["close-non-object"] = "Warning",
+            ["code-after-break"] = "Hint",
+            ["count-down-loop"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["lowercase-global"] = "Information",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Warning",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-field"] = "Warning",
+            ["undefined-global"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-label"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = true,
+        paramType = true,
+        setType = false,
+    },
+    hover = {
+        enable = true,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        searchDepth = 0,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        nonstandardSymbol = {
+        },
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+        special = {
+        },
+        unicodeName = false,
+        version = "Lua 5.4",
+    },
+    signatureHelp = {
+        enable = true,
+    },
+    telemetry = {
+        enable = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [".vscode"] = true,
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        useGitIgnore = true,
+    },
+}	{
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[15:41:46.434][debug][#0:script.provider.semantic-tokens:96]: Refresh semantic tokens.
+[15:41:46.434][debug][#0:script.provider.completion:19]: Enable completion.
+[15:41:46.907][info] [#0:script.workspace.workspace:295]: Preload start.
+[15:41:46.907][info] [#0:script.workspace.workspace:81]: Ignore directory:	.vscode
+[15:41:46.908][debug][#0:script.workspace.workspace:161]: getLibraryMatchers	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:46.909][info] [#0:script.workspace.workspace:300]: Scan files at:	/home/matei/.config/awesome
+[15:41:47.077][info] [#0:script.workspace.workspace:305]: Scan library at:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.080][info] [#0:script.workspace.workspace:309]: Found 52 files.
+[15:41:47.080][info] [#0:script.workspace.workspace:311]: Loaded 0/52 files
+[15:41:47.081][info] [#0:script.workspace.workspace:311]: Loaded 0/52 files
+[15:41:47.081][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/quiet/theme.lua , size = 5.682 KB
+[15:41:47.089][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/helpers/time.lua , size = 0.776 KB
+[15:41:47.092][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/helpers/shape.lua , size = 0.509 KB
+[15:41:47.094][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/helpers/color.lua , size = 1.593 KB
+[15:41:47.098][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/helpers/filesystem.lua , size = 1.542 KB
+[15:41:47.102][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/helpers/client.lua , size = 3.293 KB
+[15:41:47.112][info] [#0:script.workspace.workspace:311]: Loaded 6/52 files
+[15:41:47.112][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/helpers/init.lua , size = 0.210 KB
+[15:41:47.113][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/module/tabbed.lua , size = 7.934 KB
+[15:41:47.120][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/module/flash_focus.lua , size = 0.972 KB
+[15:41:47.121][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/module/wallpaper.lua , size = 12.723 KB
+[15:41:47.127][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/module/window_swallowing.lua , size = 2.345 KB
+[15:41:47.129][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/module/scratchpad.lua , size = 6.478 KB
+[15:41:47.134][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/module/tiled_wallpaper.lua , size = 1.679 KB
+[15:41:47.135][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/module/init.lua , size = 0.314 KB
+[15:41:47.135][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/theme-var-template.lua , size = 4.442 KB
+[15:41:47.136][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/widget/tabbar/pure.lua , size = 2.466 KB
+[15:41:47.138][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/widget/tabbar/boxes.lua , size = 1.590 KB
+[15:41:47.138][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/widget/tabbar/default.lua , size = 1.684 KB
+[15:41:47.139][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/widget/task_preview.lua , size = 5.569 KB
+[15:41:47.142][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/widget/tabbar/modern.lua , size = 7.234 KB
+[15:41:47.145][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/widget/tag_preview.lua , size = 7.351 KB
+[15:41:47.148][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/widget/init.lua , size = 0.112 KB
+[15:41:47.149][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/signal/playerctl/playerctl_lib.lua , size = 9.113 KB
+[15:41:47.152][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/signal/playerctl/playerctl_cli.lua , size = 4.121 KB
+[15:41:47.154][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/signal/playerctl/init.lua , size = 0.598 KB
+[15:41:47.154][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/signal/init.lua , size = 0.050 KB
+[15:41:47.154][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/layout/horizontal.lua , size = 1.914 KB
+[15:41:47.155][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/layout/mstab.lua , size = 8.511 KB
+[15:41:47.159][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/layout/equalarea.lua , size = 2.352 KB
+[15:41:47.160][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/layout/centered.lua , size = 2.831 KB
+[15:41:47.162][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/layout/vertical.lua , size = 1.899 KB
+[15:41:47.165][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/layout/init.lua , size = 0.703 KB
+[15:41:47.165][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/bling/init.lua , size = 0.284 KB
+[15:41:47.165][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/rc.lua , size = 20.965 KB
+[15:41:47.165][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/layout-machi/editor.lua , size = 19.707 KB
+[15:41:47.174][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/layout-machi/layout.lua , size = 22.023 KB
+[15:41:47.186][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/layout-machi/switcher.lua , size = 21.459 KB
+[15:41:47.197][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/layout-machi/init.lua , size = 0.895 KB
+[15:41:47.197][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/layout-machi/engine.lua , size = 31.228 KB
+[15:41:47.215][info] [#0:script.workspace.workspace:311]: Loaded 39/52 files
+[15:41:47.215][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/awesome/awesome-revelation/init.lua , size = 16.486 KB
+[15:41:47.223][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/debug.lua , size = 7.902 KB
+[15:41:47.223][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.226][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/io.lua , size = 4.111 KB
+[15:41:47.226][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.227][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/table.lua , size = 2.755 KB
+[15:41:47.227][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.229][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/package.lua , size = 2.975 KB
+[15:41:47.229][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.230][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/math.lua , size = 8.401 KB
+[15:41:47.230][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.233][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/utf8.lua , size = 2.341 KB
+[15:41:47.233][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.234][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/builtin.lua , size = 0.260 KB
+[15:41:47.234][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.234][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/os.lua , size = 4.313 KB
+[15:41:47.234][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.236][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/string.lua , size = 6.103 KB
+[15:41:47.236][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.238][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/file.lua , size = 2.325 KB
+[15:41:47.238][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.239][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/coroutine.lua , size = 2.552 KB
+[15:41:47.239][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.240][info] [#0:script.workspace.workspace:227]: Preload file at: file:///home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua%205.4%20en-us/basic.lua , size = 14.040 KB
+[15:41:47.240][info] [#0:script.workspace.workspace:229]: ++++As library of:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta/Lua 5.4 en-us
+[15:41:47.907][info] [#0:script.workspace.workspace:311]: Loaded 52/52 files
+[15:41:47.907][info] [#0:script.workspace.workspace:320]: Preload finish.
+[15:41:47.907][debug][#0:script.proto.proto:131]: Method [initialized] takes [0.256]sec.
+[15:41:48.215][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/module/scratchpad.lua	5
+[15:41:48.217][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/module/tiled_wallpaper.lua	2
+[15:41:48.220][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/theme-var-template.lua	46
+[15:41:48.223][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/layout/equalarea.lua	1
+[15:41:48.226][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/layout/mstab.lua	12
+[15:41:48.227][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/layout/vertical.lua	1
+[15:41:48.227][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/helpers/time.lua	3
+[15:41:48.230][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/signal/playerctl/playerctl_lib.lua	6
+[15:41:48.231][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/helpers/shape.lua	1
+[15:41:48.382][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	56
+[15:41:48.389][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/layout-machi/editor.lua	12
+[15:41:48.394][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/layout-machi/layout.lua	3
+[15:41:48.396][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/widget/tabbar/modern.lua	2
+[15:41:48.397][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/module/window_swallowing.lua	2
+[15:41:48.402][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/layout-machi/switcher.lua	3
+[15:41:48.405][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/module/tabbed.lua	26
+[15:41:48.407][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/signal/playerctl/playerctl_cli.lua	4
+[15:41:48.413][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/layout-machi/engine.lua	1
+[15:41:48.414][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/helpers/client.lua	5
+[15:41:48.415][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/layout-machi/init.lua	1
+[15:41:48.419][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/awesome-revelation/init.lua	12
+[15:41:48.420][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/widget/task_preview.lua	1
+[15:41:48.421][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/module/flash_focus.lua	2
+[15:41:48.421][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/layout/horizontal.lua	1
+[15:41:48.423][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/helpers/filesystem.lua	2
+[15:41:48.426][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/module/wallpaper.lua	6
+[15:41:48.428][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/widget/tag_preview.lua	3
+[15:41:48.430][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/bling/layout/centered.lua	3
+[15:41:48.430][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.291953
+[15:41:56.557][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	65
+[15:41:56.601][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.04468
+[15:41:57.640][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	65
+[15:41:57.687][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.046766
+[15:41:58.059][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	58
+[15:41:58.428][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.077388
+[15:42:16.680][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	57
+[15:42:16.888][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.078331
+[15:42:18.257][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	56
+[15:42:18.625][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.078125
+[15:42:45.925][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 30.524 MB
+        # 00 : 24.811 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     32
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      32
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:43:01.790][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	56
+[15:43:01.838][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.047786
+[15:43:03.244][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	56
+[15:43:03.291][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.046808
+[15:43:04.149][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	56
+[15:43:04.197][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.047663
+[15:43:04.931][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	56
+[15:43:04.985][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.05324
+[15:43:06.731][debug][#0:script.provider.diagnostic:223]: publishDiagnostics	file:///home/matei/.config/awesome/rc.lua	55
+[15:43:06.776][debug][#0:script.provider.diagnostic:340]: 全文诊断耗时：	0.044104
+[15:43:45.942][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 30.978 MB
+        # 00 : 25.265 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     36
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      36
+    --------------- Cache ---------------
+        Total: 5
+        Dead:  4
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:44:45.959][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 30.986 MB
+        # 00 : 25.273 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     36
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      36
+    --------------- Cache ---------------
+        Total: 5
+        Dead:  4
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:45:45.979][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 30.993 MB
+        # 00 : 25.280 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     36
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      36
+    --------------- Cache ---------------
+        Total: 5
+        Dead:  4
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:46:45.998][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 31.000 MB
+        # 00 : 25.287 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     36
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      36
+    --------------- Cache ---------------
+        Total: 5
+        Dead:  4
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:47:10.354][debug][#0:script.provider.provider:258]: didClose	file:///home/matei/.config/awesome/rc.lua
+[15:47:46.014][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 31.015 MB
+        # 00 : 25.302 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     38
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      38
+    --------------- Cache ---------------
+        Total: 5
+        Dead:  4
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:48:46.030][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.658 MB
+        # 00 : 2.945 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:49:46.049][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.666 MB
+        # 00 : 2.953 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:50:46.070][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.673 MB
+        # 00 : 2.960 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:51:46.091][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.680 MB
+        # 00 : 2.967 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:52:46.108][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.687 MB
+        # 00 : 2.974 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:53:46.126][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.694 MB
+        # 00 : 2.981 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:54:46.144][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.701 MB
+        # 00 : 2.988 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:55:46.164][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.708 MB
+        # 00 : 2.996 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:56:46.181][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.715 MB
+        # 00 : 3.003 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:57:46.196][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.723 MB
+        # 00 : 3.010 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:58:46.214][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.730 MB
+        # 00 : 3.017 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:59:46.234][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.737 MB
+        # 00 : 3.024 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:00:46.251][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.744 MB
+        # 00 : 3.031 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:01:46.271][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.751 MB
+        # 00 : 3.038 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:02:46.289][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.758 MB
+        # 00 : 3.045 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:03:46.308][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.765 MB
+        # 00 : 3.053 MB
+        # 01 : 1.430 MB
+        # 02 : 1.430 MB
+        # 03 : 1.408 MB
+        # 04 : 1.445 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================

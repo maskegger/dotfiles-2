@@ -1,0 +1,252 @@
+[15:43:23.047][info] [#0:main:51]: Lua Lsp startup, root: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
+[15:43:23.047][debug][#0:main:52]: ROOT:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server
+[15:43:23.047][debug][#0:main:53]: LOGPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log
+[15:43:23.047][debug][#0:main:54]: METAPATH:	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/meta
+[15:43:23.051][info] [#0:script.service.telemetry:16]: Telemetry Token:	30A7CCEB4F077D8F
+[15:43:23.077][info] [#0:script.pub.pub:48]: Create brave:	1
+[15:43:23.077][info] [#0:script.pub.pub:48]: Create brave:	2
+[15:43:23.077][info] [#0:script.pub.pub:48]: Create brave:	3
+[15:43:23.077][info] [#0:script.pub.pub:48]: Create brave:	4
+[15:43:23.077][debug][#0:script.service.service:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.689 MB
+        # 00 : 1.689 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[15:43:23.105][debug][#0:script.provider.client:32]: Client init	{
+    capabilities = {
+        textDocument = {
+            callHierarchy = {
+                dynamicRegistration = false,
+            },
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [1] = "",
+                            [2] = "quickfix",
+                            [3] = "refactor",
+                            [4] = "refactor.extract",
+                            [5] = "refactor.inline",
+                            [6] = "refactor.rewrite",
+                            [7] = "source",
+                            [8] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                dynamicRegistration = true,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                        [2] = "command",
+                    },
+                },
+            },
+            completion = {
+                completionItem = {
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    resolveAdditionalTextEditsSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "details",
+                            [3] = "additionalTextEdits",
+                            [4] = "command",
+                        },
+                    },
+                    snippetSupport = true,
+                },
+                contextSupport = true,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentLink = {
+                dynamicRegistration = true,
+                tooltipSupport = true,
+            },
+            documentSymbol = {
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            foldingRange = {
+                dynamicRegistration = true,
+            },
+            formatting = {
+                dynamicRegistration = true,
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+                versionSupport = true,
+            },
+            rangeFormatting = {
+                dynamicRegistration = true,
+            },
+            rename = {
+                dynamicRegistration = true,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                signatureInformation = {
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                willSave = true,
+                willSaveWaitUntil = true,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            executeCommand = {
+                dynamicRegistration = false,
+            },
+            fileOperations = {
+                didCreate = false,
+                didDelete = false,
+                didRename = false,
+                willCreate = false,
+                willDelete = false,
+                willRename = false,
+            },
+            symbol = {
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                documentChanges = true,
+                resourceOperations = {
+                    [1] = "create",
+                    [2] = "rename",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "emacs",
+        version = "GNU Emacs 28.0.50 (build 1, x86_64-pc-linux-gnu, GTK+ Version 3.24.30, cairo version 1.17.4)\
+ of 2021-08-17",
+    },
+    rootPath = "/home/matei/.config/awesome/quiet",
+    rootUri = "file:///home/matei/.config/awesome/quiet",
+    workDoneToken = "1",
+}
+[15:43:23.105][info] [#0:script.language:135]: VSC language: nil
+[15:43:23.105][info] [#0:script.language:136]: LS  language: en-us
+[15:43:23.173][info] [#0:script.workspace.workspace:31]: Workspace inited: 	file:///home/matei/.config/awesome/quiet
+[15:43:23.173][info] [#0:script.workspace.workspace:38]: Log path: 	/home/matei/.config/emacs/.cache/lsp/lua-language-server/extension/server/log/file_home_matei_.config_awesome_quiet.log

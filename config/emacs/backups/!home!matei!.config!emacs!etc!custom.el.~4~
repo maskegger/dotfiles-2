@@ -1,0 +1,35 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("ce3dda4954907da074e37dbe2e827a8ae6709e5b0d38975d1bd798ea1df59469" "e5ebd833e433f9699f352df2b091922f6a5fb6ef71162fe66fd492cded06574c" "a9941906818feea7e96cc7ca799c5a4a6c1ad1770a40001717178cd9193010d2" "80564e4ddd962b2c3201ac2f1d08dad0f780f50fa455c791dc00c3dd682c5d6c" default)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(fixed-pitch ((t (:family "Iosevka Nerd Font" :height 160))))
+ '(nobreak-space ((t nil)))
+ '(org-block ((t :inherit fixed-pitch)))
+ '(org-code ((t :inherit fixed-pitch :weight normal)))
+ '(org-document-info ((t (\,@ headline) :height 1.6)))
+ '(org-document-info-keyword ((t :inherit (shadow fixed-pitch))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground "grey" :height 1.6 :height 1.6 :underline nil))))
+ '(org-indent ((t :inherit (org-hide fixed-pitch))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground "grey" :height 1.6 :height 1.5))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground "grey" :height 1.6 :height 1.4))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground "grey" :height 1.6 :height 1.3))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground "grey" :height 1.6 :height 1.2))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground "grey" :height 1.6))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground "grey" :height 1.6))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground "grey" :height 1.6))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground "grey" :height 1.6))))
+ '(org-link ((t :foreground "royal blue" :underline t)))
+ '(org-meta-line ((t :inherit (font-lock-comment-face fixed-pitch))))
+ '(org-property-value ((t :inherit fixed-pitch)) t)
+ '(org-special-keyword ((t :inherit (font-lock-comment-face fixed-pitch))))
+ '(org-table ((t :inherit fixed-pitch :foreground "#384149")))
+ '(org-tag ((t :inherit (shadow fixed-pitch) :weight bold :height 0.8)))
+ '(org-verbatim ((t :inherit (shadow fixed-pitch)))))

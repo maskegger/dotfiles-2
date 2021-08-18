@@ -1,3 +1,0 @@
-sudo rm -rf /usr/share/applications # Delete old applications folder
-sudo cp -R /home/$USER/linux-dotfiles/home/user/Applications /usr/share/applications # Link applications from home to /usr/share/
-dunstify "Replaced Application folder" -a Notification -i /usr/share/icons/Papirus/16x16/apps/xfce-system-info.svg # Send notification

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Emacs
-Categories=Development
-Icon=emacs
-Exec=emacs
-Terminal=false
-Type=Application
