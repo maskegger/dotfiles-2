@@ -1,0 +1,33 @@
+# Soul file linking instructions
+# Dotfiles should be in ~/dotfiles for these instructions to work
+
+# Instructions
+/home/matei/dotfiles/config/alacritty -> /home/matei/.config/alacritty
+/home/matei/dotfiles/config/awesome -> /home/matei/.config/awesome
+/home/matei/dotfiles/config/bin -> /home/matei/.bin
+/home/matei/dotfiles/config/cava -> /home/matei/.config/cava
+/home/matei/dotfiles/config/discocss -> /home/matei/.config/discocss
+/home/matei/dotfiles/config/dunst -> /home/matei/.config/dunst
+/home/matei/dotfiles/config/mopidy -> /home/matei/.config/mopidy
+/home/matei/dotfiles/config/ncmpcpp -> /home/matei/.config/ncmpcpp
+/home/matei/dotfiles/config/nvim -> /home/matei/.config/nvim
+/home/matei/dotfiles/config/picom -> /home/matei/.config/picom
+/home/matei/dotfiles/config/ranger -> /home/matei/.config/ranger
+/home/matei/dotfiles/config/river -> /home/matei/.config/river
+/home/matei/dotfiles/config/rofi -> /home/matei/.config/rofi
+/home/matei/dotfiles/config/wallpaper -> /home/matei/Pictures/Wallpaper
+/home/matei/dotfiles/config/xresources -> /home/matei/.Xresources
+/home/matei/dotfiles/config/zshrc -> /home/matei/.zshrc
+
+# Emacs
+/home/matei/dotfiles/config/emacs/init.el -> /home/matei/.config/emacs/init.el
+/home/matei/dotfiles/config/emacs/emacs.org -> /home/matei/.config/emacs/emacs.org
+/home/matei/dotfiles/config/emacs/emacs.el -> /home/matei/.config/emacs/emacs.el
+/home/matei/dotfiles/config/emacs/private.el -> /home/matei/.config/emacs/etc/private.el
+/home/matei/dotfiles/config/emacs/pfp_rounded_small.png -> /home/matei/.config/emacs/pfp_rounded_small.png
+/home/matei/dotfiles/config/emacs/doom-quiet-dark-theme.el -> /home/matei/.config/emacs/doom-quiet-dark-theme.el
+/home/matei/dotfiles/config/emacs/style.css -> /home/matei/.config/emacs/style.css
+
+# Qutebrowser
+/home/matei/dotfiles/config/qutebrowser/config.py -> /home/matei/.config/qutebrowser/config.py
+/home/matei/dotfiles/config/qutebrowser/autoconfig.yml -> /home/matei/.config/qutebrowser/autoconfig.yml

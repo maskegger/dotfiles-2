@@ -166,7 +166,11 @@ awful.key({modkey, "Control"}, "space", awful.client.floating.toggle, {
 }),
 
 -- Toggle Fullscreen
-awful.key({modkey, "Shift"}, "f", function() client.focus.fullscreen = not client.focus.fullscreen client.focus:raise() end, {
+awful.key({modkey, "Shift"}, "f", function()
+        client.focus.fullscreen = not client.focus.fullscreen client.focus:raise()
+        for s in screen do s.wibar.visible = not s.wibar.visible end
+        for s in screen do s.wibar.visible = not s.wibar.visible end
+    end, {
     description = "Toggle fullscreen mode",
     group = "Windows"
 }),
@@ -366,6 +370,18 @@ awful.screen.connect_for_each_screen(function(s)
         buttons = taglist_buttons,
     }
 
+    local tasklist_buttons = gears.table.join(
+        awful.button({}, 1, function(c)
+            if c == client.focus then
+                c.minimized = true
+            else
+                c:emit_signal("request::activate", "tasklist", {raise = true})
+            end
+        end), awful.button({}, 3, function()
+            awful.menu.client_list({theme = {width = 250}})
+        end), awful.button({}, 2, function() awful.client.focus.byidx(1) end)
+    )
+
     s.tasklist = awful.widget.tasklist {
         screen = s,
         filter = awful.widget.tasklist.filter.currenttags,
@@ -373,15 +389,12 @@ awful.screen.connect_for_each_screen(function(s)
         layout = {
             spacing_widget = {
                 {
-                    forced_width  = 5,
-                    forced_height = 24,
-                    thickness = 1,
-                    color = '#777777',
+                    color = '#384149',
                     widget = wibox.widget.separator
                 },
-                valign = 'center',
-                halign = 'center',
-                widget = wibox.container.place,
+                    valign = 'center',
+                    halign = 'center',
+                    widget = wibox.container.place,
             },
             spacing = 1,
             layout = wibox.layout.fixed.horizontal
@@ -389,25 +402,18 @@ awful.screen.connect_for_each_screen(function(s)
         widget_template = {
             {
                 wibox.widget.base.make_widget(),
-                forced_height = 5,
                 id = 'background_role',
                 widget = wibox.container.background,
             },
             {
-                {
-                    id = 'clienticon',
-                    widget = awful.widget.clienticon,
-                },
+                awful.widget.clienticon,
                 margins = 5,
                 widget = wibox.container.margin
             },
-            nil,
-            create_callback = function(self, c, index, objects)
-                self:get_children_by_id('clienticon')[1].client = c
-            end,
-            layout = wibox.layout.align.vertical,
+                nil,
+                layout = wibox.layout.align.vertical,
             },
-    }
+        }
 
     -- Prompt
     s.promptbox = awful.widget.prompt()
@@ -469,7 +475,6 @@ awful.screen.connect_for_each_screen(function(s)
         width = 1200,
         visible = true,
         type = "dock",
-        shape = function(cr, w, h, r) gears.shape.octogon(cr, w, h, 0) end,
         stretch = false,
         bg = "#0e131a",
     })
@@ -702,18 +707,22 @@ awful.layout.layouts = {
 }
 
 -- Generate wallpaper
-awful.screen.connect_for_each_screen(function(s)
-    bling.module.tiled_wallpaper("", s, {
-        fg = "#181e23",
-        bg = "#0e131a",
-        offset_y = 15,
-        offset_x = 15,
-        font = "Iosevka Nerd Font",
-        font_size = 15,
-        padding = 100,
-        zickzack = true
-    })
-end)
+-- awful.screen.connect_for_each_screen(function(s)
+--     bling.module.tiled_wallpaper("", s, {
+--         fg = "#181e23",
+--         bg = "#0e131a",
+--         offset_y = 15,
+--         offset_x = 15,
+--         font = "Iosevka Nerd Font",
+--         font_size = 15,
+--         padding = 100,
+--         zickzack = true
+--     })
+-- end)
+
+bling.module.wallpaper.setup {
+   wallpaper = {"~/Pictures/Wallpaper/Wood.jpg"}
+}
 
 -- Flash focus
 bling.module.flash_focus.enable()

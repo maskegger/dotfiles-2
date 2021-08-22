@@ -1,11 +1,11 @@
 # Wallpaper
-#nitrogen --restore
+nitrogen --set-scaled ~/Pictures/Wallpaper/Wood.jpg
  
 # Compositor
 picom --experimental-backends &
 
-# Emacs daemon
-emacs --daemon &
-
 # Mopidy
 mopidy &
+
+# Emacs daemon
+emacs --daemon &

@@ -1,7 +1,7 @@
 #+TITLE: Emacs config
 #+DESCRIPTION: A literate Emacs config written in Org
 #+AUTHOR: Matei Cotocel
-#+PROPERTY: header-args :tangle yes
+#+PROPERTY: results silent
 
 * Intro
 
@@ -90,10 +90,8 @@ We remove unnecessary UI elements, like the menu bar, scroll bar, and tool bar. 
         inhibit-startup-echo-area-message t
         inhibit-startup-message t)
   (setq ring-bell-function 'ignore)
-  (set-frame-parameter nil 'internal-border-width 10)
+  (set-frame-parameter (selected-frame) 'internal-border-width 15)
 #+END_SRC
-
-#+RESULTS:
 
 ** Font
 
@@ -102,7 +100,7 @@ We remove unnecessary UI elements, like the menu bar, scroll bar, and tool bar. 
 Here we set a nice font, because if I'm going to be staring at code for hours, I want it to look good. Change the font size to whatever you want.
 
 #+BEGIN_SRC emacs-lisp
-  (add-to-list 'default-frame-alist '(font . "Iosevka Nerd Font"))
+  (add-to-list 'default-frame-alist '(font . "Iosevka Nerd Font-12"))
 #+END_SRC
 
 *** Symbol font
@@ -429,7 +427,7 @@ Here I bind some extra keybindings for evil mode.
     (setq unread-command-events (listify-key-sequence (kbd "C-k"))))
 
   (evil-define-key 'normal global-map (kbd ",c") 'my/c-c)
-  (evil-define-key 'normal global-map (kbd ",k") 'my/c-k)
+  (evil-define-key 'normal global-map (kbd ",x") 'my/c-k)
 #+END_SRC
 
 *** Miscellaneous settings
@@ -490,21 +488,14 @@ Ivy helps with better completion and to replace the default M-x. Counsel adds a 
     :after ivy
     :config (counsel-mode t))
 
-  ;; (use-package ivy-posframe
-  ;;   :after ivy
-  ;;   :config
-  ;;   (setq ivy-posframe-display-functions-alist '((t . ivy-posframe-display-at-frame-top-center)))
-  ;;   (setq ivy-posframe-parameters
-  ;;     '((left-fringe . 30)
-  ;;       (right-fringe . 30)))
-  ;;   (ivy-posframe-mode t))
-
   (use-package all-the-icons-ivy-rich
     :init (all-the-icons-ivy-rich-mode 1))
 
   (use-package ivy-rich
     :init (ivy-rich-mode 1))
 #+END_SRC
+
+#+RESULTS:
 
 ** Dashboard
 
@@ -516,38 +507,16 @@ The default startup screen is bland, let's replace it with a nice dashboard. We 
     (setq dashboard-center-content t
       dashboard-show-shortcuts nil
       dashboard-banner-logo-title "Welcome to Emacs"
-      dashboard-startup-banner "/home/matei/.config/emacs/pfp_rounded_small.png"
+      dashboard-startup-banner "~/.config/emacs/pfp_rounded_small.png"
       dashboard-set-heading-icons t
       dashboard-set-file-icons t
       dashboard-set-navigator t)
-    (setq dashboard-items '())
+    (setq dashboard-items '((recents  . 5)
+        (bookmarks . 5)
+        (projects . 5)
+        (agenda . 5)
+        (registers . 5)))
     (dashboard-setup-startup-hook))
-  (setq dashboard-navigator-buttons
-        `(((,
-           (all-the-icons-octicon "file-text" :height 1.0 :v-adjust 0.05)
-           "Open recent files"
-           "Open recent files"
-           (lambda (&rest _) (counsel-recentf)))
-
-          (,(all-the-icons-octicon "bookmark" :height 1.0 :v-adjust 0.0)
-           "Open bookmarks"
-           "Open bookmarks"
-           (lambda (&rest _) (counsel-bookmark)))
-
-          (,(all-the-icons-octicon "rocket" :height 1.0 :v-adjust 0.05)
-           "Open projects"
-           "Open projects"
-           (lambda (&rest _) (projectile-switch-project))))
-
-          ((,(all-the-icons-octicon "calendar" :height 1.0 :v-adjust 0.05)
-           "View org agenda"
-           "View org agenda"
-           (lambda (&rest _) (org-agenda)))
-
-          (,(all-the-icons-octicon "keyboard" :height 1.0 :v-adjust 0.0)
-           "Restore session"
-           "Restore session"
-           (lambda (&rest _) (persp-state-load "~/.config/emacs/perspective/default.el"))))))
   (setq dashboard-footer-messages '(
   "While any text editor can save your files, only Emacs can save your soul"
   "Welcome to the Church of Emacs"
@@ -700,7 +669,7 @@ It also has an IRC client available, so let's install and configure it.
   (setq circe-network-options
         `(("Libera Chat"
            :nick "Specter"
-           :channels (:after-auth "#unixporn" "#emacs")
+           ;; :channels (:after-auth "#unixporn" "#nixers")
            :nickserv-password ,libera-password)))
   (setq enable-circe-display-images t)
   (setq enable-circe-color-nicks t)
@@ -721,14 +690,6 @@ I also install a matrix client.
   (setq matrix-client-show-images t)
 #+end_src
 
-*** Discord rice presence
-
-#+begin_src emacs-lisp
-  ;;(use-package elcord
-  ;;  :config
-  ;;  (elcord-mode))
-#+end_src
-
 ** RSS
 
 I read RSS feeds, so we're going to configure a reader.
@@ -736,18 +697,14 @@ I read RSS feeds, so we're going to configure a reader.
 #+BEGIN_SRC emacs-lisp
   (use-package elfeed)
   (setq elfeed-feeds
-         '(("http://www.reddit.com/r/emacs.rss" tech emacs)
+         '(("http://www.reddit.com/r/emacs.rss" tech)
+           ("https://www.reddit.com/r/linux.rss" tech)
+           ("https://nixers.net/syndication.php?fid=12,15&limit=25" tech)
+           ("https://www.reddit.com/r/DigitalGardens.rss" note-taking)
+           ("https://www.reddit.com/r/PKMS.rss" note-taking)
            ("http://www.reddit.com/r/terminal_porn.rss" tech)))
   (add-to-list 'evil-emacs-state-modes 'elfeed-search-mode)
   (add-to-list 'evil-emacs-state-modes 'elfeed-show-mode)
-
-  (use-package elfeed-dashboard
-    :config
-    (setq elfeed-dashboard-file "~/Org/elfeed-dashboard.org")
-    (advice-add 'elfeed-search-quit-window :after #'elfeed-dashboard-update-links))
-  (evil-set-initial-state 'elfeed-dashboard-mode 'emacs)
-  ;(setq browse-url-browser-function 'browse-url-generic
-  ;    browse-url-generic-program "qutebrowser")
 #+END_SRC
 
 ** EMMS
@@ -789,6 +746,7 @@ I use Emacs for coding as well, so we're going to configure lsp-mode.
     lsp-ui-sideline-enable nil
     lsp-ui-sideline-enable t
     lsp-modeline-code-actions-enable t
+    lsp-diagnostics-provider :flycheck
     lsp-ui-sideline-enable t
     lsp-ui-doc-border nil
     lsp-eldoc-enable-hover t)
@@ -823,7 +781,6 @@ I use Emacs for coding as well, so we're going to configure lsp-mode.
   (use-package go-mode)
   (use-package json-mode)
   (use-package lua-mode)
-  (use-package nix-mode)
   (use-package lsp-jedi
     :hook (python-mode . lsp-jedi))
 
@@ -852,16 +809,6 @@ Here, we install and configure projectile, which is a project interaction librar
   (use-package projectile
     :config (projectile-mode 1))
 #+END_SRC
-
-** Indentation guides
-
-Guides to see level of indentation
-
-#+begin_src emacs-lisp 
-  (use-package highlight-indent-guides
-    :config (setq highlight-indent-guides-method 'character)
-    :hook (prog-mode-hook . highlight-indent-guides-mode))
-#+end_src
 
 * Org mode
 
@@ -953,12 +900,12 @@ Org roam makes Org even better
 #+BEGIN_SRC emacs-lisp
   (use-package org-roam
     :custom
-    (org-roam-directory "~/org/")
+    (org-roam-directory "~/Org/")
     :config
     (org-roam-setup)
-    (require 'org-roam-protocol))
 
   (setq org-roam-v2-ack t)
+    (require 'org-roam-protocol))
 
   (use-package org-roam-ui
     :straight
@@ -1023,18 +970,18 @@ This changes the faces of Org mode to a nice sans serif font.
 
   (custom-theme-set-faces
    'user
-   '(org-block                 ((t :inherit fixed-pitch)))
-   '(org-code                  ((t :inherit fixed-pitch :weight normal)))
-   '(org-document-info         ((t ,@headline :height 1.6)))
-   '(org-document-info-keyword ((t :inherit (shadow fixed-pitch))))
-   '(org-indent                ((t :inherit (org-hide fixed-pitch))))
-   '(org-link                  ((t :foreground "royal blue" :underline t)))
-   '(org-meta-line             ((t :inherit (font-lock-comment-face fixed-pitch))))
-   '(org-property-value        ((t :inherit fixed-pitch)) t)
-   '(org-special-keyword       ((t :inherit (font-lock-comment-face fixed-pitch))))
-   '(org-table                 ((t :inherit fixed-pitch :foreground "#384149")))
-   '(org-tag                   ((t :inherit (shadow fixed-pitch) :weight bold :height 0.8)))
-   '(org-verbatim              ((t :inherit (shadow fixed-pitch)))))
+   '(org-block                 ((t (:inherit fixed-pitch))))
+   '(org-code                  ((t (:inherit fixed-pitch :weight normal))))
+   '(org-document-info         ((t (,@headline :height 1.6))))
+   '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+   '(org-indent                ((t (:inherit (org-hide fixed-pitch)))))
+   '(org-link                  ((t (:foreground "royal blue" :underline t))))
+   '(org-meta-line             ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+   '(org-property-value        ((t (:inherit fixed-pitch))) t)
+   '(org-special-keyword       ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+   '(org-table                 ((t (:inherit fixed-pitch :foreground "#384149"))))
+   '(org-tag                   ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+   '(org-verbatim              ((t (:inherit (shadow fixed-pitch))))))
 #+end_src
 
 ** Present
@@ -1044,6 +991,19 @@ Make presentations with org mode.
 #+BEGIN_SRC emacs-lisp
   (use-package org-present)
 #+END_SRC
+
+* EXWM
+
+This section is about configuring EXWM, a window manager built around Emacs.
+
+** Install
+
+#+begin_src emacs-lisp
+  (use-package exwm)
+  (require 'exwm)
+  (require 'exwm-config)
+  (exwm-config-default)
+#+end_src
 
 * Functions
 

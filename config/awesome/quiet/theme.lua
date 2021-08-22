@@ -37,9 +37,9 @@ theme.fg_minimize = "#C780FF"
 theme.useless_gap = 15
 theme.gap_single_client = true
 theme.border_width = 3
-theme.border_normal = "#0e131a"
-theme.border_focused = "#384149"
-theme.border_marked = "#0e131a"
+theme.border_color_normal = "#181e23"
+theme.border_color_active = "#384149"
+theme.border_color_marked = "#80d1ff"
 
 -- Taglist
 theme.taglist_bg = "#0e131a"

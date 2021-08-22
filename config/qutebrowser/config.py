@@ -96,11 +96,8 @@ c.colors.tabs.selected.even.fg = "#80d1ff"
 c.colors.tabs.selected.odd.bg  = "#1f252a"
 c.colors.tabs.selected.odd.fg  = "#80d1ff"
 
-c.colors.webpage.bg = "#0e131a"
-
 c.url.start_pages = "https://mcotocel.github.io/startpage/"
 
-c.colors.webpage.preferred_color_scheme = "dark"
 c.tabs.indicator.width = 0
 c.tabs.padding = {"bottom": 10, "top": 10, "left": 20, "right": 20 }
 c.tabs.favicons.show = 'never'

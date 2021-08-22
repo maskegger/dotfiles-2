@@ -28,7 +28,12 @@ Welcome to my virtual home. I wouldn't advise you to blindly copy large parts fr
 
 *** Setup
 
-For now, you have to manually install these dotfiles. Soon I'll migrate to [[https://github.com/shade-linux/soul][Soul]] for dotfile management and declarative package management, but till then, everything must be done manually.
+To setup these dotfiles semi-automatically, install [[https://github.com/shade-linux/soul][Soul]], clone this repo to =~/dotfiles=, and run the following commands:
+
+#+begin_src shell
+soul link ~/dotfiles/soul-instructions
+soul ensure ~/dotfiles/soul-packages
+#+end_src
 
 ** Images
 
