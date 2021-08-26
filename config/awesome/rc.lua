@@ -23,7 +23,6 @@ terminal = "alacritty"
 editor = os.getenv("EDITOR") or "vim"
 awful.spawn.with_shell("~/.config/awesome/autorun.sh")
 
-
 -- Discord scratchpad
 local discord_scratch = bling.module.scratchpad:new {
     command = "discocss",
@@ -106,6 +105,7 @@ awful.key({modkey, 'Control'}, '1', function()
 end, {
     description = 'Show tag preview', group = "Bling"
 }),
+
 -- Hide tag preview
 awful.key({modkey, 'Control'}, '2', function()
     awesome.emit_signal("bling::tag_preview::visibility", mouse.screen, false)
@@ -256,6 +256,18 @@ awful.key({modkey, "Shift"}, "e", function() awful.spawn.with_shell("emacsclient
     group = "Applications and menus"
 }),
 
+-- Open feed reader
+awful.key({modkey, "Shift"}, "r", function() awful.spawn.with_shell("emacsclient -c -e '(elfeed)'") end, {
+    description = "Open feed reader",
+    group = "Applications and menus"
+}),
+
+-- Take screenshot
+awful.key({modkey, "Shift"}, "s", function() awful.spawn.with_shell("~/.bin/rofi-screenshot") end, {
+    description = "Take screenshot",
+    group = "Applications and menus"
+}),
+
 -- Power menu
 awful.key({modkey}, "Escape", function() awful.spawn.with_shell("~/.bin/rofi-power") end, {
     description = "Power menu",
@@ -298,6 +310,33 @@ awful.key({}, "XF86AudioMute", function()
       awful.spawn.with_shell("~/.bin/voltoggle")
       end, {
       description = "Toggle mute",
+      group = "Applications and menus"
+}),
+
+-- Next song
+awful.key({modkey}, "XF86AudioRaiseVolume", function()
+      naughty.destroy_all_notifications()
+      awful.spawn.with_shell("playerctl next")
+      end, {
+      description = "Next song",
+      group = "Applications and menus"
+}),
+
+-- Previous song
+awful.key({modkey}, "XF86AudioLowerVolume", function()
+      naughty.destroy_all_notifications()
+      awful.spawn.with_shell("playerctl previous")
+      end, {  
+      description = "Previous song",
+      group = "Applications and menus"
+}),
+
+-- Toggle song
+awful.key({modkey}, "XF86AudioMute", function()
+      naughty.destroy_all_notifications()
+      awful.spawn.with_shell("playerctl play-pause")
+      end, {
+      description = "Toggle song",
       group = "Applications and menus"
 }),
 
@@ -346,7 +385,9 @@ clientbuttons = gears.table.join(awful.button({}, 1, function(c)
   end))
 
   root.buttons(gears.table.join(
-      awful.button({ }, 3, function () mainmenu:toggle() end)
+      awful.button({}, 3, function() mainmenu:toggle() end),
+      awful.button({}, 8, awful.tag.viewprev),
+      awful.button({}, 9, awful.tag.viewnext)
   ))
 
 root.keys(globalkeys)
@@ -476,7 +517,7 @@ awful.screen.connect_for_each_screen(function(s)
         visible = true,
         type = "dock",
         stretch = false,
-        bg = "#0e131a",
+        bg = "#181e23",
     })
 
     s.wibar.x = 80
@@ -509,7 +550,7 @@ awful.screen.connect_for_each_screen(function(s)
             spacing = 5,
             clock,
             wibox.layout.margin(battery, 0, 7, 0, 0),
-            wibox.layout.margin(wibox.widget.systray(), 0, 7, 7, 7),
+            wibox.layout.margin(wibox.widget.systray(), 3, 3, 5, 5),
             wibox.layout.margin(s.layoutbox, 0, 0, 7, 7),
             wibox.widget {
                 widget = wibox.widget.separator,
@@ -550,7 +591,7 @@ awful.rules.rules = {
     {
         rule_any = {
             class = {
-                "Gpick", "Tor Browser", "Gimp"
+                "Gpick", "Tor Browser"
             }
 
         },
@@ -582,20 +623,6 @@ awful.layout.layouts = {
     bling.layout.mstab,
     awful.layout.suit.floating,
 }
-
--- Generate wallpaper
-awful.screen.connect_for_each_screen(function(s)
-    bling.module.tiled_wallpaper("", s, {
-        bg = "#d5d5d5",
-        fg = "#181e23",
-        offset_y = 15,
-        offset_x = 15,
-        font = "Iosevka Nerd Font",
-        font_size = 15,
-        padding = 100,
-        zickzack = true
-    })
-end)
 
 -- Flash focus
 bling.module.flash_focus.enable()
@@ -636,8 +663,8 @@ client.connect_signal("request::titlebars", function(c)
             layout = wibox.layout.align.horizontal
         },
         widget = wibox.container.margin,
-        left = 5,
-        right = 5,
+        left = 10,
+        right = 10,
         top = 5,
         bottom = 9
     }
@@ -710,7 +737,7 @@ awful.layout.layouts = {
 -- awful.screen.connect_for_each_screen(function(s)
 --     bling.module.tiled_wallpaper("", s, {
 --         fg = "#181e23",
---         bg = "#0e131a",
+--         bg = "#181e23",
 --         offset_y = 15,
 --         offset_x = 15,
 --         font = "Iosevka Nerd Font",
@@ -721,7 +748,7 @@ awful.layout.layouts = {
 -- end)
 
 bling.module.wallpaper.setup {
-   wallpaper = {"~/Pictures/Wallpaper/Wood.jpg"}
+  wallpaper = {"/home/matei/Pictures/Wallpaper/Wood.jpg"},
 }
 
 -- Flash focus

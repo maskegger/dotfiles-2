@@ -9,7 +9,7 @@
 #define green1    #BEF8C1
 #define yellow0   #FFFE80
 #define yellow1   #FCFBA6
-#define blue0     #80D1FF
+#define blue0     #4061CF
 #define blue1     #ACE1FF
 #define magenta0  #C780FF
 #define magenta1  #D8A8FF
@@ -43,6 +43,7 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+Xcursor.theme: Breeze
 *renderFont: true
 *faceName: Iosevka Nerd Font
 *faceSize: 11

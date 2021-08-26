@@ -157,27 +157,26 @@ This replaces some text with icons.
 
 ** Line numbers
 
- Line numbers are very useful. Relative line numbers are even more so, since you don't do much maths with them.
+ Line numbers are very useful. Relative line numbers are even more so, since you don't do much maths with them. We disable line numbers for some modes
 
-#+begin_src emacs-lisp
-  (global-display-line-numbers-mode)
-  (setq display-line-numbers-type 'relative)
-#+end_src
+ #+begin_src emacs-lisp
+   (global-display-line-numbers-mode)
+   (setq display-line-numbers-type 'relative)
+ #+end_src
 
  Sometimes line numbers can be distracting, so we disable them for certain modes
 
-#+BEGIN_SRC emacs-lisp
-  (dolist (mode '(org-mode-hook
-    term-mode-hook
-    eshell-mode-hook
-    neotree-mode-hook
-    elfeed-show-mode-hook
-    circe-channel-mode-hook
-    circe-chat-mode-hook
-    doc-view-mode-hook
-    woman-mode-hook))
-  (add-hook mode (lambda () (display-line-numbers-mode 0))))
-#+END_SRC
+ #+BEGIN_SRC emacs-lisp
+   (dolist (mode '(org-mode-hook
+                   term-mode-hook
+                   eshell-mode-hook
+                   neotree-mode-hook
+                   elfeed-show-mode
+                   circe-channel-mode
+                   circe-chat-mode
+                   woman-mode-hook))
+   (add-hook mode (lambda () (display-line-numbers-mode 0))))
+ #+END_SRC
 
 ** File locations
 

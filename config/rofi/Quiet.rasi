@@ -3,8 +3,8 @@ configuration {
 }
 
 * {
-    ac: #181e23;
-    bg: #0e131a;
+    ac: #384149;
+    bg: #181e23;
     fg: #d5d5d5;
     background-color: @bg;
 }
@@ -12,7 +12,7 @@ configuration {
 window {
     border: 5px;
     border-color: @ac;
-    border-radius: 15px;
+    border-radius: 0px;
     padding: 30;
     width: 30%;
     height: 70%;

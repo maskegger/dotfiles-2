@@ -1,3 +1,5 @@
+sleep 0.2
+
 sel=$(echo "Screen|Selection" | rofi -sep "|" -dmenu -i -p 'Screenshot')
  
 if [[ $sel = "Screen" ]]; then

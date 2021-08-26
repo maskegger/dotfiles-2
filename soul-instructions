@@ -3,8 +3,10 @@
 
 # Instructions
 /home/matei/dotfiles/config/alacritty -> /home/matei/.config/alacritty
+/home/matei/dotfiles/config/applications/* -> /usr/share/applications/
 /home/matei/dotfiles/config/awesome -> /home/matei/.config/awesome
 /home/matei/dotfiles/config/bin -> /home/matei/.bin
+/home/matei/dotfiles/config/bspwm -> /home/matei/.config/bspwm
 /home/matei/dotfiles/config/cava -> /home/matei/.config/cava
 /home/matei/dotfiles/config/discocss -> /home/matei/.config/discocss
 /home/matei/dotfiles/config/dunst -> /home/matei/.config/dunst
@@ -15,6 +17,7 @@
 /home/matei/dotfiles/config/ranger -> /home/matei/.config/ranger
 /home/matei/dotfiles/config/river -> /home/matei/.config/river
 /home/matei/dotfiles/config/rofi -> /home/matei/.config/rofi
+/home/matei/dotfiles/config/sxhkd -> /home/matei/.config/sxhkd
 /home/matei/dotfiles/config/wallpaper -> /home/matei/Pictures/Wallpaper
 /home/matei/dotfiles/config/xresources -> /home/matei/.Xresources
 /home/matei/dotfiles/config/zshrc -> /home/matei/.zshrc

@@ -11,7 +11,7 @@ theme.font = "Iosevka Nerd Font 11"
 
 -- Bar
 theme.wibar_border_width = 2
-theme.wibar_border_color = "#181e23"
+theme.wibar_border_color = "#384149"
 theme.taglist_squares_sel = nil
 theme.taglist_squares_unsel = nil
 theme.taglist_squares_sel_empty = nil
@@ -19,11 +19,11 @@ theme.taglist_squares_unsel_empty = nil
 
 -- Backgrounds
 
-theme.bg_normal = "#0e131a"
-theme.bg_focus = "#0e131a"
-theme.bg_urgent = "#0e131a"
-theme.bg_minimize = "#0e131a"
-theme.bg_systray = "#0e131a"
+theme.bg_normal = "#181e23"
+theme.bg_focus = "#181e23"
+theme.bg_urgent = "#181e23"
+theme.bg_minimize = "#181e23"
+theme.bg_systray = "#181e23"
 
 -- Foregrounds
 
@@ -37,29 +37,29 @@ theme.fg_minimize = "#C780FF"
 theme.useless_gap = 15
 theme.gap_single_client = true
 theme.border_width = 3
-theme.border_color_normal = "#181e23"
+theme.border_color_normal = "#1f252a"
 theme.border_color_active = "#384149"
 theme.border_color_marked = "#80d1ff"
 
 -- Taglist
-theme.taglist_bg = "#0e131a"
-theme.taglist_bg_empty = "#0e131a"
-theme.taglist_bg_occupied = "#0e131a"
+theme.taglist_bg = "#181e23"
+theme.taglist_bg_empty = "#181e23"
+theme.taglist_bg_occupied = "#181e23"
 theme.taglist_fg = "#80D1FF"
 theme.taglist_fg_empty = "#D5D5D5"
 theme.taglist_fg_occupied = "#97D59B"
 
 -- Tasklist
 
-theme.tasklist_bg_normal = "#0e131a"
+theme.tasklist_bg_normal = "#181e23"
 theme.tasklist_align = "center"
 theme.tasklist_disable_task_name = false
 theme.tasklist_disable_icon = true
 
 -- Titlebar
 
-theme.titlebar_bg_focus = "#0e131a"
-theme.titlebar_bg_normal = "#0e131a"
+theme.titlebar_bg_focus = "#181e23"
+theme.titlebar_bg_normal = "#181e23"
 
 theme.titlebar_close_button_normal = gfs.get_configuration_dir() .. "quiet/titlebar/inactive.png"
 theme.titlebar_close_button_focus  = gfs.get_configuration_dir() .. "quiet/titlebar/close.png"
@@ -89,7 +89,7 @@ theme.titlebar_maximized_button_focus_active  = gfs.get_configuration_dir() .. "
 
 -- Edge snap
 
-theme.snap_bg = "#1f252a"
+theme.snap_bg = "#181e23"
 theme.snap_border_width = "5"
 
 -- Icon theme
@@ -114,7 +114,7 @@ theme.tabbar_position = "bottom"
 theme.mstab_bar_padding = 0
 theme.tabbar_size = 40
 theme.tabbar_radius = 0
-theme.tabbar_bg_focus = "#0e131a"
+theme.tabbar_bg_focus = "#181e23"
 theme.tabbar_bg_normal = "#181e23"
 theme.tabbar_color_close = "#1f252a"
 theme.tabbar_color_min = "#1f252a"
@@ -130,7 +130,7 @@ theme.tag_preview_widget_border_width = 0
 theme.tag_preview_client_opacity = 1
 theme.tag_preview_widget_margin = 0
 theme.tag_preview_client_bg = "#384149"
-theme.tag_preview_widget_bg = "#0e131a"
+theme.tag_preview_widget_bg = "#181e23"
 
 -- Hotkey popup
 
@@ -147,21 +147,22 @@ local notif_shape = function(cr, width, height)
 end
 
 theme.notification_font = "Iosevka 11"
-theme.notification_bg = "#0e131a"
+theme.notification_bg = "#181e23"
 theme.notification_fg = "#D5D5D5"
 theme.notification_shape = notif_shape
 theme.notification_spacing = 10
 theme.notification_margin = 15
 theme.notification_border_width = 3
-theme.notification_border_color = "#181e23"
+theme.notification_border_color = "#1f252a"
 theme.notification_width = 300
 theme.notification_height = 80
+theme.notification_max_height = 180
 theme.notification_icon_size = 90
 naughty.config.defaults.padding = 70
 naughty.config.defaults.position = "bottom_left"
 naughty.config.defaults.margin = theme.notification_margin
 naughty.config.defaults.border_width = theme.notification_border_width
-naughty.config.presets.critical.bg = '#0e131a'
+naughty.config.presets.critical.bg = '#181e23'
 naughty.config.presets.critical.fg = '#ff8080'
 
 return theme

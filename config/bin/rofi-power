@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+sleep 0.2
+
 res=$(echo -en "Reload|Lock|Logout|Shutdown|Reboot" | rofi -sep "|" -dmenu -i -p 'Power Options') # Make selection prompt
 
 if [ $res = "Reload" ]; then
