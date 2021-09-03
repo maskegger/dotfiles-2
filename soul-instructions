@@ -3,7 +3,7 @@
 
 # Instructions
 /home/matei/dotfiles/config/alacritty -> /home/matei/.config/alacritty
-/home/matei/dotfiles/config/applications/* -> /usr/share/applications/
+/home/matei/dotfiles/config/applications/* -> /home/matei/.local/share/applications/
 /home/matei/dotfiles/config/awesome -> /home/matei/.config/awesome
 /home/matei/dotfiles/config/bin -> /home/matei/.bin
 /home/matei/dotfiles/config/bspwm -> /home/matei/.config/bspwm
@@ -18,6 +18,7 @@
 /home/matei/dotfiles/config/river -> /home/matei/.config/river
 /home/matei/dotfiles/config/rofi -> /home/matei/.config/rofi
 /home/matei/dotfiles/config/sxhkd -> /home/matei/.config/sxhkd
+/home/matei/dotfiles/config/touchegg -> /home/matei/.config/touchegg
 /home/matei/dotfiles/config/wallpaper -> /home/matei/Pictures/Wallpaper
 /home/matei/dotfiles/config/xresources -> /home/matei/.Xresources
 /home/matei/dotfiles/config/zshrc -> /home/matei/.zshrc
@@ -25,9 +26,7 @@
 # Emacs
 /home/matei/dotfiles/config/emacs/init.el -> /home/matei/.config/emacs/init.el
 /home/matei/dotfiles/config/emacs/emacs.org -> /home/matei/.config/emacs/emacs.org
-/home/matei/dotfiles/config/emacs/emacs.el -> /home/matei/.config/emacs/emacs.el
-/home/matei/dotfiles/config/emacs/private.el -> /home/matei/.config/emacs/etc/private.el
-/home/matei/dotfiles/config/emacs/pfp_rounded_small.png -> /home/matei/.config/emacs/pfp_rounded_small.png
+/home/matei/dotfiles/config/emacs/banner.png -> /home/matei/.config/emacs/banner.png
 /home/matei/dotfiles/config/emacs/doom-quiet-dark-theme.el -> /home/matei/.config/emacs/doom-quiet-dark-theme.el
 /home/matei/dotfiles/config/emacs/style.css -> /home/matei/.config/emacs/style.css
 

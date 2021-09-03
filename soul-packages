@@ -2,6 +2,7 @@
 COMMAND_INSTALL='paru -S --needed'
 
 # Packages
+0ad
 acpi
 alacritty
 alsa-utils
@@ -12,6 +13,7 @@ base
 bat
 binutils
 bison
+bleachbit
 blueman
 bluez
 bluez-utils
@@ -21,6 +23,7 @@ bspwm
 cava
 chromium
 cmatrix
+cpufetch
 curl
 dbus
 dhcpcd
@@ -49,8 +52,10 @@ inkscape
 ispell
 iwd
 kid3
+krita
 libnotify
 libtool
+linux-xanmod-cacule
 m4
 maim
 make
@@ -61,6 +66,7 @@ mopidy-mpd
 mopidy-mpris
 mpc
 mpv
+ncdu
 ncmpcpp
 neofetch
 neovim
@@ -71,6 +77,7 @@ nitrogen
 nm-connection-editor
 npm
 nyxt
+pactest-git
 pamixer
 papirus-icon-theme
 paru
@@ -98,9 +105,11 @@ rust
 rxvt-unicode
 sddm-sugar-dark
 solaar
+speedtest-cli
 spotify
 steam
 sudo
+supertuxcart
 swaybg
 sxhkd
 syncthing
@@ -108,10 +117,13 @@ teams
 teams-for-linux
 texinfo
 thunar
+tmux
+touchegg
 trash-cli
 ueberzug
 vi
 vim
+virt-manager
 w3m
 wget
 which

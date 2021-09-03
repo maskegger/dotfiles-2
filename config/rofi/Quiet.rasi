@@ -1,5 +1,5 @@
 configuration {
-    font: 							"Iosevka Nerd Font 12";
+    font: "Iosevka Nerd Font 12";
 }
 
 * {
@@ -10,7 +10,7 @@ configuration {
 }
 
 window {
-    border: 5px;
+    border: 3px;
     border-color: @ac;
     border-radius: 0px;
     padding: 30;
@@ -23,19 +23,19 @@ prompt {
 }
 
 textbox-prompt-colon {
-    expand: 						false;
-    str: 							" - ";
-    text-color: 					inherit;
+    expand: false;
+    str: " - ";
+    text-color:	inherit;
 }
 
 entry {
-    spacing:    					0;
-    text-color: 					@fg;
+    spacing: 0;
+    text-color: @fg;
 }
 
 inputbar {
-    text-color: 					@fg;
-    children: 						[ prompt,textbox-prompt-colon,entry ];
+    text-color:	@fg;
+    children: [ prompt,textbox-prompt-colon,entry ];
 }
 
 listview {
@@ -44,7 +44,7 @@ listview {
 
 element {
     border:	0px;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 5px;
     text-color: @fg;
     background-color: @bg;
@@ -53,4 +53,9 @@ element {
 element selected {
     background-color: @fg;
     text-color: @bg;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color: inherit;
 }

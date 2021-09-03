@@ -2,16 +2,17 @@
 xrdb -merge ~/.Xresources
 
 # Mopidy
-mopidy &
+pgrep -x mopidy > /dev/null || mopidy &
+
+# Gestures
+touchegg &
 
 # Applets
-pkill nm-applet
 nm-applet &
-pkill blueman-applet
 blueman-applet &
  
 # Compositor
-picom --experimental-backends &
+picom &
 
 # Emacs daemon
-pgrep -x emacs > /dev/null || emacs --daemon
+emacs --daemon

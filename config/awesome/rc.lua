@@ -561,14 +561,9 @@ awful.screen.connect_for_each_screen(function(s)
     }
 end)
 
--- Titlebar only if floating
-client.connect_signal("property::floating", function(c)
-    if c.floating then awful.titlebar.show(c) else awful.titlebar.hide(c) end
-end)
-
 -- Corners
 client.connect_signal("manage", function(c)
-    c.shape = function(cr, w, h, r) gears.shape.rounded_rect(cr, w, h, 0) end
+    c.shape = function(cr, w, h, r) gears.shape.rounded_rect(cr, w, h, 25) end
 end)
 
 -- Rules
@@ -606,7 +601,7 @@ awful.rules.rules = {
             }
         },
         properties = {
-            titlebars_enabled = false
+            titlebars_enabled = true
         }
     }
 }
@@ -619,9 +614,23 @@ awful.layout.layouts = {
     awful.layout.suit.tile.top,
     awful.layout.suit.tile.bottom,
     bling.layout.centered,
-    machi.default_layout,
+    bling.layout.deck,
+    bling.layout.equalarea,
     bling.layout.mstab,
+    machi.default_layout,
     awful.layout.suit.floating,
+}
+
+machi.editor.nested_layouts = {
+    ["0"] = awful.layout.suit.fair,
+    ["1"] = awful.layout.suit.tile,
+    ["2"] = awful.layout.suit.tile.left,
+    ["3"] = awful.layout.suit.tile.top,
+    ["4"] = awful.layout.suit.tile.bottom,
+    ["5"] = bling.layout.centered,
+    ["6"] = bling.layout.deck,
+    ["7"] = bling.layout.equalarea,
+    ["8"] = bling.layout.mstab,
 }
 
 -- Flash focus
@@ -663,16 +672,11 @@ client.connect_signal("request::titlebars", function(c)
             layout = wibox.layout.align.horizontal
         },
         widget = wibox.container.margin,
-        left = 10,
-        right = 10,
-        top = 5,
-        bottom = 9
+        left = 12,
+        right = 12,
+        top = 7,
+        bottom = 7
     }
-end)
-
--- Titlebar only if floating
-client.connect_signal("property::floating", function(c)
-    if c.floating then awful.titlebar.show(c) else awful.titlebar.hide(c) end
 end)
 
 -- Corners
@@ -715,40 +719,13 @@ awful.rules.rules = {
             }
         },
         properties = {
-            titlebars_enabled = false
+            titlebars_enabled = true
         }
     }
 }
 
--- Layouts
-awful.layout.layouts = {
-    awful.layout.suit.fair,
-    awful.layout.suit.tile,
-    awful.layout.suit.tile.left,
-    awful.layout.suit.tile.top,
-    awful.layout.suit.tile.bottom,
-    bling.layout.centered,
-    machi.default_layout,
-    bling.layout.mstab,
-    awful.layout.suit.floating,
-}
-
--- Generate wallpaper
--- awful.screen.connect_for_each_screen(function(s)
---     bling.module.tiled_wallpaper("", s, {
---         fg = "#181e23",
---         bg = "#181e23",
---         offset_y = 15,
---         offset_x = 15,
---         font = "Iosevka Nerd Font",
---         font_size = 15,
---         padding = 100,
---         zickzack = true
---     })
--- end)
-
 bling.module.wallpaper.setup {
-  wallpaper = {"/home/matei/Pictures/Wallpaper/Wood.jpg"},
+  wallpaper = {"/home/matei/Pictures/Wallpaper/Stars.jpg"},
 }
 
 -- Flash focus
