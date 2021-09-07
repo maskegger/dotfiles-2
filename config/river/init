@@ -14,7 +14,7 @@ riverctl border-color-unfocused 0x1f252a
 riverctl border-width 3
 
 # Wallpaper
-riverctl spawn 'swaybg -i ~/Pictures/Wallpaper/Wood.jpg'
+riverctl spawn 'swaybg -i ~/Pictures/Wallpaper/Stars.jpg'
 
 # Terminal
 riverctl map normal $mod Return spawn 'alacritty'

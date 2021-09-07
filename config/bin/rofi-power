@@ -4,30 +4,30 @@ res=$(echo -en "Reload|Lock|Logout|Shutdown|Reboot" | rofi -sep "|" -dmenu -i -p
 
 if [ $res = "Reload" ]; then
 
-    notify-send 'Power menu' 'Reloading config...'
+    notify-send 'System Notifcation' 'Reloading config...'
     sleep 1
     echo 'awesome.restart()' | awesome-client
 
 elif [ $res = "Lock" ]; then
 
-    notify-send 'Power menu' 'Locking screen...'
+    notify-send 'System Notification' 'Locking screen...'
     ~/.bin/lock
 
 elif [ $res = "Logout" ]; then
 
-    notify-send 'Power menu' 'Logging out...'
+    notify-send 'System Notification' 'Logging out...'
     sleep 1
     echo 'awesome.quit()' | awesome-client
 
 elif [ $res = "Shutdown" ]; then # If selection is shutdown
 
-    notify-send 'Power menu' 'Shutting down...'
+    notify-send 'System Notification' 'Shutting down...'
     sleep 1
     sudo shutdown -h now
 
 elif [ $res = "Reboot" ]; then
 
-    notify-send 'Power menu' 'Rebooting...'
+    notify-send 'System Notification' 'Rebooting...'
     sleep 1
     sudo reboot
 

@@ -3,7 +3,7 @@
 
 # Instructions
 /home/matei/dotfiles/config/alacritty -> /home/matei/.config/alacritty
-/home/matei/dotfiles/config/applications/* -> /home/matei/.local/share/applications/
+/home/matei/dotfiles/config/applications -> /home/matei/.local/share/applications
 /home/matei/dotfiles/config/awesome -> /home/matei/.config/awesome
 /home/matei/dotfiles/config/bin -> /home/matei/.bin
 /home/matei/dotfiles/config/bspwm -> /home/matei/.config/bspwm
@@ -33,3 +33,7 @@
 # Qutebrowser
 /home/matei/dotfiles/config/qutebrowser/config.py -> /home/matei/.config/qutebrowser/config.py
 /home/matei/dotfiles/config/qutebrowser/autoconfig.yml -> /home/matei/.config/qutebrowser/autoconfig.yml
+
+# GTK
+/home/matei/dotfiles/config/gtk/gtk2 -> /home/matei/.gtkrc-2.0
+/home/matei/dotfiles/config/gtk/gtk3 -> /home/matei/.config/gtk/settings.ini

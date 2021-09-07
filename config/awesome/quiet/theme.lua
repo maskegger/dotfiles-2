@@ -143,7 +143,7 @@ theme.hotkeys_group_margin = 20
 -- Notifications
 
 local notif_shape = function(cr, width, height)
-    gears.shape.rounded_rect(cr, width, height, 0)
+    gears.shape.rounded_rect(cr, width, height, 15)
 end
 
 theme.notification_font = "Iosevka 11"
@@ -153,11 +153,12 @@ theme.notification_shape = notif_shape
 theme.notification_spacing = 10
 theme.notification_margin = 15
 theme.notification_border_width = 3
-theme.notification_border_color = "#1f252a"
-theme.notification_width = 300
-theme.notification_height = 80
-theme.notification_max_height = 180
-theme.notification_icon_size = 90
+theme.notification_border_color = "#384149"
+-- theme.notification_width = 100
+-- theme.notification_height = 80
+theme.notification_max_width = 300
+theme.notification_max_height = 200
+theme.notification_icon_size = 100
 naughty.config.defaults.padding = 70
 naughty.config.defaults.position = "bottom_left"
 naughty.config.defaults.margin = theme.notification_margin

@@ -1,3 +1,7 @@
 pactl set-sink-mute 0 toggle
 
-notify-send 'Muted' `pamixer --get-mute`
+if [[ $(pamixer --get-mute) == "true" ]]; then
+  notify-send 'System notification' "Audio has been muted"
+else
+  notify-send 'System notification' "Audio has been unmuted"
+fi

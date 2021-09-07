@@ -18,21 +18,23 @@ Welcome to my virtual home. I wouldn't advise you to blindly copy large parts fr
 
 *** Programs
 
-| OS           | NixOS     |
-| WM           | AwesomeWM |
-| Editor       | Emacs     |
-| Terminal     | Alacritty |
-| Shell        | zsh       |
-| Launcher     | Rofi      |
-| Music player | ncmpcpp   |
+| OS           | Arch Linux |
+| WM           | AwesomeWM  |
+| Editor       | Emacs      |
+| Terminal     | Alacritty  |
+| Shell        | zsh        |
+| Launcher     | Rofi       |
+| Music player | ncmpcpp    |
 
 *** Setup
 
 To setup these dotfiles semi-automatically, install [[https://github.com/shade-linux/soul][Soul]], clone this repo to =~/dotfiles=, and run the following commands:
 
 #+begin_src shell
-soul link ~/dotfiles/soul-instructions
-soul ensure ~/dotfiles/soul-packages
+  sudo soul link ~/dotfiles/sudo-instruct
+  soul link ~/dotfiles/user-instruct
+  sh ~/dotfiles/commands
+  soul ensure ~/dotfiles/packages
 #+end_src
 
 ** Images
