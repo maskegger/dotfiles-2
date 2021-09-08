@@ -1,6 +1,8 @@
 # Services
 sudo systemctl enable touchegg sddm bluetooth NetworkManager wpa_supplicant
 
+systemctl enable --user syncthing
+
 # Directories
 mkdir ~/Pictures/Screenshots
 

@@ -647,7 +647,7 @@ client.connect_signal("request::titlebars", function(c)
         c:emit_signal("request::activate", "titlebar", {raise = true})
         awful.mouse.client.resize(c)
     end))
-    awful.titlebar(c, {position = 'top', size = '30'}):setup{
+    awful.titlebar(c, {position = 'top', size = '35'}):setup{
         {
             {
                 awful.titlebar.widget.closebutton(c),
@@ -674,8 +674,8 @@ client.connect_signal("request::titlebars", function(c)
         widget = wibox.container.margin,
         left = 12,
         right = 12,
-        top = 7,
-        bottom = 7
+        top = 9,
+        bottom = 9
     }
 end)
 
@@ -729,4 +729,4 @@ bling.module.wallpaper.setup {
 }
 
 -- Flash focus
-bling.module.flash_focus.enable()
+bling.module.flash_focus.disable()

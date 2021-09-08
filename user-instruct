@@ -14,6 +14,7 @@
 /home/matei/dotfiles/config/ncmpcpp -> /home/matei/.config/ncmpcpp
 /home/matei/dotfiles/config/nvim -> /home/matei/.config/nvim
 /home/matei/dotfiles/config/picom -> /home/matei/.config/picom
+/home/matei/dotfiles/config/plank -> /home/matei/.config/plank
 /home/matei/dotfiles/config/ranger -> /home/matei/.config/ranger
 /home/matei/dotfiles/config/river -> /home/matei/.config/river
 /home/matei/dotfiles/config/rofi -> /home/matei/.config/rofi
@@ -21,6 +22,7 @@
 /home/matei/dotfiles/config/touchegg -> /home/matei/.config/touchegg
 /home/matei/dotfiles/config/wallpaper -> /home/matei/Pictures/Wallpaper
 /home/matei/dotfiles/config/xresources -> /home/matei/.Xresources
+/home/matei/dotfiles/config/zathura -> /home/matei/.config/zathura
 /home/matei/dotfiles/config/zshrc -> /home/matei/.zshrc
 
 # Emacs

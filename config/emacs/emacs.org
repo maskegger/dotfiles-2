@@ -442,7 +442,7 @@ We install which-key in case we ever forget any keybinds.
 
 ** Vertico
 
-Vertico helps with better completion and to replace the default M-x. Consult adds a few things.
+Vertico helps with better completion and to replace the default M-x. Consult adds a few things. Orderless adds fuzzy findings, marginalia adds stuff to your minibuffer.
 
 #+BEGIN_SRC emacs-lisp
   (use-package consult)
@@ -459,6 +459,9 @@ Vertico helps with better completion and to replace the default M-x. Consult add
     (setq completion-styles '(orderless)
           completion-category-defaults nil
           completion-category-overrides '((file (styles partial-completion)))))
+
+  (use-package marginalia
+    :init (marginalia-mode))
 #+END_SRC
 
 ** Dashboard
@@ -779,7 +782,17 @@ I use Emacs for coding as well, so we're going to configure lsp-mode.
 
   (use-package yasnippet-snippets
     :defer t)
+
+  (use-package lsp-ivy)
 #+END_SRC
+
+** Debugger
+
+Here we use the RealGUD package as a debugger.
+
+#+begin_src emacs-lisp
+  (use-package realgud)
+#+end_src
 
 ** Flycheck
 

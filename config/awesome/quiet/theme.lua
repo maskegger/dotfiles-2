@@ -58,8 +58,8 @@ theme.tasklist_disable_icon = true
 
 -- Titlebar
 
-theme.titlebar_bg_focus = "#181e23"
-theme.titlebar_bg_normal = "#181e23"
+theme.titlebar_bg_focus = "#1f252a"
+theme.titlebar_bg_normal = "#1f252a"
 
 theme.titlebar_close_button_normal = gfs.get_configuration_dir() .. "quiet/titlebar/inactive.png"
 theme.titlebar_close_button_focus  = gfs.get_configuration_dir() .. "quiet/titlebar/close.png"
@@ -143,7 +143,7 @@ theme.hotkeys_group_margin = 20
 -- Notifications
 
 local notif_shape = function(cr, width, height)
-    gears.shape.rounded_rect(cr, width, height, 15)
+    gears.shape.rounded_rect(cr, width, height, 0)
 end
 
 theme.notification_font = "Iosevka 11"

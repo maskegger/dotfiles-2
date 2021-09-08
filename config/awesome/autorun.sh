@@ -1,6 +1,12 @@
 # Xresources
 xrdb -merge ~/.Xresources
 
+# Cursor
+xsetroot -cursor_name arrow
+
+# Dock
+plank &
+
 # Mopidy
 pgrep -x mopidy > /dev/null || mopidy &
 
