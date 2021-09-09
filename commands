@@ -1,5 +1,5 @@
 # Services
-sudo systemctl enable touchegg sddm bluetooth NetworkManager wpa_supplicant
+sudo systemctl enable touchegg sddm bluetooth NetworkManager wpa_supplicant libvirtd
 
 systemctl enable --user syncthing
 
@@ -8,3 +8,7 @@ mkdir ~/Pictures/Screenshots
 
 # Time
 timedatectl set-timezone Asia/Dubai
+
+# Groups
+sudo usermod -aG libvirt matei
+sudo usermod -aG wheel matei
