@@ -610,7 +610,7 @@ Let's install a formatter to format our horrible code.
 
 #+BEGIN_SRC emacs-lisp
   (use-package format-all
-    :hook (prog-mode . format-all-mode))
+    :init (format-all-mode))
 #+END_SRC
 
 ** Colorscheme
@@ -629,6 +629,8 @@ My colorscheme uses doom-themes as a base, so we have to install it.
 Emacs can do everything, including manage mail.
 
 #+BEGIN_SRC emacs-lisp
+  (require 'mu4e)
+
   (setq mu4e-maildir (expand-file-name "~/Mail/"))
 
   (setq mu4e-drafts-folder "/Drafts")
@@ -691,12 +693,9 @@ I read RSS feeds, so we're going to configure a reader.
 #+BEGIN_SRC emacs-lisp
   (use-package elfeed)
   (setq elfeed-feeds
-         '(("http://www.reddit.com/r/emacs.rss" tech)
-           ("https://www.reddit.com/r/linux.rss" tech)
-           ("https://nixers.net/syndication.php?fid=12,15&limit=25" tech)
-           ("https://news.ycombinator.com/rss" tech)
-           ("https://www.reddit.com/r/DigitalGardens.rss" note-taking)
-           ("https://www.reddit.com/r/PKMS.rss" note-taking)
+         '(("https://nixers.net/syndication.php?fid=12,15&limit=25" tech)
+           ("https://christine.website/blog.rss" tech)
+           ("https://karl-voit.at/feeds/lazyblorg-all.atom_1.0.links-only.xml" tech)
            ("http://www.reddit.com/r/terminal_porn.rss" tech)))
   (add-to-list 'evil-emacs-state-modes 'elfeed-search-mode)
   (add-to-list 'evil-emacs-state-modes 'elfeed-show-mode)

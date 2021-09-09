@@ -21,6 +21,7 @@
 /home/matei/dotfiles/config/sxhkd -> /home/matei/.config/sxhkd
 /home/matei/dotfiles/config/touchegg -> /home/matei/.config/touchegg
 /home/matei/dotfiles/config/wallpaper -> /home/matei/Pictures/Wallpaper
+/home/matei/dotfiles/config/wezterm -> /home/matei/.config/wezterm
 /home/matei/dotfiles/config/xresources -> /home/matei/.Xresources
 /home/matei/dotfiles/config/zathura -> /home/matei/.config/zathura
 /home/matei/dotfiles/config/zshrc -> /home/matei/.zshrc

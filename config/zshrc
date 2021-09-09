@@ -60,7 +60,7 @@ export PATH="$HOME/.bin/:$PATH"   # Add user binaries and scripts to path
 
 ########## Prompt ##########
 
-export PS1="%F{blue}%~%f %(?.%F{green}λ%f.%F{red}λ%f) " # Alternatives for prompt icon: ◯, •, ❯, ∮, λ, Δ, 
+export PS1="%F{blue}%~%f %(?.%F{green}❯%f.%F{red}❯%f) " # Alternatives for prompt icon: ◯, •, ❯, ∮, λ, Δ, 
 
 ########## ZLE ##########
 

@@ -13,39 +13,16 @@ local gears = require("gears")
 local machi = require("layout-machi")
 local naughty = require('naughty')
 local revelation = require("awesome-revelation")
+local ruled = require("ruled")
 
 revelation.init()
 revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
 
 local wibox = require("wibox")
 
-terminal = "alacritty"
-editor = os.getenv("EDITOR") or "vim"
+terminal = "wezterm"
+editor = os.getenv("EDITOR") or "nvim"
 awful.spawn.with_shell("~/.config/awesome/autorun.sh")
-
--- Discord scratchpad
-local discord_scratch = bling.module.scratchpad:new {
-    command = "discocss",
-    rule = { instance = "discord" },
-    sticky = true,
-    autoclose = true,
-    floating = true,
-    geometry = {x=200, y=70, height=600, width=700},
-    reapply = true,
-    dont_focus_before_close = false
-}
-
--- Terminal scratchpad
-local terminal_scratch = bling.module.scratchpad:new {
-    command = "alacritty --class term_scratch",
-    rule = { instance = "term_scratch" },
-    sticky = true,
-    autoclose = true,
-    floating = true,
-    geometry = {x=0, y=0, height=300, width=1366},
-    reapply = true,
-    dont_focus_before_close = false,
-}
 
 bling.widget.tag_preview.enable {
   show_client_content = false,
@@ -81,16 +58,6 @@ awful.key({modkey}, "r", function() awful.prompt.run {
 -- Toggle Wibar
 awful.key({modkey}, "b", function() for s in screen do s.wibar.visible = not s.wibar.visible end end, {
     description = 'Toggle Wibar', group = "AwesomeWM"
-}),
-
--- Discord scratchpad
-awful.key({modkey, "Control"}, 'd', function() discord_scratch:toggle() end, {
-    description = "Toggle Discord scratchpad", group = "Bling"
-}),
-
--- Terminal scratchpad
-awful.key({modkey, "Control"}, 't', function() terminal_scratch:toggle() end, {
-    description = "Toggle terminal scratchpad", group = "Bling"
 }),
 
 -- Toggle swallowing
@@ -485,7 +452,7 @@ awful.screen.connect_for_each_screen(function(s)
     }
 
     appmenu = {
-     {"Terminal", function() awful.spawn.with_shell("alacritty") end},
+     {"Terminal", function() awful.spawn.with_shell("wezterm") end},
      {"Editor", function() awful.spawn.with_shell("emacsclient -c") end},
      {"Browser", function() awful.spawn.with_shell("firefox") end},
      {"Music", function() awful.spawn.with_shell("spotify") end},
@@ -568,7 +535,6 @@ end)
 
 -- Rules
 awful.rules.rules = {
-    -- All clients will match this rule
     {
         rule = {},
         properties = {
@@ -578,30 +544,7 @@ awful.rules.rules = {
             raise = true,
             keys = clientkeys,
             buttons = clientbuttons,
-            screen = awful.screen.preferred,
-            placement = awful.placement.no_overlap +
-            awful.placement.no_offscreen
-        }
-    }, -- Floating clients.
-    {
-        rule_any = {
-            class = {
-                "Gpick", "Tor Browser"
-            }
-
-        },
-        properties = {
-            floating = true
-        }
-    }, -- Add titlebars to normal clients and dialogs
-    {
-        rule_any = {
-            type = {
-                "normal", "dialog"
-            }
-        },
-        properties = {
-            titlebars_enabled = true
+            screen = awful.screen.preferred
         }
     }
 }
@@ -637,47 +580,48 @@ machi.editor.nested_layouts = {
 bling.module.flash_focus.enable()
 
 -- Titlebar
-client.connect_signal("request::titlebars", function(c)
-
-    -- Buttons for the titlebar
-    local buttons = gears.table.join(awful.button({}, 1, function()
-        c:emit_signal("request::activate", "titlebar", {raise = true})
-        awful.mouse.client.move(c)
-    end), awful.button({}, 3, function()
-        c:emit_signal("request::activate", "titlebar", {raise = true})
-        awful.mouse.client.resize(c)
-    end))
-    awful.titlebar(c, {position = 'top', size = '35'}):setup{
-        {
-            {
-                awful.titlebar.widget.closebutton(c),
-                awful.titlebar.widget.minimizebutton(c),
-                awful.titlebar.widget.maximizedbutton(c),
-                layout = wibox.layout.fixed.horizontal,
-                widget
-            },
-            {
-                {
-                    align = "center",
-                    widget = awful.titlebar.widget.titlewidget(c),
-                },
-                buttons = buttons,
-                layout = wibox.layout.flex.horizontal
-            },
-            {
-                awful.widget.clienticon(c),
-                layout = wibox.layout.fixed.horizontal,
-                widget
-            },
-            layout = wibox.layout.align.horizontal
-        },
-        widget = wibox.container.margin,
-        left = 12,
-        right = 12,
-        top = 9,
-        bottom = 9
-    }
-end)
+-- client.connect_signal("request::titlebars", function(c)
+-- 
+--     -- Buttons for the titlebar
+--     local buttons = gears.table.join(awful.button({}, 1, function()
+--         c:emit_signal("request::activate", "titlebar", {raise = true})
+--         awful.mouse.client.move(c)
+--     end), awful.button({}, 3, function()
+--         c:emit_signal("request::activate", "titlebar", {raise = true})
+--         awful.mouse.client.resize(c)
+--     end))
+-- 
+--     awful.titlebar(c, {position = 'top', size = '35'}):setup{
+--         {
+--             {
+--                 awful.titlebar.widget.closebutton(c),
+--                 awful.titlebar.widget.minimizebutton(c),
+--                 awful.titlebar.widget.maximizedbutton(c),
+--                 layout = wibox.layout.fixed.horizontal,
+--                 widget
+--             },
+--             {
+--                 {
+--                     align = "center",
+--                     widget = awful.titlebar.widget.titlewidget(c),
+--                 },
+--                 buttons = buttons,
+--                 layout = wibox.layout.flex.horizontal
+--             },
+--             {
+--                 awful.widget.clienticon(c),
+--                 layout = wibox.layout.fixed.horizontal,
+--                 widget
+--             },
+--             layout = wibox.layout.align.horizontal
+--         },
+--         widget = wibox.container.margin,
+--         left = 12,
+--         right = 12,
+--         top = 9,
+--         bottom = 9
+--     }
+-- end)
 
 -- Corners
 client.connect_signal("manage", function(c)
@@ -711,11 +655,11 @@ awful.rules.rules = {
         properties = {
             floating = true
         }
-    }, -- Add titlebars to normal clients and dialogs
+    }, -- Add titlebars to normal clients 
     {
         rule_any = {
             type = {
-                "normal", "dialog"
+                "normal"
             }
         },
         properties = {

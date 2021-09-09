@@ -8,11 +8,9 @@ alacritty
 alsa-utils
 aria2
 aseprite-git
-autoconf
-automake
 awesome-git
-base
 bashdb
+baobab
 bat
 binutils
 bison
@@ -40,12 +38,12 @@ ffmpeg
 figlet
 firefox
 firejail
-flex
+fractal
 gcc
 geary
 gimp
 git
-gnome
+gnome-control-center
 gpick
 grafana
 groff
@@ -59,7 +57,6 @@ krita
 libnotify
 libtool
 linux-xanmod-cacule
-m4
 maim
 make
 man
@@ -97,6 +94,7 @@ pipes.sh
 pipewire
 pipewire-pulse
 pkgconf
+plank
 playerctl
 plymouth-git
 plymouth-theme-cuts-git
@@ -121,8 +119,6 @@ supertuxkart
 swaybg
 sxhkd
 syncthing
-teams
-teams-for-linux
 telegraf
 texinfo
 thunar
@@ -135,6 +131,7 @@ vim
 virt-manager
 w3m
 wayfire
+wezterm-git
 wget
 which
 wine
