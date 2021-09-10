@@ -1,3 +1,6 @@
+# Pre-flight checks
+sh ~/.config/awesome/preflightchecks.sh
+
 # Xresources
 xrdb -merge ~/.Xresources
 
