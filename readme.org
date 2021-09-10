@@ -28,13 +28,10 @@ Welcome to my virtual home. I wouldn't advise you to blindly copy large parts fr
 
 *** Setup
 
-To setup these dotfiles semi-automatically, install [[https://github.com/shade-linux/soul][Soul]], clone this repo to =~/dotfiles=, and run the following commands:
+To setup these dotfiles semi-automatically, install [[https://github.com/shade-linux/soul][Soul]] and Git, clone this repo to =~/dotfiles=, and run the following command:
 
-#+begin_src shell
-  sudo soul link ~/dotfiles/sudo-instruct
-  soul link ~/dotfiles/user-instruct
-  sh ~/dotfiles/commands
-  soul ensure ~/dotfiles/packages
+#+begin_src bash
+  sh ~/dotfiles/setup/setup
 #+end_src
 
 ** Images
