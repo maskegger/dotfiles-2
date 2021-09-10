@@ -10,6 +10,9 @@ mkdir ~/Pictures/Screenshots
 timedatectl set-timezone Asia/Dubai
 
 # Groups
+sudo groupadd uinput
+sudo usermod -aG input matei
+sudo usermod -aG uinput matei
 sudo usermod -aG libvirt matei
 sudo usermod -aG wheel matei
 

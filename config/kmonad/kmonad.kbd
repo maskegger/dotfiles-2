@@ -1,0 +1,79 @@
+(defcfg
+  input  (device-file "/dev/input/by-id/usb-Logitech_USB_Receiver-event-kbd")
+  output (uinput-sink "My KMonad output")
+  cmp-seq-delay 5 ;; 5ms delay between each compose-key sequence press
+
+  fallthrough true
+
+  allow-cmd true
+)
+
+(defsrc
+  esc f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11 f12
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rmet cmp  rctl
+)
+
+(defalias
+    wm (layer-switch wm)
+    qwe (layer-switch qwerty)
+    col (layer-switch colemak)
+    lay (layer-switch layers)
+)
+
+(defalias
+
+    ;; Move around windows
+    lft M-h
+    up  M-k
+    dwn M-j
+    rgt M-l
+
+    ;; Move around desktop
+    nxt M-right
+    prv M-left
+
+)
+
+;; QWERTY layout
+(deflayer qwerty
+  esc f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11 f12
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  @lay a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc           ralt rmet cmp  rctl
+)
+
+;; Colemak layout
+(deflayer colemak
+  esc f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11 f12
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    f    p    g    j    l    u    y    ;    [    ]    \
+  @lay a    r    s    t    d    h    n    e    i    o    '    ret
+  lsft z    x    c    v    b    k    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rmet cmp  rctl
+)
+
+;; Window manager navigation layout
+(deflayer wm
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    @prv _    @nxt _    _    _    _    _    _    -    _    _    _
+  @lay _    _    _    _    _    @lft @dwn @up  @rgt _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _ 
+  _    _    _              _              _    _    _    _
+)
+
+;; Switch to different layers layout
+(deflayer layers
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    @qwe @wm  _    _    _    _    _    _    _    -    _    _    _
+  @lay _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    @col _    _    _    _    _    _    _    _ 
+  _    _    _              _              _    _    _    _
+)

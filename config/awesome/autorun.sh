@@ -10,6 +10,9 @@ pgrep -x mopidy > /dev/null || mopidy &
 # Gestures
 touchegg &
 
+# Kmonad
+kmonad ~/.config/kmonad/kmonad.kbd
+
 # Applets
 nm-applet &
 blueman-applet &

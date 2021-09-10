@@ -20,9 +20,9 @@ echo ""
 
 read -p "-> " choice
 
-if [ choice == "0" ]; then
+if [ $choice == "0" ]; then
     exit
-elif [ choice == "1" ]; then
+elif [ $choice == "1" ]; then
     info "Running paru install script"
     cd ~/
     sh ~/dotfiles/setup/paru-setup
@@ -38,7 +38,7 @@ elif [ choice == "1" ]; then
     info "Running commands"
     sh ~/dotfiles/setup/commands 
     info "Installation done! Please reboot (or not, this isn't Windows)"
-elif [ choice == "2" ]; then
+elif [ $choice == "2" ]; then
     info "Running paru install script"
     cd ~/
     sh ~/dotfiles/setup/paru-setup
