@@ -12,3 +12,6 @@ timedatectl set-timezone Asia/Dubai
 # Groups
 sudo usermod -aG libvirt matei
 sudo usermod -aG wheel matei
+
+# Cache git credentials
+git config --global credential.helper store

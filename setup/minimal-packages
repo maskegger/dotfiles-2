@@ -1,0 +1,22 @@
+# Minimal packages for working AwesomeWM environment
+    
+# Command to use for installing
+COMMAND_INSTALL='paru -S --needed'
+
+# Packages
+acpi
+alsa-utils
+awesome-git
+brightnessctl
+i3lock-color
+nerd-fonts-iosevka
+noto-fonts
+papirus-icon-theme
+picom-jonaburg-git
+playerctl
+quiet-gtk-git
+rofi
+touchegg
+wezterm-git
+xclip
+xcursor-breeze

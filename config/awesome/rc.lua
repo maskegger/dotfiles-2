@@ -533,22 +533,6 @@ client.connect_signal("manage", function(c)
     c.shape = function(cr, w, h, r) gears.shape.rounded_rect(cr, w, h, 25) end
 end)
 
--- Rules
-awful.rules.rules = {
-    {
-        rule = {},
-        properties = {
-            border_width = beautiful.border_width,
-            border_color = beautiful.border_normal,
-            focus = awful.client.focus.filter,
-            raise = true,
-            keys = clientkeys,
-            buttons = clientbuttons,
-            screen = awful.screen.preferred
-        }
-    }
-}
-
 -- Layouts
 awful.layout.layouts = {
     awful.layout.suit.fair,
@@ -580,48 +564,48 @@ machi.editor.nested_layouts = {
 bling.module.flash_focus.enable()
 
 -- Titlebar
--- client.connect_signal("request::titlebars", function(c)
--- 
---     -- Buttons for the titlebar
---     local buttons = gears.table.join(awful.button({}, 1, function()
---         c:emit_signal("request::activate", "titlebar", {raise = true})
---         awful.mouse.client.move(c)
---     end), awful.button({}, 3, function()
---         c:emit_signal("request::activate", "titlebar", {raise = true})
---         awful.mouse.client.resize(c)
---     end))
--- 
---     awful.titlebar(c, {position = 'top', size = '35'}):setup{
---         {
---             {
---                 awful.titlebar.widget.closebutton(c),
---                 awful.titlebar.widget.minimizebutton(c),
---                 awful.titlebar.widget.maximizedbutton(c),
---                 layout = wibox.layout.fixed.horizontal,
---                 widget
---             },
---             {
---                 {
---                     align = "center",
---                     widget = awful.titlebar.widget.titlewidget(c),
---                 },
---                 buttons = buttons,
---                 layout = wibox.layout.flex.horizontal
---             },
---             {
---                 awful.widget.clienticon(c),
---                 layout = wibox.layout.fixed.horizontal,
---                 widget
---             },
---             layout = wibox.layout.align.horizontal
---         },
---         widget = wibox.container.margin,
---         left = 12,
---         right = 12,
---         top = 9,
---         bottom = 9
---     }
--- end)
+client.connect_signal("request::titlebars", function(c)
+
+    -- Buttons for the titlebar
+    local buttons = gears.table.join(awful.button({}, 1, function()
+        c:emit_signal("request::activate", "titlebar", {raise = true})
+        awful.mouse.client.move(c)
+    end), awful.button({}, 3, function()
+        c:emit_signal("request::activate", "titlebar", {raise = true})
+        awful.mouse.client.resize(c)
+    end))
+
+    awful.titlebar(c, {position = 'top', size = '35'}):setup{
+        {
+            {
+                awful.titlebar.widget.closebutton(c),
+                awful.titlebar.widget.minimizebutton(c),
+                awful.titlebar.widget.maximizedbutton(c),
+                layout = wibox.layout.fixed.horizontal,
+                widget
+            },
+            {
+                {
+                    align = "center",
+                    widget = awful.titlebar.widget.titlewidget(c),
+                },
+                buttons = buttons,
+                layout = wibox.layout.flex.horizontal
+            },
+            {
+                awful.widget.clienticon(c),
+                layout = wibox.layout.fixed.horizontal,
+                widget
+            },
+            layout = wibox.layout.align.horizontal
+        },
+        widget = wibox.container.margin,
+        left = 12,
+        right = 12,
+        top = 9,
+        bottom = 9
+    }
+end)
 
 -- Corners
 client.connect_signal("manage", function(c)
@@ -642,7 +626,8 @@ awful.rules.rules = {
             buttons = clientbuttons,
             screen = awful.screen.preferred,
             placement = awful.placement.no_overlap +
-            awful.placement.no_offscreen
+            awful.placement.no_offscreen,
+            titlebars_enabled = false
         }
     }, -- Floating clients.
     {
@@ -650,20 +635,9 @@ awful.rules.rules = {
             class = {
                 "Gpick", "Tor Browser", "Gimp"
             }
-
         },
         properties = {
             floating = true
-        }
-    }, -- Add titlebars to normal clients 
-    {
-        rule_any = {
-            type = {
-                "normal"
-            }
-        },
-        properties = {
-            titlebars_enabled = true
         }
     }
 }
