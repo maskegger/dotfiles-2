@@ -1,5 +1,7 @@
 * Dotfiles
 
+#+HTML:<img alt="Full rice" height="200" align = "left" src="./assets/full.png">
+
 Welcome to my virtual home. I wouldn't advise you to blindly copy large parts from these dotfiles, I may be doing some things wrong. However, looking through my configurations and copying some parts, or installing all of the dotfiles together should be fine.
 
 * Table of contents
@@ -8,9 +10,10 @@ Welcome to my virtual home. I wouldn't advise you to blindly copy large parts fr
   - [[Programs]]
   - [[Setup]]
 - [[Images]]
-  - [[Main]]
+  - [[General]]
   - [[Emacs]]
-  - [[Rofi]]
+  - [[Zathura]]
+  - [[ncmpcpp]]
   - [[Lockscreen]]
 #+end_quote
 
@@ -36,18 +39,22 @@ To setup these dotfiles semi-automatically, install [[https://github.com/shade-l
 
 ** Images
 
-*** Main
+*** General
 
- [[assets/main.png]]
+ [[./assets/general.png]]
 
 *** Emacs
 
-[[assets/emacs.png]]
+[[./assets/emacs.png]]
 
-*** Rofi
+*** Zathura
 
-[[assets/rofi.png]]
+[[./assets/zathura.png]]
+
+*** ncmpcpp
+
+[[./assets/ncmpcpp.png]]
 
 *** Lockscreen
 
-[[assets/lock.png]]
+[[./assets/lock.png]]

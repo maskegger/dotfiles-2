@@ -7,7 +7,7 @@ if [[ $sel = "Screen" ]]; then
     sleep 0.5
     maim ~/Pictures/Screenshots/TEMP.png
     xclip -selection clipboard -t image/png -i ~/Pictures/Screenshots/TEMP.png
-    ~/.bin/sys-notify "Screenshot taken" -i ~/Pictures/Screenshots/TEMP.png
+    ~/.bin/sys-notify "Screenshot taken" normal
     mv ~/Pictures/Screenshots/TEMP.png ~/Pictures/Screenshots/$(date +%d:%H:%M:%S).png
     
 elif [[ $sel = "Selection" ]]; then # If selection is selection
@@ -15,7 +15,7 @@ elif [[ $sel = "Selection" ]]; then # If selection is selection
     sleep 0.5
     maim -s ~/Pictures/Screenshots/TEMP.png
     xclip -selection clipboard -t image/png -i ~/Pictures/Screenshots/TEMP.png
-    ~/.bin/sys-notify "Screenshot taken" -i ~/Pictures/Screenshots/TEMP.png
+    ~/.bin/sys-notify "Screenshot taken" normal
     mv ~/Pictures/Screenshots/TEMP.png ~/Pictures/Screenshots/$(date +%d:%H:%M:%S).png
 
 elif [[ $sel = "Record screen" ]]; then
@@ -28,7 +28,7 @@ elif [[ $sel = "Stop recording screen" ]]; then
     
     pkill ffmpeg
     xclip -selection clipboard -t video/mp4 -i ~/Pictures/Screenshots/TEMP.mp4
-    ~/.bin/sys-notify "Video recorded"
+    ~/.bin/sys-notify "Video recorded" normal
     mv ~/Pictures/Screenshots/TEMP.mp4 ~/Pictures/Screenshots/$(date +%d:%H:%M:%S).mp4
 
 fi
