@@ -1,7 +1,7 @@
 pactl set-sink-mute 0 toggle
 
 if [[ $(pamixer --get-mute) == "true" ]]; then
-  notify-send 'System notification' "Audio has been muted" -i /usr/share/icons/ePapirus-Dark/128x128/apps/gnome-settings.svg
+  ~/.bin/sys-notify "Audio has been muted" low
 else
-  notify-send 'System notification' "Audio has been unmuted" -i /usr/share/icons/ePapirus-Dark/128x128/apps/gnome-settings.svg
+  ~/.bin/sys-notify "Audio has been unmuted" low
 fi

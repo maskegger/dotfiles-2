@@ -255,7 +255,6 @@ awful.key({modkey}, "/", hotkeys_popup.show_help, {
 
 -- Volume up
 awful.key({}, "XF86AudioRaiseVolume", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("~/.bin/volup")
       end, {
       description = "Volume up",
@@ -264,7 +263,6 @@ awful.key({}, "XF86AudioRaiseVolume", function()
 
 -- Volume down
 awful.key({}, "XF86AudioLowerVolume", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("~/.bin/voldown")
       end, {  
       description = "Volume down",
@@ -273,7 +271,6 @@ awful.key({}, "XF86AudioLowerVolume", function()
 
 -- Toggle mute
 awful.key({}, "XF86AudioMute", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("~/.bin/voltoggle")
       end, {
       description = "Toggle mute",
@@ -282,7 +279,6 @@ awful.key({}, "XF86AudioMute", function()
 
 -- Next song
 awful.key({modkey}, "XF86AudioRaiseVolume", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("playerctl next")
       end, {
       description = "Next song",
@@ -291,7 +287,6 @@ awful.key({modkey}, "XF86AudioRaiseVolume", function()
 
 -- Previous song
 awful.key({modkey}, "XF86AudioLowerVolume", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("playerctl previous")
       end, {  
       description = "Previous song",
@@ -300,7 +295,6 @@ awful.key({modkey}, "XF86AudioLowerVolume", function()
 
 -- Toggle song
 awful.key({modkey}, "XF86AudioMute", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("playerctl play-pause")
       end, {
       description = "Toggle song",
@@ -309,7 +303,6 @@ awful.key({modkey}, "XF86AudioMute", function()
 
 -- Brightness up
 awful.key({}, "XF86MonBrightnessUp", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("~/.bin/brightup")
       end, {  
       description = "Brightness up",
@@ -318,7 +311,6 @@ awful.key({}, "XF86MonBrightnessUp", function()
 
 -- Brightness down
 awful.key({}, "XF86MonBrightnessDown", function()
-      naughty.destroy_all_notifications()
       awful.spawn.with_shell("~/.bin/brightdown")
       end, {  
       description = "Brightness down",
@@ -528,11 +520,6 @@ awful.screen.connect_for_each_screen(function(s)
     }
 end)
 
--- Corners
-client.connect_signal("manage", function(c)
-    c.shape = function(cr, w, h, r) gears.shape.rounded_rect(cr, w, h, 25) end
-end)
-
 -- Layouts
 awful.layout.layouts = {
     awful.layout.suit.fair,
@@ -609,7 +596,30 @@ end)
 
 -- Corners
 client.connect_signal("manage", function(c)
-    c.shape = function(cr, w, h, r) gears.shape.rounded_rect(cr, w, h, 0) end
+    c.shape = function(cr, w, h, r) gears.shape.rounded_rect(cr, w, h, 15) end
+end)
+
+-- No corners in fullscreen
+local function is_maximized(c)
+    local function _fills_screen()
+        local wa = c.screen.workarea
+        local cg = c:geometry()
+        return wa.x == cg.x and wa.y == cg.y and wa.width == cg.width and wa.height == cg.height
+    end
+    return c.maximized or (not c.floating and _fills_screen())
+end
+
+
+client.connect_signal("property::geometry", function(c)
+    if is_maximized(c) then
+        c.shape = function(cr,w,h)
+            gears.shape.rounded_rect(cr, w, h, 15)
+        end
+    else
+        c.shape = function(cr,w,h)
+           gears.shape.rounded_rect(cr, w, h, beautiful.border_radius or 0)
+        end
+    end
 end)
 
 -- Rules

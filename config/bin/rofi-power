@@ -4,30 +4,30 @@ res=$(echo -en "Reload|Lock|Logout|Shutdown|Reboot" | rofi -sep "|" -dmenu -i -p
 
 if [ $res = "Reload" ]; then
 
-    notify-send 'System Notifcation' 'Reloading config' -i /usr/share/icons/ePapirus-Dark/128x128/apps/gnome-settings.svg
+    ~/.bin/sys-notify 'Reloading config' low
     sleep 1
     echo 'awesome.restart()' | awesome-client
 
 elif [ $res = "Lock" ]; then
 
-    notify-send 'System Notification' 'Locking screen' -i /usr/share/icons/ePapirus-Dark/128x128/apps/gnome-settings.svg
+    ~/.bin/sys-notify 'Locking screen' low
     ~/.bin/lock
 
 elif [ $res = "Logout" ]; then
 
-    notify-send 'System Notification' 'Logging out' -i /usr/share/icons/ePapirus-Dark/128x128/apps/gnome-settings.svg
+    ~/.bin/sys-notify 'Logging out' low
     sleep 1
     echo 'awesome.quit()' | awesome-client
 
 elif [ $res = "Shutdown" ]; then # If selection is shutdown
 
-    notify-send 'System Notification' 'Shutting down' -i /usr/share/icons/ePapirus-Dark/128x128/apps/gnome-settings.svg
+    ~/.bin/sys-notify 'Shutting down' low
     sleep 1
     sudo shutdown -h now
 
 elif [ $res = "Reboot" ]; then
 
-    notify-send 'System Notification' 'Rebooting' -i /usr/share/icons/ePapirus-Dark/128x128/apps/gnome-settings.svg
+    ~/.bin/sys-notify 'Rebooting' low
     sleep 1
     sudo reboot
 

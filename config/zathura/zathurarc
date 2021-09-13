@@ -23,7 +23,7 @@ set scroll-step 100
 set zoom-min 10
 set guioptions ""
 
-set font "Iosevka Nerd Font 12"
+set font "Iosevka-15"
 
 # zathurarc-dark
 set notification-error-bg "#181e23"
@@ -60,5 +60,7 @@ set render-loading true
 set render-loading-fg "#181e23"
 set render-loading-bg "#181e23"
 
-set recolor false
+set recolor true
+set recolor-lightcolor "#181e23"
+set recolor-darkcolor "#ffffff"
 set recolor-keephue true     

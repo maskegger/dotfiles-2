@@ -36,7 +36,7 @@ theme.fg_minimize = "#C780FF"
 
 theme.useless_gap = 15
 theme.gap_single_client = true
-theme.border_width = 3
+theme.border_width = 0
 theme.border_color_normal = "#1f252a"
 theme.border_color_active = "#384149"
 theme.border_color_marked = "#80d1ff"

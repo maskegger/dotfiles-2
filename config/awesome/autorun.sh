@@ -1,8 +1,15 @@
 # Pre-flight checks
 sh ~/.config/awesome/preflightchecks.sh
 
+# Kmonad
+pkill kmonad
+kmonad ~/.config/kmonad/kmonad.kbd &
+
 # Xresources
 xrdb -merge ~/.Xresources
+
+# Compositor
+picom &
 
 # Cursor
 xsetroot -cursor_name arrow
@@ -13,15 +20,9 @@ pgrep -x mopidy > /dev/null || mopidy &
 # Gestures
 touchegg &
 
-# Kmonad
-kmonad ~/.config/kmonad/kmonad.kbd
-
 # Applets
 nm-applet &
 blueman-applet &
  
-# Compositor
-picom &
-
 # Emacs daemon
 emacs --daemon
