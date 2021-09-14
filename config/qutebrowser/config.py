@@ -19,6 +19,8 @@ c.confirm_quit = ["downloads"]
 # Download locations
 c.downloads.location.directory = "~/Downloads"
 
+c.content.headers.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"
+
 config.load_autoconfig()
 
 c.colors.completion.category.bg = "#181e23"
@@ -97,14 +99,21 @@ c.colors.tabs.selected.odd.bg = "#1f252a"
 c.colors.tabs.selected.odd.fg = "#80d1ff"
 
 c.url.start_pages = "https://mcotocel.github.io/startpage/"
+c.url.default_page = "https://mcotocel.github.io/startpage/"
+
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}', 'arch': 'https://wiki.archlinux.org/?search={}', 'github': 'https://github.com/search?q={}', 'google': 'https://www.google.com/search?q={}', 'wiki': 'https://en.wikipedia.org/wiki/{}', 'yt': 'https://www.youtube.com/results?search_query={}'}
 
 c.tabs.indicator.width = 0
-c.tabs.padding = {"bottom": 10, "top": 10, "left": 20, "right": 20 }
+c.tabs.padding = {"bottom": 10, "top": 10, "left": 10, "right": 10 }
 c.tabs.favicons.show = 'never'
 c.tabs.show = 'multiple'
 c.colors.hints.bg = '#181e23'
 c.colors.hints.fg = '#d5d5d5'
 c.zoom.default = '100%'
+
+config.bind('xb', 'config-cycle statusbar.show always never')
+config.bind('xt', 'config-cycle tabs.show always never')
+config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
 
 c.fonts.default_family = 'Iosevka Nerd Font'
 c.fonts.default_size = '12pt'

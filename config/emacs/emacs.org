@@ -695,6 +695,11 @@ I read RSS feeds, so we're going to configure a reader.
   (setq elfeed-feeds
          '(("https://nixers.net/syndication.php?fid=12,15&limit=25" tech)
            ("https://christine.website/blog.rss" tech)
+           ("https://ag91.github.io/rss.xml" tech)
+           ("https://protesilaos.com/codeblog.xml" tech)
+           ("https://sachachua.com/blog/category/emacs/feed" tech)
+           ("https://lepisma.xyz/atom.xml" tech)
+           ("https://pragmaticemacs.con/feed" tech)
            ("https://karl-voit.at/feeds/lazyblorg-all.atom_1.0.links-only.xml" tech)
            ("http://www.reddit.com/r/terminal_porn.rss" tech)))
   (add-to-list 'evil-emacs-state-modes 'elfeed-search-mode)
