@@ -29,8 +29,6 @@ elif [ $choice == "1" ]; then
     cd ~/
     info "Linking system files"
     sudo ~/dotfiles/config/bin/soul link ~/dotfiles/setup/sudo-instruct
-    info "Linking user files"
-    ~/dotfiles/config/bin/soul link ~/dotfiles/setup/user-instruct
     info "Updating pacman database"
     sudo pacman -Sy
     info "Installing packages. This _will_ take a while"
@@ -54,4 +52,21 @@ elif [ $choice == "2" ]; then
     info "Running commands"
     sh ~/dotfiles/setup/commands 
     info "Installation done! Please reboot (or not, this isn't Windows)"
+fi
+
+echo ""
+info "Theme"
+echo
+info "[1] Quiet"
+info "[1] Monochrome"
+echo ""
+
+read -p "-> " choice
+
+if [ $choice == "1" ]; then
+    info "Linking files"
+    ~/dotfiles/config/bin/soul link ~/dotfiles/setup/quiet-theme
+elif [ $choice == "2" ]; then
+    info "Linking files"
+    ~/dotfiles/config/bin/soul link ~/dotfiles/setup/mono-theme
 fi
