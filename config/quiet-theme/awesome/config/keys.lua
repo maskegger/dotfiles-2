@@ -3,9 +3,9 @@ require("awful.autofocus")
 
 local hotkeys_popup = require("awful.hotkeys_popup")
 
-local bling = require("bling")
-local machi = require("layout-machi")
-local revelation = require("awesome-revelation")
+local bling = require("modules.bling")
+local machi = require("modules.layout-machi")
+local revelation = require("modules.awesome-revelation")
 
 awful.keyboard.append_global_keybindings({
 
@@ -74,10 +74,10 @@ awful.key({modkey}, "Right", awful.tag.viewnext, {
 --- Windows ---
 
 -- Switch layout
-awful.key({modkey, "Shift"}, "space", function() awful.layout.inc(1) end, {
-    description = "Switch layout",
-    group = "Windows"
-}),
+-- awful.key({modkey, "Shift"}, "space", function() awful.layout.inc(1) end, {
+--     description = "Switch layout",
+--     group = "Windows"
+-- }),
 
 -- Toggle floating mode
 awful.key({modkey, "Control"}, "space", awful.client.floating.toggle, {

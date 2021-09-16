@@ -14,7 +14,7 @@ beautiful.init(gears.filesystem.get_configuration_dir() .. "quiet/theme.lua")
 local naughty = require("naughty")
 
 -- Declarative object management
-local revelation = require("awesome-revelation")
+local revelation = require("modules.awesome-revelation")
 
 revelation.init()
 revelation.charorder = "1234567890qwertyuiopasdfghjklzxcvbnm"
@@ -55,3 +55,12 @@ require("config.rules")
 
 -- Misc config
 require("config.misc")
+
+-- Widgets
+-- require("widgets.cpu-bar")
+
+-- Battery warning
+require("config.battery-warning")
+
+-- Layout switched
+require("config.layout")

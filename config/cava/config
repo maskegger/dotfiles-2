@@ -26,13 +26,12 @@ channels = stereo
 ; foreground = default
 
 gradient = 1
-gradient_count = 6
-gradient_color_1 = '#2a4858'
-gradient_color_2 = '#106e7c'
-gradient_color_3 = '#00968e'
-gradient_color_4 = '#4abd8c'
-gradient_color_5 = '#9cdf7c'
-gradient_color_6 = '#fafa6e'
+gradient_count = 5
+gradient_color_1 = '#333333'
+gradient_color_2 = '#666666'
+gradient_color_3 = '#bbbbbb'
+gradient_color_4 = '#dddddd'
+gradient_color_5 = '#ffffff'
 
 [smoothing]
 

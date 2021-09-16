@@ -6,11 +6,11 @@ return {
   font_size = 11,
   colors = {
       foreground = "#d5d5d5",
-      background = "#181e23",
+      background = "#0b1116",
       cursor_bg = "#d5d5d5",
       cursor_fg = "#d5d5d5",
       cursor_border = "#d5d5d5",
-      selection_fg = "#181e23",
+      selection_fg = "#0b1116",
       selection_bg = "#d5d5d5",
       scrollbar_thumb = "#d5d5d5",
       split = "#384149",

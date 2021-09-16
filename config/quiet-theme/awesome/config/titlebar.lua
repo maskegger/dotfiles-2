@@ -7,17 +7,7 @@ require("awful.autofocus")
 
 -- Widget and layout library
 local wibox = require("wibox")
-
--- Theme handling library
-local beautiful = require("beautiful")
-
--- Notification library
-local naughty = require("naughty")
-
--- Declarative object management
-local ruled = require("ruled")
-local menubar = require("menubar")
-local hotkeys_popup = require("awful.hotkeys_popup")
+local dpi = require("beautiful.xresources").apply_dpi
 
 -- Hotkey help for other apps
 require("awful.hotkeys_popup.keys")
@@ -34,14 +24,13 @@ client.connect_signal("request::titlebars", function(c)
         awful.mouse.client.resize(c)
     end))
 
-    awful.titlebar(c, {position = 'top', size = '35'}):setup{
+    awful.titlebar(c, {position = 'top', size = 'dpi(35)'}):setup{
         {
             {
                 awful.titlebar.widget.closebutton(c),
                 awful.titlebar.widget.minimizebutton(c),
                 awful.titlebar.widget.maximizedbutton(c),
                 layout = wibox.layout.fixed.horizontal,
-                widget
             },
             {
                 buttons = buttons,
@@ -50,14 +39,13 @@ client.connect_signal("request::titlebars", function(c)
             {
                 awful.widget.clienticon(c),
                 layout = wibox.layout.fixed.horizontal,
-                widget
             },
             layout = wibox.layout.align.horizontal
         },
         widget = wibox.container.margin,
-        left = 12,
-        right = 12,
-        top = 9,
-        bottom = 9
+        left = dpi(12),
+        right = dpi(12),
+        top = dpi(9),
+        bottom = dpi(9)
     }
 end)
